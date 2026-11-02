@@ -29,7 +29,8 @@
 //          that user's latest signup created on or before the publish (or their
 //          first signup if all are later). Rows with no created_by_user_id
 //          can't be attributed and are skipped.
-//   a2   = first [Onboarding] A2 Activated in PostHog (npm run pull-posthog →
+//   a2   = first [Activation] A2 Reached (recorded 3 meetings; Oct 30, was
+//          [Onboarding] A2 Activated) in PostHog (npm run pull-posthog →
 //          data/posthog/a2_events.json), as a Pacific day. Matched by user id +
 //          workspace, else the user's latest signup on/before that day.
 //   Activated (dashboard) = a2 (Nick, Oct 26 2026: "an activated user means
@@ -380,7 +381,7 @@ if (src.endsWith('.csv')) {
     PH_JOINS = { firstDay: pj.firstDay, lastDay: pj.lastDay, pulledAt: pj.pulledAt || null };
   }
 
-  // Activated = PostHog [Onboarding] A2 Activated (Nick, Oct 26). PostHog
+  // Activated = PostHog [Activation] A2 Reached (Nick, Oct 26; event swapped Oct 30). PostHog
   // timestamps are UTC; signup days here are Pacific, so convert.
   const a2File = path.join(root, 'data/posthog/a2_events.json');
   const A2 = new Map(); // signup key -> Pacific day
@@ -395,14 +396,14 @@ if (src.endsWith('.csv')) {
       if (!k) { unmatched += 1; continue; }
       A2.set(k, minDay(A2.get(k), d));
     }
-    PH_A2 = { event: pa.event || '[Onboarding] A2 Activated', fromUtc: pa.fromUtc || null, pulledAt: pa.pulledAt || null, rows: (pa.a2 || []).length };
+    PH_A2 = { event: pa.event || '[Activation] A2 Reached', fromUtc: pa.fromUtc || null, pulledAt: pa.pulledAt || null, rows: (pa.a2 || []).length };
     console.log(`  PostHog A2 activated: ${(pa.a2 || []).length} rows → ${A2.size} signups${unmatched ? ` (${unmatched} not in user_signups)` : ''}`);
   } else {
     console.log('  no data/posthog/a2_events.json — nobody is activated (run npm run pull-posthog)');
   }
 
-  // A1 activation = PostHog A1 Magic Moment OR First Action Completed (Nick,
-  // Oct 26), same matching as A2.
+  // A1 activation = PostHog [Activation] A1 Reached = created 3 threads (Nick,
+  // Oct 30; was A1 Magic Moment OR First Action Completed), same matching as A2.
   const a1File = path.join(root, 'data/posthog/a1_events.json');
   const A1 = new Map(); // signup key -> Pacific day
   if (fs.existsSync(a1File)) {

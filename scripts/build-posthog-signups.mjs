@@ -24,7 +24,8 @@
 //   mt    Recording Completed
 //   snd   Gmail Email Sent / Gmail Email Sent Directly / Email Draft Sent to Gmail / [Activation] Email Sent
 //   pub   Asset Published
-//   a2    [Onboarding] A2 Activated = Activated (Nick, Oct 26)
+//   a1    [Activation] A1 Reached = created 3 threads (Nick, Oct 30)
+//   a2    [Activation] A2 Reached = recorded 3 meetings = Activated (Nick, Oct 30)
 //   ret   first day after activation (a2) with an asset created/published,
 //         an email sent, or credits used (credits from the Metabase credit export)
 // Only FULL Pacific days: rows and milestones stop at the start of the day the

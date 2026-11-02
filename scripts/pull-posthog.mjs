@@ -18,13 +18,14 @@
 //     cal    [Activation] Integration Connected, toolkit = google_calendar
 //     rec    [Recorder] Signed In
 //     perms  [Recorder] Permissions Granted   (all 3 recorder permissions)
-//     a1     [Onboarding] A1 Magic Moment  OR  [Onboarding] First Action Completed
-//     a2     [Onboarding] A2 Activated  (only — Nick, Oct 26; this is also the
+//     a1     [Activation] A1 Reached  = created 3 threads
+//     a2     [Activation] A2 Reached  = recorded 3 meetings (also the
 //            dashboard-wide Activated definition, see A2_QUERY)
-//            (Nick, Oct 26): Kyle switched his dashboard to the new A1 Magic
-//            Moment / A2 Activated events on Oct 23 (A1 Magic Moment first fired
-//            Oct 23 14:38 UTC; A2 Activated not live yet). The old A1 event is
-//            kept in an OR so Oct 21–23 completions aren't lost.
+//            (Nick, Oct 30): PostHog dashboard 2240501 switched to these on
+//            Oct 29 01:50 UTC (edited by Jason). A1 Reached first fired Oct 29
+//            7:47 AM PT, A2 Reached 11:47 AM PT. New events ONLY, no OR with the
+//            old [Onboarding] A1 Magic Moment / First Action Completed /
+//            A2 Activated, so nothing counts before Oct 29.
 //
 // Also pulls org joins by join type (invite vs domain match) → data/posthog/org_joins.json
 // for ingest-signups.mjs (see JOINS_QUERY below).
@@ -67,17 +68,16 @@ const STEPS = [
   ['cal', "event = '[Activation] Integration Connected' AND properties.toolkit = 'google_calendar'"],
   ['rec', "event = '[Recorder] Signed In'"],
   ['perms', "event = '[Recorder] Permissions Granted'"],
-  ['a1', "event IN ('[Onboarding] A1 Magic Moment', '[Onboarding] First Action Completed')"],
-  ['a2', "event = '[Onboarding] A2 Activated'"], // = Activated (Nick, Oct 26: exactly PostHog's, no older event)
+  ['a1', "event = '[Activation] A1 Reached'"], // created 3 threads (Nick, Oct 30)
+  ['a2', "event = '[Activation] A2 Reached'"], // recorded 3 meetings = Activated (Nick, Oct 30)
 ];
 const EVENTS = [
   '[Activation] Organization Created',
   '[Activation] Integration Connected',
   '[Recorder] Signed In',
   '[Recorder] Permissions Granted',
-  '[Onboarding] A1 Magic Moment',
-  '[Onboarding] First Action Completed',
-  '[Onboarding] A2 Activated',
+  '[Activation] A1 Reached',
+  '[Activation] A2 Reached',
 ];
 
 // Org creators PostHog misses (Nick, Oct 26): sign up export rows that are the
@@ -248,9 +248,8 @@ const SIGNUP_EVENT_CODES = [
   ['snd', 'Gmail Email Sent Directly'],
   ['snd', 'Email Draft Sent to Gmail'],
   ['snd', '[Activation] Email Sent'],
-  ['a2', '[Onboarding] A2 Activated'], // Activated (Nick, Oct 26)
-  ['a1', '[Onboarding] A1 Magic Moment'], // A1 activation (Nick, Oct 26)
-  ['a1', '[Onboarding] First Action Completed'],
+  ['a2', '[Activation] A2 Reached'], // Activated = recorded 3 meetings (Nick, Oct 30)
+  ['a1', '[Activation] A1 Reached'], // A1 = created 3 threads (Nick, Oct 30)
 ];
 const UID_EXPR = "coalesce(nullIf(toString(properties.user_id), ''), distinct_id)";
 export const SIGNUP_EVENTS_QUERY = `SELECT
@@ -316,15 +315,15 @@ async function hogql(query, name) {
   }
 }
 
-// --- Activated = A2 (Nick, Oct 26) ---------------------------------------------
-// The dashboard's Activated user = fired [Onboarding] A2 Activated in PostHog
-// (Kyle's dashboard 2240501 definition; no older event in an OR). One row per
-// user + workspace (first time). ingest-signups.mjs / build-posthog-signups.mjs
-// put it on the matching signup row as s.a2 (Pacific day), and the dashboard's
-// actDate() reads only that. Written to data/posthog/a2_events.json
-// (gitignored: user ids). Not live in PostHog as of Oct 26, so 0 rows until
-// engineering ships it.
-export const A2_EVENT = '[Onboarding] A2 Activated';
+// --- Activated = A2 (Nick, Oct 26; event swapped Oct 30) ----------------------
+// The dashboard's Activated user = fired [Activation] A2 Reached in PostHog
+// (recorded 3 meetings; dashboard 2240501's definition since Oct 29; no older
+// event in an OR). One row per user + workspace (first time).
+// ingest-signups.mjs / build-posthog-signups.mjs put it on the matching signup
+// row as s.a2 (Pacific day), and the dashboard's actDate() reads only that.
+// Written to data/posthog/a2_events.json (gitignored: user ids). First fired
+// Oct 29 2026. Was [Onboarding] A2 Activated (Oct 26–29).
+export const A2_EVENT = '[Activation] A2 Reached';
 const A2_OUT = `${JOINS_OUT_DIR}/a2_events.json`;
 const A2_FROM_UTC = '2026-10-21 04:00:00'; // new onboarding rollout (Oct 21 00:00 ET); A2 doesn't exist before it
 export const A2_QUERY = `SELECT
@@ -399,13 +398,13 @@ function writeOnb(out) {
   console.log(`pull-posthog: ${out.steps.length} onboarding step rows since ${out.fromUtc} → ${ONB_OUT}`, n);
 }
 
-// --- A1 activation (Nick, Oct 26) ---------------------------------------------
-// A1 = [Onboarding] A1 Magic Moment (first asset published / exported / email
-// saved to inbox; live Oct 23) OR the older [Onboarding] First Action Completed
-// (so Oct 21–23 isn't lost) — same as the New onboarding card's A1. Fires for
-// ANY user (existing ones too). ingest-signups / build-posthog-signups put it on
-// the matching signup row as s.a1 (Pacific day). → data/posthog/a1_events.json.
-const A1_EVENTS = ['[Onboarding] A1 Magic Moment', '[Onboarding] First Action Completed'];
+// --- A1 activation (Nick, Oct 26; event swapped Oct 30) -----------------------
+// A1 = [Activation] A1 Reached = created 3 threads (first fired Oct 29 2026),
+// same as the New onboarding card's A1 and PostHog dashboard 2240501. New
+// event only (Nick, Oct 30): the old [Onboarding] A1 Magic Moment / First
+// Action Completed no longer count. ingest-signups / build-posthog-signups put
+// it on the matching signup row as s.a1 (Pacific day). → data/posthog/a1_events.json.
+const A1_EVENTS = ['[Activation] A1 Reached'];
 const A1_OUT = `${JOINS_OUT_DIR}/a1_events.json`;
 export const A1_QUERY = `SELECT
   ${UID_EXPR} AS uid,

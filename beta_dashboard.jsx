@@ -633,18 +633,21 @@ function activationStats(step, a, b) {
 
 
 // --- Activated users -------------------------------------------------------------
-// Activated (Nick, Oct 26 2026) = completed A2: fired [Onboarding] A2 Activated
-// in PostHog, the same definition as Kyle's PostHog dashboard 2240501. s.a2 =
+// Activated (Nick, Oct 26 2026) = completed A2: fired [Activation] A2 Reached
+// (recorded 3 meetings; swapped in Oct 30 from [Onboarding] A2 Activated) in
+// PostHog, the same definition as PostHog dashboard 2240501. s.a2 =
 // first A2 (Pacific day), attached per signup by ingest-signups /
 // build-posthog-signups from npm run pull-posthog. Replaces "sent an email
 // (send or draft) OR published an asset" everywhere (funnel, channel table,
 // Activation, Returned, Paid). A2 only exists from the new onboarding rollout
 // (Oct 21), so nobody who didn't do A2 since then counts — no history before it.
 // Per signup (user + company), never deduped.
-// Official definitions (Nick, Oct 26), shown on the Activation tab.
-const A1_DEF_OFFICIAL = 'Any asset published, email sent, or asset exported';
-const A2_DEF_OFFICIAL = 'Recorded a meeting and then sent/published follow-up';
-const ACT_DEF_TEXT = 'reached A2 / Activation: recorded a meeting and then sent/published follow-up (PostHog [Onboarding] A2 Activated)';
+// Official definitions (Nick, Oct 30; were Oct 26's "any asset published /
+// email sent / asset exported" and "recorded a meeting then sent follow-up"),
+// shown on the Activation tab. New PostHog events first fired Oct 29.
+const A1_DEF_OFFICIAL = 'Created 3 threads';
+const A2_DEF_OFFICIAL = 'Recorded 3 meetings';
+const ACT_DEF_TEXT = 'reached A2 / Activation: recorded 3 meetings (PostHog [Activation] A2 Reached)';
 const ACT_TRACK_FROM = '2026-10-21'; // new onboarding rollout = first day A2 can exist
 // The Activation tab's whole timeframe starts here (Nick, Oct 26): its data is
 // PostHog-only from the new onboarding rollout.
@@ -665,11 +668,11 @@ const ACT_AS_OF = [
 ].filter(Boolean).join(' · ');
 const actDate = (s) => s.a2 || null;
 // A1 activation (Nick, Oct 26; replaces Lever 2's "first recorded meeting") =
-// PostHog [Onboarding] A1 Magic Moment (first asset published / exported /
-// email saved to inbox, live Oct 23) OR the older [Onboarding] First Action
-// Completed (so Oct 21–23 isn't lost) — same as the New onboarding card's A1.
+// PostHog [Activation] A1 Reached = created 3 threads (Nick, Oct 30; first
+// fired Oct 29). New event only; the old A1 Magic Moment / First Action
+// Completed no longer count. Same as the New onboarding card's A1.
 // s.a1 = first one (Pacific day). Tracked from the rollout, like A2.
-const A1_DEF_TEXT = 'reached A1 / Magic moment: any asset published, email sent, or asset exported (PostHog [Onboarding] A1 Magic Moment; also the older First Action Completed for Oct 21–23)';
+const A1_DEF_TEXT = 'reached A1: created 3 threads (PostHog [Activation] A1 Reached)';
 const a1Date = (s) => s.a1 || null;
 const ACT_SORTED = SIGNUPS.filter(actDate).sort((x, y) => (actDate(x) < actDate(y) ? -1 : actDate(x) > actDate(y) ? 1 : 0));
 const activatedIn = (a, b) => sliceByDate(ACT_SORTED, actDate, a, b);
@@ -2046,7 +2049,7 @@ function ViewingBar({ view }) {
             <b>Activation data is only available from {monDay(ACT_DATA_FROM)} onwards.</b>{' '}
             Hover over each step’s title to see its definition.
             <span style={{ display: 'grid', gridTemplateColumns: 'max-content 1fr', gap: '2px 12px', marginTop: 8 }}>
-              <b>A1 / Magic moment</b><span>{A1_DEF_OFFICIAL}</span>
+              <b>A1</b><span>{A1_DEF_OFFICIAL}</span>
               <b>A2 / Activation</b><span>{A2_DEF_OFFICIAL}</span>
             </span>
             <span style={{ display: 'block', marginTop: 8, color: C.muted, fontSize: 13 }}>Data as of: {ACT_AS_OF}</span>
@@ -5518,8 +5521,8 @@ const PH_ONB_STEPS = [
   { key: 'rec', label: 'Recorder signed in', def: '[Recorder] Signed In', ev: ['[Recorder] Signed In'] },
   { key: 'onb', label: 'Completed onboarding', def: 'Gmail connected + Calendar connected + Recorder signed in, all three (dated by the last one)', ev: ['[Activation] Integration Connected (gmail)', '[Activation] Integration Connected (google_calendar)', '[Recorder] Signed In'], where: 'all three', note: 'All three of the steps to its left; dated by the last one. Same as Completed onboarding in the Onboarding section.', derived: true },
   { key: 'perms', label: 'All 3 permissions', def: '[Recorder] Permissions Granted (all 3 recorder permissions)', ev: ['[Recorder] Permissions Granted'], note: 'Sent once all 3 recorder permissions are granted.' },
-  { key: 'a1', label: 'A1', sub: 'Magic moment', def: 'A1 / Magic moment: any asset published, email sent, or asset exported ([Onboarding] A1 Magic Moment, or the older [Onboarding] First Action Completed for Oct 21–23)', ev: ['[Onboarding] A1 Magic Moment', '[Onboarding] First Action Completed'], note: 'Any asset published, email sent, or asset exported. Either event counts; the older one keeps Oct 21–23.' },
-  { key: 'a2', label: 'A2', sub: 'Activated', def: 'A2 / Activation: recorded a meeting and then sent/published follow-up ([Onboarding] A2 Activated; not firing yet)', ev: ['[Onboarding] A2 Activated'], note: 'Recorded a meeting and then sent/published follow-up. This is the dashboard’s Activated user. Not firing yet.' },
+  { key: 'a1', label: 'A1', sub: '3 threads', def: 'A1: created 3 threads ([Activation] A1 Reached)', ev: ['[Activation] A1 Reached'], note: 'Created 3 threads. Threads cover assets, meeting prep, research, emails and more, and are the unit of credit usage; one can come from guided onboarding, so 3 shows interest beyond that. Event first fired Oct 29, 2026.' },
+  { key: 'a2', label: 'A2', sub: 'Activated', def: 'A2 / Activation: recorded 3 meetings ([Activation] A2 Reached)', ev: ['[Activation] A2 Reached'], note: 'Recorded 3 meetings. This is the dashboard’s Activated user. Can be reached without A1, though that should be rare. Event first fired Oct 29, 2026.' },
 ];
 // Hover a milestone title → the event(s) that define that group.
 function PhStepTitle({ st, alignRight }) {
@@ -5962,12 +5965,12 @@ function SectionsFor({ view }) {
         </Collapsible>
         {/* A1 activation (Nick, Oct 26): was Lever 2 "A1: Magic moment" = first
             recorded meeting. Meeting cards kept: <CohortStepCard kind="mt" /> <SignupToMeetingCard /> <MeetingSignupsCumulativeCard /> */}
-        <StageHeader title="A1 activation" subtitle="The first time a new user gets real value out of Mutiny. Conversion charts have a window picker (7, 14 or 30 days) next to their title." definition={<><b>A1 / Magic moment</b> = {A1_DEF_OFFICIAL.toLowerCase()}</>} />
+        <StageHeader title="A1 activation" subtitle="Engagement beyond the first guided action, which we expect to be a stronger leading indicator of retention. Conversion charts have a window picker (7, 14 or 30 days) next to their title." definition={<><b>A1</b> = {A1_DEF_OFFICIAL.toLowerCase()}</>} />
         <Grid>
           <CohortStepCard kind="a1" />
           <SignupToA1Card />
         </Grid>
-        <StageHeader title="A2 activation" subtitle="First real value: the first time a user puts Mutiny to work." definition={<><b>A2 / Activation</b> = {A2_DEF_OFFICIAL.toLowerCase()}</>} />
+        <StageHeader title="A2 activation" subtitle="A bigger investment in the product: users are unlikely to record 3 meetings without getting value. Can be reached without A1." definition={<><b>A2 / Activation</b> = {A2_DEF_OFFICIAL.toLowerCase()}</>} />
         <Grid>
           {/* Weekly, full width, first (Nick, Oct 20) so the two half cards below pair up.
               Cumulative version hidden: <ActivatedUsersCard /> */}
