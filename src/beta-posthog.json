@@ -1,15 +1,15 @@
 {
   "source": "PostHog project 381053 (dashboard 2240501 logic)",
-  "pulledAt": "2026-10-30T15:47:50.375Z",
+  "pulledAt": "2026-11-02T15:11:50.773Z",
   "rolloutStart": "2026-10-21",
   "rolloutStartUtc": "2026-10-21T04:00:00Z",
   "tz": "America/New_York",
   "counts": {
-    "org": 109,
-    "gmail": 32,
-    "cal": 20,
-    "rec": 25,
-    "perms": 24,
+    "org": 115,
+    "gmail": 36,
+    "cal": 22,
+    "rec": 26,
+    "perms": 25,
     "a1": 0,
     "a2": 0
   },
@@ -1252,14 +1252,6 @@
       ]
     },
     {
-      "pid": "b421f33e-b802-570b-8257-9111384286cb",
-      "uid": "945f66dd-c13d-4510-a3d5-88064c3b074b",
-      "email": "deekshaa@magihq.com",
-      "orgUtc": "2026-10-27T19:00:00.000Z",
-      "org": "2026-10-27T00:00",
-      "viaExport": 1
-    },
-    {
       "pid": "7c852378-c4b3-5821-97bf-9a85541fe3d2",
       "uid": "c0211348-b2f5-43cf-ac68-0286a258dd5d",
       "email": "stefan@battistetti.com",
@@ -1514,6 +1506,105 @@
         {
           "co": "d096ec90-ada6-46e8-8280-fd11cd103a5d",
           "utc": "2026-10-30T09:19:34.196Z"
+        }
+      ]
+    },
+    {
+      "pid": "9d99d82e-3849-5ecb-89b0-b3cf60e708bb",
+      "uid": "02c10341-fbf5-4c5d-982f-0a4777d751c5",
+      "email": "fibi@synerflow.nl",
+      "orgUtc": "2026-10-30T19:02:32.386Z",
+      "org": "2026-10-30T15:02",
+      "gmail": "2026-10-30T15:03",
+      "cal": "2026-10-30T15:03",
+      "orgs": [
+        {
+          "co": "19eca120-c29e-406a-840b-c41f5b1355c0",
+          "utc": "2026-10-30T19:02:32.386Z"
+        }
+      ]
+    },
+    {
+      "pid": "cedb9487-69a2-5b9e-a62b-eb63817dc64b",
+      "uid": "bf60f28b-56d8-4ae0-9fa5-60eff4a9e16d",
+      "email": "liz.hardy@abridge.com",
+      "orgUtc": "2026-10-30T21:14:28.663Z",
+      "org": "2026-10-30T17:14",
+      "orgs": [
+        {
+          "co": "0a169684-8e7b-4ee2-9cd4-e19ba8cb28f7",
+          "utc": "2026-10-30T21:14:28.663Z"
+        }
+      ]
+    },
+    {
+      "pid": "9371627b-7d67-5dfd-835d-2df196f1f47f",
+      "uid": "0bc98fd0-d6d2-475b-b188-08e151029838",
+      "email": "jm@konko.ai",
+      "orgUtc": "2026-10-31T00:28:24.058Z",
+      "org": "2026-10-30T20:28",
+      "orgs": [
+        {
+          "co": "9c5b3e79-069e-4318-b89a-e983bdcff977",
+          "utc": "2026-10-31T00:28:24.058Z"
+        }
+      ]
+    },
+    {
+      "pid": "f9b2de0b-d49b-5ead-b077-7dd806e646d2",
+      "uid": "48f5e2c4-54ab-4e22-ac9e-fcfbe506815f",
+      "email": "angela@revforcestrategy.com",
+      "orgUtc": "2026-10-31T19:45:34.683Z",
+      "org": "2026-10-31T15:45",
+      "gmail": "2026-10-31T15:46",
+      "cal": "2026-10-31T15:46",
+      "rec": "2026-10-31T15:47",
+      "perms": "2026-10-31T15:48",
+      "orgs": [
+        {
+          "co": "8825c122-cae5-4599-94bc-d2c708f61037",
+          "utc": "2026-10-31T19:45:34.683Z"
+        }
+      ]
+    },
+    {
+      "pid": "df2ff1c3-595d-5337-a926-b55d4dd405e7",
+      "uid": "afdf17b1-663f-4839-b4a9-8f157e80107e",
+      "email": "asif@factors.ai",
+      "orgUtc": "2026-11-02T07:11:14.489Z",
+      "org": "2026-11-02T02:11",
+      "gmail": "2026-11-02T02:13",
+      "orgs": [
+        {
+          "co": "c5f4722f-6834-4b03-8382-1a0e7e4b3ba3",
+          "utc": "2026-11-02T07:11:14.489Z"
+        }
+      ]
+    },
+    {
+      "pid": "989576ec-520f-547e-b059-747ea14dfa79",
+      "uid": "eca3925b-42c6-4d36-864d-8dc6a3c241ce",
+      "email": "hariteja@turinglabs.in",
+      "orgUtc": "2026-11-02T12:34:45.531Z",
+      "org": "2026-11-02T07:34",
+      "gmail": "2026-11-02T07:37",
+      "orgs": [
+        {
+          "co": "70b5e32e-66f0-46b5-bf5d-dcc57b1ad32f",
+          "utc": "2026-11-02T12:34:45.531Z"
+        }
+      ]
+    },
+    {
+      "pid": "43895d85-bc70-5fea-8c10-759d1545ec4e",
+      "uid": "3bcfb97c-7f6f-4274-ad85-3387f05f2aae",
+      "email": "gpa@goodstack.co",
+      "orgUtc": "2026-11-02T13:48:48.518Z",
+      "org": "2026-11-02T08:48",
+      "orgs": [
+        {
+          "co": "1f53c0c4-9d4b-49e7-bec8-2507bf715e27",
+          "utc": "2026-11-02T13:48:48.518Z"
         }
       ]
     }

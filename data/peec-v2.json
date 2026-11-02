@@ -1,58 +1,58 @@
 {
- "pulledAt": "2026-10-30T15:45:38.000Z",
+ "pulledAt": "2026-11-02T14:54:36.000Z",
  "windowStart": "2026-10-28",
- "windowEnd": "2026-10-29",
- "visibility": 0.0191,
- "mentionCount": 66,
- "avgPosition": 2.3,
- "competitorRank": 25,
+ "windowEnd": "2026-11-01",
+ "visibility": 0.0189,
+ "mentionCount": 124,
+ "avgPosition": 2.4,
+ "competitorRank": 24,
  "competitorTotal": 29,
  "topCompetitor": {
-  "name": "Gong",
-  "visibility": 0.21
+  "name": "Seismic",
+  "visibility": 0.2217
  },
  "topics": [
   {
    "topicId": "to_35555ef7-147a-45d7-91d2-04fd57304ecb",
    "name": "Sales Enablement",
-   "visibility": 0.0378,
-   "mentions": 42,
-   "responses": 476
+   "visibility": 0.0359,
+   "mentions": 78,
+   "responses": 835
   },
   {
    "topicId": "to_74dd09af-5f9e-4d6b-9207-f2699b9971e5",
    "name": "Sales Presentations and Proposals",
-   "visibility": 0.033,
-   "mentions": 17,
-   "responses": 273
+   "visibility": 0.0376,
+   "mentions": 34,
+   "responses": 479
   },
   {
    "topicId": "to_4bbe43bd-ce10-4ba7-a6eb-1238d9ee77b8",
    "name": "Digital Sales Rooms",
-   "visibility": 0.013,
-   "mentions": 4,
-   "responses": 308
+   "visibility": 0.0093,
+   "mentions": 6,
+   "responses": 538
   },
   {
    "topicId": "to_8b8f709a-2231-4169-8603-b0459a614309",
    "name": "AI GTM Stack",
-   "visibility": 0.0035,
-   "mentions": 2,
-   "responses": 287
+   "visibility": 0.004,
+   "mentions": 4,
+   "responses": 503
   },
   {
    "topicId": "to_afdd3822-78c4-4781-a9ba-4c12d52bfffa",
    "name": "Sales Call Notes and Recording",
-   "visibility": 0.0077,
-   "mentions": 1,
-   "responses": 130
+   "visibility": 0.0087,
+   "mentions": 2,
+   "responses": 229
   },
   {
    "topicId": "to_dd7866a1-5c51-4ac0-8df6-e1d3e9c53f7d",
    "name": "AI Sales Assistants",
    "visibility": 0,
    "mentions": 0,
-   "responses": 250
+   "responses": 438
   }
  ],
  "daily": [
@@ -74,6 +74,36 @@
    "Digital Sales Rooms": 0.013,
    "AI GTM Stack": 0,
    "Sales Call Notes and Recording": 0,
+   "AI Sales Assistants": 0
+  },
+  {
+   "date": "2026-10-30",
+   "visibility": 0.0207,
+   "Sales Enablement": 0.042,
+   "Sales Presentations and Proposals": 0.0435,
+   "Digital Sales Rooms": 0,
+   "AI GTM Stack": 0.0139,
+   "Sales Call Notes and Recording": 0,
+   "AI Sales Assistants": 0
+  },
+  {
+   "date": "2026-10-31",
+   "visibility": 0.0162,
+   "Sales Enablement": 0.0333,
+   "Sales Presentations and Proposals": 0.0441,
+   "Digital Sales Rooms": 0,
+   "AI GTM Stack": 0,
+   "Sales Call Notes and Recording": 0,
+   "AI Sales Assistants": 0
+  },
+  {
+   "date": "2026-11-01",
+   "visibility": 0.0185,
+   "Sales Enablement": 0.025,
+   "Sales Presentations and Proposals": 0.0435,
+   "Digital Sales Rooms": 0.0132,
+   "AI GTM Stack": 0,
+   "Sales Call Notes and Recording": 0.0303,
    "AI Sales Assistants": 0
   }
  ],
@@ -99,14 +129,44 @@
      "AI GTM Stack": 6,
      "AI Sales Assistants": 4,
      "Sales Call Notes and Recording": 2
+    },
+    {
+     "date": "2026-10-30",
+     "Total": 38,
+     "Sales Enablement": 15,
+     "Sales Presentations and Proposals": 6,
+     "Digital Sales Rooms": 6,
+     "AI GTM Stack": 6,
+     "AI Sales Assistants": 4,
+     "Sales Call Notes and Recording": 1
+    },
+    {
+     "date": "2026-10-31",
+     "Total": 39,
+     "AI GTM Stack": 11,
+     "Sales Enablement": 8,
+     "Digital Sales Rooms": 8,
+     "Sales Presentations and Proposals": 6,
+     "AI Sales Assistants": 6,
+     "Sales Call Notes and Recording": 0
+    },
+    {
+     "date": "2026-11-01",
+     "Total": 30,
+     "Sales Enablement": 13,
+     "Digital Sales Rooms": 6,
+     "AI Sales Assistants": 4,
+     "AI GTM Stack": 3,
+     "Sales Presentations and Proposals": 3,
+     "Sales Call Notes and Recording": 1
     }
    ],
    "metric": {
-    "retrievedPct": 0.1038,
-    "retrievalRate": 0.1427,
-    "citationRate": 0.5978,
-    "retrievalCount": 246,
-    "citationCount": 107
+    "retrievedPct": 0.0946,
+    "retrievalRate": 0.1274,
+    "citationRate": 0.5944,
+    "retrievalCount": 385,
+    "citationCount": 170
    },
    "dailyStats": [
     {
@@ -124,6 +184,30 @@
      "citationRate": 0.881,
      "retrievalCount": 55,
      "citationCount": 37
+    },
+    {
+     "date": "2026-10-30",
+     "retrievedPct": 0.0876,
+     "retrievalRate": 0.1152,
+     "citationRate": 0.6579,
+     "retrievalCount": 50,
+     "citationCount": 25
+    },
+    {
+     "date": "2026-10-31",
+     "retrievedPct": 0.0903,
+     "retrievalRate": 0.1181,
+     "citationRate": 0.5641,
+     "retrievalCount": 51,
+     "citationCount": 22
+    },
+    {
+     "date": "2026-11-01",
+     "retrievedPct": 0.0694,
+     "retrievalRate": 0.088,
+     "citationRate": 0.5333,
+     "retrievalCount": 38,
+     "citationCount": 16
     }
    ]
   }
@@ -140,6 +224,24 @@
    "visCount": 9,
    "visTotal": 432,
    "mentions": 17
+  },
+  {
+   "date": "2026-10-30",
+   "visCount": 9,
+   "visTotal": 434,
+   "mentions": 24
+  },
+  {
+   "date": "2026-10-31",
+   "visCount": 7,
+   "visTotal": 432,
+   "mentions": 19
+  },
+  {
+   "date": "2026-11-01",
+   "visCount": 8,
+   "visTotal": 432,
+   "mentions": 15
   }
  ]
 }
