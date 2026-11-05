@@ -1,0 +1,416 @@
+{
+  "_note": "AEO coaching board shown at the bottom of ?aeo (aeo_action_board.jsx). Cards are ranked by importance (rank 1 = do first). To move a card, change its status (To Do / In Progress / In Review / Done) or sprint here. Evidence: Peec project Mutiny 2.0, 6 new topics, Oct 28 – Nov 3 2026 (3,888 chats; ChatGPT, Perplexity, Google AI Overview) + live mutinyhq.com check Nov 4 2026 + the Oct 28 page audit (data/aeo/site-audit).",
+  "asOf": "2026-11-04",
+  "sprints": [
+    { "id": "s1", "name": "Sprint 1", "dates": "Nov 5 – Nov 18", "goal": "Fix what AI is told about Mutiny, then go after our own category term." },
+    { "id": "s2", "name": "Sprint 2", "dates": "Nov 19 – Dec 2", "goal": "Get onto the sources AI reads most and build the notetaker + proposals clusters." },
+    { "id": "s3", "name": "Sprint 3", "dates": "Dec 3 – Dec 16", "goal": "Deal rooms, technical signals for Google, cadence, video and the GTM stack." }
+  ],
+  "cards": [
+    {
+      "key": "AEO-1",
+      "rank": 1,
+      "sprint": "s1",
+      "status": "To Do",
+      "priority": "Highest",
+      "type": "Technical",
+      "effort": "S",
+      "points": 3,
+      "owner": "Web / Framer",
+      "topics": ["All topics"],
+      "title": "Fix what AI is told about Mutiny: /llm-info, /llms.txt and the stale Framer cache",
+      "summary": "The page written for AI tools still describes the old Mutiny with the wrong price, and the clean URLs of several fixed pages still serve an old cached build. Every other card depends on AI reading the right facts.",
+      "evidence": [
+        "/llm-info (live Nov 4) still says \"GTM assistant… and workflow automation\", \"Enterprise custom plans (starting at $30k)\", no Business price and \"Last updated: July 2026\". Truth: sales assistant built for customer-facing work; $0 / $50 per month / $40,000 per year.",
+        "mutinyhq.com/llms.txt returns an empty file.",
+        "/faqs/what-is-mutiny, /faqs/how-much-does-mutiny-cost and /blog/top-ai-sales-agents-for-2026 serve an older Framer build at the clean URL (with the $30k and \"GTM agent\" errors). The fixed version only shows with a cache-busting query.",
+        "The \"AI Summary\" buttons on every blog post send ChatGPT, Claude and Perplexity a prompt calling Mutiny \"the GTM assistant\".",
+        "Peec chats still describe Mutiny as \"Website personalization and conversion\" (ChatGPT, \"Best AI GTM tools\") and \"account-based marketing… landing pages\"."
+      ],
+      "steps": [
+        "Republish the Framer site (or clear its CDN cache) and re-check the three stale URLs at their clean addresses 24 hours later.",
+        "Rewrite /llm-info from data/aeo/site-audit/positioning-baseline.md: one-line description, what Mutiny does before/during/after a call (notetaker → follow-ups, meeting prep, CRM updates, proposals, business cases, deal rooms, decks), who it's for, pricing ($0 / $50 per month / from $40,000 per year), security (SOC 2 Type II, SSO, no training on customer data), named customers with attributed stats, and one clear line: \"Mutiny no longer sells website personalization or CRO software.\" Add a visible \"Last updated\" date.",
+        "Publish the same text as plain markdown at /llms.txt.",
+        "Use the same one-liner everywhere it's missing: /enterprise title + meta description, homepage meta, /pricing meta, the blog \"AI Summary\" prompt.",
+        "Fix the three /pricing leftovers: Free tier blurb \"getting started with personalization\", generic meta, duplicated \"Starting at $40,000/year\"."
+      ],
+      "impact": "Doesn't raise visibility on its own, but it stops AI repeating wrong facts (old price, old category) whenever it does read or name us, and it's the base every content card builds on. Expect fewer CRO/ABM descriptions in sampled chats within 2–4 weeks as engines re-crawl.",
+      "metric": { "name": "Sampled Mutiny chats with CRO / ABM / wrong-price framing", "baseline": "Several of 5 sampled chats (Nov 4)", "target": "0 of 20 sampled chats by Dec 2" },
+      "done": "Clean URLs serve the fixed build; /llm-info and /llms.txt match positioning-baseline.md; one-liner identical on home, /enterprise, /pricing, FAQ index and AI Summary prompt."
+    },
+    {
+      "key": "AEO-2",
+      "rank": 2,
+      "sprint": "s1",
+      "status": "To Do",
+      "priority": "Highest",
+      "type": "Ops",
+      "effort": "XS",
+      "points": 1,
+      "owner": "Nick / Jon",
+      "topics": ["All topics"],
+      "title": "Update the Peec project profile and clear out ABM-era briefs",
+      "summary": "Peec writes its content briefs and fact-checks from the project profile, which still describes the old product. Fixing it takes an hour and makes every Peec recommendation useful.",
+      "evidence": [
+        "Peec brand profile: \"AI-powered GTM assistant… ABM campaigns, pipeline review and forecasting\". No notetaker or call recording.",
+        "32 open Peec actions on the new topics inherit that wording; a VERY_HIGH \"Scaling 1:1 ABM Landing Pages with AI\" brief from the old topics is still pending.",
+        "Peec's fact-check returned no contradicted claims because no facts are set up."
+      ],
+      "steps": [
+        "In Peec, rewrite the project profile with the positioning-baseline one-liner and capabilities (notetaker on every call; drafts follow-ups, prep, CRM updates, proposals, business cases, deal rooms; runs on triggers).",
+        "Add facts for fact-checking: pricing ($0 / $50 / from $40k), records and transcribes calls, SOC 2 Type II, integrations (Salesforce, HubSpot, Gmail, Calendar).",
+        "Dismiss old-topic actions (ABM landing pages and anything about website personalization).",
+        "Re-generate actions and re-read the top 5 briefs before using them in AEO-4, AEO-8 and AEO-12."
+      ],
+      "impact": "Indirect but high-leverage: turns Peec's 32 briefs from slightly-off to on-message, and switches on fact-checking so wrong AI claims show up in Peec instead of by accident.",
+      "metric": { "name": "Peec briefs and fact-checks aligned to positioning", "baseline": "Profile = ABM/GTM assistant; 0 facts", "target": "Profile updated; ≥5 facts; 0 ABM briefs open" },
+      "done": "Profile and facts saved; ABM actions dismissed; new action list reviewed."
+    },
+    {
+      "key": "AEO-3",
+      "rank": 3,
+      "sprint": "s1",
+      "status": "To Do",
+      "priority": "Highest",
+      "type": "Technical",
+      "effort": "M",
+      "points": 5,
+      "owner": "Web / Framer + Marketing",
+      "topics": ["All topics"],
+      "title": "Retire the CRO footprint: redirect legacy pages and update third-party descriptions",
+      "summary": "Matt's #1 risk. AI engines still read pages that call Mutiny a website-personalization / A/B-testing tool, so they keep putting us in the wrong category and out of sales-assistant answers.",
+      "evidence": [
+        "/product (\"Scalable website personalization made easy\", A/B tests) is out of the sitemap but still loads with no redirect; /use-cases/increase-website-conversion (\"1:1 web personalization without engineers\") is still live.",
+        "Oct 28 audit: 43 legacy pages; actions include 30 redirects and 21 noindex.",
+        "Peec perception objections include CRO-era \"Editor Limitations\" (30) and \"Traffic Dependency\" (11); attributes include \"Account Based Marketing\" (32).",
+        "ChatGPT on a Seismic-alternative prompt: Mutiny is \"not a like-for-like replacement for Seismic… better suited to solving the personalization problem\"."
+      ],
+      "steps": [
+        "301 /product → / and /use-cases/increase-website-conversion → /use-cases/account-executives (or the homepage).",
+        "Work the audit's 30 redirect and 21 noindex rows (sheet: data/aeo/site-audit/mutinyhq-page-audit-2026-10-28.xlsx, filter Action). Remove them from the sitemap.",
+        "Update off-site profiles that still say CRO/personalization: G2, Capterra, LinkedIn company page, Crunchbase, partner/integration directories.",
+        "Use the ?aeo Positioning watch list to email owners of third-party pages that describe Mutiny as CRO (start with the most-read) asking for the new one-liner."
+      ],
+      "impact": "The biggest positioning risk. Removing the pages AI reads for the old story should cut CRO framing over 4–8 weeks and lets Mutiny be considered for sales-enablement and sales-assistant answers instead of personalization ones.",
+      "metric": { "name": "Legacy CRO pages live + CRO mentions in Positioning watch", "baseline": "43 legacy pages live (Oct 28)", "target": "0 legacy pages indexable by Nov 18; CRO watch list shrinking week over week" },
+      "done": "Both worst pages redirect; audit redirect/noindex rows closed; G2/Capterra/LinkedIn descriptions updated; outreach sent to the top CRO-watch pages."
+    },
+    {
+      "key": "AEO-4",
+      "rank": 4,
+      "sprint": "s1",
+      "status": "To Do",
+      "priority": "Highest",
+      "type": "Content",
+      "effort": "M",
+      "points": 5,
+      "owner": "Content",
+      "topics": ["AI Sales Assistants"],
+      "title": "Own our category term: build the \"AI sales assistant\" pillar page",
+      "summary": "\"Sales assistant\" is how we describe Mutiny, yet we're named in 1 of 564 AI Sales Assistants answers and no page on our site targets the term.",
+      "evidence": [
+        "AI Sales Assistants: Mutiny visibility 0.18% (1 chat) vs Gong 32.3%, Apollo 14.7%, Clay 14.2%.",
+        "Neither named nor retrieved on: \"Best AI sales assistant\", \"AI-native sales assistant\", \"What can an AI sales assistant do?\", \"AI sales assistant vs ChatGPT for sales\", \"Best AI tool for sales follow-up emails\".",
+        "Read but not named: \"Best AI assistant for account executives\" retrieves mutinyhq.com in 20 of 27 chats, names Mutiny once; \"Best AI sales agent for B2B\" retrieved 14/27, cited 8, never named.",
+        "The site has many \"AI sales agent\" lists but nothing using \"AI sales assistant\" in a URL or H1."
+      ],
+      "steps": [
+        "Create one pillar page (e.g. /ai-sales-assistant) with H1 \"What is an AI sales assistant?\" and a 40–60 word answer that names Mutiny's approach in one sentence.",
+        "Fan-out H2s that match the prompts: what it does before / during / after a call; AI sales assistant vs ChatGPT for sales; how to choose one; best AI sales assistants in 2026.",
+        "Add an honest comparison table (Mutiny, Gong, Apollo, Clay, Attention, 11x, Regie AI) with a \"best for\" column; Mutiny's row = customer-facing follow-ups, prep, proposals, deal rooms from the call.",
+        "Add a deduped FAQ block (5–8 questions), the Netic proof point (10 hrs/week saved on prep), a visible updated date, and links from the homepage, nav and /use-cases/account-executives.",
+        "Use Peec's \"AI Sales Assistants for Sales Call Preparation\" brief (after AEO-2) for headings it expects."
+      ],
+      "impact": "Directly targets 5+ prompts where we have zero presence in our own category. Matt: niche, specific prompts move first, so expect the \"vs ChatGPT\" and \"what can it do\" prompts before \"best AI sales assistant\".",
+      "metric": { "name": "AI Sales Assistants visibility (baseline table)", "baseline": "0.18%", "target": "≥2% by mid-December (estimate)" },
+      "done": "Pillar page live, linked from home + nav, in sitemap with date; Peec shows it retrieved on ≥3 AI Sales Assistants prompts."
+    },
+    {
+      "key": "AEO-5",
+      "rank": 5,
+      "sprint": "s1",
+      "status": "To Do",
+      "priority": "High",
+      "type": "Content",
+      "effort": "M",
+      "points": 5,
+      "owner": "Content",
+      "topics": ["All topics"],
+      "title": "Turn \"read but not named\" pages into answer-first pages",
+      "summary": "AI already reads our pages in 59 of 145 prompts but names Mutiny in only 19. These are the cheapest wins: rework the pages AI reads so the answer names us.",
+      "evidence": [
+        "ChatGPT retrieves mutinyhq.com in 18.1% of chats but cites it in 2.4% (Peec domain report by engine).",
+        "Long listicles are read but rarely cited: best-tools-to-create-deal-rooms 80 retrievals / 12 citations; best AI agents for B2B 24 / 0; Seismic alternatives 24 / 2; how to evaluate AI sales tools 19 / 1; AI sales agents for AEs 15 / 0.",
+        "FAQ-style pages cite 3–10× better: faqs/Highspot alternatives 0.81 citations per retrieval; blog/AI tools for AEs 0.90; deal-room blueprint 1.82.",
+        "Read-not-named prompts: \"Highspot alternatives\" (13/27, never cited), \"All-in-one sales enablement and deal room platform\" (14/27), \"Best deal room software for B2B sales\" (12/27), \"How to build a business case for a prospect\" (12/27, cited 7, named once)."
+      ],
+      "steps": [
+        "Pick the 10 pages with the most retrievals and fewest citations (Peec URL report, mutinyhq.com, 6 topics).",
+        "For each: H1 = the exact prompt; a 40–60 word answer first that names Mutiny and who it's best for; a comparison table with a \"best for\" column and a Mutiny row placed honestly.",
+        "Add a deduped FAQ block, one attributed stat (customer + number + source), a visible updated date, and links to the matching product/use-case page.",
+        "Fix the leftovers found Nov 4: repeated FAQ questions on /blog/top-ai-sales-agents-for-2026 and /blog/the-best-ai-sales-agents-for-aes-in-2026, \"July 2026\" intro under a November date, \"Per-seat (verify)\" in the deal-rooms table."
+      ],
+      "impact": "Engines already pull these pages, so better answers convert straight into citations and mentions without waiting to be discovered. Should lift citations and visibility in every topic.",
+      "metric": { "name": "Citations per retrieval on the 10 reworked pages; prompts naming Mutiny", "baseline": "~0.15 on the long listicles; 19 of 145 prompts", "target": "≥0.5 citations per retrieval; ≥25 prompts naming Mutiny" },
+      "done": "10 pages reworked and re-dated; Peec URL report re-checked 2 weeks later."
+    },
+    {
+      "key": "AEO-6",
+      "rank": 6,
+      "sprint": "s2",
+      "status": "To Do",
+      "priority": "High",
+      "type": "Off-site",
+      "effort": "L",
+      "points": 8,
+      "owner": "Marketing / Partnerships",
+      "topics": ["All topics"],
+      "title": "Get onto the third-party lists AI reads most (currency exchange)",
+      "summary": "A handful of listicles feed most AI answers in our topics, and almost none mention Mutiny. Getting included is Matt's fastest lever: break into the top 50 URLs.",
+      "evidence": [
+        "Only 3 of the 25 most-retrieved URLs mention Mutiny (two are our own pages).",
+        "#1 zapier.com/blog/ai-sales-assistant: 163 retrievals, 238 citations, no Mutiny. Also: getaccept.com best digital sales room software (140), learn.g2.com best sales enablement software (131), blog.hubspot.com sales content management platform (129), shiken.ai (116).",
+        "Domains where competitors are named and Mutiny isn't (Peec gap filter): youtube, salesforce, hubspot, g2, highspot, getaccept, linkedin, gartner, zapier, capterra, itechguides, rankite.",
+        "Where we are mentioned already: reddit, dock, mindtickle, spekit, salesmotion, rework."
+      ],
+      "steps": [
+        "Export the top 50 URLs from Peec (6 topics, last 2 weeks) and keep the ones without Mutiny. Tag each: editorial, challenger vendor, incumbent/competitor, UGC.",
+        "Skip competitor-owned lists (Highspot, GetAccept, Seismic). Prioritize editorial and challenger sites (Zapier, itechguides, rankite, shiken, revspire, spotsaas).",
+        "Send each a ready-to-paste entry: 50-word description with the one-liner, best for, pricing, 1 screenshot, 1 customer proof. Offer a swap (inclusion in one of our lists) where it fits; budget for the ~$1,500 paid placements Matt mentioned only on the top 10.",
+        "Track asks and wins in a sheet; re-check Peec 2 weeks after each win."
+      ],
+      "impact": "Each inclusion feeds many prompts across topics at once (Zapier alone is read ~163 times a week across AI Sales Assistants and GTM Stack). This is the main route to visibility in head-term prompts we can't win on our own site.",
+      "metric": { "name": "Top-50 retrieved URLs that mention Mutiny", "baseline": "3 of top 25", "target": "+5 third-party inclusions by end of December" },
+      "done": "Target list built; ≥20 pitches sent; wins logged and verified in Peec."
+    },
+    {
+      "key": "AEO-7",
+      "rank": 7,
+      "sprint": "s2",
+      "status": "To Do",
+      "priority": "High",
+      "type": "Off-site",
+      "effort": "M",
+      "points": 5,
+      "owner": "Marketing / CS",
+      "topics": ["Sales Enablement", "Digital Sales Rooms"],
+      "title": "Re-categorize G2 and run a steady review program",
+      "summary": "G2 is the 4th most-read domain in our topics, and its \"best of\" articles and category grids list our competitors, not us.",
+      "evidence": [
+        "g2.com retrieved in 722 chats (Oct 28 – Nov 3, 6 topics).",
+        "Competitor-only G2 pages AI reads: learn.g2.com/best-sales-enablement-software (131 retrievals), learn.g2.com/best-digital-sales-room-software (89), g2.com/categories/sales-enablement (62), g2.com/categories/digital-sales-room (57).",
+        "Peec's own G2 actions: recast the profile around \"Digital sales room\" and \"Sales enablement software\"; run a continuous review program.",
+        "Top objections AI raises about Mutiny: Pricing (98), Integration limitations (68), Implementation complexity (59)."
+      ],
+      "steps": [
+        "Rewrite the G2 and Capterra profile descriptions with the one-liner; add Sales Enablement, Digital Sales Room and AI sales assistant categories; drop website personalization / CRO / A/B testing categories.",
+        "Ask 25 happy customers for reviews over 30 days (CS + in-app). Prompt them to describe the use case (follow-ups from calls, deal rooms, proposals), integrations and time saved; that answers the top objections in their words.",
+        "Reply to every review; keep a monthly drip so reviews stay recent.",
+        "Once reviews land in the new categories, ask G2's editorial team about inclusion in the learn.g2.com lists."
+      ],
+      "impact": "Reviews drive UGC sentiment (Matt: sentiment is mostly UGC) and are the route into G2's grids and \"best\" articles that AI cites for enablement and deal rooms.",
+      "metric": { "name": "Mutiny on G2 enablement / DSR pages AI reads; sentiment", "baseline": "Not listed; sentiment 58 (enablement), 62 (DSR)", "target": "Listed in both G2 categories; +25 reviews in 30 days" },
+      "done": "Profiles re-categorized; 25 reviews collected; monthly review ask scheduled."
+    },
+    {
+      "key": "AEO-8",
+      "rank": 8,
+      "sprint": "s2",
+      "status": "To Do",
+      "priority": "High",
+      "type": "Content",
+      "effort": "L",
+      "points": 8,
+      "owner": "Content + Product marketing",
+      "topics": ["Sales Call Notes and Recording"],
+      "title": "Build the notetaker / call-notes cluster",
+      "summary": "The notetaker is the core of our positioning, but AI doesn't see Mutiny as a call recorder. Our own posts even cast Gong as the tool that captures the call.",
+      "evidence": [
+        "Sales Call Notes and Recording: Mutiny 1.36% (all 4 mentions from one prompt) vs Gong 53.9%, Fireflies 48.5%, Avoma 45.8%.",
+        "Zero presence on \"Best AI note taker for sales calls\", \"AI-native Gong alternative\", \"Do I need conversation intelligence software?\" (medium volume).",
+        "In \"call recordings → follow-up\" chats, AI lists Gong, Fireflies and Grain as recorders; Mutiny appears only as a further-reading link.",
+        "/products/notetaker scored 3/10 in the Oct 28 audit (marked rewrite); /blog/top-ai-sales-agents-for-2026 casts Gong as the call-capture tool."
+      ],
+      "steps": [
+        "Rewrite /products/notetaker answer-first: \"Mutiny records and transcribes every call, then drafts the follow-up, prep and CRM update automatically.\" Add how it works, security (recording controls, SOC 2) and the Netic proof.",
+        "Publish: \"Best AI note takers for sales calls (2026)\", \"Gong alternatives for AEs\", \"Mutiny vs Gong\", \"Fireflies vs Mutiny for sales follow-up\", and an FAQ \"Do you need conversation intelligence software?\"",
+        "Fix our own posts that present Gong as the recorder and Mutiny as downstream.",
+        "Add a notetaker/follow-up customer story (none exists today)."
+      ],
+      "impact": "Opens a topic where we're nearly invisible and makes AI connect Mutiny with the call itself, which supports AI Sales Assistants answers too.",
+      "metric": { "name": "Sales Call Notes visibility; prompts naming Mutiny in the topic", "baseline": "1.36%, 1 prompt", "target": "≥3%, named in ≥3 prompts (estimate)" },
+      "done": "Notetaker page rewritten; 5 cluster pages live with dates and FAQs; 1 customer story published."
+    },
+    {
+      "key": "AEO-9",
+      "rank": 9,
+      "sprint": "s2",
+      "status": "To Do",
+      "priority": "High",
+      "type": "Content",
+      "effort": "M",
+      "points": 5,
+      "owner": "Content",
+      "topics": ["Sales Presentations and Proposals"],
+      "title": "Press our advantage in Sales Presentations and Proposals",
+      "summary": "This is the topic where we're closest to the leader. A few targeted pages could get Mutiny into the 3–5 brands AI names here.",
+      "evidence": [
+        "Mutiny 3.57% vs Qwilr 25.2%, Gamma 25.0%, PandaDoc 24.7%: about 14% of the leader, our best ratio; win rate 2.1%.",
+        "\"How to build a business case for a prospect\": retrieved 12/27, cited 7, named once. \"How to create deal-specific content\": retrieved 4/26, all cited, never named.",
+        "\"Best AI proposal software\" has zero presence; a new FAQ (/faqs/what-is-the-best-ai-proposal-software) exists but isn't in the sitemap.",
+        "No Qwilr, Gamma or PandaDoc alternatives or \"vs\" pages."
+      ],
+      "steps": [
+        "Publish \"Qwilr alternatives\", \"PandaDoc alternatives for sales teams\" and \"Gamma vs Mutiny for sales decks\" with honest best-for tables.",
+        "Rework the business-case and deal-specific-content pages so the first paragraph names Mutiny and shows a real example output (screenshot of an auto-built business case).",
+        "Add the new proposal FAQ to the sitemap and expand it with a comparison table.",
+        "Link the cluster from /assets/pricing-proposal and /assets/sales-decks."
+      ],
+      "impact": "Fastest path to a top-5 slot in any topic, which also gives us a credible \"winning\" story for Jaleh's weekly update.",
+      "metric": { "name": "Sales Presentations and Proposals visibility", "baseline": "3.57%", "target": "≥6% by mid-December (estimate)" },
+      "done": "3 alternatives/vs pages live; 2 pages reworked; FAQ in sitemap."
+    },
+    {
+      "key": "AEO-10",
+      "rank": 10,
+      "sprint": "s3",
+      "status": "To Do",
+      "priority": "Medium",
+      "type": "Content",
+      "effort": "M",
+      "points": 5,
+      "owner": "Content",
+      "topics": ["Digital Sales Rooms"],
+      "title": "Digital Sales Rooms: use the category term and own mutual action plans",
+      "summary": "AI reads our deal-room content a lot but we never use the phrase buyers and AI use (\"digital sales room\"), and we're absent on mutual action plan prompts.",
+      "evidence": [
+        "Digital Sales Rooms: Mutiny 0.87% vs Aligned 45.1%, Dock 40.9%, Trumpet 40.0%.",
+        "\"digital sales room\" never appears in a mutinyhq.com URL or H1.",
+        "Zero presence on three medium-volume prompts: \"Mutual action plan template\", \"Best mutual action plan software\", \"Best way to create a mutual action plan\".",
+        "Our /blog/best-tools-to-create-deal-rooms is the #16 most-retrieved URL (80) but cited only 12 times; \"Best tool for deal rooms\" retrieves us 13/20, names us once. GetAccept's listicle appears in 42% of DSR chats."
+      ],
+      "steps": [
+        "Retitle /assets/deal-room and the deal-room posts to include \"digital sales room\" (keep \"deal room\" as a synonym in the first paragraph).",
+        "Publish a downloadable mutual action plan template page and expand /faqs/what-is-the-best-mutual-action-plan-software (add to sitemap).",
+        "Publish \"Aligned alternatives\" and \"Dock vs Mutiny\" pages.",
+        "Add a deal-room customer story (none exists today)."
+      ],
+      "impact": "Matches the exact words AI uses for the topic and opens three medium-volume prompts where we have nothing today.",
+      "metric": { "name": "Digital Sales Rooms visibility; MAP prompts with Mutiny", "baseline": "0.87%; 0 of 3", "target": "≥2.5%; ≥1 of 3 (estimate)" },
+      "done": "Pages retitled; MAP template + 2 alternatives pages live; customer story published."
+    },
+    {
+      "key": "AEO-11",
+      "rank": 11,
+      "sprint": "s3",
+      "status": "To Do",
+      "priority": "Medium",
+      "type": "Technical",
+      "effort": "M",
+      "points": 5,
+      "owner": "Web / Framer",
+      "topics": ["All topics"],
+      "title": "Technical signals for Google AI Overview: schema, sitemap, dates, duplicates",
+      "summary": "Google AI Overview almost never reads our site. Clean technical signals (structured data, dated pages, a complete sitemap) are what Google's systems lean on.",
+      "evidence": [
+        "mutinyhq.com retrieved in 1.33% of Google AI Overview chats vs 18.1% in ChatGPT and 9.35% in Perplexity.",
+        "Sitemap has no lastmod dates, still lists /404, and is missing the 8 new FAQ pages.",
+        "Homepage H1 rendered 3×; footer rendered 3× sitewide (one copy links \"Beautiful Assets\" and \"Blueprints\" to /); FAQ questions repeated 2–3× on blog posts.",
+        "215 of 246 pages showed no date on Oct 28. JSON-LD couldn't be verified (Framer doesn't add it by default)."
+      ],
+      "steps": [
+        "Run the homepage, /pricing, one FAQ and one blog post through Google's Rich Results Test to see what structured data exists.",
+        "Add JSON-LD via Framer custom code: Organization (with sameAs links), SoftwareApplication with offers ($0 / $50 / $40k), FAQPage on FAQ pages (after deduping questions), Article with datePublished/dateModified on posts.",
+        "Sitemap: add lastmod, add the new FAQ pages, remove /404. Resubmit in Google Search Console and Bing Webmaster Tools.",
+        "Fix the triple H1 and triple footer components; show a visible \"Last updated\" date on every page."
+      ],
+      "impact": "Removes reasons for Google to skip or misread our pages; the clearest available lever for the engine where we're weakest.",
+      "metric": { "name": "Google AI Overview: mutinyhq.com retrieved %", "baseline": "1.33%", "target": "≥4% by end of December (estimate)" },
+      "done": "Rich Results Test passes on 4 page types; sitemap clean and resubmitted; duplicates gone; dates visible."
+    },
+    {
+      "key": "AEO-12",
+      "rank": 12,
+      "sprint": "s3",
+      "status": "To Do",
+      "priority": "Medium",
+      "type": "Content",
+      "effort": "L",
+      "points": 8,
+      "owner": "Content",
+      "topics": ["All topics"],
+      "title": "Set a publishing and refresh cadence, plus one proprietary data report",
+      "summary": "AI favours recent pages, and most of ours are undated. A steady cadence keeps us inside the window AI pulls from; original data gives editorial sites a reason to cite us.",
+      "evidence": [
+        "Matt: ~75% of ChatGPT citations come from pages under 30 days old; the cadence that worked was ~10 articles a week.",
+        "215 of 246 pages had no date (Oct 28); only 2 posts confirmed refreshed in November.",
+        "Peec has 32 open briefs; top 5 VERY_HIGH: sales enablement software costs, AI GTM stack for B2B revenue teams, DSR evaluation, AI sales assistants for call prep, AI-assisted presentations and proposals."
+      ],
+      "steps": [
+        "Start at 3 new + 3 refreshed pages a week (scale toward Matt's ~10 once the process works). New pages come from Peec briefs (after AEO-2) and the zero-presence prompts listed in AEO-4/8/9/10.",
+        "Refresh the 20 most-retrieved mutinyhq.com pages monthly: new date, one new data point or example, check facts against positioning-baseline.md.",
+        "Publish one proprietary data report per quarter from anonymized Mutiny usage (e.g. how buyers engage with deal rooms and proposals, time from call to follow-up) and pitch it to editorial sites.",
+        "Log every publish/refresh so the weekly Jaleh update can tie actions to visibility changes."
+      ],
+      "impact": "Keeps visibility from flatlining (Matt: when effort stops, it flatlines) and builds the citation base for head terms over the quarter.",
+      "metric": { "name": "Pages published / refreshed per week; overall visibility", "baseline": "Cadence unknown (2 November refreshes confirmed); 1.95%", "target": "6 per week; overall visibility ≥3% by end of Q4 (estimate)" },
+      "done": "Calendar running for 4 straight weeks; first data report scoped."
+    },
+    {
+      "key": "AEO-13",
+      "rank": 13,
+      "sprint": "s3",
+      "status": "To Do",
+      "priority": "Medium",
+      "type": "Off-site",
+      "effort": "M",
+      "points": 5,
+      "owner": "Marketing",
+      "topics": ["All topics"],
+      "title": "YouTube, Reddit and LinkedIn presence",
+      "summary": "YouTube is the 3rd most-read domain in our topics and the most-cited. Short videos titled with the exact questions buyers ask are an under-used way in.",
+      "evidence": [
+        "youtube.com retrieved in 919 chats and cited in 23.2% of chats (Oct 28 – Nov 3, 6 topics); top video youtube.com/watch?v=ldIVv8TNCqw: 89 retrievals, 111 citations, no Mutiny.",
+        "reddit.com 615 chats; Mutiny is already mentioned there. r/sales \"What sales enablement tools are you using?\": 50 retrievals, 70 citations.",
+        "linkedin.com 360 chats, with competitors named and Mutiny not."
+      ],
+      "steps": [
+        "Record 4–6 short walkthroughs titled with exact prompts (\"Best AI sales assistant for AEs: demo\", \"How to create a digital sales room in 5 minutes\", \"Turn call recordings into follow-up emails\"). Add full transcripts and chapters.",
+        "Ask creators of the top-retrieved roundup videos to include Mutiny in their next update.",
+        "Reddit: team members answer relevant r/sales threads under their own names with disclosure. No astroturfing; it backfires and violates the communities' rules.",
+        "LinkedIn: leadership posts that use the one-liner and show real outputs."
+      ],
+      "impact": "Adds high-trust sources AI already cites heavily; helps sentiment, which Matt notes is mostly driven by UGC.",
+      "metric": { "name": "YouTube / Reddit URLs mentioning Mutiny in Peec's top sources", "baseline": "No Mutiny video among the top retrieved sources", "target": "≥2 Mutiny videos retrieved by Peec within 6 weeks" },
+      "done": "6 videos live with transcripts; creator outreach sent; Reddit/LinkedIn rhythm agreed."
+    },
+    {
+      "key": "AEO-14",
+      "rank": 14,
+      "sprint": "s3",
+      "status": "To Do",
+      "priority": "Medium",
+      "type": "Content",
+      "effort": "M",
+      "points": 3,
+      "owner": "Content",
+      "topics": ["AI GTM Stack"],
+      "title": "AI GTM Stack: position Mutiny as the customer-facing layer next to Clay and Gong",
+      "summary": "In GTM-stack answers Mutiny is rarely named and appears late (position 6.8). Instead of competing with Clay and Gong, show where Mutiny sits beside them.",
+      "evidence": [
+        "AI GTM Stack: Mutiny 0.62%, position 6.8 vs Clay 50.3%, Gong 46.6%, Apollo 33.0%.",
+        "Read but not named: \"Best AI tools for B2B sales\" (14/27), \"How to evaluate AI sales tools\" (13/27), \"Best AI sales tools 2026\" (11/27). Zero presence on \"What's the ROI of AI sales tools?\".",
+        "Thin coverage: only FAQs on the modern GTM stack; /blog/ai-gtm is legacy; no Clay pages."
+      ],
+      "steps": [
+        "Publish \"The AI GTM stack in 2026\": prospecting (Clay, Apollo), conversation intelligence (Gong), CRM, and the customer-facing layer (Mutiny) with a simple diagram.",
+        "Publish \"Clay + Mutiny workflow\" (from enriched account to tailored deal room/proposal).",
+        "Expand /faqs/what-is-the-roi-of-ai-sales-tools with numbers (add to sitemap) and refresh the evaluation-framework page answer-first (see AEO-5).",
+        "Redirect or rewrite the legacy /blog/ai-gtm."
+      ],
+      "impact": "Gets Mutiny into stack answers as a complement rather than an alternative to the leaders, which is how buyers and AI frame the topic.",
+      "metric": { "name": "AI GTM Stack visibility and average position", "baseline": "0.62%, position 6.8", "target": "≥1.5%, position ≤5 (estimate)" },
+      "done": "Stack pillar + Clay workflow page live; ROI FAQ expanded; /blog/ai-gtm fixed."
+    }
+  ]
+}

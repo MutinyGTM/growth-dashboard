@@ -172,41 +172,41 @@
     },
     {
      "date": "2026-11-01",
-     "Total": 26,
+     "Total": 30,
      "Sales Enablement": 13,
      "Digital Sales Rooms": 6,
      "AI GTM Stack": 3,
      "Sales Presentations and Proposals": 3,
      "Sales Call Notes and Recording": 1,
-     "AI Sales Assistants": 0
+     "AI Sales Assistants": 4
     },
     {
      "date": "2026-11-02",
-     "Total": 38,
+     "Total": 42,
      "Sales Enablement": 12,
      "AI GTM Stack": 9,
      "Digital Sales Rooms": 8,
      "Sales Presentations and Proposals": 7,
      "Sales Call Notes and Recording": 2,
-     "AI Sales Assistants": 0
+     "AI Sales Assistants": 4
     },
     {
      "date": "2026-11-03",
-     "Total": 42,
+     "Total": 47,
      "Sales Enablement": 17,
      "Digital Sales Rooms": 10,
      "AI GTM Stack": 7,
      "Sales Presentations and Proposals": 7,
      "Sales Call Notes and Recording": 1,
-     "AI Sales Assistants": 0
+     "AI Sales Assistants": 5
     }
    ],
    "metric": {
-    "retrievedPct": 0.1017,
-    "retrievalRate": 0.1321,
-    "citationRate": 0.5414,
-    "retrievalCount": 439,
-    "citationCount": 183
+    "retrievedPct": 0.0965,
+    "retrievalRate": 0.1296,
+    "citationRate": 0.5573,
+    "retrievalCount": 504,
+    "citationCount": 209
    },
    "dailyStats": [
     {
@@ -243,27 +243,27 @@
     },
     {
      "date": "2026-11-01",
-     "retrievedPct": 0.0703,
-     "retrievalRate": 0.0838,
-     "citationRate": 0.5769,
-     "retrievalCount": 31,
-     "citationCount": 15
+     "retrievedPct": 0.0694,
+     "retrievalRate": 0.088,
+     "citationRate": 0.5333,
+     "retrievalCount": 38,
+     "citationCount": 16
     },
     {
      "date": "2026-11-02",
-     "retrievedPct": 0.1027,
-     "retrievalRate": 0.1405,
-     "citationRate": 0.3421,
-     "retrievalCount": 52,
-     "citationCount": 13
+     "retrievedPct": 0.097,
+     "retrievalRate": 0.1386,
+     "citationRate": 0.4048,
+     "retrievalCount": 60,
+     "citationCount": 17
     },
     {
      "date": "2026-11-03",
-     "retrievedPct": 0.1135,
-     "retrievalRate": 0.1405,
-     "citationRate": 0.381,
-     "retrievalCount": 52,
-     "citationCount": 16
+     "retrievedPct": 0.1085,
+     "retrievalRate": 0.1386,
+     "citationRate": 0.4681,
+     "retrievalCount": 60,
+     "citationCount": 22
     }
    ]
   }
