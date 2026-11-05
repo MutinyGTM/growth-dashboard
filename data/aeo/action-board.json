@@ -79,7 +79,7 @@
       "key": "AEO-3",
       "rank": 3,
       "sprint": "s1",
-      "status": "To Do",
+      "status": "In Progress",
       "priority": "Highest",
       "type": "Technical",
       "effort": "M",
@@ -102,7 +102,19 @@
       ],
       "impact": "The biggest positioning risk. Removing the pages AI reads for the old story should cut CRO framing over 4–8 weeks and lets Mutiny be considered for sales-enablement and sales-assistant answers instead of personalization ones.",
       "metric": { "name": "Legacy CRO pages live + CRO mentions in Positioning watch", "baseline": "43 legacy pages live (Oct 28)", "target": "0 legacy pages indexable by Nov 18; CRO watch list shrinking week over week" },
-      "done": "Both worst pages redirect; audit redirect/noindex rows closed; G2/Capterra/LinkedIn descriptions updated; outreach sent to the top CRO-watch pages."
+      "done": "Both worst pages redirect; audit redirect/noindex rows closed; G2/Capterra/LinkedIn descriptions updated; outreach sent to the top CRO-watch pages.",
+      "progress": [
+        { "date": "2026-11-05", "status": "done", "text": "Live-checked every audit redirect/noindex URL and Framer's existing redirects. Found 20 old redirects (incl. /product, /request-demo, /demo) landing on a 404 draft page and one pointing at a Framer preview domain." },
+        { "date": "2026-11-05", "status": "done", "text": "Built and approved the redirect map with L30/L7 Framer visits per page (data/aeo/site-audit/aeo3-redirect-map.csv)." },
+        { "date": "2026-11-05", "status": "done", "text": "Framer: fixed 24 broken redirects (demo URLs → /talk-to-sales, /product → /), added 38 redirects for CRO-era posts, FAQs and old product URLs, and moved 37 items to draft so they leave the sitemap." },
+        { "date": "2026-11-05", "status": "done", "text": "Added a Noindex toggle to the Blog CMS; noindexed the Snowflake ABM structure post, 5 CMO posts and /404." },
+        { "date": "2026-11-05", "status": "done", "text": "Kept the Andela, LaunchDarkly and Simpro case studies live and indexable (homepage-linked); removed their two /product links. Removed the vertical-landing-page footer link." },
+        { "date": "2026-11-05", "status": "done", "text": "QA after publish: 63/63 redirects land on the right page; sitemap 257 → 213 URLs, all 200, none noindexed; 35 of 43 legacy CRO pages no longer indexable." },
+        { "date": "2026-11-05", "status": "pending", "text": "5 legacy pages to rewrite (what-is-an-ai-sales-tool, 2 Userled pages, enterprise-gtm, engineering values) — on hold for team discussion." },
+        { "date": "2026-11-18", "status": "pending", "text": "Update G2, Capterra, LinkedIn, Crunchbase and partner-directory descriptions to the sales-assistant one-liner." },
+        { "date": "2026-11-18", "status": "pending", "text": "Email owners of the most-read CRO-watch pages (warmly.ai ×2, mida.so, cxl.com) asking for the new description." },
+        { "date": "2026-11-11", "status": "pending", "text": "Re-check Peec from Nov 11 for fewer CRO/personalization descriptions of Mutiny." }
+      ]
     },
     {
       "key": "AEO-4",
