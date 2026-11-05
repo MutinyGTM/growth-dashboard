@@ -46,6 +46,11 @@ const TOPIC_COLOR = {
 };
 
 const cards = [...(board.cards || [])].sort((a, b) => a.rank - b.rank);
+// Board columns: closest to completion first (status, then share of activity items done, then rank).
+const STATUS_ORDER = { Done: 0, 'In Review': 1, 'In Progress': 2, 'To Do': 3 };
+const doneShare = (c) => (c.progress && c.progress.length ? c.progress.filter((p) => p.status === 'done').length / c.progress.length : 0);
+const byCompletion = (a, b) =>
+  (STATUS_ORDER[a.status] ?? 3) - (STATUS_ORDER[b.status] ?? 3) || doneShare(b) - doneShare(a) || a.rank - b.rank;
 const sprints = board.sprints || [];
 const allTopics = ['All topics', ...Object.keys(TOPIC_COLOR).filter((t) => t !== 'All topics')];
 
@@ -227,7 +232,7 @@ export default function AeoActionBoard() {
       {view === 'board' ? (
         <div className="aeo-board" style={{ display: 'grid', gridTemplateColumns: `repeat(${sprints.length}, minmax(0,1fr))`, gap: 12, alignItems: 'start' }}>
           {sprints.map((s) => {
-            const col = shown.filter((c) => c.sprint === s.id);
+            const col = shown.filter((c) => c.sprint === s.id).sort(byCompletion);
             const pts = col.reduce((a, c) => a + (c.points || 0), 0);
             return (
               <div key={s.id} style={{ background: J.bg, borderRadius: 6, padding: '10px 8px 8px' }}>
