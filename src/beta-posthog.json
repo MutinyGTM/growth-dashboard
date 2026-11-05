@@ -1,17 +1,17 @@
 {
   "source": "PostHog project 381053 (dashboard 2240501 logic)",
-  "pulledAt": "2026-11-04T19:20:55.995Z",
+  "pulledAt": "2026-11-05T15:56:02.378Z",
   "rolloutStart": "2026-10-21",
   "rolloutStartUtc": "2026-10-21T04:00:00Z",
   "tz": "America/New_York",
   "counts": {
-    "org": 122,
-    "gmail": 40,
+    "org": 124,
+    "gmail": 41,
     "cal": 24,
-    "rec": 28,
-    "perms": 27,
+    "rec": 30,
+    "perms": 29,
     "a1": 1,
-    "a2": 2
+    "a2": 3
   },
   "creators": [
     {
@@ -1245,6 +1245,8 @@
       "email": "sarah.saleh@airwallex.com",
       "orgUtc": "2026-10-26T22:13:43.679Z",
       "org": "2026-10-26T18:13",
+      "rec": "2026-11-04T16:20",
+      "perms": "2026-11-04T16:21",
       "orgs": [
         {
           "co": "046195b9-b1c1-4db3-81ed-7c7efa2820b3",
@@ -1640,6 +1642,17 @@
       ]
     },
     {
+      "pid": "b31fe259-2aa7-5e8b-8af1-fb9e6a80d513",
+      "uid": "96c6ab99-4faf-48a7-acbc-c32700eb0ed9",
+      "email": "bella@kindredpartners.com",
+      "orgUtc": "2026-11-03T19:00:00.000Z",
+      "gmail": "2026-11-03T15:54",
+      "rec": "2026-11-03T15:56",
+      "perms": "2026-11-03T15:57",
+      "org": "2026-11-03T00:00",
+      "viaExport": 1
+    },
+    {
       "pid": "23925fac-a5c3-5ade-9c72-4e8be2b1e4d2",
       "uid": "6c5b4cdf-0b73-453e-9d4c-5e4bb1c71ba3",
       "email": "erwin@scanner.dev",
@@ -1650,6 +1663,7 @@
       "rec": "2026-11-03T13:05",
       "perms": "2026-11-03T13:06",
       "a1": "2026-11-03T18:55",
+      "a2": "2026-11-04T17:30",
       "orgs": [
         {
           "co": "354a2bbd-f955-4d08-ba64-d02a2c3487ee",
@@ -1709,6 +1723,19 @@
         {
           "co": "57937bfd-f439-4b62-bec7-300be8549ca5",
           "utc": "2026-11-04T17:53:13.859Z"
+        }
+      ]
+    },
+    {
+      "pid": "9110e321-66cf-5011-920a-cb19d5e8193c",
+      "uid": "73006224-60cc-4431-b179-1f80dd73ef74",
+      "email": "skyler@ardentgrowth.com",
+      "orgUtc": "2026-11-05T09:10:43.943Z",
+      "org": "2026-11-05T04:10",
+      "orgs": [
+        {
+          "co": "42281a3a-b85b-4483-ba21-c822f144b6ce",
+          "utc": "2026-11-05T09:10:43.943Z"
         }
       ]
     }
