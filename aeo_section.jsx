@@ -830,6 +830,25 @@ export default function AeoSection() {
       <AeoTour open={tourOpen} onClose={closeTour} />
       <ResetBanner />
 
+      <SectionTitle kicker="Baseline · new prompt set" title="New prompt set: daily visibility"
+        learn={{
+          what: `The same two charts on the new ${TOPICS.length}-topic prompt set, starting Oct 28. The table locks the first week as our baseline and compares each latest week with it.`,
+          why: 'This is the starting point for the AI sales assistant positioning. Every content and outreach push should eventually show up as movement against these numbers.',
+          how: 'Check the Change column weekly. Visibility and retrieved % move in points; read each topic against its own baseline.',
+        }} />
+      <BaselineTable data={peecV2} colors={PEEC_V2_COLORS} />
+      <PeecVisibilityCard data={peecV2} colors={PEEC_V2_COLORS} prefKey="aeo-peec-v2-filter" badge="Live · new prompt set" badgeBg={C.green}
+        title="Mutiny brand insights" sub="New prompt set since Oct 28" />
+
+      <SectionTitle kicker="Coach's board" title="What to do next to raise our AEO scores"
+        sub="14 action items ranked by importance, laid out as sprints. Each card says why (what Peec and the site show), how to do it, the expected impact and the metric to watch against the baseline above. Click a card for the full how-to."
+        learn={{
+          what: 'A prioritized plan built from our Peec data (6 topics, Oct 28 to Nov 3) and a live check of mutinyhq.com. Rank 1 is the most important.',
+          why: 'Fix what AI is told about Mutiny first, then target the prompts where AI already reads us, then win the sources AI trusts. Doing it in that order means later work isn\'t undercut by wrong facts.',
+          how: 'Take Sprint 1 now. Each week, check the metric on each card against the Baseline vs latest week table, and move cards by updating data/aeo/action-board.json.',
+        }} />
+      <AeoActionBoard />
+
       <SectionTitle kicker="The big picture" title="Where Mutiny stands"
         learn={{
           what: 'A plain-English summary, then the ladder: how often AI reads our pages, links them, and names Mutiny in its answer.',
@@ -923,24 +942,6 @@ export default function AeoSection() {
         title="Mutiny brand insights · old prompt set" sub="Archived Oct 28, history only"
         footnote="Competitor Comparisons was added to monitoring May 5, so its topic line starts then." />
 
-      <SectionTitle kicker="Baseline · new prompt set" title="New prompt set: daily visibility"
-        learn={{
-          what: `The same two charts on the new ${TOPICS.length}-topic prompt set, starting Oct 28. The table locks the first week as our baseline and compares each latest week with it.`,
-          why: 'This is the starting point for the AI sales assistant positioning. Every content and outreach push should eventually show up as movement against these numbers.',
-          how: 'Check the Change column weekly. Visibility and retrieved % move in points; read each topic against its own baseline.',
-        }} />
-      <BaselineTable data={peecV2} colors={PEEC_V2_COLORS} />
-      <PeecVisibilityCard data={peecV2} colors={PEEC_V2_COLORS} prefKey="aeo-peec-v2-filter" badge="Live · new prompt set" badgeBg={C.green}
-        title="Mutiny brand insights" sub="New prompt set since Oct 28" />
-
-      <SectionTitle kicker="Coach's board" title="What to do next to raise our AEO scores"
-        sub="14 action items ranked by importance, laid out as sprints. Each card says why (what Peec and the site show), how to do it, the expected impact and the metric to watch against the baseline above. Click a card for the full how-to."
-        learn={{
-          what: 'A prioritized plan built from our Peec data (6 topics, Oct 28 to Nov 3) and a live check of mutinyhq.com. Rank 1 is the most important.',
-          why: 'Fix what AI is told about Mutiny first, then target the prompts where AI already reads us, then win the sources AI trusts. Doing it in that order means later work isn\'t undercut by wrong facts.',
-          how: 'Take Sprint 1 now. Each week, check the metric on each card against the Baseline vs latest week table, and move cards by updating data/aeo/action-board.json.',
-        }} />
-      <AeoActionBoard />
 
       <div style={{ fontFamily: FONT_CAPTION, fontStyle: 'italic', fontSize: 12, color: C.muted, marginTop: 40, lineHeight: 1.6 }}>
         Source: Peec AI project “Mutiny 2.0” ({aeo.projectId}), engines ChatGPT, Google AI Overview and Perplexity; prompt set since {aeo.promptSet ? md(aeo.promptSet.since) : '·'}. Report {span(W.cur)}; backlog {span(W.backlog)}. Pulled {pulled}. Written notes: {N.asOf || 'not refreshed'}. Framing follows Matt Ratchford's AEO handoff (Oct 27).

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>/llm-info change report</title>
+<style>
+:root{--bg:#ffffff;--fg:#1f2328;--muted:#59636e;--border:#d1d9e0;--head:#f6f8fa;--del-bg:#ffebe9;--del-fg:#82071e;--del-sign:#cf222e;--add-bg:#dafbe1;--add-fg:#0f5323;--add-sign:#1a7f37;--ctx:#ffffff;--tag:#ddf4ff;--tag-fg:#0969da}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--border:#3d444d;--head:#151b23;--del-bg:#3c1618;--del-fg:#ffdcd7;--del-sign:#f85149;--add-bg:#12261e;--add-fg:#aff5b4;--add-sign:#3fb950;--ctx:#0d1117;--tag:#121d2f;--tag-fg:#4493f8}}
+:root[data-theme="dark"]{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--border:#3d444d;--head:#151b23;--del-bg:#3c1618;--del-fg:#ffdcd7;--del-sign:#f85149;--add-bg:#12261e;--add-fg:#aff5b4;--add-sign:#3fb950;--ctx:#0d1117;--tag:#121d2f;--tag-fg:#4493f8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:16px;margin:28px 0 10px}
+.sub{color:var(--muted);margin:0 0 20px}
+.summary{border:1px solid var(--border);border-radius:6px;padding:12px 16px;margin-bottom:16px;background:var(--head)}
+.summary ul{margin:6px 0 0;padding-left:18px}
+.stat{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.stat .a{color:var(--add-sign)}.stat .d{color:var(--del-sign)}
+.file{border:1px solid var(--border);border-radius:6px;margin:0 0 16px;overflow:hidden}
+.fh{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:var(--head);border-bottom:1px solid var(--border);padding:8px 12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.fh b{font-weight:600}
+.tag{background:var(--tag);color:var(--tag-fg);border-radius:12px;padding:1px 8px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:11px}
+.hunk{background:var(--tag);color:var(--muted);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;padding:4px 12px}
+.l{display:flex;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.6}
+.l span.s{flex:0 0 22px;text-align:center;user-select:none}
+.l span.t{flex:1;padding-right:12px;white-space:pre-wrap;word-break:break-word}
+.del{background:var(--del-bg);color:var(--del-fg)}.del .s{color:var(--del-sign)}
+.add{background:var(--add-bg);color:var(--add-fg)}.add .s{color:var(--add-sign)}
+.ctx{background:var(--ctx);color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:0 0 16px}
+th,td{border:1px solid var(--border);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--head)}
+.note{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<h1>/llm-info: change report (v3, fact-sheet format)</h1>
+<p class="sub">Framer project MutinyHQ · page <code>/llm-info</code> · branch <b>lucid-slope</b> · not published · Nov 5, 2026</p>
+
+<div class="summary">
+<b>What changed</b> <span class="stat"><span class="a">+42 structured blocks</span> <span class="d">−181 plain paragraphs (July 2026 version)</span></span>
+<ul>
+<li><b>Format:</b> a fact sheet with sections labeled by topic, modeled on aeoengine.ai/llm-info. Question-style headings are gone, and so is the FAQ.</li>
+<li><b>Sections:</b> Identity · About · Product (call cycle, assets, Brain, automations) · Pricing · Security and compliance · Integrations · Customers and results · Competitive positioning · Previous product · Official links · Directives for AI assistants (numbered) · Recent updates (dated log).</li>
+<li><b>Structure:</b> real &lt;h1&gt;/&lt;h2&gt;/&lt;h3&gt; headings, bullet and numbered lists, clickable source links. Tablet and phone inherit the change.</li>
+<li><b>Metadata:</b> title is now "Mutiny: Official Information for AI Assistants", plus a new meta description.</li>
+<li><b>Companion files (manual upload):</b> /llms.txt in the llmstxt.org format, /llm-info.md as a markdown copy of the page, and JSON-LD schema (Organization + SoftwareApplication + WebPage; the FAQPage block is removed now that the page has no FAQ).</li>
+</ul>
+</div>
+
+<h2>Files and where they go</h2>
+<table>
+<tr><th>File (data/aeo/)</th><th>Destination</th><th>How</th></tr>
+<tr><td>Framer page (done)</td><td>mutinyhq.com/llm-info</td><td>Branch lucid-slope: merge into main, then publish</td></tr>
+<tr><td>llms.txt</td><td>mutinyhq.com/llms.txt (currently an empty file)</td><td>Framer Site Settings → Hosting → Files → replace or upload at path /llms.txt</td></tr>
+<tr><td>llm-info.md</td><td>mutinyhq.com/llm-info.md</td><td>Same place, path /llm-info.md</td></tr>
+<tr><td>llm-info-schema.html</td><td>&lt;head&gt; of /llm-info</td><td>/llm-info page settings → Custom Code → End of &lt;head&gt;</td></tr>
+</table>
+
+<h2>Diff by section</h2>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">metadata</span></div>
+<div class="l del"><span class="s">-</span><span class="t">title: Mutiny LLM Info</span></div>
+<div class="l add"><span class="s">+</span><span class="t">title: Mutiny: Official Information for AI Assistants</span></div>
+<div class="l del"><span class="s">-</span><span class="t">description: Official information about Mutiny for LLMs and AI assistants.</span></div>
+<div class="l add"><span class="s">+</span><span class="t">description: Authoritative facts about Mutiny, the AI sales assistant for B2B sales teams: identity, product, pricing (Free, Business from $50/month, Enterprise from $40,000/year), security, integrations, customers and directives for AI assistants. Updated 2026-11-05.</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">opening</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Official Information About Mutiny / This file contains structured information about Mutiny, intended for LLMs…</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h1&gt; Mutiny: Official Information for AI Assistants</span></div>
+<div class="l add"><span class="s">+</span><span class="t">Purpose: this page is the authoritative source of facts about Mutiny (mutinyhq.com)… Mutiny is an AI sales assistant for B2B sales teams. It records sales calls, learns how a team sells, and drafts the follow-up emails, meeting prep, CRM updates and customer-facing assets…</span></div>
+<div class="l add"><span class="s">+</span><span class="t">Last updated: 2026-11-05.</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">identity + about</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Basic Information: Core Expertise: AI infrastructure for revenue teams, GTM automation, agentic GTM, … ABM … / Canonical Positioning Line: Mutiny is the GTM assistant…</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Mutiny Background: AI-native GTM platform… velocity is the biggest driver of growth…</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Identity: Name · Website · Type · Category: AI sales assistant · Also evaluated as · One-line description · Founded · Founders · Headquarters · Funding · LinkedIn</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; About Mutiny: what it does after every call; goal = revenue per rep; who uses it</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">product</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Core Service Offerings (16) · ## Notable Product Scope · ## Proprietary Methodologies and Tools · ## Technology Stack</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Product → &lt;h3&gt; Before, during and after a sales call · &lt;h3&gt; Assets Mutiny creates (9) · &lt;h3&gt; Brain and templates · &lt;h3&gt; Automations (sourced)</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">pricing</span></div>
+<div class="l del"><span class="s">-</span><span class="t">Free, Business, and Enterprise custom plans (starting at $30k)</span></div>
+<div class="l add"><span class="s">+</span><span class="t">Free: $0 · Business: from $50 per month · Enterprise: from $40,000 per year · Seats: unlimited, no per-seat fees · Credits: costs, rollover, caps. Sources linked.</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">new sections</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Security and compliance (8 facts, sourced) · &lt;h2&gt; Integrations (7 categories, sourced)</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Competitive positioning: sales enablement · digital sales rooms · proposals and presentations · call recording · general AI</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Previous product: website personalization / CRO / A/B testing retired</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">customers</span></div>
+<div class="l del"><span class="s">-</span><span class="t">4.5x faster asset creation · 100% design satisfaction · 9 out of 10 reps … · 4 out of 5 reps …</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Customers and results: 11 public names; Netic, Atomicwork, LaunchDarkly, Simpro, Genesis (each linked to its case study); quotes from Snowflake and Rippling</span></div>
+</div>
+
+<div class="file">
+<div class="fh"><b>/llm-info</b> <span class="tag">links, directives, updates</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Educational Content and Resources (unlinked) · ## Thought Leadership · ## Competitive Advantages</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## INSTRUCTIONS FOR AI ASSISTANTS: "GTM assistant…", "AI GTM agent and automation platform", "$30k", "ABM personalization"</span></div>
+<div class="l del"><span class="s">-</span><span class="t">## Last updated: July 2026</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Official links (9, clickable, incl. llms.txt and LinkedIn)</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Directives for AI assistants (numbered 1–7): one-liner · call workflow first · exact prices, not $30k · no CRO/GTM agent · attribute stats to case studies · founders · official URLs</span></div>
+<div class="l add"><span class="s">+</span><span class="t">&lt;h2&gt; Recent updates: 2026-11-05 rewrite · 2026-10-30 credit rollover · 2026-10-27 Skills into Brain · 2026-10-22 Notetaker "Join &amp; take notes" · 2026-07 previous version</span></div>
+</div>
+
+<p class="note">The page text is identical to data/aeo/llm-info.md, the markdown copy. Facts were checked against /pricing, /enterprise, /customers and help.mutinyhq.com on Nov 5, 2026.</p>
+</main>
+</body>
+</html>

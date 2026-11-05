@@ -102,6 +102,11 @@ function IssueCard({ c, onOpen }) {
           <Avatar name={c.owner} />
         </span>
       </div>
+      {c.progress && c.progress.length > 0 && (
+        <div style={{ marginTop: 8, fontSize: 11.5, color: J.sub }}>
+          {c.progress.filter((p) => p.status === 'done').length} of {c.progress.length} activity items done
+        </div>
+      )}
     </button>
   );
 }
@@ -142,6 +147,20 @@ export function IssueModal({ c, onClose }) {
             <p style={{ fontSize: 13.5, lineHeight: 1.6, margin: 0 }}>{c.impact}</p>
             <H>Definition of done</H>
             <p style={{ fontSize: 13.5, lineHeight: 1.6, margin: 0 }}>{c.done}</p>
+            {c.progress && c.progress.length > 0 && (
+              <>
+                <H>Activity</H>
+                <ul style={{ listStyle: 'none', margin: 0, padding: 0, fontSize: 13.5, lineHeight: 1.55 }}>
+                  {c.progress.map((p, i) => (
+                    <li key={i} style={{ display: 'grid', gridTemplateColumns: '18px 84px minmax(0,1fr)', gap: 8, padding: '6px 0', borderTop: i ? `1px solid ${J.border}` : 'none' }}>
+                      <span aria-label={p.status} style={{ color: p.status === 'done' ? '#216E4E' : J.sub, fontWeight: 700 }}>{p.status === 'done' ? '✓' : '○'}</span>
+                      <span style={{ color: J.sub, fontVariantNumeric: 'tabular-nums' }}>{p.date}</span>
+                      <span style={{ color: p.status === 'done' ? J.text : J.sub }}>{p.text}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
           <aside style={{ border: `1px solid ${J.border}`, borderRadius: 6, padding: '8px 14px', alignSelf: 'start' }}>
             <Field label="Status"><Lozenge status={c.status} /></Field>

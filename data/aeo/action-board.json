@@ -1,6 +1,6 @@
 {
   "_note": "AEO coaching board shown at the bottom of ?aeo (aeo_action_board.jsx). Cards are ranked by importance (rank 1 = do first). To move a card, change its status (To Do / In Progress / In Review / Done) or sprint here. Evidence: Peec project Mutiny 2.0, 6 new topics, Oct 28 – Nov 3 2026 (3,888 chats; ChatGPT, Perplexity, Google AI Overview) + live mutinyhq.com check Nov 4 2026 + the Oct 28 page audit (data/aeo/site-audit).",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "sprints": [
     { "id": "s1", "name": "Sprint 1", "dates": "Nov 5 – Nov 18", "goal": "Fix what AI is told about Mutiny, then go after our own category term." },
     { "id": "s2", "name": "Sprint 2", "dates": "Nov 19 – Dec 2", "goal": "Get onto the sources AI reads most and build the notetaker + proposals clusters." },
@@ -11,7 +11,7 @@
       "key": "AEO-1",
       "rank": 1,
       "sprint": "s1",
-      "status": "To Do",
+      "status": "In Review",
       "priority": "Highest",
       "type": "Technical",
       "effort": "S",
@@ -36,7 +36,16 @@
       ],
       "impact": "Doesn't raise visibility on its own, but it stops AI repeating wrong facts (old price, old category) whenever it does read or name us, and it's the base every content card builds on. Expect fewer CRO/ABM descriptions in sampled chats within 2–4 weeks as engines re-crawl.",
       "metric": { "name": "Sampled Mutiny chats with CRO / ABM / wrong-price framing", "baseline": "Several of 5 sampled chats (Nov 4)", "target": "0 of 20 sampled chats by Dec 2" },
-      "done": "Clean URLs serve the fixed build; /llm-info and /llms.txt match positioning-baseline.md; one-liner identical on home, /enterprise, /pricing, FAQ index and AI Summary prompt."
+      "done": "Clean URLs serve the fixed build; /llm-info and /llms.txt match positioning-baseline.md; one-liner identical on home, /enterprise, /pricing, FAQ index and AI Summary prompt.",
+      "progress": [
+        { "date": "2026-11-05", "status": "done", "text": "Settled the facts from AE/CX calls and the help center: \"sales assistant built for customer-facing work\", Enterprise from $40,000, personalization product retired, public customers only." },
+        { "date": "2026-11-05", "status": "done", "text": "Rewrote /llm-info as a dated fact sheet (identity, product, pricing, security, integrations, sourced case-study results, directives, recent updates). Published /llms.txt and /llm-info.md." },
+        { "date": "2026-11-05", "status": "done", "text": "Schema: site-wide Organization updated (sales assistant, www URLs); /llm-info adds SoftwareApplication with Free/Business/Enterprise offers." },
+        { "date": "2026-11-05", "status": "done", "text": "Site cleanup: blog AI Summary prompt (113 posts), blog FAQ slots 7–9 bug, $30k and July 2026 in posts, meta for /faqs, 73 FAQ pages, /pricing, /enterprise." },
+        { "date": "2026-11-05", "status": "done", "text": "Verified live in a real browser: clean URLs serve the new build; stale-cache issue appears resolved." },
+        { "date": "2026-11-06", "status": "pending", "text": "Scheduled live re-check of clean URLs ($30k, GTM agent, personalization)." },
+        { "date": "2026-12-02", "status": "pending", "text": "Daily Peec sample of 20 Mutiny chats (data/aeo/aeo1-ai-sampling.json) toward 0 of 20 with CRO/ABM/wrong-price framing." }
+      ]
     },
     {
       "key": "AEO-2",

@@ -1,0 +1,68 @@
+<!-- /llm-info page only: Custom Code > End of <head>. References the site-wide Organization (@id https://www.mutinyhq.com/#organization) defined in sitewide-schema.html. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.mutinyhq.com/#product",
+      "name": "Mutiny",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "AI sales assistant",
+      "operatingSystem": "Web",
+      "url": "https://www.mutinyhq.com",
+      "publisher": {
+        "@id": "https://www.mutinyhq.com/#organization"
+      },
+      "description": "AI sales assistant for B2B sales teams. Takes notes on sales calls, learns the team's sales process and each rep's voice, and drafts follow-up emails, meeting prep, CRM updates and on-brand assets such as pricing proposals, business cases, pitch decks and digital sales rooms.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD",
+          "url": "https://www.mutinyhq.com/pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Business",
+          "url": "https://www.mutinyhq.com/pricing",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "50",
+            "priceCurrency": "USD",
+            "billingDuration": "P1M",
+            "description": "From $50 per month, 50 credits per month, unlimited team members"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Enterprise",
+          "url": "https://www.mutinyhq.com/pricing",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "40000",
+            "priceCurrency": "USD",
+            "billingDuration": "P1Y",
+            "description": "From $40,000 per year, annual credit allowance, SSO, Salesforce integration"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mutinyhq.com/llm-info",
+      "url": "https://www.mutinyhq.com/llm-info",
+      "name": "Mutiny: Official Information for AI Assistants",
+      "dateModified": "2026-11-05",
+      "about": {
+        "@id": "https://www.mutinyhq.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://www.mutinyhq.com/#organization"
+      },
+      "description": "Authoritative facts about Mutiny for AI assistants: identity, product, pricing, security, integrations, customers and directives."
+    }
+  ]
+}
+</script>
