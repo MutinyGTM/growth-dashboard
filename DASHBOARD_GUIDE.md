@@ -39,6 +39,9 @@ Do these in order. Steps marked **Cowork** are things you ask Cowork to do; the 
    npm run pull-data
    ```
 
+4b. **Refresh AEO (`?aeo` page)** — tell Cowork: *"refresh AEO"* **(Cowork)**
+   Follows `data/aeo/REFRESH.md`: Peec MCP pulls → `data/aeo/raw/` → `npm run build-aeo` → rewrite `data/aeo/narrative.json` → `npm run build-aeo` again. Must run **after** `pull-data` (the Jaleh card reads `src/beta-signups.json` + `src/framer.json`) and **before** `build:nodata`. Backlog picks / page snapshots / CRO watch are weekly only. (Step 3 only updates the Peec charts at the bottom of `?aeo`; everything above them comes from `src/aeo.json`, which only this step updates.)
+
 5. **Build WITHOUT re-pulling** (a second `pull-data` would re-roll the window; just build what's there):
    ```sh
    npm run build:nodata

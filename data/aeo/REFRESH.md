@@ -1,6 +1,7 @@
 # AEO refresh (?aeo section)
 
-Say **"refresh AEO"** to Cowork during the daily refresh. Peec's REST API isn't reachable headlessly, so Claude
+Say **"refresh AEO"** to Cowork during the daily refresh: run it **after `npm run pull-data`** and **before `npm run build:nodata`**
+(step 4b in DASHBOARD_GUIDE.md). Peec's REST API isn't reachable headlessly, so Claude
 pulls via the Peec MCP, writes compact raw files to `data/aeo/raw/`, then `npm run build-aeo` does every
 calculation and writes `src/aeo.json`. Framing rules come from Matt's handoff (see memory `aeo-matt-handoff`).
 

@@ -1,8 +1,32 @@
 {
-  "_note": "get_brand_report dims=[model_channel_id] (single day), 6 new topics, having brand_id=Mutiny. Row = [date, channel, visibility_count, visibility_total, mention_count, share_of_voice, sentiment, sentiment_count, position_sum, position_count].",
+  "_note": "get_brand_report dims=[date, model_channel_id], 6 new topics, having brand_id=Mutiny. Row = [date, channel, visibility_count, visibility_total, mention_count, share_of_voice, sentiment, sentiment_count, position_sum, position_count]. Oct 28 = launch day (prompts ran 3x).",
   "rows": [
     ["2026-10-28","openai-0",13,435,38,0.0089,58,34,35,13],
     ["2026-10-28","perplexity-0",7,435,7,0.0126,65,7,14,7],
-    ["2026-10-28","google-0",4,422,4,0.0029,69,4,7,4]
+    ["2026-10-28","google-0",4,422,4,0.0029,69,4,7,4],
+    ["2026-10-29","perplexity-0",4,145,4,0.0116,59,4,14,4],
+    ["2026-10-29","openai-0",3,145,9,0.0062,61,8,5,3],
+    ["2026-10-29","google-0",2,142,4,0.0084,60,4,2,2],
+    ["2026-10-30","openai-0",5,145,18,0.0137,56,14,17,5],
+    ["2026-10-30","perplexity-0",3,145,3,0.0042,58,3,4,3],
+    ["2026-10-30","google-0",1,144,3,0.0062,35,2,2,1],
+    ["2026-10-31","openai-0",4,145,14,0.01,50,11,6,4],
+    ["2026-10-31","perplexity-0",2,145,4,0.0076,52,4,2,2],
+    ["2026-10-31","google-0",1,142,1,0.0021,77,1,7,1],
+    ["2026-11-01","openai-0",3,145,9,0.0067,57,8,9,3],
+    ["2026-11-01","perplexity-0",3,145,3,0.0059,64,3,5,3],
+    ["2026-11-01","google-0",2,142,3,0.0063,60,3,5,2],
+    ["2026-11-02","openai-0",6,145,16,0.0125,55,13,26,6],
+    ["2026-11-02","perplexity-0",2,145,3,0.0062,55,3,2,2],
+    ["2026-11-02","google-0",2,143,3,0.0062,61,2,5,2],
+    ["2026-11-03","openai-0",4,145,11,0.0081,57,9,24,4],
+    ["2026-11-03","google-0",3,143,3,0.0065,57,3,11,3],
+    ["2026-11-03","perplexity-0",2,145,2,0.01,65,2,2,2],
+    ["2026-11-04","openai-0",4,145,15,0.011,54,13,12,4],
+    ["2026-11-04","perplexity-0",1,145,1,0.0048,72,1,1,1],
+    ["2026-11-04","google-0",0,141,0,0,0,0,0,0],
+    ["2026-11-05","openai-0",3,145,14,0.0107,54,13,10,3],
+    ["2026-11-05","perplexity-0",1,145,1,0.0055,67,1,1,1],
+    ["2026-11-05","google-0",1,141,1,0.0023,62,1,1,1]
   ]
 }

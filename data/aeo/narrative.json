@@ -1,74 +1,75 @@
 {
   "_note": "Written by Claude at each refresh from `npm run build-aeo` output. Rules: no em or en dashes, no 'not X but Y' contrasts, only numbers the build prints, never invent recommendations (opportunity text comes from Peec), never rank topics against each other on raw visibility (Matt), Mutiny never framed as website personalization/CRO.",
-  "asOf": "2026-10-28",
-  "summary": "Peec was reset on Oct 28: Jon replaced the 93 old prompts with 145 new ones across six topics and 29 brands, so this is day one of a new baseline and nothing on this page compares with last week. On the new set Mutiny is mentioned in 1.9% of AI answers (#25 of 29). The ladder shows where it breaks: AI engines read mutinyhq.com in 10.6% of chats and cite it in only 2.6%, so our pages are part of the research and rarely make it into the answer.",
-  "brandFlags": "Gong (20.8%), Seismic (20.5%) and Highspot (20.3%) lead overall, largely because the new set includes call recording and sales enablement prompts they own. The overall ranking mixes very different categories, so use the topic cards to compare Mutiny with the brands it actually meets in each conversation.",
+  "asOf": "2026-11-06",
+  "summary": "First full week on the new Peec set (Oct 30 to Nov 5, 145 prompts, 29 brands). Mutiny is mentioned in 1.8% of AI answers (#24 of 29). The ladder shows where it breaks: AI engines read mutinyhq.com in 9.3% of chats and cite it in 2.5%, so our pages are part of the research and rarely make it into the answer. Week-over-week arrows start with the Nov 11 refresh.",
+  "brandFlags": "Highspot (24.0%), Gong (23.7%) and Seismic (23.5%) lead overall. Highspot and Seismic score mostly on sales enablement; Gong scores across call recording, the AI GTM stack and AI sales assistants. The overall ranking mixes very different categories, so use the topic cards to compare Mutiny with the brands it actually meets in each conversation.",
   "topics": {
     "SE": {
-      "competitive": "Seismic (61.2%) and Highspot (56.7%) dominate; Showpad and Mindtickle sit near 40%. Mutiny is #11 at 3.6%.",
-      "trend": "Our Highspot alternatives page is already a top-5 source for \"Highspot alternatives\" and still isn't getting us named. Refresh it before writing new pages here."
+      "competitive": "Seismic (68.7%) and Highspot (67.0%) dominate; Showpad (46.3%) and Mindtickle (42.4%) follow. Mutiny is #10 at 3.0%.",
+      "trend": "The AI-native angle works: Mutiny is in 60.6% of answers for \"AI-native Highspot alternative\" and 51.5% for \"AI-native Seismic alternative\". Our Highspot alternatives page is a top-5 source for the plain \"Highspot alternatives\" prompt and still isn't getting us named."
     },
     "DSR": {
-      "competitive": "Aligned, Dock and Trumpet split the topic at about 38% each. Mutiny is #14 at 1.3%.",
-      "trend": "Our \"Best tools to create deal rooms\" list is the #11 most-read URL across all six topics (35 chats) with only 5 citations. It's the fastest page to turn into citations."
+      "competitive": "Aligned (47.9%), Dock (41.9%) and Trumpet (41.7%) split the topic. Mutiny is #14 at 0.6%.",
+      "trend": "Our \"Best tools to create deal rooms\" list is the #27 most-read URL across all six topics (49 chats, 12 citations). Mutiny shows up in 18.2% of answers for \"How to create a deal room\"."
     },
     "SPP": {
-      "competitive": "Qwilr (25.4%), Gamma (23.9%) and PandaDoc (23.4%) lead a crowded field. Mutiny is #10 at 2.9%.",
-      "trend": "No brand passes 26% here, so the topic is still open. Mutiny already shows up for \"AI agent that creates sales content\" (33% of answers)."
+      "competitive": "PandaDoc (26.1%), Qwilr (25.1%) and Gamma (24.8%) lead a crowded field. Mutiny is #10 at 3.8%.",
+      "trend": "No brand passes 26.1% here, so the topic is still open. Mutiny already appears for \"Best tool for personalized sales content\" (27.3%), \"AI-native sales content platform\" (24.2%) and \"AI agent that creates sales content\" (21.2%)."
     },
     "GTM": {
-      "competitive": "Clay (47.4%) and Gong (44.2%) lead, Apollo.io follows at 31.6%. Mutiny is #21 at 0.5%.",
-      "trend": "Matt's warning applies: Clay's partner network makes the broad prompts here very hard to move. Aim at niche ones; Mutiny already appears for \"Best AI tools for revenue teams\" (11%)."
+      "competitive": "Clay (50.9%) and Gong (47.7%) lead, Apollo.io follows at 34.8%. Mutiny is #21 at 0.6%.",
+      "trend": "AI engines do read us here: mutinyhq.com is the #8 domain for this topic (57 chats) and is cited in 2.0% of them. Matt's warning applies to the broad prompts, which Clay's partner network makes very hard to move, so aim at niche ones."
     },
     "CALL": {
-      "competitive": "Gong (51.5%), Fireflies (42.3%) and Avoma (38.1%) own call recording. Mutiny is #12 at 1.0%.",
-      "trend": "Smallest topic (11 prompts). Our angle is what happens after the call: Mutiny shows up in 11% of answers for turning recordings into follow-up content."
+      "competitive": "Gong (56.3%), Fireflies (51.9%) and Avoma (48.0%) own call recording. Mutiny is #8 at 1.3%.",
+      "trend": "Smallest topic (11 prompts). Our angle is what happens after the call: Mutiny shows up in 12.1% of answers for turning recordings into follow-up content."
     },
     "ASA": {
-      "competitive": "Gong (30.3%) leads, then Apollo.io (14.9%) and Lavender (12.8%). Mutiny isn't mentioned in any answer yet.",
-      "trend": "This is the category Mutiny now sells into, so it's the priority. Start with niche prompts such as \"Best AI assistant for account executives\" and \"AI-native sales assistant\"."
+      "competitive": "Gong (34.7%) leads, then Clay (16.9%) and Apollo.io (15.3%). Mutiny is #16 at 0.2%.",
+      "trend": "This is the category Mutiny now sells into and it's where Mutiny is weakest, so it stays the priority. The backlog anchor is \"Sybill alternatives\", where Sybill, Gong, Avoma and Fathom are each named in at least half the answers."
     }
   },
-  "channels": "ChatGPT mentions Mutiny most (3.0% of answers), then Perplexity (1.6%) and Google AI Overview (0.9%). When Mutiny does appear it's named early (average position 1.8 to 2.7).",
-  "domains": "mutinyhq.com is the #9 most-read domain (137 chats) and is cited in 2.6% of chats. salesforce.com, hubspot.com, youtube.com, g2.com and reddit.com are what AI reads most for these topics; three of those are the off-site sources Matt says carry weight (G2, YouTube, Reddit).",
-  "outreach": "Mutiny is on 5 of the top 50 URLs: 3 are our own pages, and Salesmotion and Spekit are the two third-party lists. 18 of the other top-50 pages belong to challenger sites, the kind Matt says will swap inclusions. Start with GetAccept's digital sales room comparison (#1), Shiken (#2) and distribute.so (#16).",
-  "cro": "Seven pages AI engines read still call Mutiny a website personalization tool. The two Warmly posts matter most (129 and 76 retrievals), then Mida, CXL, Webflow, Scandiweb and Convert. Peec's brand profile also still tags Mutiny with website optimization, conversion optimization and landing pages. This is Matt's priority 1.",
+  "channels": "ChatGPT mentions Mutiny most (2.9% of answers), then Perplexity (1.4%) and Google AI Overview (1.0%). Perplexity names Mutiny earliest when it does appear (average position 1.2, against 3.1 on Google AI Overview and 3.6 on ChatGPT).",
+  "domains": "mutinyhq.com is the #11 most-read domain (283 chats) and is cited in 2.5% of chats. salesforce.com, youtube.com, hubspot.com, g2.com and highspot.com are what AI reads most for these topics; G2, YouTube and Reddit (#6) are the off-site sources Matt says carry weight.",
+  "outreach": "Mutiny is on 3 of the top 50 URLs, and all 3 are our own pages (sales enablement guide #25, deal rooms list #27, AI sales tools guide #44). 14 of the other top-50 pages belong to challenger sites, the kind Matt says will swap inclusions. Start with GetAccept's digital sales room comparison (#2), Shiken (#8) and SpotSaaS (#12).",
+  "cro": "The positioning watch is still the Oct 28 pull (90-day lookback): seven pages AI engines read call Mutiny a website personalization tool, led by two Warmly posts (129 and 76 retrievals). Correction emails for these sites are drafted in the Notion outreach tracker. This is Matt's priority 1.",
   "opportunityContext": {
-    "_all": "Peec generated these before the Oct 28 reset, so topic labels refer to the old prompt set. Expect new actions for the six topics within a few days.",
-    "01a144aa-9f1d-7a81-b128-a3ac9c906207": "ABM is no longer a tracked topic. Keep this only if 1:1 pages stay part of the positioning.",
-    "01a1209c-ef9e-7a63-97b4-ae937b3d0db3": "Maps to the new AI GTM Stack topic, where Mutiny is #21 at 0.5%.",
-    "01a1209c-f1f6-7652-b03d-ae91f5af23ac": "Maps to Sales Enablement: Highspot and Seismic alternatives are both in this week's backlog.",
-    "01a16925-4f2a-7bb2-a340-f287e44bd67b": "g2.com is the #4 most-read domain on the new set (267 chats).",
-    "01a10a46-1f3b-7ef0-8a86-ee17141edc98": "mutinyhq.com is read in 137 chats and cited in only 2.6%; Peec says a curated llms.txt helps engines find the right pages."
+    "_all": "Peec's top open actions on the six current topics, plus two site-wide page updates. Actions tied to the old prompt set are left off.",
+    "01a1453f-1573-7ce2-b000-823205efd9da": "Use Peec's description only. Its draft meta title calls Mutiny a \"GTM agent\", which is wording we're asking third-party sites to correct.",
+    "01a1453f-1572-73c0-bda7-953be562b675": "Confirm the conversation intelligence claim before editing. Mutiny is at 1.3% in Sales Call Notes and Recording, where it shows up for follow-up content.",
+    "01a18d3f-8040-7f72-a6c1-e893a7cb8f77": "Sales Enablement: Mutiny is #10 at 3.0%. Our sales enablement guide is already the #25 most-read URL (52 chats, 17 citations), so a refresh may cover part of this.",
+    "01a18d3f-642c-7961-9ba2-4a98f4fda2c5": "AI GTM Stack: Mutiny is #21 at 0.6%, with Clay (50.9%) and Gong (47.7%) leading.",
+    "01a18d3f-8062-7841-ae66-7889578bb6bf": "Digital Sales Rooms: Mutiny is #14 at 0.6%. Our deal rooms list is the #27 most-read URL (49 chats, 12 citations)."
   },
   "takeaways": [
-    "Fix positioning first (Matt's priority 1): seven pages AI reads still describe Mutiny as website personalization, led by two Warmly posts.",
-    "Turn reads into citations: mutinyhq.com is read in 10.6% of chats and cited in 2.6%. Refresh the pages AI already reads (deal rooms list, sales enablement guide, Highspot alternatives) with a 40 to 60 word answer under each H2 and an FAQ.",
-    "AI Sales Assistants is the category Mutiny sells into and Mutiny isn't named there yet. Lead with niche prompts; Gong owns the broad ones.",
-    "Start the currency exchange: 18 challenger pages in the top 50 don't list Mutiny, and our three top-50 pages are the currency.",
-    "Give the new set time: week-over-week comparisons start with the Nov 11 refresh (Nov 4 to 10 vs Oct 28 to Nov 3), and backlog scores firm up as 30 days of data build."
+    "Fix positioning first (Matt's priority 1): CRO pages on mutinyhq.com are now redirected or noindexed, and correction emails to the third-party sites are drafted and waiting to be sent.",
+    "Turn reads into citations: mutinyhq.com is read in 9.3% of chats and cited in 2.5%. Refresh the pages AI already reads (sales enablement guide, deal rooms list, Highspot alternatives) with a 40 to 60 word answer under each H2 and an FAQ.",
+    "Lean on AI-native: Mutiny is in 60.6% of answers for \"AI-native Highspot alternative\" and 51.5% for \"AI-native Seismic alternative\", its two strongest prompts.",
+    "AI Sales Assistants is the category Mutiny sells into and Mutiny is at 0.2% there. Lead with niche prompts; Gong owns the broad ones.",
+    "Start the currency exchange: all 3 top-50 URLs that mention Mutiny are our own, and 14 challenger pages in the top 50 don't list Mutiny yet."
   ],
   "lean": {
     "SE": "Position Mutiny as the AI-native option that creates on-brand assets for each deal. Describe Seismic and Highspot fairly on content management.",
     "DSR": "Mutiny builds deal rooms from CRM, call and email context. Give Dock, Aligned and Trumpet the same depth.",
-    "SPP": "Mutiny generates proposals, decks and business cases for each deal. Credit Qwilr, PandaDoc and Gamma for their own strengths.",
+    "SPP": "Mutiny generates proposals, decks and business cases for each deal. Credit PandaDoc, Qwilr and Gamma for their own strengths.",
     "GTM": "Slot Mutiny into the sales asset and deal execution layer of the stack. Keep it out of any website personalization framing.",
     "CALL": "Mutiny works after the call, turning recordings into follow-up content. Position it alongside Gong and Fireflies.",
-    "ASA": "Mutiny is an AI sales assistant for AEs that builds deal-specific content. Lead with the AE use case and name Gong, Apollo.io and Lavender fairly."
+    "ASA": "Mutiny is an AI sales assistant for AEs that builds deal-specific content. Lead with the AE use case and name Gong, Clay and Apollo.io fairly."
   },
-  "backlogNote": "Day-one scores: each prompt has 9 answers so far, so statuses will move as data builds. Gaps are scored on which brands own each prompt (named in at least half the answers), and head terms lose a point per Matt.",
+  "backlogNote": "Scores use Oct 28 to Nov 5 (about 33 answers per prompt). Of 145 prompts, Mutiny is absent from 126, weak on 12, present on 5 and winning 2. Gaps are scored on which brands own each prompt (named in at least half the answers), and head terms lose a point per Matt.",
   "jaleh": {
     "did": [
-      "Matt handed off AEO (Oct 27): priorities, Peec setup and reporting cadence.",
-      "Jon rebuilt Peec around the AI sales assistant positioning (Oct 28): 145 prompts, 6 topics, 29 brands.",
-      "Launched the AEO page on the growth dashboard: weekly report, backlog briefs, outreach list and positioning watch."
+      "Audited all mutinyhq.com pages for AEO, content and persona fit, and turned the findings into a ranked AEO action board.",
+      "Retired the old CRO pages on mutinyhq.com: 63 redirects and 6 noindexed posts are live and QA'd.",
+      "Drafted the /llm-info rewrite around the AI sales assistant positioning.",
+      "Researched and drafted correction emails to the third-party sites that still describe Mutiny as a website personalization tool."
     ],
     "next": [
-      "Fix on-site pages that still frame Mutiny as CRO, and ask Warmly, Mida, Convert and CXL to update their descriptions.",
+      "Send the correction emails and track replies in the Notion outreach tracker.",
       "Refresh the three Mutiny pages already in the top 50 and the Highspot alternatives page.",
-      "Start swap outreach with the top challenger lists (GetAccept, Shiken, distribute.so).",
+      "Start swap outreach with the top challenger lists (GetAccept, Shiken, SpotSaaS).",
       "Write the first AI Sales Assistants pieces from the backlog."
     ],
-    "ask": "Confirm the new competitor set (29 brands across six topics) matches how we want Mutiny categorized."
+    "ask": "Pick who sends the correction emails; the drafts are ready with the sender left blank."
   }
 }
