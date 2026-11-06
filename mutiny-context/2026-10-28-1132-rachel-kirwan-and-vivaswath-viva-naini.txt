@@ -1,0 +1,378 @@
+Rachel Kirwan and Vivaswath (Viva) Naini
+October 28, 2026 at 11:32 AM
+https://us-53268.app.gong.io/call?id=8838276096192599227
+
+[00:00:00] Viva Naini
+Hello? Hey, Rachel. How are you Hi?
+
+[00:00:02] Rachel Kirwan
+Good. How are you?
+
+[00:00:03] Viva Naini
+Good. How have you been? How's your weekend?
+
+[00:00:05] Rachel Kirwan
+Good. I have a short week which is, has been nice. You could say we were off on Monday, which was lovely.
+
+[00:00:12] Viva Naini
+Nice. That's exciting. What'd you get? I guess what was on Monday?
+
+[00:00:15] Rachel Kirwan
+We had an Irish bank holiday. No kind of reason for it. I guess We, yeah, we kind of our days are like a random August or a random July and so on. So, yeah, That's great. I want one.
+
+[00:00:28] Viva Naini
+Of those.
+
+[00:00:30] Rachel Kirwan
+Yeah, your holidays are usually based around some. Are you sorry, are you in the US?
+
+[00:00:34] Viva Naini
+I'm in the US. Yeah.
+
+[00:00:35] Rachel Kirwan
+You've got like, yeah, yours always have like reasons behind them like historical reasons whereas ours is more just I'll.
+
+[00:00:44] Viva Naini
+take it. Yeah, bank holidays are like an interesting concept because I feel like we don't really have anything like that of just like random days you get off, which would be great. I want some of those. So maybe we'll make it a thing. I don't know.
+
+[00:00:57] Rachel Kirwan
+No, it's been nice. And where are you based in the US?
+
+[00:00:59] Viva Naini
+I'm in New York?
+
+[00:01:00] Rachel Kirwan
+Oh, nice. I'm going there next month?
+
+[00:01:03] Viva Naini
+Oh, that's so exciting. Let us know when you're in and we're happy to like take you out for coffee or food or something that'd be great.
+
+[00:01:08] Rachel Kirwan
+Thank you. I'm actually going for Thanksgiving, so I'm sure you're not going to want to spend time with me then.
+
+[00:01:13] Viva Naini
+I will be not in New York for Thanksgiving. I'll be seeing my family who lives in Virginia, which is like a couple states south.
+
+[00:01:20] Rachel Kirwan
+Okay. Nice. Yeah, we're going over, I'm going with my husband just for a holiday. So That's fun Just to see New York. It's been a while.
+
+[00:01:29] Viva Naini
+It's really fun. Hopefully the weather will hold up for you guys. It's been like kind of warm here. Like it was like, I don't know, Well, you guys use Celsius. Yes, right? For sure. Yeah, It was like it's been like a good like 20 22, like 23 Celsius honestly like during the days which is like,
+
+[00:01:46] Rachel Kirwan
+Wow.
+
+[00:01:46] Viva Naini
+Right. Like pretty good for like October. It's probably going to dip to like 10 Ish soon, I'm sure, which is going to suck, but.
+
+[00:01:55] Rachel Kirwan
+Yeah, we actually looked it up today because we're like, what do we like? Is it going to be like we're kind of on the 12 Ish mark at the moment? And it looks like it's going to be the same as what it is here now? So, if that's the case, that's okay once we don't like once it's not snowing and you can't go anywhere or see anything I'm like, Yeah, so.
+
+[00:02:15] Viva Naini
+Totally still fine. It's like one, it's like long sleeved shirt like a jacket, maybe gloves, and like some pants and you're like probably fine.
+
+[00:02:22] Rachel Kirwan
+Fine. Yeah, yeah, Totally fine with that. So, yeah, looking forward If you've any, got any good tips on restaurants definitely send.
+
+[00:02:31] Viva Naini
+Them. My way Depends on what you and your husband like in terms of food.
+
+[00:02:35] Rachel Kirwan
+Everything to be fair, We're going. We booked Thanksgiving dinner just because We were like, we might as well just book something before it's all booked out. So we booked to Smith. I don't know if you've ever heard of that. There's like four or five of them around New York. I think we're going to one on Broadway maybe, But that's the only place we've booked So open to all suggestions.
+
+[00:02:55] Viva Naini
+I'll send you a list of recs We actually have, you need like a list of Recommended food that we have that we always add to when we find new cool places. So I'll pick a couple out for you and then send them over.
+
+[00:03:05] Rachel Kirwan
+Nice. Are you all based in New York? Is Tyler?
+
+[00:03:08] Viva Naini
+Yeah, Tyler's in Toronto, but the vast majority of us are here. We only have like three people who are remote. It's like Tyler John, who I think was on our last call too. He's in Minnesota. And then we have like one engineer who's out in Copenhagen, But everyone else is in the New York office, yeah.
+
+[00:03:28] Rachel Kirwan
+And how many people is there?
+
+[00:03:31] Viva Naini
+We're really, pretty small right now still growing But we like punch above our weight. We have like 15 Ish 16 Ish people.
+
+[00:03:40] Rachel Kirwan
+Really? Yeah. Okay. Because like Mutiny is such a well known brand at this state Like it's so funny. Like we've had people join Sandask and they're like, yeah, I'm used to Mutiny my last company Like Mutiny's great and stuff, which you would just assume it's like a really big company.
+
+[00:03:53] Viva Naini
+That's why we punch above our weight, you know?
+
+[00:03:55] Rachel Kirwan
+Yeah, nice, Cool company to be part of too. Actually.
+
+[00:04:00] Viva Naini
+Cool. Do we know if Lindsay is running?
+
+[00:04:02] Rachel Kirwan
+I don't know, to be honest, We can kickstart anyway without her and we can jump in. I can give her an update.
+
+[00:04:09] Viva Naini
+Yeah, that sounds good. Cool. So, you know, last time we talked, we just like did the general kind of like onboarding flow saw that we got the subdomain approved, which is awesome. I want to validate that in your account. It looks great. I have to do that on our status tracker too. So like check, we have like one of things done which is great. Great. We can get the rest done either at some point during this call or, you know, as we continue to do things together. Perfect. I think, You know, you let me know what you were anticipating to get out of this session.
+
+[00:04:37] Viva Naini
+In my head. It's like, I think this would be a good opportunity for us to like walk through the tool, get you like actually like kickstarted and building out this like master template that we kind of talked about last time. Yeah, Really like going deep, showing you what the tool can do, getting you like acclimated and used to it. And I can chime in with some advice that I have on it. Perfect. And then from there, we can think about like who are the right accounts you want to go after first? Like what kind of personalization do you want to add?
+
+[00:05:01] Rachel Kirwan
+Yes. Okay. Yeah. I think that sounds really good On like which accounts we want to go after and stuff. We might leave that for this call just because we're doing a lot of work on that internally to identify what are our most important accounts. I'm going to show you actually what our internal… Apps look like. And it might make sense then on where we want to kind of roll this out. I have so many tabs opened. Okay. This is after getting pretty messy because I used Codex to update it, But give me one second. I wanted to share my screen. Okay? So this is our plan and where we kind of want to use Mutiny to start with. This is our ABX model. So it's one to one to many overall. This is where we're going to help you kind of plug in on Mutiny with that like one to one one to few approach to getting like really personalized on an ABM landing page at the moment. So I think starting there is our perfect sweet spot to get this rolled out. What that looks like is my God, this is completely messed up from Codex. But what this looks like. It's going to be seven accounts to start with on one to one. So these are like our top seven accounts. And so we're just waiting on like an exec like it's even gone up to our CEO to decide on who we want, who are those seven accounts? So I'm hoping to get an answer from that today or tomorrow, And I think that will be our starting point on getting those landing pages up and created. So once we know that we can start there And then we can scale it through one to few, which will be 45 accounts. So again, this will rely on the target list that we get today or tomorrow. And we will also sorry use Mutiny on our one to many. This will be kind of more around reusing what we have already from a landing page content perspective. So I'm not sure we'll fully use Mutiny here just yet, but I think this is our main priority then on that one to one one to few. Yeah, that makes.
+
+[00:06:52] Viva Naini
+sense.
+
+[00:06:53] Rachel Kirwan
+Cool. The other bit that I just wanted to. I've actually been in mutiny quite a bit today and I wanted to run through what I've done if that's okay, just to make sure I'm on the right track… Got into our library. And I've added all of these cheat sheets which you'll see And I want to move them into this folder here. And this is essentially all of the content that our sales team are using every single month or quarter. We launch like a new initiative on how we want to target accounts. So I thought that was kind of a perfect way of plugging in all of our content along the way. So built in a lot of that this morning. And I also added in like our, does it buy our ICP sheet somewhere in here? I think it's here Also plugged in a customer stories deck that I have. So all of that's been put in already. The biggest piece. Sorry, I just want to make sure I don't yeah, that was the main thing I done this morning. The biggest piece on what I want to get plugged in. And I want to get your thoughts on this because I think this will change the format or structure of our pages depending on if we're able to do this or not. We have these really cool new interactive assets that our sales team have been creating where essentially we can click in and they're like, so.
+
+[00:08:07] Lindsay Simons
+Sorry, preschool drop off was dramatic, but thank you for kicking off without me All.
+
+[00:08:13] Rachel Kirwan
+Good And quick update. Lindsay. I was just filling FIFA in on. I added all of the cheat sheets from Salesforce as like part of our library to build out the content on the Mutiny landing pages so that it all aligns with what sales are working on and what we're going to be putting into each of these landing pages then.
+
+[00:08:29] Lindsay Simons
+And see what's going on? Amazing. So smart.
+
+[00:08:31] Rachel Kirwan
+Also plugged in our buyer on our ICP deck as well as our customer stories deck. So a lot of it's been put into the library already. And.
+
+[00:08:38] Lindsay Simons
+Then, what about the new branding with the bridge campaign?
+
+[00:08:41] Rachel Kirwan
+I didn't put that in right now because then I was thinking about this sub brand Should we wait until that, No?
+
+[00:08:49] Lindsay Simons
+We're reading my mind? Yeah. And so I'm just going to flag that for Jen around the timing. But the sooner the better that we can see anything for sub brand or the new brand for February, but we can start getting it loaded into here for our templates.
+
+[00:09:00] Rachel Kirwan
+Yeah, That's kind of where my brain went on that. Okay, That sounds good. So, the next question and Lindsay on that is like, okay, where do we want to start with the template over ABM landing pages? What should that look like? And I wanted to bring up our sales assets that we have because I think these are super helpful or really nice to kind of plug into those landing pages and where we can make them fit. Yeah. So I guess.
+
+[00:09:24] Lindsay Simons
+We would send one link, which is the Mutiny link, And then that link would house this content as well. Yes.
+
+[00:09:33] Rachel Kirwan
+And we can do this Exactly. And Viva.
+
+[00:09:35] Lindsay Simons
+Do you see your other customers doing that as well? Like inserting other AI generated content? AI is like a loose term, but like this is like a lovable link essentially.
+
+[00:09:48] Viva Naini
+Yeah. We haven't seen that a ton honestly in terms of other teams doing it, but I think it's a great use case especially if you already have this content built out and see what.
+
+[00:09:57] Rachel Kirwan
+People are clicking on It's you.
+
+[00:09:59] Viva Naini
+Know, I'm thinking about like the technical feasibility of hosting it within the page, You could certainly link out to it and that'd be relatively easy And you could even, you could track the clicks and see when people are clicking on this asset as well. And they go to that. What we could also do. And I think this depends on what your team is looking to achieve is, does the sales team want this to be a standalone asset? Do they want to wrap it up inside of Mutiny? What's your guys' vision for how this could?
+
+[00:10:25] Rachel Kirwan
+Wrap it up in Mutiny would be best. We don't want them having to click another link to get to this. It's like how do we make this interactive within that one landing page?
+
+[00:10:33] Viva Naini
+Yeah. Okay. And then you'll have to help me figure this out because I'm not super well versed with lovable. I'm assuming all of this is built out in HTML, CSS type of stuff, Exactly. We can actually reconstruct most of what you're seeing here on this page, if we can export out that HTML and just pop it into Mutiny, and then Mutiny can rebuild the whole thing Perfect. So it depends on whether or not that's kind of what you guys are looking for.
+
+[00:10:57] Rachel Kirwan
+Yeah, that's exactly what we want to do. I will go find the HTML code for you and how we can plug them in. I think there's about 10 in total, 10 assets And I think they'll fit in really nicely. And I think Lindsay correct me if I'm wrong here, but I kind of see these as one of our main kind of use cases within those landing pages to make them interactive with the prospects. Yep.
+
+[00:11:19] Viva Naini
+Mutiny also has the ability to create similar type of material. So our agent is also able to create custom HTML and custom components that are interactive and can do the sort of thing that you guys are doing in Loveable today?
+
+[00:11:32] Lindsay Simons
+Sorry to interrupt you Viva, but I think Rachel, the end goal would be to take this out of Loveable and get into Mutiny all up next year. That's the goal. And then I think why I love Mutiny or I think I do is with all of this, we couldn't see any of the engagement or if it reached the right person, where if this is all native to Mutiny, then we could see that engagement and what happens afterwards. And I think this has been a great content start for this year. But as we look at what do we want to rebuild, I think we'll have a priority list, Rachel of how it maps to our narratives and all of that. Yes.
+
+[00:12:06] Rachel Kirwan
+Definitely. Okay. Yeah, I'm so.
+
+[00:12:08] Lindsay Simons
+Glad we can rebuild it. That's sweet.
+
+[00:12:10] Rachel Kirwan
+Nice. I love that. Cool. Okay. That was the kind of other thing that I wanted to plug in. So we have most of our content already in there. We will work on getting the HTML to incorporate that in to kind of rebuild it within Mutiny. But we can use what's there at the moment until it's officially rolled out. Lindsay. We also touched on like to use an account which we can plug in an example of an account on what that looks like from an ABM landing page, but we don't have an actual account to work with right now, But would love maybe, is this a good starting point just to share this and be like, Is this a good example on what a landing page should look like? I guess.
+
+[00:12:51] Viva Naini
+Yeah. I think let's walk through. I think what's going to be the most useful I'd imagine is the one to one tier one accounts you guys have like the seven top ones. I think let's spend a majority of our time really perfecting those kind of landing pages and templates. And then whenever those accounts are decided, we can always just throw in the content and the people. And even if you guys have new branding, we can throw that in later too.
+
+[00:13:14] Rachel Kirwan
+Exactly. Okay. That sounds great. Then. Cool. Shall we start with this one then? So this one's for Corpay which is a UKI based company and we plugged in our AE. So we'd love to kind of get your thoughts on whether you think this is like a good landing page to start with or any sort of feedback on how we can improve this template as we go forward.
+
+[00:13:33] Viva Naini
+Yeah. I mean if we can just like scroll down, let's take a look through it and I can give you examples of what I've seen from other folks.
+
+[00:13:41] Rachel Kirwan
+Perfect. The journey. These are the customer stories we plugged in. And then this is the AE at the end. Yeah.
+
+[00:13:49] Viva Naini
+Okay. From a high level perspective, I think that this includes the type of content you're looking for. It's just about like let's recenter visually around what's going to be really engaging. Like I'm seeing like it's good that you have the CTA up top. You've got the case studies that are built in. Do you have anything around like pain points I guess to re, scroll past that?
+
+[00:14:08] Rachel Kirwan
+More around here? Okay. Yeah.
+
+[00:14:12] Viva Naini
+Okay. Yeah. So I think high level, I think there's like three primary thoughts I have just like off the bat, I can obviously spend more time digging through and really analyzing. Is that I think Where we see a lot of really good landing pages come from is like being like trying to optimize for engagement and some kind of like visual interactability. So whether that's like a rotating carousel of case studies or something that like draws your eye to a specific section and we kind of can kind of play with what we want to emphasize, I think has been really good.
+
+[00:14:45] Rachel Kirwan
+Okay. Would you plug in? I'm not like interactive, sorry to interrupt you. Would you plug in like A lot of our AEs are asking, can they plug in videos of themselves talking as I guess a live chat?
+
+[00:14:58] Viva Naini
+Yeah, you can totally do that. We have like in the library and, you know, this is a little bit different. You can upload MPVs. So like we host videos. Nice… Only some People will have the right access to do that. So, it'll be like a content manager or like an admin or an owner or an owner can do that.
+
+[00:15:20] Rachel Kirwan
+So,
+
+[00:15:21] Viva Naini
+like a standard AE probably wouldn't like wouldn't be able to if they're using the platform, wouldn't be able to like upload a video and then like plug it into a page. But if you're working with these AEs on these specific accounts, if they send you a video, you upload and then you can just give me the link and then it'll host it natively on the web page and it works totally fine.
+
+[00:15:39] Rachel Kirwan
+Perfect. I think that sounds good then. So how I see that actually. And it's a good call out on the kind of credit side on what way we would roll that out. I see it that we give AEs access with zero credit so that they can edit on the side where they need it but not able to talk to the chat and make major changes then across the board.
+
+[00:15:57] Viva Naini
+Yeah, that's a great idea. Like quite smart Like you just, they can only edit in line, change a couple of the words and then, yeah, Yeah. And then that way they can still manage like the sharing and they can track the analytics and that kind of thing. Yeah.
+
+[00:16:08] Rachel Kirwan
+Yeah. Okay. Perfect. And are we limited at all on the number of, I know it's credit based on the number of heads?
+
+[00:16:16] Viva Naini
+I'll have to check your guys' contract. I don't know off the top of my head, Okay? But I can get you to answer that after this call.
+
+[00:16:22] Rachel Kirwan
+Okay, perfect. We won't have every single AE anyway. But just so we know our limit on that. Yeah.
+
+[00:16:28] Viva Naini
+So, the first thought is like if we scroll down to the case studies Like just here, like there's a couple of and I can send you some examples of landing pages that I've created with clients of like, yeah, rotating carousels that have like the logos and you can click on it. And like it looks really pretty. I think the more we can, you know, the less amount of static movement we can have, the better.
+
+[00:16:49] Rachel Kirwan
+Okay.
+
+[00:16:50] Viva Naini
+And then from a like content perspective, I think especially within these like one to one accounts, it's I think important to At least from what I've seen is like really hone in on their current objectives and the strategy they're going after and what you think is going like how Zendesk can plug into their like corporate strategies. So then including more content around specific pain points they could be experiencing whatever you can get from the AEs on their discovery calls. Yeah. I think it'd be strong Which I'm sure you're like well aware of and already thinking ahead to that sort.
+
+[00:17:22] Rachel Kirwan
+of thing. Yeah. No, that sounds good. I'm thinking that true, that what we'll probably do is like obviously an AE is going to want to submit some sort of brief to us to be able to create the landing page based on their previous conversation. So we'll probably come up with a template where like for them to submit their requests or something like that so that we can then just plug it into the chat and we'll use less credits kind of going that route if we get it right from the start.
+
+[00:17:48] Viva Naini
+Yeah. I think that's a great idea if we have like a standardized intake form. Yeah. And then we can even center the template to kind of like mirror the intake form so that things are like more deterministic and like exactly what this year gets plugged in.
+
+[00:17:59] Rachel Kirwan
+Exactly. Yeah. Okay. That sounds good then. Okay. And then it means that sales will be able to edit Anything else to add on this. Actually, I have a couple of more questions on the kind of setting side.
+
+[00:18:11] Viva Naini
+Yes. One more thing is like, I think what this is generally just like a design thing that I've seen other people do is Mutiny does a good job of like if you ask it to add icons, it can go and do that. You can add different just like visual elements. So I would say like take time to like think about in like your mind's eye what you want this to look like. And I bet that like you can do like 95 percent of it pretty easily. Like I would want to add icons here or more logos or that sort of thing. And you just go ahead and do that for you if you just subscribe in the chat? Yeah. Okay.
+
+[00:18:42] Rachel Kirwan
+Perfect. No. I think that's a good call because this looks very gray and white in one area. So good call. Cool. Are we good here then? I?
+
+[00:18:52] Viva Naini
+Think that sounds good. I can. What I'll do after is also I'll send you over a couple of like anonymized examples from other landing pages I've helped people build. And then that'll give you like inspiration as to, you know, what's possible and what you can do.
+
+[00:19:04] Rachel Kirwan
+Amazing. And I just wanted to recall out here. Actually we are moving to, is it ChiliPiper, I think is the new calendar link that we'll be working from. So each AE will have their own one that I assume we can just plug in like we do always. Okay?
+
+[00:19:19] Viva Naini
+Great. Yeah.
+
+[00:19:20] Rachel Kirwan
+That works then. So if we go back, my biggest question actually from this landing page was the analytics being anonymous. That is something we definitely want to be able to track. Yeah.
+
+[00:19:36] Viva Naini
+So I can provide a little bit of insight there. And so the way that we're doing this in general is like through like IP tracking and stuff like that. So without any additional like plug in like outreach or like Sixth Sense, which I don't know if you guys have either of those. Do you?
+
+[00:19:54] Rachel Kirwan
+We've moved away from, but we're moving away from Sixth Sense and we've moved away from outreach, but we did have them.
+
+[00:19:59] Viva Naini
+Okay. Gotcha. So that's like what we usually see clients use if they want to get like de, anonymized data and understand who's looking at their pages. If you don't want to like email gate, something The only other way so that we can actually extract exactly who saw it is if you are like email gate the asset, so that someone who clicks on the link would have to enter in their email in order to access it. So, you know, I think it depends on what you're looking for with these one to one accounts and even these one to many accounts. Like how deep along in the conversation you're going to be, who are we sending the pages to? It was like an initial outreach. We like ideally don't want it to be email gated because then you want like that's like a burden like a barrier.
+
+[00:20:37] Rachel Kirwan
+Yeah. I don't think we want to gate at all.
+
+[00:20:39] Viva Naini
+Yeah. So we will not have access to identify data that way unless you have either one of those integrations or you email gate it.
+
+[00:20:49] Rachel Kirwan
+Okay. What about when we go to settings? I saw, where is it gone? Settings? I saw this piece here around this. So all visitors will be updated cookies in a pair as anonymous visitors and analytics unless the visitor provides consent or so Will this change anything once we have OneTrust connected, Will we be able to pull it from there?
+
+[00:21:21] Viva Naini
+I'm not really like super familiar with the OneTrust connector or like how that operates. So I can ask John who's our technical support lead and then get you an answer on that.
+
+[00:21:29] Rachel Kirwan
+Okay, Perfect.
+
+[00:21:30] Viva Naini
+Yeah, I'll make sure to get you something within like the next few hours on that.
+
+[00:21:33] Rachel Kirwan
+Okay, great. So, yeah, from that, then I'd love that if we are able to track it based on the cookie opt in, Yeah, I have submitted that Lindsay just so you're aware on that to our RunTrust internal team to make sure that it's connected correctly, so that we can hopefully get that insight into who it is so that we can execute it. So I'd love to learn from your side then what it looks like Just as an FYI, I have tried to get into this but it's blocked. I think this link Interesting. Okay. So any sort of resources around, that we can also provide internally will be super helpful.
+
+[00:22:09] Viva Naini
+Awesome. I will take a look at both of those things for you.
+
+[00:22:11] Rachel Kirwan
+Okay. Amazing. And what else was there that I had a question for you on This is where we'll probably obviously put in some of that OneTrust piece. Yep. And we've plugged in our page title and page description. Oh, yeah. My question on this was, I… assume that these landing pages are not searchable?
+
+[00:22:31] Viva Naini
+That's correct Online. Yeah.
+
+[00:22:33] Rachel Kirwan
+So, where does this page title and page description appear? If it's not searchable? And it's just a link being shared?
+
+[00:22:39] Viva Naini
+Yes, Great question. So, if you send this as a preview link via email, then this is where it pulls the page title and the page description, It'll just be like a little like cut out.
+
+[00:22:50] Rachel Kirwan
+Okay. Yeah.
+
+[00:22:52] Viva Naini
+It's not appearing anywhere on the internet Like it's just explicitly when you guys share out the link or if you're sending an email there's like the little preview link is like what appears for this?
+
+[00:23:01] Rachel Kirwan
+Okay. It makes sense. I got really concerned when I saw this and I was like, does that mean it's live for everyone to see? No, Okay, Perfect Aligned with that? Then? I think that looks good. I've added our logos added. Wehaveoursee sendus. Com. I think we're good on this in part from the one trust piece that once we get more insight from you guys and from our internal team, we should be good. Then on that side, That sounds great. Yeah.
+
+[00:23:31] Viva Naini
+So I was going to ask about the branding updates. Is that something I guess like what's the timeline looking for that? I guess any information around like the sub brand in which you guys are kind of developing would help me help you a little bit better?
+
+[00:23:43] Rachel Kirwan
+Yeah. So we have an internal bridge campaign happening at the moment. So it's kind of like a temporary Middle ground of where we're moving with our brand, But we don't have the full brand guidelines on that or we haven't officially relaunched right now. So I think as Lindsay might have mentioned February from like a sub brand perspective. So it's still a little bit up in the air on dates and so on. So right now, we'll probably stay with what we have from our branding given that's what's on our website right now. So I'm not too concerned as what that looks like right now.
+
+[00:24:14] Viva Naini
+Okay. Sounds great. And yeah, there's something we can address in February and talk about it then.
+
+[00:24:18] Rachel Kirwan
+Yeah. We'll have a lot more before then, so that we'll be ready to officially launch The other piece. Then I wanted to chat to you about was the teams. So I've gone ahead and added a couple of new people today. You'll see Rachel Camilla and I think Pablo was already there and Isabel, They are going to be our main point of contact when it comes to Mutiny within the region. So each of them are from each of the regions and they'll support the Mutiny builds from there. Yep. I have been having a look and I know Tyler mentioned that it's not necessarily a concern. Sorry, I have so many decks opened. I know Tyler mentioned it's not necessarily a big concern but I wanted to get an idea on breakdown on credit limits just so that we can keep it controlled and that we're not fully executing too much. Yep. What that is looking like when this loads here we go is… Split across six users in total Myself and Lindsay would have a 1,000 in total. APAC, would have, what do I have for them? 500, 501,000 for North America? So I'm assuming that's just going in to Mutiny into the settings and literally saying set credit limit and adding it to where it needs to be.
+
+[00:25:33] Viva Naini
+Yeah, that's it. That's the whole process Yep.
+
+[00:25:36] Rachel Kirwan
+Okay. Seems very straightforward forward word. Okay, I can definitely get that done. Okay? I think you've answered on my, I think we're good on all of our settings. I think we're pretty set up once we get that one trust plugged in, I'll keep adding to the library as we go down. I think the one trust is the most important piece now. But other than that, I think we should be good from a setup perspective. Okay? From this call, where I see next steps and would love to get your thoughts is bringing in the region sent to make sure that they're enabled correctly?
+
+[00:26:14] Viva Naini
+Yes, I was just going to say the same thing of like let's do another training session, get them up to speed Now that we have kind of all the like baseline foundational stuff set up, I think it's going to be easy to walk them through. And then I think what would also be helpful is if we spend, you know, once I send you over those examples or some of those landing pages, if you could put together like a really solid template or a visual and that'll be a great visual inspiration for the other leaders. And then we can work from there.
+
+[00:26:39] Rachel Kirwan
+Yeah, perfect. Yeah, I think that sounds good. Myself and Lindsay will review and create like a template that we feel is best practice and we'll get your feedback on it then if that works And then we can set up those two calls so we can split up the regions which I'd be happy to do that. And then my only other question is obviously we're mainly talking about ABM landing pages, but it's like, okay, we will want to venture out to those other landing pages and incorporate them in. But I think for now we'll continue with just the ABM landing page but making sure that we do leverage the other assets that are there.
+
+[00:27:11] Viva Naini
+Yeah, I sent you over the marketing playbook. Yeah. So I think that'll give you an idea of kind of the diversity of things we can create and hopefully provide some inspiration as to what we can do in the future. Perfect. Always happy to hop on call and talk about it and jam about it and we'll figure it out.
+
+[00:27:27] Rachel Kirwan
+Okay. This seems like a very straightforward integration or implementation. So thank you for your help along the way. Appreciate it. All It's.
+
+[00:27:34] Lindsay Simons
+so helpful. And I think as I was listening through, I am attending a bunch of meetings next week on site with our leaders as we do annual planning for next year. And I think we kept talking about mutiny but it was never real. And now it's real. And so those templates I'll be taking and trying to be like make a big deal out about it. And I think first impressions are huge. And so how do we make it really prescriptive of like this is where it fits in Zendesk strategy That's where I'm going to be focusing my effort in November to make it really real. And so, Rachel, if there's anything that I can do to support like this template build I'm all up here. And then Viva, thank you for sending the best practices. I think that'll be huge as Rachel becomes a subject matter expert internally on this tool to say this is what other organizations are doing. And then lastly, Rachel's attending an ABM conference next week in London which will be cool. And so I think learning from others and best practices of how they're doing this. I would love to like reconvene some of those insights and then apply them to Mutiny since we are investing in this tool.
+
+[00:28:35] Viva Naini
+Yes, that makes sense. And then Rachel, I'm going to have to pick your brain about what you learned at that conference too.
+
+[00:28:39] Rachel Kirwan
+Yes. Happy to share.
+
+[00:28:41] Viva Naini
+Perfect.
+
+[00:28:43] Lindsay Simons
+Great. Well, thank you so much. It's so good to see you again, Viva, You're good at your job.
+
+[00:28:47] Rachel Kirwan
+Yes. Okay. Bye. Thank you both Bye.

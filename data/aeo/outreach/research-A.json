@@ -1,0 +1,191 @@
+[
+  {
+    "domain": "tomba.io",
+    "urls": [
+      {
+        "url": "https://tomba.io/blog/abm-landing-page-examples",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny / RB2B / Intellimize — JavaScript snippet on your existing page that swaps text and images based on reverse-IP firmographic data.",
+        "all_mutiny_mentions": [
+          "TL;DR bullet: \"You don't need a separate CMS. Webflow, Mutiny, RollWorks, Folloze, and PathFactory all let you spin up account-personalized URLs in hours.\"",
+          "Example #9 heading: \"Mutiny — competitor swap pages\". Body: \"Mutiny famously runs pages like 'Why [Competitor]'s customers move to Mutiny.' The headline, screenshots, and migration timeline all swap based on which competitor's IP range or campaign UTM landed there.\" (looks invented; worth asking them to remove or verify)",
+          "Step 2, 'Pick a personalization layer': \"Mutiny / RB2B / Intellimize — JavaScript snippet on your existing page that swaps text and images based on reverse-IP firmographic data.\"",
+          "Tools table row: Mutiny | Best for: 1:few + 1:1 hybrid at scale | Starter pricing: ~$1,500/mo | Personalization model: JS snippet, AI copy",
+          "Tools table row: Webflow + Mutiny | DIY templating | $39/mo + Mutiny | CMS items + JS"
+        ],
+        "last_updated": "Published and modified 2026-05-21 (article:modified_time = published_time; visible date May 21, 2026). Title has '(2026)'. Table says 'Pricing as of early 2026 — confirm directly'.",
+        "author": "Tomba Editorial Team (no named person; author box has no bio or link)"
+      }
+    ],
+    "company_context": "Tomba (Tomba technology web service LLC, Claymont, Delaware; founded 2021) sells a B2B email finder, email verifier, enrichment and phone finder (web app, API, extensions, MCP server). Says it has 150,000+ users. Small bootstrapped team (Starter Story profile describes a founder-built ~$4K MRR tool, which may be dated). The blog is high-volume SEO content with AI-style memes and Canva diagrams, written in the first person ('pages I keep referencing when consulting'). Every post ends with a pitch for its email finder.",
+    "competes_with": "neither",
+    "primary_contact": {
+      "name": "Abedrahim Ben Rebia (unverified)",
+      "title": "Founder (unverified; the Starter Story case study 'How Abedrahim Built a $4K MRR Lead Generation Tool' and the CRAN R package list him as Tomba's author/maintainer)",
+      "linkedin": "not found",
+      "why": "The post has no named author and the site lists no content or SEO lead, so the founder is the only named decision-maker found. Lead with press@tomba.io, which is published for fact checks, and use the founder only as a follow-up."
+    },
+    "backup_contact": {
+      "name": "Mohamed Ben Rebia (unverified)",
+      "title": "Listed as contributor on Tomba's R package; appears with a 'CEO' title in a Tomba API sample, which may be placeholder data",
+      "linkedin": "not found",
+      "why": "Second named person tied to Tomba. Treat as low confidence."
+    },
+    "generic_contact": "press@tomba.io (press page says it is for 'Interviews, quotes, data requests and fact checks'). contribute@tomba.io (the blog's editorial team, per /legal/contribute). support@tomba.io (account help; also listed on /about). No correction form.",
+    "update_signals": "Publishes and refreshes a lot: monthly changelog, 11 site languages, a Mar 2026 site redesign, and post titles stamped '2026'. This post has not been modified since publishing (May 21, 2026). It has not been updated for Mutiny's relaunch. AI awareness: has an 'AI and agents' page (use Tomba from Claude/ChatGPT), an MCP server and a TombaBot crawler page. No AEO/GEO posts found by search, but search coverage of tomba.io was poor.",
+    "personal_hook": "None found.",
+    "likelihood": 3,
+    "likelihood_reason": "Programmatic content with no named owner, so the email may go nowhere. But the press inbox explicitly takes fact checks, there is no competitive reason to refuse, and the edit is a table row plus a few lines. The page is our biggest exposure (462 retrievals, 184 citations), so it is worth a follow-up.",
+    "persuasion_angle": "Accuracy and the reader's trust. The table quotes a price (~$1,500/mo) that doesn't exist, and it describes a product Mutiny retired. Their own guest guidelines say 'Verify all facts' and their brand is data accuracy ('Accuracy first' on /about). Offer drop-in replacement copy: Mutiny is now an AI sales assistant that builds ABM pages, microsites and deal rooms for reps. Free $0, Business from $50/mo, Enterprise from $40,000/yr. Suggest they either move Mutiny to a '1:1 ABM pages / microsites' row or drop it from the JS-snippet group, and remove the unverifiable 'competitor swap pages' example. Mention that ChatGPT and Perplexity cite this page heavily, so the error spreads in AI answers.",
+    "sources": [
+      "https://tomba.io/blog/abm-landing-page-examples",
+      "https://tomba.io/about",
+      "https://tomba.io/press",
+      "https://tomba.io/legal/contribute",
+      "https://www.starterstory.com/tomba-breakdown",
+      "https://search.r-project.org/CRAN/packages/tomba/tomba.pdf"
+    ]
+  },
+  {
+    "domain": "zenabm.com",
+    "urls": [
+      {
+        "url": "https://zenabm.com/blog/abm-landing-page-examples",
+        "still_wrong": true,
+        "current_mutiny_text": "For teams that want to scale beyond manual page creation, tools like Mutiny and Userled allow you to serve different content on the same URL based on the visitor's company, industry, or ABM list membership.",
+        "all_mutiny_mentions": [
+          "Section 'How to Scale ABM Landing Pages Without Losing Your Mind' > 'Use Dynamic Personalization Tools': \"tools like Mutiny and Userled allow you to serve different content on the same URL based on the visitor's company, industry, or ABM list membership.\" The next paragraph ('one landing page URL with dynamic content that changes based on who's visiting...') describes the same old reverse-IP model without naming Mutiny again.",
+          "No other mentions. No price, table row or 'best for'."
+        ],
+        "last_updated": "Visible 'Updated Nov 5, 2026' (article:modified_time 2026-11-05T15:41Z); published 2026-02-12. Refreshed yesterday, and the Mutiny line is unchanged.",
+        "author": "Emilia Korczynska, Co-founder & Head of Marketing @ ZenABM (byline + author box; LinkedIn linked on page)"
+      }
+    ],
+    "company_context": "ZenABM sells LinkedIn-ads ABM analytics: company-level engagement de-anonymization, account scoring, intent, CRM sync, an AI analyst ('Zena'), an MCP server and Claude skills. Pricing starts at $59/mo with a 37-day trial. Early-stage startup with a small team, run by ex-Userpilot marketing leadership. Emilia was VP Marketing at Userpilot for about 7 years. The blog is the main growth channel: long-form LinkedIn ABM guides, a benchmarks report and bootcamps.",
+    "competes_with": "neither",
+    "primary_contact": {
+      "name": "Emilia Korczynska",
+      "title": "Co-founder & Head of Marketing, ZenABM",
+      "linkedin": "https://www.linkedin.com/in/emiliakorczynska/",
+      "why": "She is the byline author, still at the company, owns marketing and refreshed this exact post on Nov 5, 2026. One person can approve and make the change."
+    },
+    "backup_contact": {
+      "name": "Michal Jackowski (unverified)",
+      "title": "Product builder at ZenABM per the Product Hunt launch thread for Zena; exact title unverified",
+      "linkedin": "not found",
+      "why": "Only other named team member found. Use the contact form if Emilia doesn't reply."
+    },
+    "generic_contact": "Contact form at https://zenabm.com/contact (no public email address found on the site).",
+    "update_signals": "Very strong. The post was updated Nov 5, 2026, and the blog refreshes posts often. They are clearly building for AI search: 'Summarize with AI' buttons (ChatGPT, Claude, Perplexity, Gemini, Grok), a 'View as Markdown' link on every post, an MCP server, 'LinkedIn ABM Skills for Claude', and an AI expert chat. They have not partly updated Mutiny.",
+    "personal_hook": "She just refreshed this post (Nov 5, 2026). The post builds on Tas Bober's ABM bootcamp talk, which ZenABM ran. She ran a large LinkedIn-ads ABM program at Userpilot for about 7 years. No recent LinkedIn post found via search.",
+    "likelihood": 4,
+    "likelihood_reason": "Founder-author who edits often, the change is one sentence, there is no competitive conflict, and the team clearly cares how AI engines read their pages (markdown versions, 'Summarize with AI'). The only risk is that a busy founder ignores a cold email.",
+    "persuasion_angle": "AI-readability is something they already invest in. They publish markdown versions so LLMs read them correctly, and this sentence now feeds ChatGPT and Perplexity a retired product (293 retrievals, 119 citations). Offer a one-line swap. Example: 'tools like Userled serve different content on the same URL...; Mutiny (now an AI sales assistant) lets reps generate 1:1 ABM pages and microsites per account.' Or simply drop Mutiny from that sentence. Peer-to-peer tone: one ABM marketer to another, and their ABM benchmarks audience may also use Mutiny for 1:1 pages.",
+    "sources": [
+      "https://zenabm.com/blog/abm-landing-page-examples",
+      "https://zenabm.com/contact",
+      "https://www.producthunt.com/p/zena-by-zenabm-linkedin-ads-ai-chatbot/zena-by-zenabm-linkedin-ads-ai-analyst",
+      "https://userpilot.com/about"
+    ]
+  },
+  {
+    "domain": "genpage.ai",
+    "urls": [
+      {
+        "url": "https://genpage.ai/blog/abm-landing-pages-the-complete-guide-for-b2b-teams-in-2026",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny - Best for enterprise LinkedIn-led ABM with a focused list of high-value accounts. Stronger for account-level microsites and LinkedIn ad personalization. Not built for high-volume page generation from a lead list, and the implementation timeline and contract size ($30,000+/year) make it inaccessible for most teams outside large enterprise programs.",
+        "all_mutiny_mentions": [
+          "Stats section: \"Snowflake, using Mutiny for page personalization at scale, reported personalized pages converting at 34% compared to 11% for generic pages - a 3x lift - alongside 80% higher ACV and 150%+ increase in sales-qualified pipeline.\" (historical case study; cites prospeo.io; links to GenPage's /vs/mutiny-alternative)",
+          "Tools section entry (quoted in current_mutiny_text): enterprise LinkedIn-led ABM, LinkedIn ad personalization, $30,000+/year.",
+          "FAQ ('which tool'): \"Mutiny is great for enterprise LinkedIn-led ABM with a focused high-value account list and $30,000+/year budget.\"",
+          "Footer/related links: 'GenPage vs Mutiny' (x3)"
+        ],
+        "last_updated": "Visible date Jul 1, 2026 (no separate 'updated' stamp). Title includes 'in 2026'.",
+        "author": "Samy Barbier, Co-founder & CEO @GenPage"
+      },
+      {
+        "url": "https://www.genpage.ai/vs/mutiny-alternative",
+        "still_wrong": "partly",
+        "current_mutiny_text": "Body is mostly current: \"Today it's positioned as an AI agent for creating personalized customer-facing assets - landing pages, proposals, pricing documents, case study roundups, meeting recaps\"; pricing \"Free (30 credits/mo), $50/mo for 50 credits (Business), $40,000+/yr ... (Enterprise)\". Leftover inconsistencies: meta description says \"no $30K/year contract\"; hero says \"if you have a $30K/yr budget and only need one page at a time\"; Lead Import row says \"CRM & API available on Enterprise at $30K/year\".",
+        "all_mutiny_mentions": [
+          "Whole page is a Mutiny comparison (not a flagged row; included because it shows they already know the new positioning and pricing)."
+        ],
+        "last_updated": "No visible date",
+        "author": "None shown (company page)"
+      }
+    ],
+    "company_context": "GenPage is an AI-native personalized landing page generator for outbound, ABM and Google Ads: lead-list import (CSV, Clay, HeyReach), 1:1 pages, heatmaps and alerts. Free plan, paid from $79/mo, plus an AppSumo lifetime deal. Pre-seed startup (Antler; pre-seed May 2025), founded 2024, offices in Seoul and Amsterdam. Claims 3,000–3,400+ teams. Co-founders: Samy Barbier (CEO), Per Sunde (CTO).",
+    "competes_with": "both",
+    "primary_contact": {
+      "name": "Samy Barbier",
+      "title": "Co-founder & CEO, GenPage",
+      "linkedin": "https://kr.linkedin.com/in/samy-barbier",
+      "why": "He is the byline author and the CEO of a tiny startup. He writes the blog himself and posts about ABM pages on LinkedIn."
+    },
+    "backup_contact": {
+      "name": "Per Sunde",
+      "title": "Co-founder & CTO, GenPage (per Village.ai/Caplight profiles; not confirmed on genpage.ai)",
+      "linkedin": "not found",
+      "why": "The only other co-founder. The site is on Framer, so either founder can edit it."
+    },
+    "generic_contact": "team@genpage.ai (contact page: 'partnership opportunities, press inquiries, or other questions'). Support form https://www.genpage.ai/contact/support. Community Slack linked from /contact.",
+    "update_signals": "Partly updated already. Their /vs/mutiny-alternative page has Mutiny's new positioning and exact current pricing ($50/mo Business, $40,000/yr Enterprise), but the July 2026 blog guide still says LinkedIn-led ABM at $30,000+/year, and the /vs page still has three '$30K' leftovers. Lots of new comparison pages (/vs/claude-alternative, /vs/gamma-alternative). No AEO/GEO posts found via search.",
+    "personal_hook": "Samy's LinkedIn posts promote ABM pages, including one built for a prospect's Clay ABM workflow connected to HeyReach (per search snippet of his profile). No podcast found.",
+    "likelihood": 3,
+    "likelihood_reason": "A direct competitor, so they have a reason to keep Mutiny looking 'enterprise-only, $30K+'. But they already updated the /vs page to accurate pricing, so this is fixing their own inconsistency, not giving Mutiny a favor. The blog edit is small and on Framer.",
+    "persuasion_angle": "Consistency and credibility, not goodwill. Their own /vs/mutiny-alternative page already says Free / $50/mo Business / $40,000/yr Enterprise and calls Mutiny an AI agent for customer-facing assets. Their flagship 2026 ABM guide contradicts it ($30,000+/year, LinkedIn ad personalization). AI engines cite the guide (170 retrievals, 138 citations), and conflicting numbers on one domain make LLMs trust GenPage's comparisons less. Ask for one sentence and one FAQ line to match their own /vs page, plus the three '$30K' leftovers there. Don't ask them to praise Mutiny. Keep it short and factual, and cite their own page back to them.",
+    "sources": [
+      "https://www.genpage.ai/blog/abm-landing-pages-the-complete-guide-for-b2b-teams-in-2026",
+      "https://www.genpage.ai/vs/mutiny-alternative",
+      "https://www.genpage.ai/contact",
+      "https://kr.linkedin.com/in/samy-barbier",
+      "https://www.producthunt.com/@samy_barbier/upvotes",
+      "https://www.caplight.com/company/genpage",
+      "https://village.ai/person/per-sunde-MzA3NjQ0NzI4"
+    ]
+  },
+  {
+    "domain": "cxl.com",
+    "urls": [
+      {
+        "url": "https://cxl.com/blog/account-based-marketing",
+        "still_wrong": true,
+        "current_mutiny_text": "Website personalization: Demandbase, Mutiny, Optimizely;",
+        "all_mutiny_mentions": [
+          "Section 'ABM tools by job' bullet list: \"**Website personalization:** Demandbase, Mutiny, Optimizely;\". The only mention, with no price or description. The related page /blog/account-based-marketing-software/ (Derek Gleason, last modified 2022) does not mention Mutiny."
+        ],
+        "last_updated": "Visible 'Published: Jun 2, 2022 | Last updated: Oct 8, 2026'",
+        "author": "Gareth Hancock (byline). Author box: 'Content Specialist at Grizzle, a content marketing & SEO agency, and a copywriter and content writer for SaaS and tech brands.' LinkedIn https://www.linkedin.com/in/gjhancock/"
+      }
+    ],
+    "company_context": "CXL is a B2B marketing training company (founded 2011 by Peep Laja, Austin TX; privately held). It sells an annual membership ($1,199/yr) with live AI cohorts ('Marketing Engineer') and 80+ courses, including 'Optimize pages for AI search with GEO', 'Increase visibility and revenue from AI discovery engines' and 'AI visibility and AI-era measurement'. The blog has 1,000+ articles. Content has historically been produced partly by the Grizzle agency, which lists CXL as a client.",
+    "competes_with": "neither",
+    "primary_contact": {
+      "name": "Hesh Fekry (LinkedIn unverified)",
+      "title": "President of CXL (per CXL's own 'Official information about CXL for AI assistants' page, instructor list)",
+      "linkedin": "not found (search only surfaced an unrelated-looking Hesham Fekry in Cairo; do not use without checking)",
+      "why": "The byline author is an outside agency writer, not in-house. The Oct 8, 2026 refresh happened the same day as CXL's /about rewrite, which suggests an in-house team is driving it. No named Head of Content was found, so the most senior named in-house operator is the best route."
+    },
+    "backup_contact": {
+      "name": "Gareth Hancock",
+      "title": "Content Specialist, Grizzle (agency); byline author of the post",
+      "linkedin": "https://www.linkedin.com/in/gjhancock/",
+      "why": "His byline stays on the refreshed post. He or Grizzle may still handle CXL content, or can pass it to the CXL editor."
+    },
+    "generic_contact": "support@cxl.com (footer contact, decoded from Cloudflare-protected link). peep@cxl.com is public on cxl.com/about, where founder Peep Laja invites email ('shoot me an email'). He is now chairman, so use it only as an escalation. No correction form.",
+    "update_signals": "Strong. Post last updated Oct 8, 2026. The site has an 'Official information about CXL for AI assistants' page (modified Nov 2, 2026), with a 'Common misclassifications' section that does for CXL what we're asking them to do for us. CXL teaches GEO/AEO and AI-visibility courses. They have not partly updated Mutiny.",
+    "personal_hook": "For the CXL team: their own 'Official information about CXL for AI assistants' page and its 'Common misclassifications' list ('CXL is not an agency... not a blog'). It's the same thing Mutiny's /llm-info page does. Nothing personal found for Hesh Fekry or Gareth Hancock.",
+    "likelihood": 4,
+    "likelihood_reason": "One word in a list, a page they refreshed last month, no competitive conflict, and an organization that sells AEO training and fights its own AI misclassification problem. The main risk is routing (no named content owner). Low stakes for us too (13 retrievals, 17 citations).",
+    "persuasion_angle": "They live this problem. Point to their own AI-assistants page and its 'Common misclassifications' section: Mutiny has the same issue, because LLMs still file us under website personalization. Ask them either to move Mutiny under a 'sales enablement / digital sales rooms' bullet (e.g. 'Sales enablement and deal rooms: Mutiny') or to replace it in the website personalization list. Mention their GEO course as the reason they'll get why one line matters.",
+    "sources": [
+      "https://cxl.com/blog/account-based-marketing/",
+      "https://cxl.com/blog/author/garethhancock/",
+      "https://cxl.com/about/",
+      "https://cxl.com/official-information-about-cxl-for-ai-assistants/",
+      "https://cxl.com/blog/account-based-marketing-software/",
+      "https://www.startuphub.ai/startups/grizzle"
+    ]
+  }
+]

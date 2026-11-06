@@ -1,0 +1,258 @@
+Klipboard x Mutiny Intro
+October 28, 2026 at 10:14 AM
+https://us-53268.app.gong.io/call?id=1691923239660534503
+
+[00:00:00] Tyler LaMantia
+Post?
+
+[00:01:09] Tyler LaMantia
+Hey Mohamed.
+
+[00:01:14] Mohammed Faizal
+Sorry. Can you hear me now?
+
+[00:01:16] Tyler LaMantia
+I can, How are you doing? How are you, mate? I'm good. How's your week going?
+
+[00:01:22] Mohammed Faizal
+Not bad Bit busy, but all good. What about you?
+
+[00:01:25] Tyler LaMantia
+Yeah, yeah, same here. Very busy, but yeah, already Wednesday, which is hard to believe but yeah, not too bad. And are you in, you're? In the UK?
+
+[00:01:36] Mohammed Faizal
+Yeah, I'm in London.
+
+[00:01:37] Tyler LaMantia
+Nice. Very nice.
+
+[00:01:39] Mohammed Faizal
+Where are you based? You're based in East Coast? Yeah.
+
+[00:01:43] Tyler LaMantia
+Yeah, I'm Toronto. Most of the team's in New York. So I go down there quite a bit, but yeah, I'm up just a little north of the office.
+
+[00:01:54] Mohammed Faizal
+Nice and Newton is US based.
+
+[00:01:57] Tyler LaMantia
+Yeah, yeah, exactly. So we were initially West Coast, mostly remote and now we've opened up an official office in New York and a lot of the team works out of New York City.
+
+[00:02:08] Mohammed Faizal
+Nice.
+
+[00:02:10] Tyler LaMantia
+Yeah. Well, thanks for joining. And again, thanks for the flexibility. I appreciate it Always.
+
+[00:02:16] Tyler LaMantia
+Yeah. And yeah, quick introduction to me. Tyler. I think I've been here about a year and a half now. So handle sales at Mutiny, working with anyone interested in Mutiny as well as some of our larger customers. But, yeah, based in Toronto, like I mentioned, I think for today, like obviously want to understand a little bit more about you, your history with Mutiny as well, What's important to you and kind of can share a little bit more including jumping into the product. And then if we want to continue the conversation, we can go really deeper in terms of a demonstration that's catered around what you shared today, your use cases, Klipboard specifically. But yeah, how does that sound to you? I'd love to hear more about you but want to make sure that plan's okay?
+
+[00:02:55] Mohammed Faizal
+No, that makes sense. No, that's really good. Yeah, that will be helpful. So, yeah, I joined Klipboard. It's been over a year now as a head of digital acquisition. So I was a kind of a first digital hire for them And we have built a team of six or seven digital marketing members and stuff. So I basically take care of all the paid media activities. So, and we are currently active in roughly about six to five to six region And yeah, all the region have their own marketing manager, local marketing manager, regional led and stuff. And the digital team kind of run the whole global campaigns and stuff like that. So currently, like where we are is like as Klipboard as a whole, Klipboard has multiple products like from, for rental for automotive, for wholesale distributor, field service management and everything. And each product like for each industry, they have a product which caters the enterprise client and they also have SME clients products. So they cater both the spectrum. They're like let's say, for example, automotive industry, they do it for big auto part industries. They do it for big wholesale distributor of auto parts. They do even then they go down till the single person tire shop or a motor garage. So it's all included. So from digital point of view, like mainly we do all the SMEs and stuff, we get a lot of volume and everything. But the bigger why we talking to Mutiny and stuff like we're looking into platform which can help us build like deal rooms and ABM pages and more personalized landing pages where we can reach all this enterprise and mid market clients That's that's a bit of a kind of a backstory That's what is happening right now. In Klipboard, We are trying to see how we can expand or get more is out of enterprise and mid market through digital and help sales and stuff.
+
+[00:04:45] Tyler LaMantia
+Very helpful. So, it sounds like very industry based in terms of like the entire go to market focus Like that's how effectively you run, Yeah, Gotcha. And is the product like effectively like an ERP of sorts? Yeah, it's proper.
+
+[00:04:59] Mohammed Faizal
+ERP software, It's an ERP wholesale distributor and ERP automotive rental and stuff?
+
+[00:05:07] Tyler LaMantia
+Awesome. And then understand you had used Mutiny and a customer at Comply Advantage. I believe. Obviously, I'm sure you've kind of seen we've changed a lot since that point, I think probably even To.
+
+[00:05:21] Mohammed Faizal
+Be honest, the pricing and the level I was using for Comply Advantage and stuff. It was more for paid ads and AP testing and stuff. And it was more of like a tool buy and stuff. Then I started looking now again, I could see it's just a 1,000,000 ways apart like how it was before And it's drastically changed to a huge enterprise product and stuff like that to be honest.
+
+[00:05:42] Tyler LaMantia
+For sure. Yeah. Everything's changed. I mean we kind of cater to both marketing and sales now with a big sales focus. And then We've moved away completely from anything to do with your website which I think probably happened as you were a customer at some point too. So no AB testing and personalization and such. But yeah, helping revenue teams work around their accounts including landing pages, deal rooms, pre sales material, Any sort of customized asset. And then there's a lot of work to do with the automation behind that. So kind of rebuilt the platform to be kind of fully AI native and kind of stripped everything away. So, yeah, a lot of different things And there is a free version even now that you can try out as well too if that's of amateurs.
+
+[00:06:27] Mohammed Faizal
+But. Awesome.
+
+[00:06:30] Tyler LaMantia
+I guess on the use cases you mentioned, do any Are any prioritized? I suppose a deal room is very different than say a campaign landing page. I'd love to just hear a little bit more about how you break those down. Yeah.
+
+[00:06:46] Mohammed Faizal
+To be honest right now, campaign… landing is all important, but the main need of us talking to you guys is purely based on deal room And like ABM one to one one to fuel those kind of sites rather than focusing more on campaign landing pages and paid to be honest. Still, we can try to address that in a different way But this is the bigger chunk here where we want to kind of let's say enterprise ads and stuff They are looking for like more kind of a platform. But right now, for example, I'm using Cloud Code to build Big deal room, one to one pages for the enterprise team. And I'm the only one who's building manually. So they send me all the details. I use code, build it, blah blah post it in Netlify, It's a very manual process. And if they want to change, they have to come to me, There is no analytics visibility and anything Now that's the bigger thing, how we can scale it, how we can build more deal rooms and ERP pages where a team can jump in and also they can start building and stuff So that's the bigger main priority to be honest.
+
+[00:07:50] Tyler LaMantia
+Okay. That sounds good. And I guess like the end goal is obviously maybe you putting in a lot of structure in place for say Mutiny but reps, being able to self serve and use it and edit it, Is that fair? Yes.
+
+[00:08:03] Mohammed Faizal
+Okay. So to be honest, yeah, do it in scale Like we are doing it for UK but we have the US team, the enterprise team in North America. They are really interested in trying all this one to one deal rooms, pages and stuff. So there is in every pocket the teams are excited. So the use case is more We want to do it in scale.
+
+[00:08:20] Tyler LaMantia
+Okay. So like the idea is already taking off, It's more of like you probably can't keep up with the amount of requests. And yeah, yeah, gotcha.
+
+[00:08:28] Mohammed Faizal
+To be honest analytics and stuff like that, we want to also see where, when it's shared to a kind of a user who is sharing to what kind of page they are looking. What is there? Yeah, those kind of stuff?
+
+[00:08:40] Tyler LaMantia
+Gotcha. And what's like the sales team size like roughly like say, you know, they were in Mutiny, What's that look like from the team size?
+
+[00:08:50] Mohammed Faizal
+Yeah, it's overall, it's huge but let's say just on Mutiny point of view for this use case and building it, I would roughly say like around from me, yeah, around 20 25 people or so roughly. It can go up and down. But yeah, minimum, around 20 to 25. Yeah. So.
+
+[00:09:12] Tyler LaMantia
+Start potentially around there and obviously the potential of expanding it to other groups. Awesome. That sounds good. My other question just like on remaining tech stack, like obviously we want to fit nicely into what you're doing today? Sounds like, you know, Cloud Code and NetFi is kind of what you're doing today as the workaround for something Mutiny does Like, where do you grab context from to build these deal rooms? Is it just sales, sending you notes and docs or like are you looking into your CRM or call recordings? I'd love to hear a little bit more of just like kind of the revenue stack as a whole.
+
+[00:09:45] Mohammed Faizal
+Yeah. So right now, the process is set up as like The enterprise team kind of gave me like six or seven accounts They have been talking to and touching and stuff like that. So they share me all the email conversation, all the documents and everything They have shared with them. They have shared with them and blah, blah and stuff And a bit of call recording too. So it's purely a manual process where one like from enterprise team they use. So we are using Microsoft and Copilot and stuff. So they just prompt it in Copilot. Any conversation, any document, blah, blah regarding this account export. And I get a huge export of all the files they have and the pricing PDF. I just collect everything, go to Klipboard and yeah, start the process to be honest. That's where it is. Yeah.
+
+[00:10:32] Tyler LaMantia
+Gotcha. And then in terms of like systems they use Upspot?
+
+[00:10:37] Mohammed Faizal
+Is our main CRM Okay, Upspot mainstream? And we have a RingCentral Calling system. So, yeah, Upsport is the main CRM you have.
+
+[00:10:46] Tyler LaMantia
+And like prospect calls are recorded with RingCentral essentially?
+
+[00:10:50] Mohammed Faizal
+RingCentral. Yep. Gotcha.
+
+[00:10:51] Tyler LaMantia
+Okay. Sounds good. And then I assume it's like Microsoft Office, not Google Workspace, based off the copilot.
+
+[00:10:57] Mohammed Faizal
+Yeah, it's Microsoft Office. Yeah, completely. Okay.
+
+[00:11:00] Tyler LaMantia
+Gotcha. And then like just in terms of like outcome that you're hoping to achieve on these like are these to book a new meeting or are they like support, It sounds more of like supporting an active open opportunity or is it a bit of both?
+
+[00:11:14] Mohammed Faizal
+Both? I would say both Like the second part where the creating new meetings and stuff is more like running a revenue engine kind of, you know, ABM prospecting campaign through demand base and let's say, Yeah, okay. And I'll send them to this like one to few kind of pages. So it's kind of both to be honest.
+
+[00:11:33] Tyler LaMantia
+Okay. Awesome. Well, I can jump to the product but like anything important to you as part of this evaluation or that would be good to me to know that I didn't ask or like any criteria that you're really considering It sounds like scalability analytics, having reps, self serve, making the process easier and getting more out is kind of the outcome but.
+
+[00:11:54] Mohammed Faizal
+No, I would say, yeah, exactly. To be transparent. I'm also talking to a couple of other tools to be honest. But the bigger thing for us is also is like building that page and scale like kind of making it easier for people to believe. I definitely, you guys also have embedded all the AI and stuff like that where you kind of prompt it and build. But again, that kind of ease of building will be a kind of good step for us because As you know, sales team and everyone, they are not going to spend a lot of time building. And I don't want to be kind of, you know, taking this as in my head to build them pages. So we want to make them enable them to build themselves or at least follow something. So those are main. But the bigger thing is like all this integration and analytics and yeah, trying to see how we can scale this program.
+
+[00:12:40] Tyler LaMantia
+Okay, awesome. Are you open to sharing who you're considering in addition to Mutiny? Just so I can have some ground. So.
+
+[00:12:46] Mohammed Faizal
+We had a call with Userled. Okay. Userled. Yeah. And we also had a call with SendTrumpet. Okay. Yeah. Same trumpet. So both are UK based I think And Userled to be honest still now, So they have similar deal rooms and stuff. They also have LinkedIn ads and stuff. But again focusing on sales room and deals room. Till now, it's yesterday, we had a demo and stuff. It looked good the way the AI integration and stuff. But yeah, it's still in kind of we are in a thought process like what is the best fit here?
+
+[00:13:17] Tyler LaMantia
+Okay. Sounds good. That's helpful. So yeah, we can obviously dive a little deeper into comparisons there. I think like Userled has always been very traditionally ABM. It sounds like they've expanding a bit and Trumpets on the other side where they've always definitely been very much in the deal room. So I think we cover both nicely, but let me pop open my screen in a moment here. Just get the right screen here… And just let me know if you can see just our team page here in Mutiny. Yes. Okay. Wonderful. So I opened this just to talk a little bit about a few core settings in Mutiny that help with some context as well. One, I mean even on this page, we don't have user limits. So once we get into pricing, we can really talk about that but it's very much credit based, right? So you're paying for what you use, You're going to commit to an annual pool of credits. You can optionally set limits for users to ensure that no one effectively goes over the top. But you're not penalized for scaling this across your team. Makes sense. There's a couple roles within Mutiny. And this is why I talk here because what their role is, they're going to see different things. So we have a number of roles and you can actually see all five here from owner, admin, content manager, assistant and content. I mean effectively owner can do everything They own the account, the billing, They could deactivate it. It could do truly anything Admin's one step below. The only thing they can't do is billing and manage an owner seat. But the most important Ones to consider here are the assistant and content. How I really think about these is content is a little bit more of a basic seat that's focused on creating these assets. So obviously that could be a deal room that could be an ABM page. But the idea of using Mutiny is to create custom assets for a deal or for a prospect. We do have the concept of an assistant seat which goes in a little bit more of to really like an AI assistant for sales. So like it can go ahead and like do emails and prep and more comprehensive actions around what a sales rep does on a day to day basis. Now, truthfully right now we connect to Google Workspace only on the email side. So we are looking into the Outlook piece, but I want to be Kind of transparent on that. So that doesn't really affect the value of the content seat. But just a good to know Content manager is related to library. I will talk about that soon. But yeah, with credit based like obviously you have the ability to monitor credit usage across your team. You can go ahead and check that out as well too. But importantly here, I do want to share just settings related to assets. So anything Mutiny creates, We can do PDFS. We can even do decks as well. But by default, you're going to be hosted on a subdomain of your choosing, right? So you can set that up to be try klipboard. Com, go klipboard. Com, whatever that might be. So everything published automatically on the subdomain, no additional configuration needed. You can configure all of your metadata associated with that page. And then you can also add any sort of scripts as well. So like any tracking scripts you might use across the website or anything like that, they can be applied globally across everything Mutiny creates. And then while we're here, like Mutiny does provide notifications as well, You can have Slack or email notifications. I doubt the team uses Slack. Is it Microsoft Teams? No, Yeah. So email notifications, still, you'd be able to get notified of like how people are engaging in real time as well there too. So with that said, that's a few key considerations on the setup. But let me jump into another account here just to give you some context of the actual platform. And let me just make sure I'm in the right spot here. Here we go. So I'm kind of starting off with like more of what a content seat would look like. We might be doing a few different edits to the UI here shortly actually, but nothing groundbreaking. Everything I'm showing you today will be largely what you could do. So in terms of the key considerations to start there's an area called foundations First. We want to of course know your brand, right? So this is taken directly from your website. I pre generated one in a couple seconds. You can obviously have your team jump in and edit this, right? So everything from your colors, your fonts, your typography, this was just automatically generated, Even some detailed visual guidelines that tell me exactly what a page for Klipboard should look like. So one thing we do very well is getting your assets on brand and ensuring that you can tweak this as well. This can all be tweaked in here. If I have the right permissions, You can also just use our AI and like dump in like brand guidelines to completely update this too. From there, we also have a concept of a library. The first generation is also automatically generated. So it just pulled in some images from your website that they can be used across pages. If I filter into different type of content, it should have a few case studies as well, for example. So your existing marketing content, we want to make sure that we can take advantage of that as well when we are creating something custom, But noting as well like you can truly use this a little bit more as like a sales CMS too. Like if I was a rep and I just needed to find a case study, I could jump in, find my case study for Castwells, copy this link and share it with the prospect as well. So, yes, we enable like the custom creation of assets, but just sharing your existing content and working out of a system like that is also a use case you can support as well. Does the team have anything like that in place like for sales to share content?
+
+[00:19:06] Mohammed Faizal
+No, I wouldn't say something like this. Either the website or a SharePoint folder. Gotcha. It's not straightforward.
+
+[00:19:15] Tyler LaMantia
+Yeah. So it could be like another benefit to using Mutiny and you can truly organize everything by folders. So you can make it really easy to go in. It's semantic search that you can really find in the right content for your use too. From there, there's also integrations that you can connect. It sounds like for the most part, Hubspot would be the most relevant one. So we do have a native integration with Hubspot. So you can pull any data from the CRM For RingCentral. There's sometimes we can connect to. I mean truly we can connect to hundreds of tools that have an MCP. So like you see some here, it's not limited to that Transparently. Anything that like Clod or like Copilot or whatever could connect to via MCP. We can too, I don't know about RingCentral but could be an opportunity to explore if we can pull transcripts in that way. But generally if you have other tools, you can connect here too. So there's the concept of shared which is like organizational wide. Like obviously only an admin can configure these like your CRM, you can choose kind of the permissions that are set for each. And then there's a concept of personal which truthfully I won't spend too much time on here because it is a bit more specific to Google but we are going to eventually add the Microsoft space as well. No timeline yet, but I can look into that for you. But yeah, primarily this is where Mutiny gets context to build experiences as well as even take actions too. Like we do have some customers that allow people to update their CRM for Mutiny as well too. So really choosing what you'd like to do in that sense For the context of how Mutiny knows more about your team. There's a couple options and one is just not quite into this platform yet. So just give me a second here and I'll show you the new version of this piece. Let's just go into this one here. And there is the concept of what we call Mutiny's brain here. Effectively, just think about this like anything Mutiny needs to know about Klipboard So like you could just dump a bunch of knowledge in it. It also learns as you go and you build things and you actually make experiences. So there's the element of personal. So every rep works differently, right? Like I mean you are creating something you're going to be different than the enterprise AE, creating something. And this stores your preferences alongside Who you are and how you like to operate and what you generally do On. The company level though, things like your playbooks, your sales process, your key steps, what you generally are building for customers, everything can be stored in here. And ultimately you don't really need to do upfront configuration. You can see, yes, I can provide things, But as you go along, it's going to provide suggestions constantly to improve your company's, brain and your personal brain just to make sure that Mutiny is exactly catered towards your company. So this allows the AI to really be catered towards what you need it to do. And that's just an element that complements the concept of every AI tool with skills too. So there is obviously the ability to kind of configure any sort of customized skills. Let's look in here, switching accounts… And skills could be used for truly anything. I mean they could be very tactical Like this is how I do a header every time. This is how I do a footer. This is how I do a scrolling logo bar. This is how my CRM is set up for when I go query Hubspot. So there's a few suggestions here that you can see some examples like of this. But naturally the brain will store a lot of great information. And this is best used for some more tactical things like how you're building pages and components of those pages. Makes sense That's the core foundations Want to get into obviously the asset side of things. But any questions so far?
+
+[00:23:12] Mohammed Faizal
+No, I think all good. The only thing was like maybe that will be for later stage like all the credit system and all those work to understand the usage. And like, yeah, basically, I don't know like creating one page, what is the credit? Or if we end up creating? Like I don't want to be, I don't think we are going to end up creating like at 50 page a month, but 10 page. And it does, the credit also involves How many people are landing on a website or that page and the traffic and blah blah and stuff, Those kind of bit of detail. But yeah, for overall, what you have shown, that makes sense.
+
+[00:23:46] Tyler LaMantia
+Yeah. We can definitely deep dive on credits But effectively, credits are only used when you take an action with the agent. Nothing to do with people seeing pages or analytics or even using the library. There's no credits involved here. Where credits come in is when you're creating custom things. On that note, what we would do is build some specific examples for you in a full demo, But you can see the concept of assets which is what you send to the client. This is hosted on your subdomain. It's tracked. I send it to a customer. I send it to a prospect Template's. Important. This is where, what do you want to use Mutiny for Let's make sure your team that comes in here has a set of templates covering every use case. All of these act as starter templates. So if I click use, we can jump into creating one which maybe we'll end with But you can see like how people are using Mutiny like business cases, deal rooms, proposals, case studies, pitch decks, ABM event invites. So like any type of asset. And again, these can be on your subdomain hosted as a web. They can be in a deck format or they could be like an exported PDF. I've seen people use it for on site PDFS. They print it out. They deliver it to a client. A lot of really great use cases. You can use. These are examples. You can generally create anything within Mutiny. But A good account will effectively say we have meeting segment or template segmented for our book, meeting our run, evaluation, our closed deal and you kind of work with us to set this up. So when a rep comes in, they effectively click use just say ABM for example, They can be asked a few quick questions that you can define. This is like a starter. So these questions are already defined. I can say, yeah, I'm breaking into a new account Here's. The account I'm looking at, I think I had some like fake context here. And this is where I can choose to ask Mutiny to use integrations. I can upload files or I can just dump in a bunch of text. I submit this. This is where the agent starts using credits, right? So this is a message sent. I can share more about what takes what, but they're all fractional. It depends on the work you're asking it to do Some things don't take a full credit. Some things take one. Some things could take three, four credits for example. But yeah, you can see Mutiny has the ability to again search your integrations, look at your brain, look at your library, look at the brand of course, and combine. All of that into start to create a page. It also is naturally an AI tool. It's built on top of leading models. So if you wanted to ask it to do research on what's in the web, you can absolutely do that as well. And then what it'll do in a moment is just pop open a right side editor where it will create a page for us. And on this page, you can see it's taken in the basic brand. I have It's taking in some of the context I've done. And then it's going in and creating a page from scratch. So this is like really like this is a starter, right? This is meant to get you to a starting point. At that point. You can edit with prompts directly. I can edit on the right side once it's done with just like a WYSIWYG type of experience, delete things, drag, things, change colors. So final mile last tweaks much easier in a tool like Mutiny where you have that flexibility And you can see it's drawing off some of our library content, our library imagery, and then creating a standard page. Now, from here, I want to make this my own, right? So I can go ahead and prompt Mutiny to completely redesign this And that's where again credits come into play. So templates are really what makes most use of your credits, right? Like once you get to a starting point, It's all about personalizing it. Yeah.
+
+[00:27:26] Mohammed Faizal
+And you can create any multiple templates and stuff like that And you can mix matches the segments, blah, blah, Basically work as a landing page builder kind of a thing.
+
+[00:27:36] Tyler LaMantia
+Yeah, exactly. Exactly. So you can create as many templates as you'd like no limitations there. You could create like five landing pages for five industries. You could create five deal rooms for five industries, whatever that might be. And I'll show you a deal room examples. But like they have like a very tabbed experience where I can go into different areas around, you know, what needs to be seen across each stage. They can evolve as the deal goes on. Like as I, add pricing. So rep comes in, asks it to add pricing where it can start off more basic, But You can provide Mutiny files like screenshots. It replicates very well. Like if I was just to say, like, for instance, I see this here. I'm like, okay, I like the logo bar you have here. I can just go ahead and say, drag this And I can just go say create me a scrolling logo bar like on klipboard, com see screenshot… You could ask it to create quizzes, Roi, calculators, dynamic components, like gradients, visual aspects, copy, like truly like anything like as you're doing today, But naturally, you also have this ability to jump into a native editor, change text around rich text formatting, even replace images that are just in your library or upload them here. All very easy to do on both sides. But big sweeping changes, use the agent small, last little tweaks use the right side. And then you are having a page that you can save as a template for anyone to reuse. I can preview it, see what it looks like in full. I can invite my team to collaborate And here's my quick scrolling logo bar done in a couple seconds. So, yeah, really flexible And you can share it after that point.
+
+[00:29:25] Mohammed Faizal
+No, that's nice. Yeah, that's helpful. And yes, integrating with Upspot. Now, can we also use Upspot form and stuff in this?
+
+[00:29:34] Tyler LaMantia
+Yeah. So you can either build a form within Mutiny that connects to Hubspot fields. So you create a custom form or you can just embed a form directly on the page too. So both work in that.
+
+[00:29:46] Mohammed Faizal
+Sense. Yeah. Okay. Understood. And you said we can add any let's say the code tracking code, I can also add GTM code in the backend?
+
+[00:29:56] Tyler LaMantia
+For sure. Yeah, exactly. And then we do have our own native analytics as well. Obviously, there's not going to be anything in here but You would expect to see session by session, the source, the engage time, the clicks, who that visitor is, if we can identify them. And then lastly something that's really valuable. You can watch a session replay of how they engaged. So when I share a deal room with a client, I can actually watch back to see how that executive engaged where they focus. So I can say like they spent a lot of time on pricing. I should address that in that next call for example. So lots of analytics on our own platform which I can show in a follow, but you can embed your own analytics scripts as well too.
+
+[00:30:36] Mohammed Faizal
+Ah, okay. And can we password protect the deal rooms and stuff? Yeah, yeah.
+
+[00:30:43] Tyler LaMantia
+For sure. So you can, when you share it one, I can go ahead and change this URL. So it'd be like go clipboard. Com, qxo. And then I can go ahead and either require email or password. I always suggest email. So one, it identifies the user before they even reach it. And you can also naturally, you might have some sensitive information. So you can even restrict it to say, like only people from Klipboard can see this Or I could say like Mohammed at Klipboard. Com, does a specific person Optionally, you can do the password, but the email essentially accomplishes a bit more And you can even verify, Yeah.
+
+[00:31:25] Mohammed Faizal
+Nice. Yeah, that's helpful.
+
+[00:31:28] Tyler LaMantia
+Yeah. Any other questions before we can talk about what could make sense as a next step? Naturally, we can go deeper and build some examples for you.
+
+[00:31:38] Mohammed Faizal
+Yeah, I think what we have shown like, yeah, the first thing was, yeah, the landing page creation and stuff. So that kind of solves a lot of issues like, you know, creating like, you know, pages for specific clients and industries and stuff like that and their password protector, the analytics. Is there. Yeah, I think this is the kind of tools we are looking for which can help us. This is what I'm doing in Cloud Code. So, yeah, it's all good. I think it kind of addresses the use case, which team are mentioning?
+
+[00:32:11] Tyler LaMantia
+What's I guess what's the hesitation or kind of like is there anything maybe that you think we potentially don't do? I mean, obviously, we'd show, You know, everything and anything in a follow call and a full demo, customize your brand. But I'd love to hear if there's some things you saw from other vendors that you're curious if we do or don't.
+
+[00:32:29] Mohammed Faizal
+do, No, I wouldn't say that something that they are doing really different that Newton is not doing.
+
+[00:32:36] Mohammed Faizal
+I wouldn't put it in that way because Userled, we are the kind of, yeah, what all you should, It's kind of those other, Almost all the ways of building and blah, blah and stuff In there. The only one bigger difference is like the pricing where it's credit based and they were like one pricing no user account or no credit, blah, blah and stuff. So, but from my point of view, like once I will talk to David, my CMO where I report to like talk to him because he is also involved in the process and stuff because we have been building and he may be the one who's looking at the demo and stuff. So I will come back When and what we can do demo. I think the bigger thing for his point of view, if he thinks I'm happy and we are able to build and stuff. He is just going to work thinking about the cost and what is the pricing and stuff That is where he is. It's like if he has that kind of a budget for us to go at and stuff if he thinks I'm happy and I say it's good. He is going to be okay with that. But yeah, that's where we will come. I think the budget will be the bigger thing. The next. Okay. Yeah. I mean, he had a demo. He was in the demo call with Userled yesterday and he was happy. We had a few questions like integration and stuff like that. They're a bit more open question but yeah, overall, it went well.
+
+[00:33:51] Tyler LaMantia
+Okay. Sounds good. Well, I'm happy to do the same type of demo to give them the experience. I think the unique thing with Mutiny too is like once I create maybe a demo account, like you can get hands on keyboard and try it out. Like I think like that is very validating to see like you trying to build something, even try and build it for a deal that you're doing already and see how it goes. So always can offer that ahead of committing to a purchase. And then, yeah, naturally, we would, we share more on pricing Enterprise starts at just under 40,000 per year. So that's kind of the beginning point.
+
+[00:34:22] Mohammed Faizal
+Dollars or Pounds, Sorry, Dollars or Pounds.
+
+[00:34:26] Tyler LaMantia
+Us dollars.
+
+[00:34:28] Mohammed Faizal
+Yeah. Okay. Cool. Yeah.
+
+[00:34:29] Tyler LaMantia
+Yeah. And then the other thing is like for what you described, I don't think you'd need more than that to be honest, but we can obviously scope that out further.
+
+[00:34:41] Mohammed Faizal
+But, yeah, from here, Sorry, sorry, No, go ahead. Let's say that 40,000 account or whatever. Now, let's say, and you said There is no limit on how many users can It's purely based on credit and stuff? Yeah.
+
+[00:34:54] Tyler LaMantia
+Exactly.
+
+[00:34:55] Mohammed Faizal
+Now, based on what you have built, let's say a couple of more iteration changes and stuff like that, those kind of landing page, adding a bit more pricing documents and stuff And let's say we create like 10 or 15 like that in a month. Do you think that credit, whatever credit is going to be available will be able to cover that kind of a load?
+
+[00:35:14] Tyler LaMantia
+Yeah. I mean you'd essentially have 48,000 credits for the year. Truthfully, you got 20 users. I mean you said like 10 assets maybe per user, like you would have no issue there. The thing that takes most credits actually is just building your templates which we help you do anyway because once the template's in place like you're not actually changing that much, right? Like you're customizing you're, personalizing, and yes, there's going to be exceptions, But the template piece drastically conserves credits once you have those in place. Makes sense. So, I mean, you know, from there, I generally don't think from that user base, you would exceed the enterprise minimum. I would tell you if I think you'd need more, but like when we start getting into teams like bringing and onboarding 50 to 100 reps, then you start having to potentially increase it. But yeah, yeah.
+
+[00:36:07] Mohammed Faizal
+No, no, Makes sense. And it feels like the 40,000 credits and stuff should be enough for us current need and stuff. So that should be fine.
+
+[00:36:16] Tyler LaMantia
+Yeah. And I can like when I, if we do this demo and I build some experiences, I can kind of benchmark a template that I've built and talk a little bit about what it took to build and then what it would take to just personalize from like a rep's point of view, just to give you a bit more of a tactful example. But naturally, it depends on the context. Like any tool. Like if you're going to go search integrations for a ton of context or upload like a ton of information. It can take a little bit more not to say a ton, but it just does depend on the complexity of the ask But I of course can break it down for you further in a call.
+
+[00:36:53] Mohammed Faizal
+Sounds good. Perfect.
+
+[00:36:56] Tyler LaMantia
+Great. Well, it sounds like the plan is to have some internal discussions. Did you want to wait on booking the full workshop demo or want to lock in a time today?
+
+[00:37:09] Mohammed Faizal
+Yeah. Let me talk to David and let's bring him. Like I can come back to you once he is available, Then we can do a kind of a deep dive and show him what's possible. And this is just, it'll be good for him to take a look at what's happening Then we can, yeah, maybe I can also bring in a head of integration and stuff. So if they have any technical questions and stuff, then from there, we can see what are the best next steps. Yep.
+
+[00:37:33] Tyler LaMantia
+That sounds good to me. So I will give you a follow up email by tomorrow at the latest and some information and then feel free to ask any questions you might need answers for ahead of time. But we can obviously look at scheduling something for the next couple of weeks to give a bit of a deeper dive and kind of bring it to life for Klipboard.
+
+[00:37:53] Tyler LaMantia
+My only other question is like timeline like is there a specific date you're targeting or is it a little bit fluid?
+
+[00:38:00] Mohammed Faizal
+No, to be honest, yeah, from our side, it's more like once we're happy with the demo and the tool and the pricing is all fine, The bigger bottleneck is the legal.
+
+[00:38:10] Mohammed Faizal
+Yeah, I think it depends on the team who review the stuff and they may take some time. And once they say, okay, it's purely just go ahead, start finishing the contract and stuff. So, yeah, it's more like, yeah, once we're happy, we will send it to legal And if they send it in a day or two, sometimes it takes a month, But if they send it in a day or two, we adjust it, We can go ahead and stuff. So that's how we are right now.
+
+[00:38:32] Tyler LaMantia
+Okay. So just once you're comfortable, then it's more in legal sense For time. Okay. Sounds good. Well, it was great to meet you. Thanks for thinking of us again And I'll be in touch And then of course, let me know what works best for that call and we can get that in the books.
+
+[00:38:49] Mohammed Faizal
+Sounds good. Mate. Thank you so much for your time, Taylor, Of course, I will get back to you soon mate.
+
+[00:38:54] Tyler LaMantia
+Yeah, Sounds great. Have a great rest of your day.
+
+[00:38:56] Mohammed Faizal
+Have a nice one. Bye bye. Cheers.

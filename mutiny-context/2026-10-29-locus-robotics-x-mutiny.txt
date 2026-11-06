@@ -1,0 +1,153 @@
+Locus Robotics x Mutiny
+October 29, 2026 at 03:30 PM
+https://us-53268.app.gong.io/call?id=3998340806833632870
+
+[00:00:00] Jessie Kuenzel
+Thank you.
+
+[00:00:11] Jessie Kuenzel
+Hey, Jesse. Hello.
+
+[00:00:17] Tyler LaMantia
+How are you doing?
+
+[00:00:18] Jessie Kuenzel
+I'm good. How are you?
+
+[00:00:20] Tyler LaMantia
+I'm doing well. I'm doing well. It's almost Friday which is good, And the day is flying by, which is a good thing about being busy.
+
+[00:00:31] Jessie Kuenzel
+Yeah, same, I actually was going to say, I know I already rescheduled this but I probably only have like About 15 minutes if that's okay?
+
+[00:00:41] Tyler LaMantia
+Yeah, totally. I feel like we definitely don't need the full time Honestly, just wanted to kind of get an update of how conversations went and if there's any questions you had for me and just understand what would make the most sense for next steps.
+
+[00:00:54] Jessie Kuenzel
+Yeah, Sorry, I have notes of things. So, yeah, I talked with my… Managers the other day, they were excited to hear the conversation went well, and, you know, I kind of explained the platform and like it all sounded good. What am I doing? Sorry?
+
+[00:01:21] Jessie Kuenzel
+It's been a day and I'm working from home today, so, I'm like,
+
+[00:01:26] Tyler LaMantia
+All good. I do pen and paper too, and then I lose everything.
+
+[00:01:30] Jessie Kuenzel
+I don't know why I do it because I can never find anything. I know.
+
+[00:01:34] Tyler LaMantia
+It's something about writing though, right? Like, I just, I don't know, I do the exact same thing and then my drawer is a mess of loose papers. So, Yep.
+
+[00:01:43] Jessie Kuenzel
+On my floor, there's like a wrapper from like Starbucks that knows something. And I was like shit, I need these. I can't throw them away. So, I guess… The two questions that they wanted answers to were time… to roll out like average uptime which I feel like we talked about.
+
+[00:02:08] Jessie Kuenzel
+And then just like if there's any information that you're able to share on pricing, Like it doesn't have to be like everything but just averages of, You know, what? For 40 users we might be looking at just because the next, not next week, the week after our team is going into like budget planning for the year. So just like trying to get a, and I also to be transparent, ask the same thing of Highspot, because I have no idea what we're paying for Highspot. And the managers that I have also don't know because they weren't here when the contract was signed. So we're just trying to get like baseline… understanding of what we're looking at. And also pretty much we're all decided that we're definitely not going to be using Highspot. So… especially our rep, I just had a call with them and our rep is leaving. So like, you know, it's like, well now's a great time to definitely not be using Highspot anymore. So, Okay. And.
+
+[00:03:08] Tyler LaMantia
+that renewal was like the May timeframe, I feel like you mentioned something like that. Okay. Yeah.
+
+[00:03:14] Jessie Kuenzel
+I think May is when the contract is like up, But like I said, like budget stuff is happening in the next couple of weeks. So like, Okay, the decision of whether or not like there's a couple other platforms that we've already decided like, right? Like not to renew, like Clue and some other things. So like the decisions, not necessarily what we're using as a replacement. I think it's the, what aren't we renewing stuff happens first? But it would just be helpful to just have an idea of like what we're looking at, what me and my boss need to advocate for in our budget to make sure we could cover it that kind of stuff.
+
+[00:03:49] Tyler LaMantia
+Awesome. Yeah. So on like the time to get live honestly, like I mean, you can truly like we have a free version of Mutiny for a reason Like people can jump in and just start using it. But like obviously, for a full setup like doing the migration of content, maybe creating some templates the team can use, getting the users set up and trained.
+
+[00:04:12] Tyler LaMantia
+I would put it at probably to budget around four weeks, something like that. That's probably on the high end. But, you know, I'd like to be conservative just in case we need the time We did a full Highspot migration recently in a couple days. So in terms of the content piece, It wasn't too much. I think like where I like to budget time is like specific trainings for teams, right? Especially if teams work differently. Sometimes it makes sense to have a team training for a specific segment of sales or post sales or whatever that might be.
+
+[00:04:45] Jessie Kuenzel
+Is, is sorry, like a Highspot transfer a couple of days. Is that like one person, like on my end, like full time for a couple of days with someone from your team? Like what? And like what does that breakdown usually look like?
+
+[00:05:00] Tyler LaMantia
+Yeah. So the way it was done in this situation was ultimately Highspot was able to do a mass export into Google Drive or a Google Sheet of all the content. And then effectively, we took it from there. The other option is ultimately to… give us access to Highspot depending on where your team is comfortable. And then we can look into some other solutions of pulling it in. But Ultimately, what we need is just the content you want in there. And like you had said, previously, there's probably a lot that maybe you don't actually want to come over. So it's more of like, hey, which ones do you want in Mutiny? We can do the help of getting it in just more. So getting it out to a place we can access it or getting us access is kind of the big role on your side. Yeah.
+
+[00:05:49] Jessie Kuenzel
+Okay. Yeah, that totally makes sense. Okay. I think that all sounds good. And I know you don't have to give me pricing right now. If there is anything that you can share.
+
+[00:05:59] Tyler LaMantia
+Oh, for sure. I'm happy to share. So for the users you mentioned roughly, Yeah. Okay. So we're not user based. So Truthfully there's nothing to worry about that If more people from your team do want access to Mutiny, we are completely credit based. So being like how much you use Mutiny on actually creating net new experiences or running automations around common work for sales reps, Honestly for the library piece of it that you go find a piece of content in Mutiny and you share that single link and copy a link and put it in your email or whatever that might be. It's free, right? I mean, obviously, you need to buy the platform and that would be our minimum platform fee starting at just under 140,000 per year. So if like, You know, a lot of custom types of assets and creating, you know, net new experiences for deals. I think there's a great fit there for certain specific experiences. But with that said, I mean given that a lot of your core use case is sharing existing content. I don't imagine you needing much more than the minimum for enterprise and that would give you everything we've spoken about. So That price is the exact price is 39,840 dollars. So that's truly probably the way where you'd land. So I don't think there's a whole lot of complication to like voting out an exact price. But if for some reason you do want to like, you know, have more people in there and they're creating more things within Mutiny. And I could send you more information on all this, but that's where credit usage can go upwards. Yeah.
+
+[00:07:35] Jessie Kuenzel
+Okay. I do think I would be curious to know. I think I, So, I think it was on your website, There's a couple of levels, right? And different things do different things. I would love to see a demo… maybe of what's possible at something you put together. You don't have to walk me through it. But something that's possible that I could share at the base level, right? How many credits Ish, that would take someone to put together because I did sort of talk through with my boss and with my team, what the possibility could look like of using templates and deal rooms that are custom built with AI and pulling in the content. And that was actually really interesting to them, which is good. But that means that maybe, yeah, then we're rolling that out to the sales team using more credits if they're doing that which we want them to do. But just, I'd love to show them what the basic level experience of Doc could be for the sales team. And then what maybe the more expensive version? Because frankly this company, I don't think 40,000 is too much at all but there's room to spend more for the right like platform and the right experience. So like we might as well show them we might as well pitch them on the expensive option for sure. Yeah.
+
+[00:09:02] Tyler LaMantia
+Absolutely. I mean, like what I can do is like in a full demo, like effectively, I build some of these experiences for you in your brand. So you truly kind of get a good idea of what they look like. Like on the credit usage side. Like building the templates is probably the most credit intensive task because like we're standing up what it should look like. Yeah, Once a rep like uses a template and they're just customizing it for their deal, like it usually takes a couple credits here and there. And for context, like the enterprise plan includes 48,000 credits for the year, like a lot for a group of 40. But naturally, there's us upwards to add some more credits as well either at the beginning of the engagement or after.
+
+[00:09:44] Tyler LaMantia
+So The good thing about Mutiny is you kind of pay what you get value for Like if someone's not using credits, yeah, exactly. You don't need to worry about that. But, yeah, like in a full workshop, I can one like give you an idea of what all these custom experiences could look like in addition to the base level functionality of fine content that exists. And then we can talk about really like how many credits I actually used in that demo after I can go back in the back end and see and kind of share some benchmarks roughly. So you see what I do and then I can give you some benchmarks about what credits were actually taken in that case.
+
+[00:10:21] Jessie Kuenzel
+Okay. Yeah. I think that would be really cool. I think so… like… doc shared with us a like deal room and it's just like super quick and I haven't shared anything but I would love to do like a comparison of just for me, I wouldn't show it to anyone else. But just like what the doc like user experience, right? Like they put together a, if one of your sales reps was selling Locus here's, like your thing. I would just love to click through. And so I understand what the differences in the platforms are so that I can explain them to my body.
+
+[00:10:58] Tyler LaMantia
+For sure. Yeah, I can create some sort of kind of deal room experience like even just to give you an idea like there's no, like standard template with Mutiny. So you can truly create it in any which way We have a customer. Like I just mocked up something for them. Like this is an example of a deal room. So a shared space for Airwallex and their buyer, a tabbed approach to say like, hey, this is what we uncovered your pain points. This is what we would say to our solution. Is Here's our relevant customer case studies Here's, how we compare to competitors Here's, our pricing, And you can kind of make some interactive components including kind of Roi calculators, and specific business cases and source or sorry scenario calculators, and so on Implementation plans and like action plans and an executive summary and all your resources. So this is where it's like there is case studies and proof and there's a bunch of resources and that's your existing stuff. But we're wrapping it into like a buyer scenario based off the context of the deal to kind of really shape a narrative and allow them to sell internally too.
+
+[00:12:06] Jessie Kuenzel
+Can I ask? So, do you guys internally, do you use like Salesforce, HighSpot, or Hubspot? I mean.
+
+[00:12:13] Tyler LaMantia
+Yeah, we use Hubspot at Mutiny. I do have a Salesforce like dev account that I test and demo with just to validate for people. So like, yeah, we connect really wonderfully with both. But yeah, why do you ask?
+
+[00:12:28] Jessie Kuenzel
+Because I'm curious like if, you know, you send that out to whoever, like you sent one to me, right? Right? If you made one… And say like someone did something, There was some activity, Can you set? Like are those activities that people do, clicking on a link within the room, whatever, like able to transfer back into Salesforce as a like an activity within the account or the prospect record?
+
+[00:12:59] Tyler LaMantia
+Yeah, it's a good question. So, by default, like the analytics are in mutiny and you can get notifications for them as well. I think we talked about that. There is the ability to do exactly what you said. It's just not automatic. So, for instance, I was talking to another client about this and there's the concept of routines and more will make sense as I actually go through everything with you. But routines is just like automated tasks that happen on schedule. So you can set up one to say read all the analytics from Mutiny assets and push them to Salesforce activities on their record. So like there's a way it's just not going to be direct automatic syncing over. A lot of people generally use Mutiny's analytics within or our notifications. But if you do need to get them over there, there is a path, And I can show that in a demo as well.
+
+[00:13:52] Jessie Kuenzel
+Okay. Yeah. I guess the reason I ask is just this other time I was meeting with my group and we were talking about how often assets were used something And I was like, well, you know, we can see that in high spot and we can see like the Roi like the asset usage compared against the Salesforce. And, you know, I tried to pull up the high, yeah, the high spot report that had the like dollar value against opportunity, whatever And they were like, no, like those numbers are wrong. And I was like, What do you mean they're wrong? Like it's tied to Salesforce. It's just the Salesforce numbers in here And I think, and I've run into this before at other organizations too, where a lot of sales people don't want to see, they don't believe numbers if they're outside of Salesforce, especially if marketing is presenting them. And that's like a… Organizational sales technical people, don't always believe marketing people when they say things thing, But I think for a while, it would be really nice to be able to build the reports in Salesforce and show the proof to the team in a platform that they're using until then, I can say, Hey, look, this number that I showed you here is exactly the same as the number that I showed you in mutiny. So I promise it's the same Like that's. That's the only reason I ask.
+
+[00:15:06] Tyler LaMantia
+Gotcha. Yeah, I think like in the end, like the analytics like the reps are going to see like, Hey, the executive at this company is looking at my say deal room, Right? So like Ultimately like that's right in front of them, There shouldn't be a lot of questioning from them And that's something they should action on, right? So because those analytics are rep facing like, I see less of like pushback, But the other thing you can do with Mutiny is too is because it's all agent based like You as like say the admin, you could jump into Mutiny. And you could just because you're connected to Salesforce, you could say tell me the 10 most engaged assets within Mutiny, go to Salesforce, see if those people are attached to deals, build a deck for me like an internal facing presentation on how these people are connected to deals. You could ask, You know, sales for validation too, but you can just simply prompt your way into finding Roi within Mutiny because you're connected to Mutiny's analytics. And then you're connected to Salesforce as well. So you can see like Tyler at this company engaged with this asset, He's on a deal that just closed one. And he spent 10 minutes across five sessions in a deal. Like I don't see how anyone pushes back on that If anything they're going to be like, you know, it's great that he engaged and had value, right? So, But we can like do a whole analytics section and kind of show you some real scenarios around this. But it's a, and whether you push it to Salesforce as an option or rely on Mutiny as like kind of an agent to do. So, you can kind of go about it both ways.
+
+[00:16:40] Jessie Kuenzel
+Okay. Cool. That was like just something I was thinking of. And then my only other like weird random question was, Yeah, It's like you build deal rooms and then, you know, say Your prospect like doesn't buy, right? Like they're not ready, whatever You close the opportunity in Salesforce. But then does, like does the room stay open? And if say, I came back six months later and started clicking around and whatever like would you Can like you set it up by default to like send a notification. And again, like our reps are, Eventually, it'd be great if we got to the point where they're like paying attention to all of the like notifications that come out of any of these platforms, But I feel like they're not. So like, Yeah, Could I set it up to set up a task in Salesforce? Or even just, I guess the first question is, would it alert you if you had already closed the opportunity in Salesforce? Would the room stay active? And would you still get a like, hey, this is active kind of alert?
+
+[00:17:43] Tyler LaMantia
+Yeah. So the room stays active until a team deletes it or archives it. So up to them, If they wanted to do that. Obviously, I'd just keep it open. And then, yeah, as long as One like you would get notifications regardless to say someone looked at this, If you have the required email on which I'd always suggest, do you fill out your email? And then I would say, you know, Jesse looked at your deal room which I, yeah, And then it prompts me to go reach back out. So, yes to that part, Similar answer to the other one where like you could create some automation around that to sync it over. But it's not automatic. So, yeah, a little bit more on Configuration versus like automatic, But the notification itself would, yeah, persist no matter what, As long as that's open. Yeah.
+
+[00:18:30] Jessie Kuenzel
+Okay. I just thought of a question now. I can't remember And I've already taken more time than I said I would. No, I think this is all really great. The pricing thing is really helpful in the stand up time… If you could. If you have one like it doesn't have to be great, Just like Even another someone else's like or a demo like deal room, just something that I can like click through and show Because I think I really like the look of what you guys have. I think it's a better like visual than what Doc has. And those are really like that's. Really the only other option that we're considering. And the other option that our team is considering right now is Trying to build something custom and clod. And I'm like please, for the love of God. Not that. Yeah, yeah.
+
+[00:19:25] Tyler LaMantia
+I know everyone wants to And I usually tell people like just try. It doesn't usually end up working out very well. You know, it's a great tool but it's not meant for that to really scale it to a team. But yeah. So when would you Want that over? Because I can just put together a quick mock up for Locus Robotics, but I might need a day or two. So.
+
+[00:19:52] Jessie Kuenzel
+Oh, yeah. Yeah. Not until Tuesday. Probably at the earliest. I was going to say Monday but I'm pretty sure I'm calling out sick on Monday. So Good.
+
+[00:20:00] Tyler LaMantia
+Good, good. Tuesday. Take care. Tuesday. I can do that. I'll just like mock something up quick in your brand. So it just feels a little bit more real. And then just like the one thing I'll just keep in mind is like, You know, like unlike Doc where it's like this is what you get Like you can completely change what I put together, right? Like it doesn't even have to look remotely similar. The template design is completely up to you and your team. We can provide best practices, but just keep that in mind Even when I do send that, it's up to you what you want that experience to look like.
+
+[00:20:31] Jessie Kuenzel
+Yeah. I think like that's. Probably like, I know the two people that I'd be Gina and Ash, they're very visual. So like even if you do one in Locus, and then if you have one that you're able to share, that's like really cool. That's super different, right? Like just showing that visual like compare, they're not very technical. So if I'm like we can do whatever, like, I think they'll have a hard time conceptualizing that. But if I show them here's, what they made for us. And here's this other like Super different, very cool one that they also made with the same tool. I think that might help… If you don't have anything that's fine. What I'm learning about them is if I tell them something, they don't get it, but I show them something and it's a much easier conversation to move forward.
+
+[00:21:17] Tyler LaMantia
+Awesome. Yeah, no, absolutely. So by Tuesday sometime, I will get you over an email and share a couple examples. And again, I think a live call probably makes sense after that because Seeing it being built is even more visually impressive in my opinion. So I think that would be a great next step if you're aligned with that.
+
+[00:21:38] Jessie Kuenzel
+100 percent. Yeah, I think I want to show them something because right now we just got access to like Cloud Enterprise and everyone's very much on like why don't we just did something ourselves And I'm.
+
+[00:21:49] Tyler LaMantia
+like, so.
+
+[00:21:50] Jessie Kuenzel
+Very not. So, I want to like nip that in the bud Here's. What we can do, Let's meet with them and like just use whatever you show me in my next call with them to convince them to jump on For sure. Let's talk to one company before we try to build ourselves. Yeah, yeah, for sure. Let's just talk to somebody.
+
+[00:22:08] Tyler LaMantia
+Yeah. I mean, like building it was one thing which still is difficult but then hosting it and getting analytics and integrating with systems becomes a mess truthfully, And then on top of it, like where's your other marketing content go from like just general fine, existing content, right? So that's what I would focus those kind of conversations on.
+
+[00:22:28] Tyler LaMantia
+But I'm happy to speak with them and I'll start with some visuals first. And last thing we have an MCP Clients create things out of Mutiny with Claude. So it's not like you can't use Claude existing, You can just trigger Mutiny and create something without having to worry about the mess that doing it just in Claude works. So there's kind of the Better Together story as well to keep in mind too.
+
+[00:22:51] Jessie Kuenzel
+And I think that's like, yeah, like I said, Glean and Cloud a little bit That's what really interests me is like the ability to pitch the story of like no, still AI forward in so many ways but also integrated into all of these other tools that we're using excited about using. So I think the story is definitely there. I think I'll be able to, if you send me something over by Tuesday, I'll share it with them, be able to convince them to get on a call And, you know, I can send you over at my like cheat sheet of hey here's what I think would be really interesting to them And then you can set something up.
+
+[00:23:25] Tyler LaMantia
+Amazing. We'll start there. I will get you back by Tuesday and then just have a good long weekend.
+
+[00:23:31] Jessie Kuenzel
+Perfect. Thank you. I'll talk to you soon. I'm sure Have a good regular. Hopefully you take a long weekend too.
+
+[00:23:37] Tyler LaMantia
+Yeah, maybe Thanks so much. Jesse Talk soon Bye.

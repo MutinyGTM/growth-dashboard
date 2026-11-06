@@ -1,0 +1,198 @@
+Munzer Awad (Xvalue) <> Jaleh Rezaei (Mutiny)
+October 27, 2026 at 12:59 PM
+https://us-53268.app.gong.io/call?id=5185871246813540112
+
+[00:00:00] Munzer Awad
+Fireflies. Can you drop off this call?
+
+[00:00:36] Munzer Awad
+Hey, Fireflies. Can you drop off this call? Thank you. Drop off this call.
+
+[00:01:32] Munzer Awad
+Hi. How's it going?
+
+[00:01:33] Jaleh Rezaei
+How are you? I?
+
+[00:01:36] Munzer Awad
+Am doing great. What about yourself? Nice to meet you.
+
+[00:01:39] Jaleh Rezaei
+I'm wonderful. And let me turn on my camera And.
+
+[00:01:44] Munzer Awad
+Sorry, I had like this agent that I created recently on Fireflies that joins every call and I don't know like I can't drop it off on my end, Get rid of it. I'm good. Either way. How are you doing?
+
+[00:01:58] Jaleh Rezaei
+Good, good. And this is Viva. He's on our CX team and he owns the ServiceNow relationship that we have. So I just invited him to join in case like this is useful for that.
+
+[00:02:16] Munzer Awad
+Great. Nice to meet you, Viva. Thanks for joining. And sorry, how do I pronounce your name correctly?
+
+[00:02:22] Jaleh Rezaei
+Jaleh.
+
+[00:02:23] Munzer Awad
+Jaleh? Okay. Thank you. Yes.
+
+[00:02:27] Jaleh Rezaei
+Awesome. Well, I think Ruslan, introduced us, which is awesome. He's wonderful. And I wanted to just get a better sense for, is there an opportunity for us to work together? Maybe there is maybe there isn't you know, sounds like it's always great to get to know smart people even if it doesn't amount to anything immediately. But maybe we'd love to just start by learning a little bit more about like what made you start this company?
+
+[00:02:58] Munzer Awad
+Yeah, absolutely. So first of all, nice to meet you both. I've been really looking forward to this and I signed up for Mutiny the moment that Ruth reached out because I love what you guys are doing.
+
+[00:03:11] Munzer Awad
+So, just a quick intro of who I am and why I started XValue. I started my career about 10 years ago in consulting, did the large scale transformations for a big part of my career. And then I decided I want to move to enterprise tech And I started in the value space. So I was actually a value engineer for my first year at ServiceNow. I was building business cases for customers like with Excel and all of that. And when my boss that was leading the entire value practice moved to be the chief of staff of ServiceNow CROs, she pulled me in to lead our AI transformations for go to market. So how do we start using AI internally to sell better and move our team to become more AI native? So I took the role and, You know, after the first three months, I was like there's so much opportunity in the market especially in the value selling space. And I knew I wanted to do it myself. So I told my boss back in April, I'm leaving to start my own company, And we had a conversation about, You know, staying a little bit longer to get the sales coach rolled out before moving. And now I'm ready to go. So I can talk more about XValue. But just a little bit of background before I jump.
+
+[00:04:19] Jaleh Rezaei
+Into that. That's great. And your boss was the, you said was the CRO?
+
+[00:04:23] Munzer Awad
+So I was working with Jackie Bernstein was my immediate manager. And then I was working directly with Paul Phipps too. Like Paul's main vision was he wanted an AI sales coach which each seller's in each seller's pocket. And I can tell you about the strategy and how we approached it. But at a high level, we brought in Cloud Enterprise internally and I basically vibe coded a sales coach using skills and plugins. I launched it in like eight weeks to our go to market organization. And we've been evolving it for the past year.
+
+[00:04:56] Jaleh Rezaei
+And.
+
+[00:04:56] Munzer Awad
+I just left at the one year mark directly. So that's a little bit of a background. I can talk more about that project if it's helpful for Viva and kind of what was working well there, We can go in any direction. But I'd love to hear from you too. Yeah.
+
+[00:05:11] Jaleh Rezaei
+Absolutely. So, and by the way is the, do you have a sense of, I know it takes a little while to kind of figure out what the right Lane and focus is for when you start a new company? Do you have a sense of what you want to focus on? Like, are you trying to rebuild this AI coach for more people or how are you thinking about that?
+
+[00:05:33] Munzer Awad
+Yeah, I actually just like launched 30 minutes before the call. So like, nice.
+
+[00:05:37] Jaleh Rezaei
+Congratulations.
+
+[00:05:38] Munzer Awad
+Thank you. So I've spent a lot of time on it. I'm going to focus specifically on transforming value selling. So the value teams that write business cases, and I'm going to go tech agnostic. My hypothesis is that the core of the issue is the process is very complicated, how you build business cases. So companies need to make it very simple and use. So, I'm going to use an AI tool, whether it's Cloud ChatGPT, Mutiny, whatever it is to embed their own IP in a simple way in there and build business cases at scale. So, I'm going to partner with customers whether they use Cloud ChatGPT or Mutiny, whatever the tool is, or help them think about choosing the right one if they haven't bought one entirely yet. That's the space that I'm focused on is tailoring the AI they're using and launching it really quickly to be like a true value engineer for their sales. Org.
+
+[00:06:32] Jaleh Rezaei
+And what does that mean?
+
+[00:06:36] Munzer Awad
+So when I say tailoring, but, yeah, so like literally in the simplest term, just technically is building a plugin that has their specific value methodology built in the instructions of how any AI builds a business case. So say, for example, you're selling, let's say, ServiceNow CRM drives a lot of different operational metrics. But if I go speak to any customer, I will tell them You can drive a total cost of ownership down by 50 percent and you can get 20 percent productivity back. Those are the only two metrics that matter. And the entire business case needs to be built around that. So I kind of build a plug in that helps build regardless of like adjust, build a business case that's unique to each customer based on these two metrics That's one And number two. I'm a big believer that we can't put a static PowerPoint in front of customers anymore. It just, it shows off as we're giving them the answer while you want them to give input as fast as possible. So, I moved into the output being an HTML artifact. So each customer gets kind of their own microsite as a value as the output instead of a. So tactically, those are the two main things is making the output very customer specific to each deal and very adjustable. So the customer can engage with it. But also making the AI you're using more specific to your product using a plugin built in within. Does that make sense?
+
+[00:08:13] Jaleh Rezaei
+Yeah. I think it would. If you had an example that you could show that would be super helpful.
+
+[00:08:20] Munzer Awad
+Yep. Let me make sure I'm.
+
+[00:08:22] Jaleh Rezaei
+tracking it right now. Yeah, absolutely.
+
+[00:08:25] Munzer Awad
+I'm going to pull up my screen right now. Yes. Yeah. Go ahead. Can you see my screen?
+
+[00:08:39] Jaleh Rezaei
+Yeah. So.
+
+[00:08:41] Munzer Awad
+I'm just going to show you a quick output. This is like if you are to come in and calculate the value of working with XValue, This is what that looks like. So instead of a business case, it gives you the, instead of a PowerPoint, excuse me, it gives you a website basically that you can see the executive summary yourself, understand the cash flow, like the typical business case stuff. But as a customer, I can go in and say, okay, what are the assumptions that were given in this outside in business case? Okay. You assumed an organization having 24 AEs, I actually have 30. And so it updates the metrics, all of that. It allows a customer to, in the old way of doing a business case, I would send them a request and say, how many AEs do you have? What's your quota? I think with AI now, you could do a lot of really good outside in assumptions or big calls that you've done all different ways that you can kind of bring into this and create a starting point that is more relevant for the customer. Because I can tell you from being a value strategist, the amount of time I ask for data and the customer they're like we don't even know how to get our own data internally is unbelievable. So starting with, here is a starting point, some data, you're going to have a better number for it, some data you don't But as a business case, you got them like much faster to an output that they can engage with. And so this is the output of what I can have an AI tool do whether it's Cloud or chat GPT for any customer. So for example, you would.
+
+[00:10:21] Jaleh Rezaei
+work with a company to basically get the data to be able to create one of these that their customers can use.
+
+[00:10:30] Munzer Awad
+You want them to use? Yeah. So for example, let's take ServiceNow. I'll create a version of this output that is ServiceNow specific with their branding with their templates and everything. And based on what I know about them externally, like I can go to their website and see based on their customer examples, typically, the benefits they see they bring to their customers. And I bring that as a starting point. I spend five days with them to if they have better examples, better benchmarks internally, better branding to bring that in to make this output better you want to have. And then that's what gets into whatever plugin we launch And they can start producing these for each customer, whether it's I don't know it's a manufacturing customer, you know, JCI, whatever it is. They can create those at a speed that they cannot do even with just using AI as is because I would just build it very specific to, with a simplified methodology there.
+
+[00:11:26] Jaleh Rezaei
+Gotcha. And then how long does your process take to work with someone on this? And what kinds of data do you look at Or what do you do in that process?
+
+[00:11:37] Munzer Awad
+The way I'm starting with is five days, I build this from the outside and build it into my plugin. I spend five days to meet with their marketing brand team and gather some of these data And like if they've done studies on business case, like on their benchmarks, all of that, I collect all of that, build it in. I'm also going in like this example Fireflies that you're seeing in it's, going to join me on every call. So as I'm learning things, I'm able to pull that data, put it back into how I'm building and adjusting that plugin becomes really fast At the end of the five days. And then I'm going to go in bed with their team and test it on a number of deals to make sure it's working properly. And then in 10 days we're ready to launch it for the entire organization. Basically, my commitment is I stay on until we hit a certain adoption number within 60 days. And then I can hand it over or stay on retainer or kind of provide resourcing to support them long term. But my idea is like 90 percent of their pipeline should be self service. I.
+
+[00:12:45] Jaleh Rezaei
+Think in our case, we're missing the data that would go into this as a smaller company. I think at a larger company might be different. So building the thing is not that hard for us… But We can probably build some version of it even just directly in Mutiny.
+
+[00:13:07] Munzer Awad
+I agree.
+
+[00:13:08] Jaleh Rezaei
+That could be cool. We're building a lot of templates and things like that in Mutiny. And like we just did one for 10 different influencers that we launched where we made templates for each of them. This could be like a cool one to put in there too. But I don't know how much effort it is and how much of it can be done with AI versus needing to dig deep. We also just released a meeting recorder. Well, let me take a step back and just kind of share a little bit of like where we're going. So we are building a vertically integrated sales assistant that ultimately increases revenue per rep inside of an organization. And our goal is to reduce the amount of time they're spending on non selling activities by making it a lot easier for them to prepare for meetings, follow up after meetings and do all the things that they need to do outside of those customer calls. And then number two coach them so that they are as successful as possible on the deals that they are working. And then number three get them more meetings and more at bats. We are right now on like number one of improving the productivity. So like we're really focused on all the customer facing work centered around the meetings that they go to or that are upcoming effectively. So it'll do the prep, it'll do the follow up and that sort of thing. And in two weeks, we're basically going to start working on the either coaching or prospecting. So we're doing some evaluations right now to decide which one we focus on. And we do tend to be adopted by enterprise reps Who do need to make more customized things for their customers versus someone super transactional.
+
+[00:15:15] Munzer Awad
+Can I ask two questions on this? I'm just very curious because I, again, I tested it. I think One of the best things that I've seen I haven't seen in any other tool that I've used with AI is how quickly the branding was pulled into you in seconds and how quickly the output is created, which is by the way, even at ServiceNow was a massive issue. Like I think AEs on average were using two to three hours just creating PowerPoints. And there is like an equal amount of time on other content. So there's massive just productivity opportunity across the market of just how much time you spend. The two questions that I had is one is are you seeing based on what you're talking to others? There's still a lot of focus on saving hours and saving time and productivity or more doing more high value activity. And what I mean by that is like my hypothesis is, and I tried to push this in ServiceNow is I don't want to spend as much time like trying to save like 20 minutes on admin work. So I'm not working on these use cases. I want to help the AEs do 10 more discovery calls because the value of each discovery call, It's tied to revenue versus giving me a couple of hours that they might use to go get coffee. I'm just curious how the framing is resonating because everyone is used to let's save a couple of hours and.
+
+[00:16:37] Jaleh Rezaei
+reinvest.
+
+[00:16:39] Munzer Awad
+So we.
+
+[00:16:40] Jaleh Rezaei
+have not, we're just starting to work on our pitch for Top Sound. And I certainly don't think that We have it today. Muni is resonating bottoms up because people use it and they save a bunch of time. And then they go and try to like explain it to their RevOps or sales leader who then will come and look and We're like, okay, this is better. Okay. Cool. Oh, these are the things you did with it in a deal That's interesting. Okay. Let's roll this out to more people. But tops down, I definitely have a big challenge ahead of how do we communicate this? And we used to just do assets. And when we just did assets, It was a very difficult conversation with CROs because they're just like I don't care about assets And like sure you can, you know, I had one CRO say he's like You're either increasing revenue for me or you're decreasing cost And no one has ever been able to increase revenue. So I don't trust that. And the only way that you would decrease cost is like if you swap something else. So what are you swapping in my stack? And then he's like, if not end of conversation then, right? I mean, he was much nicer about it than that. But like, and so The other problem that I'm running into, so now that it's the assistant, I think we can definitely lay claim to a bigger productivity thing where it's like this is the assistant that does their customer facing work but with significantly higher quality, it's faster it writes in their voice, it learns how they sell. And it just kind of works and requires less editing. Like that's. Always been the thing with me is that like the quality is just better than what you get out of Claude. But even with that, I feel like most CROs are like I have Claude. I don't understand what you are or how this plugs in. And I think in a lot of ways like We're building a much better assistant for sales. But I haven't figured out how to get their attention for that. And we are starting to build more and more of the infrastructure so that we can displace legacy budget. So, for example, we added a CMS for Highspot for like all the content so that they could churn Highspot and use Mutiny and do all of their content in one place. We just released a call recorder. So it works a lot like Granola and it augments Gong and we will soon replace the centralized Zoom recording as well and attach coaching to it. And so That's where we're headed with it. And in its current moment, I sort of have a hard time helping a CRO understand why this is better than Claude. And I think it's not just explaining to them why it's better. I think the other part of it is that they are neck deep in a Claude investment And they're just trying, they're like, well, I'm not going to replace all Claude with this. So this just seems icky and like just go away, you know. But that's why when it's bottoms up, it really resonates because RevOps comes in and they're immediately like, no, no, we already have Claude And the enterprise reps are like, hang on a second. No, we don't have this. So we need to implement this And then it gets implemented because the enterprise reps have a lot of sway. And then the team sits down and is like we don't have this, We don't have this. So then maybe we should do it, But that's what in the next two months like I think we need a lot of, We need to figure out what our Lane is And it's probably some combination of messaging and storytelling, but also probably rounding out the shape of the product So that it feels like it connects to something they don't have. But I'm curious like what you think And feel free to be super honest. Like I think That's.
+
+[00:20:55] Munzer Awad
+where I was going to go. Yeah. So my second question was going to be like why not an MCP strategy versus like another interface? And I think you started, you know, you were talking a little bit about like the challenge of that. But I'll just like tell you where my head's at the most expensive cost of running Claude. At least from my experience, is producing content So expensive? Like the amount of token burnout is unbelievable when you're trying to build a PowerPoint slide with Claude and it's terrible and you need 10 times to get there. Is it going to get better over time Probably? But one of the things that I pushed Trues and team on from a marketing perspective is that guys like our sales team is still using Claude most of the time to build PowerPoints and it's burning their tokens. So you need to find a better way for us to get the first version of that content better in Claude. So there is a positioning for you just to think about around If you decide to say like even if you're going to produce that. So we.
+
+[00:21:54] Jaleh Rezaei
+have that by the way. So we do have the MCP server for the assets and it's definitely a good way to use it for orgs that are like really heavily invested in cloud. And actually, we are in service now, believe it or not through Moveable Inc. I think it was, Moveworks.
+
+[00:22:15] Munzer Awad
+Moveworks. Yeah.
+
+[00:22:17] Jaleh Rezaei
+I think it was an acquisition and it was for ABM and Moveworks but it's been interesting how I'm like we need to meet with the right people in this account because no one is even, we're not talking to anybody that makes a decision in that company. Like that is sort of my read from Afar. Like we're spending a bunch of time with this like random people in marketing and the AI advisory board, and they're like we're moving things forward. But I'm like This is a sales conversation. Someone in sales needs to just give us a fast no or yes on something so that we can decide whether we invest in this or not. On the surface, it sounds good that we have an SLA, and we're already in, But in reality, I met with an enterprise director there and he's like I don't do anything. I don't make any decisions. He sounded terrified of trying something and getting his wrist slapped. And I was like, wow, this is like, I can't believe like a senior enterprise director is… like has no decision making power, you know? So anyway.
+
+[00:23:27] Munzer Awad
+Yeah, I'll just tell you like complete transparency Like I think there's a lot of people afraid of making decisions at ServiceNow. So you just like not for anything. And just like Honestly like I did the opposite where when we started like my whole thing was like you guys are overcomplicating every decision, 80 percent of what we're talking about. We don't need to be spending time talking about. So launching cloud, we're doing blah blah blah And like honestly the decision makers, like you said, it's people in sales. So, like Jackie Bernstein, my boss, we were making all the decisions and running with things like that's. It, You know, we're not wasting time and you just because you have that direct line. And so Just like I think generally that's kind of my two cents on that. I know we have like a few things we were talking about. I'd love to figure out ways to partner because I don't like from my perspective, I, As I go to market and talk to different sales leaders, my positioning is one if you're already invested in a tool like cloud or ChatGPT, let me make sure help you get the best out of that. Like the best Roi, what you already invested in. If you're not, let me help you figure out what is the right tool to go invest in to either optimize your investment or whatnot. So I think there is opportunities to think about as you evolve your product. But I also want to make sure I'm helpful as you think about the value story of Or even like based on what you saw, like what resonated with you? You've been talking with a lot of people too. What did not resonate based on what I told you as well?
+
+[00:25:00] Jaleh Rezaei
+Yeah, totally. I mean, I think the, for… us, what would be super helpful is I would love to like pick your brain on or maybe even get like get if you could put us in touch with like someone that you think would be a decision maker so that we can like then prepare for that conversation and go in and like actually pitch them what we have and see if they're interested and even just how to navigate it. So like for example, like they have an AI coach. So we probably shouldn't talk about that piece And maybe it might be easier to just be a little MCP for assets and that plugs in and reduces costs for Claude. So like if there is, I'd be like really curious to give that a try. And then I would also be curious to get your take on the broader assistant that we're building because I think everybody sort of went with Claude as a broad platform that you could make. Anything. But now like our assistant is so much better, It indexes the email, It creates their voice, it… It learns how they sell It adapts. It will go to their meetings. It'll do the follow ups. If you go back into Mutiny or if you even wanted to start a new account, you'll get to see the new experience where we've added all these things And just even use it in your own customer meetings. It'll write your emails for you. It'll push it straight into your inbox, It'll draft things and all that. So I would be really curious of like working with someone to figure out how do we keep shaping this story? So.
+
+[00:26:53] Munzer Awad
+That.
+
+[00:26:54] Jaleh Rezaei
+it's actually successful And maybe there's a few different versions of it. Like if you're deeply embedded with Claude and there's no way you're getting rid of that. We go MCP and we just focus on assets. And maybe if you are more of a mid market we, you know, we pitch the whole thing et cetera. But anyway, that's just like a very top of mind problem that I have to solve in the next two months of figuring out how do we successfully pitch Mutiny to senior sales buyers and not just bottoms up PLG?
+
+[00:27:29] Munzer Awad
+I think on ServiceNow specifically just completely honest based on what I'm seeing, I don't know if you saw the news that they launched a couple of maybe a week ago, they're moving their sales coach to Moveworks and they're going all in on like now and now. So I would just say like in terms of sales assistant, I can't imagine them trying to invest in another tool from that lens. I do think the content creation is an angle that Roos is driving but I honestly don't know if he's building his own thing or he's looking to leverage what Muni already built, But I would focus on that angle because it continues to be the biggest. How do we use the thing across at least the old version of Claude?
+
+[00:28:12] Jaleh Rezaei
+We also everything has analytics which is like it's exceptionally good analytics Like it will track everything. They have passwords. You can see what people did. It'll notify them Like that piece is huge for sales and they can build it into forecasting. So that's like a whole thing that I think could be really valuable because everything in Mutiny is built for sales. It's like nothing is just like for a marketer, You know what I mean?
+
+[00:28:39] Munzer Awad
+I think you actually bring up a more important point to think about that. The part that became challenging and I think it continues to be challenging even for me That's why I'm eager to go back after this conversation to spend more time in Mutiny is once you create an output in Claude ChatGPT, whatever, how do you then present it to the customer and share it easy? Like HTML artifacts. People are obsessed with them, but they're so clunky to share. So I saw like Dealroom is one of your things that you.
+
+[00:29:11] Jaleh Rezaei
+Yeah. And they look amazing. Yeah, They.
+
+[00:29:13] Munzer Awad
+Look amazing. I think the biggest value of them is to your point tracking engagement on them. Like I've used Seismics for their deal rooms and sharing content. It's terrible. I hate it. But if I'm able to be in Claude or ChatGPT or any other tool and say, you know, like put this into my deal room and then I can send the customer a link so they can go in and view whatever I produce like AI agnostic. I think it's a space no one haven't figured out as far as I know, Like right now in my own space, I'm building a mini portal per customer. So as I launch with customer, I'm giving them like a microsite where they can post their HTML artifacts So that's an opportunity to think about. And the second point you made, I'm happy to like spend the next week or two like just building in Mutiny and just testing it out. And I would love to have a follow up on that too And even test it with some of the Potential customers that I'm talking to.
+
+[00:30:09] Jaleh Rezaei
+Totally. And I'll give you a bunch of free credits so that you,
+
+[00:30:11] Munzer Awad
+can I would love it?
+
+[00:30:12] Jaleh Rezaei
+Yeah, You can just play around with it and give me any feedback you have. Yeah, I think that all sounds interesting. And then my feedback on what you're building is.
+
+[00:30:31] Jaleh Rezaei
+For me, the value would come from, How do I get the input and how do I do the value selling? But I might be just really small for your target customer. So if you feel like your target customer has all the data and it's a matter of like how do you package it into something really valuable, Then maybe that's a little bit different. I think for us like we don't have the thing that goes into the code, but we're really good at generating the code, you know? And so I guess it depends on what your ICP is. As you go about this. I do think there's a huge opportunity around some… of this coaching stuff that… So as you play around with the Mutiny Assistant, you'll be by yourself. So you won't get to see the multiplayer aspect of the coach which is very unique. And Claude doesn't have that.
+
+[00:31:34] Munzer Awad
+Yep.
+
+[00:31:36] Jaleh Rezaei
+The architecture of Mutiny that's very unique is that it has an understanding of every person and then it also develops an understanding of the company and it will learn across the individuals and bring learnings back into the company that get reabsorbed. And so if you take that architecture like anything around how you do customer work, It's a little different, right? Like no two reps do it exactly the same way, but you want to raise the floor for everybody, Same thing with coaching. It's like you have your methodology, your skills, but like everybody wants to be coached a little differently. And so you have this architecture that's like perfect for raising the floor for everyone, But then localizing it to everybody and then bringing all their learnings back, which is just a very unique thing to sales. If you roll that out for the whole company, it would be like a hodgepodge of jumbled up crap, right? Because you don't want to learn Nothing from engineering is relevant for sales et cetera. So anyway, maybe I… know we're out of time, so.
+
+[00:32:44] Munzer Awad
+This is really helpful. So I have just maybe a quick suggestion. Let me spend a little bit of time in Mutiny because I saw you guys have a skills capability. I want to play around and see how it works. I also want.
+
+[00:32:57] Jaleh Rezaei
+to Play with what's called the brain under automation when you get that, because that's the more modern version of skills. You can still do skills if you want like a very specific thing. But if it's more like general, how you sell, how you operate, the brain is sort of where most people are not going to tell it what you want Yep.
+
+[00:33:21] Munzer Awad
+And that helps And I'll tell you from my ICP. I was actually like just, you know, if you'd love to kind of test it out. My thing is just any company that's going into enterprise and having challenges around budget and trying to position themselves on value against other options is really what I'm focused on. So any tech company that, So I think there is, Let me put some thoughts into based on this conversation, what that could look like even in Mutiny. And then I'd love to have a follow up just to cover.
+
+[00:33:49] Jaleh Rezaei
+Both. Yeah, that sounds great. Yeah, By all means, I think that sounds great. Give it a try and then maybe ping me in a couple days and we can hop back on.
+
+[00:33:58] Munzer Awad
+All right. Sounds great. Great meeting you. Nice meeting you. Viva. You too. Bye Monzer. Okay. Bye.

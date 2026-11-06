@@ -1,0 +1,270 @@
+BICS x Mutiny Intro
+October 30, 2026 at 08:59 AM
+https://us-53268.app.gong.io/call?id=8635246990542472463
+
+[00:00:00] Ann Heyse
+as to?
+
+[00:00:11] Ann Heyse
+How can you do that?
+
+[00:00:32] Tyler LaMantia
+Hey, Anamika. How are you?
+
+[00:00:37] Ana Shishodia
+Hi, Tyler. I'm good. How are you?
+
+[00:00:40] Tyler LaMantia
+I'm doing very well. I'm doing very well. Happy Friday.
+
+[00:00:45] Ana Shishodia
+Thank you.
+
+[00:00:49] Tyler LaMantia
+Awesome. How's your week been?
+
+[00:00:55] Ana Shishodia
+Good. Very good. How was yours?
+
+[00:01:00] Tyler LaMantia
+It's good. Yeah, Busy.
+
+[00:01:03] Ana Shishodia
+You are based out of, You are based out of?
+
+[00:01:05] Tyler LaMantia
+I'm in Toronto? Oh, okay. Okay. Yeah. How about you?
+
+[00:01:11] Ana Shishodia
+I'm in India Bangalore?
+
+[00:01:14] Tyler LaMantia
+Nice. Hopefully you're ending the day soon?
+
+[00:01:19] Ana Shishodia
+Yes.
+
+[00:01:21] Tyler LaMantia
+Very nice. One.
+
+[00:01:22] Ana Shishodia
+more call after this and then weekend starts.
+
+[00:01:26] Tyler LaMantia
+Nice. Very good. And then is Anne, she's in Europe? I believe.
+
+[00:01:33] Ana Shishodia
+She's in Brussels, yes, Belgium.
+
+[00:01:35] Tyler LaMantia
+Gotcha. Very nice. We'll give her a moment to start. But maybe in the meantime, like I'd love to hear a little bit more about your role.
+
+[00:01:49] Ana Shishodia
+I'm part of Anne's team. So, Anne is heading the corporate marketing and I am looking after the BICS part. I'm a project manager. So any content design related request comes to me from the bigger marketing team. And then I work with the design and content team to get it done. So, I become that bridge between the marketing and corporate… marketing. So that's how I work here.
+
+[00:02:20] Tyler LaMantia
+Nice. And… I guess BICS like, so there's a couple companies under the.
+
+[00:02:28] Ana Shishodia
+Proximus Global. Yes, There is Proximus Global, and then Proximus Global has BICS Telesign, and Route Mobile, Three companies. So I am part of BICS. I work for, so we have named these three companies in under three different pillars, Connect, Protect, Engage. So, Protect and Engage is tele sign and RML Routermobile and I am part of Connect, which is BICS. So that's how we have divided it. Hi, Anne.
+
+[00:02:59] Ann Heyse
+Hi, I don't know for some reason, I didn't get a notification of this meeting. So, luckily, you've sent a reminder in my email then, and I saw it All.
+
+[00:03:10] Tyler LaMantia
+Good. All good. We were just kind of understanding the company structure a little bit. And then Anamika's role. So, but yeah, great to meet you, Anne. Thanks for taking the time today.
+
+[00:03:21] Ann Heyse
+No, no, for sure. Yeah. So, I don't know if Anamika already introduced why what we are looking for, Maybe it's going to be easier then to talk about like what the capabilities are.
+
+[00:03:34] Ana Shishodia
+No. And so I was, we were talking about what my role is and everything.
+
+[00:03:38] Ann Heyse
+Okay.
+
+[00:03:39] Ana Shishodia
+That's what we're talking about. Yeah.
+
+[00:03:40] Ann Heyse
+No worries. Yeah. So Tyler, we're looking at what we currently have as a big challenge is that we have… ABM and all paid media handled by the business units. And we, in central marketing, we are like more like the executing function of marketing efforts. So we have a web and design which doesn't sit with me. But my responsibility is all the, you know, program management, coordination, content, social media, And also MarTech. So I need to look into a solution for my colleague who's from the web team who are struggling with. So all of these ABM campaigns, are there's a huge amount of ABM campaigns being launched and Google Ads campaigns. And so we'll need, we need to create landing pages for those. We have a very limited web team with only two people and they're currently revamping four websites. So you can imagine they're kind of busy. And that's why we're like kind of stuck because you have the ABM team with their requests. Those landing pages would need to be uploaded on the, we have so different entities. So we are BICS Telesign, and RouteMobile. So we have three main entities And we need quite a lot of localization. Usually, it's like Spanish, simplified Chinese, sometimes German, French. Yeah, those are a little bit like the Portuguese also for our markets in Brazil. So, yeah, localization landing pages preferably as easy as possible to set them up so that we can even maybe give that to the, The ABM teams to like put them together themselves or the team of Anamika for example, who are like more like the project managers. But if it's easy enough to do, then they can support as well. So something that doesn't require like any UI UX design skills to put those pages together?
+
+[00:05:57] Tyler LaMantia
+Wonderful. I don't know.
+
+[00:05:58] Ann Heyse
+If that's something that Mutiny can help with?
+
+[00:06:02] Tyler LaMantia
+Yeah, I think there is some help we can provide, I guess question on like just the requirements from, I guess like a multi brand Like consideration, like would these all have specific and separate brands? And for instance, would they all be hosted on a specific separate subdomain or is everything on one subdomain and using like the BICS brand?
+
+[00:06:27] Ann Heyse
+No, it would be on three separate subdomains. Okay, BICS Telesign, and Route Mobile.
+
+[00:06:34] Tyler LaMantia
+Okay. And then all would have three brands. And then I guess like One thing Mutiny can do as well, like we can definitely accomplish like just creating a page. I can show you a mock up. I even created today like super quickly published on a subdomain. A lot of time, teams integrate their other tools and stack to like pull context in around The accounts in order to personalize the page. So, from the perspective of your current stack, what does that look like? And does each brand use different technology or is there like one centralized tech stack like from like a CRM perspective or anywhere else data is living from accounts? So.
+
+[00:07:13] Ann Heyse
+CRM is not harmonized. So we have a Salesforce instance for Telestine, a separate Salesforce instance for BICS and Udo for Route Mobile. And then Telesign has Marketo, BICS, we're implementing Salesforce Marketing Cloud And again, Udo for Route Mobile, but not really used. So, yeah. But when we talk about landing pages, it's mostly for ABM campaigns. So we use Sixth Sense as a centralized platform. Okay? And yeah. So in terms of like pulling in information from the CRMS is maybe, I think it's more like it usually comes from like external files, I think.
+
+[00:08:07] Tyler LaMantia
+Okay. Yeah. I mean, like CRM integration is ultimately optional. So I mean, that could not like kind of Complicated things if you want to go that route, but if you don't want to go that route, it's not something you have to kind of connect. You can just rely on like external research or uploading files or just providing context via text. We are able to connect to Sixth Sense in some capacity with an MCP as well too. So there is some element where you can connect into there as well On the ABM campaigns itself. Like what does that look like? Are you going one to one after like a large target account list? Is it more like general like one to few or one to many targeting? What type of pages are you creating?
+
+[00:08:50] Ann Heyse
+Do you have more an idea of that? Because I think it's mostly like rock mobile and tell us sign, Using those, but it's really like.
+
+[00:09:00] Ana Shishodia
+Yeah.
+
+[00:09:01] Ann Heyse
+Go ahead. It's more. It's Yeah, what I've seen passing by, was more… More like these all of these phases like, the awareness stage and the consideration and whatever. And then there's like 25 pages per phase. And then there's also all of the, The, the localized pages. Again, all the translated pages. So there's quite a few the ones that are now, for example, in, In let's say work in progress or like it's 200 pages.
+
+[00:09:37] Ana Shishodia
+Yeah. So there was like almost for, if we have multiple regions, then we also have different kind of ad format. And for every region and every ad format, we are creating separate landing pages That's all they're like. And these campaigns are for RML TeleSign and BICS. So overall, more than 200 landing pages which we were supposed to create.
+
+[00:10:01] Tyler LaMantia
+They're not branded towards one specific account, Anamika, like are they more general?
+
+[00:10:07] Ana Shishodia
+Some was for telesign website. Some was from RML website and BICS because we have distributed all these campaigns pillar wise. So as I told you, BICS represent connect and telesign is protect and RML is engage. So these campaigns are all these three pillars.
+
+[00:10:28] Tyler LaMantia
+Yeah. Gotcha.
+
+[00:10:29] Ann Heyse
+Okay. Distinct solutions, their own budget, their own website, their own, well branding. Okay, The colors and everything look and feel is the same. But then the logos are of course different as well. So it's basically but we would only need it for, I don't think we'll be doing a lot of ABMs and ABM campaigns anymore in 20 27 for BICS. So it would be for mostly for tele, sign and route mobile.
+
+[00:10:54] Ana Shishodia
+Okay.
+
+[00:10:55] Tyler LaMantia
+Okay. Gotcha. And then in terms of who would create these Anamika, would it be yourself Like primarily like in the tool? Like I asked, because sometimes we have like teams in ABM like extending Mutiny to sales as well. But it sounds like this is purely like a marketing owned initiative within.
+
+[00:11:16] Ana Shishodia
+This team Currently, it's the BICS website team, which has two people. They are the ones who are creating it. But the thing is like, so if we have to suppose create 15 landing pages on BICS website, It becomes a bit easy because we can just create one workflow and then keep repeating it. So it's more of the creating similar pages. But the issue comes when we have to create for the three different website and all the layouts and all is different. So then the work becomes too much.
+
+[00:11:47] Tyler LaMantia
+Yeah. Okay. Sounds good. So yeah, purely marketing. And then Is there a tool being used to create them now Or is it just like whatever your CMS is? No.
+
+[00:11:57] Ana Shishodia
+Not currently. Currently, obviously our website team did suggest us a workflow so that we can create it internally within the teammates. But no, we have not still decided on that. So website team is.
+
+[00:12:10] Ann Heyse
+The one who are doing it To design, let's say the landing pages?
+
+[00:12:15] Tyler LaMantia
+Okay. And just last question on the ad perspective, are you looking for something to help create ad creative, or is this purely from a landing page perspective? Like how is the ad side doing? And is that a need as well too, or?
+
+[00:12:31] Ana Shishodia
+Is it just on the page? The landing page is what we face a lot of difficulty because when you talk about ad, it's like one creative. We obviously adapting it to so many different sizes and formats. But once we create one ad, then it's obviously easy to replicate in different dimensions. But obviously, if we are talking about a landing page and you can also support us or tell us how the ad creation also works, then we are open to that. We can at least know how both things work. But currently we do have our design team who help us with creative.
+
+[00:13:05] Tyler LaMantia
+Okay. Sounds good. So let me share a little bit more about Mutiny… And just give me a second. I'll pull this up.
+
+[00:13:23] Tyler LaMantia
+And just let me know when you can see my screen which is just the initial settings which I'll start with in Mutiny. Cool. Yeah. So I think where it stands today is Mutiny is primarily designed like if you have one account for one brand, There are some workarounds that you can go about in terms of supporting multiple brands or naturally you can just have multiple accounts. So I'll talk a little bit more about what that means from like a packaging perspective. But I start here to show you that one, every specific account is going to be tied to a domain. So we always know who we're creating. For example, I did this account. I just switched it over to BICS. On that same note, we also are tied to a brand. So I've loaded in the BICS brand. You can see I just pulled this directly from the website. The team can tweak this and make sure everything looks great, including some very detailed visual guidelines of how the brand's character comes to life on the website. So with that said this is now the default brand And I can go ahead and generate things in the BICS brand. You can have multiple brands or themes. You can see, I can create one here And you can toggle between those. But where it becomes tricky is that all of the assets which is Mutiny's kind of definition of what you're sharing with prospects is going to be hosted on a subdomain. So that subdomain, everything is going to be published to that by default. So you create something and it's going to then push over to the BICS subdomain. Just in this case, as an example, Now, technically, you can have multiple subdomains in one account. But that said things like the page metadata here, like the fallback URL, the favicon, the preview image, the title and the description are all locked once. So this is where I say, well, there's some possibilities of actually supporting multiple brands and multiple subdomains. If they are quite different in purpose and product and visuals, then you're probably going to need multiple accounts for Mutiny. But that said if you were to have multiple accounts, then you would have all of the different brands loaded in each account, their page metadata, the subdomain, and then it would be neatly organized across. So that would be kind of my first consideration. And then from there, you can invite the right people to each account from the team perspective In mutiny there too. So I will pause there just in case there's any questions on that. No, that's.
+
+[00:16:01] Ann Heyse
+very clear. Yeah, that's something we face with every, with all of the, of course, like all of the domain And the fact that, we are Proximus Global, but it's basically three main Entities. And then we even have like six daughter companies as well.
+
+[00:16:19] Tyler LaMantia
+Yeah. So that's where obviously, I think in your case, it makes sense to have multiple accounts And I will say in regards to having multiple accounts, you can see in my bottom left here, I have a number of these And if you were a member of all three, you could easily switch between them. It's not like in terms of like Completely disconnected, I could have BICS, I could have Proximus as a main. I could have the other companies et cetera, and switch between those organizations. But on the packaging perspective, it requires another account. So the only other big consideration is kind of part of why I asked is integrations. So for instance, each account could only connect to one Salesforce account. So if you did want to connect to Salesforce, I mean that's another supporting Factor for effectively having multiple accounts. Now, like I said, integrations are optional. Pretty much how you can look at them is if you have an important context that you want to personalize an ABM page for, in any of your systems you want to connect, this is where you can connect. And this is where I was kind of asking, are you creating a page for one target account? For instance, if your target account is Zoom, just as an example, If you create an account for Zoom, you might want to look at old call transcripts or CRM data, et cetera. If it's more generalized and just for like an industry, a vertical, a sector, a product like integrations are a little less relevant. So I say this to say like ultimately, you can choose which integrations you do connect. You can see a number here that are kind of pre surface but anything with an MCP can be connected. So Sixth Sense, I have for instance, be C connected in that route too.
+
+[00:17:59] Ann Heyse
+Yeah.
+
+[00:18:00] Tyler LaMantia
+From there, effectively like Mutiny is an agent, right? It's an agent for go to market. We have lots of sales teams using it. We have lots of marketing teams using it as well. Within that agent. There's also the concept of a knowledge base. And this is another kind of supporting thing for multiple accounts where as you work, Mutiny will learn more about how you work And how your company operates. So put simply, it's like when you start creating pages and you start providing feedback and you start really uploading knowledge or anything along that side. Mutiny's knowledge base will continue to get smarter. You can configure this up front too by dropping in notes, transcripts, files, asking it to look into Drive Notion, whatever, And however you're storing this main context. But the idea here is you want this agent to know as much as possible about each brand, how you go to market, your ICP, your core messaging, maybe even competitors, and so on.
+
+[00:18:57] Ann Heyse
+Yeah.
+
+[00:18:59] Tyler LaMantia
+And then from there, the key concept of kind of what you're looking at is the concept of what Mutiny calls assets. So creating pages. Ultimately, the best way to go about setting up a Mutiny account is to set up a set of templates So you can kind of get an idea of things people do create within Mutiny. It's not just limited to ABM People, do competitive comparisons, event, invites, case studies. We can support decks one pagers on the sales side like business cases, proposals deal rooms Less relevant for your team today, but Just getting an idea that it's very flexible in what you create. It doesn't just need to be a landing page. There's no one size fits all. You can truly create anything within Mutiny itself. But once you have your templates, they all sit here, right? And instead of creating something from scratch every time you have a set of templates and you just personalize those templates for whatever the purpose is of that page itself yourself. Once they're used, they become an asset. And this is what's ultimately sent to a client Before touching on that further. One last concept that I'll share is just the concept of a library. This is where content or imagery you already have can live. So this is effectively generated automatically. Once I pulled it in from your website, It's very incomplete to start because there's obviously a lot more But you can see it found some of your case studies. It took a lot of different imagery directly from your website. And then from here, if you were to come on, I would suggest kind of optimizing this. You can one organize everything into folders. Two, you can just mass upload content and files itself. But thinking about if you're creating an ABM page and want to feature some good case studies, You need to have access to those case studies. You want them to know specifically what they'd be relevant for, and the agent itself can go ahead and read this whole case study, Understand that this is for a farming use case and you're creating a farming page, then we want to pull that in Or it's for SMS and voice communication, Mutiny can know these things. So it pulls the right content in. And then on the imagery side, of course, you can feature different group marketing imagery on your pages as well too. So this is kind of a base where you can have Mutiny using this while you go ahead and create an asset. So Creating an asset like I pre created actually, where is it? This one? This is a template ahead of time. It took me legitimately five, 10 minutes and I just effectively can prompt my way into designing a page. So no technical skills needed. I have none of those myself and you can just effectively generate via Mutiny's agent at the bottom left. Two ways to edit. Ask, You can even just use our voice function which I tend to use and just describe what you need. Uploading context files, whatever that might be anything that you think could help generate. And then there is also the right side editor, right? So any last mile changes, if you just need to delete text, if you need to change the background color, replace an image with something in your library, go ahead and change rich text, editing, anything along that side, you have that ability on this right side. But for something more, You know, ultimately sweeping, you use the agent. So as an example, it does also very well with say screenshots. So if I like this section of something you've already created, I can drop that in. I could say recreate a new section based on the screenshot, And then maybe I'll say find a better customer story to spotlight. And then lastly add a gradient To the hero section. Just as examples Ultimately, anything you want to prompt around copy, visuals, design, even interactive components. As you can see, I just have like a bit of a scrolling logo bar. We can do things like calculators, quizzes, things along that note And even embed videos or forms, whatever that might be too. So, very flexible. This is just the format I've put together. You can just prompt, use the right side editor and then get to the exact page design you want. And in this case, I'm using a template, right? So I'm designing my template. Once your template's designed, I just say make this for this industry or this account or whatever that might be. So while that's working, I will pause And you can see it does Have the ability to do any sort of web research in it too. So like if you wanted to say go research this and this, it's effectively powered by LLMs And it can go ahead and lastly translate too. But I will say translation is by an LLM. So like if you did translation with CaptchaVT's models or Claude's models, you'd expect the same translation. So maybe a review needed, but that's effectively how it would work as well. We.
+
+[00:23:57] Ann Heyse
+Use DeepL… Gotcha.
+
+[00:24:01] Tyler LaMantia
+Gotcha. So yeah, like I mean, like if I say make this into make this Can.
+
+[00:24:10] Ann Heyse
+You put it in Dutch or French?
+
+[00:24:12] Tyler LaMantia
+Dutch. Yeah. Which one would you prefer? I'll give it a try. Make this for a Dutch speaker… Change language. And yeah, like, so we'll see how it does, right? Like, I mean it's completely capable of switching to, I think for the most part any language, But naturally, it's not something we can say, we're a translation platform like we are still using LLMs. Yeah. So yeah, we'll see how it does. But yeah, you can see it added a bit of a gradient, added our new section directly from your screenshot here in a couple seconds… You know, we have a new case study here. So very quick to get those changes. And then we'll see how the copy… does And you can maybe let me know.
+
+[00:25:06] Ann Heyse
+Yeah. Looks, I mean, what's written there is at least fine.
+
+[00:25:11] Tyler LaMantia
+Yeah. So that's roughly the editing experience And like ultimately, once you are in a good spot, like you can imagine, you would have a number of different templates. They could be for different use cases or you could just have a ton of different ABM templates if that's only the thing you want to use Mutiny for. Yeah, when I'm ready to create, maybe this is my ABM Dutch template for BICS, I can just use this template, suggest any changes. And then once I do and I'll just pop this open here because now I'm in an asset view, not a template and I'll just stop this. Sharing is effectively done through this button up here. You can then define the URL slug. So let's just say this is for farming. I don't know as an example and I can define that slug. The beginning of the URL is just your subdomain. I can save that. Optionally. We can require an email or password to view the page less relevant, probably for ABM, but still something you can do. And then I can publish and share how.
+
+[00:26:14] Ann Heyse
+much, how long would it take for, to set up an account like per account? Yeah.
+
+[00:26:21] Tyler LaMantia
+I mean, ultimately, you can truly, I mean, like this is not an account set up and you can see I created this like very quickly so like you can get started really quickly. I'd say like in order to effectively get your subdomain set up, maybe any tracking scripts or your page metadata, your library and your templates, yeah, two to four weeks max, something along those lines. I mean, I've seen people go live in a week just kind of depends how much you want to do. And then like integrations are another perspective, right? Like if you're not integrating anything that's obviously much faster as well too. But yeah, that's roughly the most important things I will say like you'll see some things here. Like in the name of accounts and meetings, there's a lot of sales oriented things as well. It's not to say marketers can't use the platform and that's where assets are really focused on. But you'll notice like we do have a number of different sales use cases even from a template perspective as well. So not to say we don't have tons of marketing only teams using it. But naturally, that's why I asked about sales. So like for instance, we have like our own like kind of note taker and meeting recorder. This tab wouldn't be relevant and you'd be more focused on the assets piece too. So you.
+
+[00:27:37] Ann Heyse
+do have what, what's interesting is also so, we attend more than 300 events per year, not all sponsored, of course, some of them are like work the floors, but sometimes we have to create landing pages for those with like ideally like maybe like a meeting schedule or something like that information on the event. So that, could be handy as well for.
+
+[00:28:00] Tyler LaMantia
+Yeah, use case. It could be another use case for sure too like any time you need a digital asset, like we can do decks, we can do PDFS too, like even like printouts one pagers. So like there's a variety of different things in addition to just like the traditional landing page on a subdomain, you can also create ad creative. You can push ad creative to LinkedIn's campaign manager as well. So that's another use case too as like maybe just one last visual example. I just did that ahead of time like really quickly but we do not do any other ad destinations. But like I just created this and then just pushed it over to LinkedIn's campaign manager really quickly. So in that perspective, we could help otherwise, you could always save this image in mutiny and upload it to like Google or reddit or whatever else you know. But we do have the need of push just from the perspective of creative to LinkedIn. But yeah, that's ultimately the main gist of how I think BE fits, for you all.
+
+[00:29:05] Tyler LaMantia
+Now, like on the packaging side of things, we have two plans that could potentially work. There's a business plan and it starts as low as 50 dollars a month. It's month to month. You can literally sign up, and kind of effectively get started. I think our current sign up requires connecting Gmail and calendar. It's a bit more sales forward. I can see if I can kind of get past that for you. But that could be a more cost effective option for you. Now, that said it doesn't include things like custom terms. So like if your team always requires like custom legal terms or a contracting process. Obviously that's going to be an enterprise subscription, things like sso, a variety of integrations, customers like detailed customer support, like a contact for your account manager. So like it's more of like a self serve sign up, use it. You can still do a lot of what I showed you today and across multiple brands. It's obviously very cost effective. We are purely credit based though, right? So everything you use within the agent you use AI, it's taking credits. It's not one credit for message. It's fractional. So if I ask to like change a word, it's going to be like point zero two. If I ask to like completely redesign a page, it could be multiple credits. I can share more on that. But I share that the perspective of enterprise gives you a whole lot more credits and support integrations, sso, custom contracting, but it's a much different price gap and that's where each account would start at about 39,000 usd per year. Now, if you were to get multiple accounts because you're needed like we would work, we would work something out on like additional accounts being a better fee. But anyway, I know we're at time and I can share a lot more on that. But just want to give you kind of the options that there is kind of this really cheaper middle ground that could fit your needs. And then there's the enterprise where you're gonna have to buy multiple accounts and, you know, kind of, the higher range of pricing but you get more support and a bit more functionality too.
+
+[00:31:16] Ann Heyse
+I'm just thinking for because, we have like an urgent need for it. Maybe it would be an idea to just set up like a quick accounts for telesign and rock mobile and then see for 20 27. It's a new year. It's a new budget year also if we can then move to a more like the enterprise license one because sso is also important especially for telesign. Yeah. And one last question which is a bit of a tricky question as, you know, whatever we acquire as tools, we always need benchmarking, and how do you, how do you compare to Userled? Yeah.
+
+[00:31:57] Tyler LaMantia
+So, I would say they do a really good job with ads. I think like that would be their core competency from what I understand of them. I'd say we are a little bit more flexible in terms of page creation, like you can truly create anything within mutiny like interactive components, complete design flexibility across the page. We both create pages in bulk. So I showed you a single page creation, but I could go say like create 100 of these. I think they do the same. I would say from our integration perspective, we are a bit flexible in terms of connecting with like anything and everything within an MCP. But they go very, they go very deep with some specific integrations like on marketing automation that maybe we do not as much… analytics. I think we're pretty comparable except the one thing that we have that I think is very valuable and I'm not sure if they have it. They did not. At one point, anytime someone views your page, you can watch a live recorded session, replay of how they record it or how they watched your page. So like if you are diving deep into what's working in your ABM programs and how users are actually engaging with your page, you can legitimately go ahead and watch that back and understand that in addition to like clicks, engage time views, etc. And then the last thing I will say is like, and truthfully it's not as relevant to you. But this is why some people choose B, A is like we cover more of marketing and sales. They're a bit more marketing focused, which, is not a point in our favor in this case, but just kind of transparency of like where we actually differ. So, yeah, I think overall very strong in ads. I'd say we're stronger in the page creation itself in terms of flexibility, a little bit more on analytics. But, and then a little differences in integrations that's kind of how I'd sum it up roughly, okay?
+
+[00:33:54] Ann Heyse
+That's that's very interesting. It's better to ask because, you know, yeah, you, of course, you do your competitor analysis and I also need to, you know, I need to be able to sell this internally with, to the procurement team. Yeah. So that's why I need to inform it. Okay, no, very interesting. But so Tyler, if you could, because we, if you could share the recording because we have, of course, I mean, I'm responsible for acquiring tools, but of course, the stakeholders are the go to market teams who lead ABM and LinkedIn campaigns, and my colleague Nayla who's heading the web design team.
+
+[00:34:32] Ann Heyse
+So of course, they would also need to know more about the tool and what it can do. It was definitely super interesting I think in the whole for my colleague Nayla for her web and design teams. And yeah. So if you could share the recording and the presentation, or any information, I mean, I've taken a, quite a lot of notes as well, but it would be good. So so I can compile the information, and bring it to the rest, of the teams.
+
+[00:35:00] Tyler LaMantia
+For sure. Yeah, I will follow up with that. And then, yeah, I mean if you, the only other thing I'll mention on the Userled thing too is well, like obviously, we have this business plan, you can't get started without Userled, you know, paying a significant subscription. So, yeah, just in terms of.
+
+[00:35:16] Ann Heyse
+Exactly.
+
+[00:35:17] Tyler LaMantia
+Exactly. So I mean you could be creating ABM pages next week on a business plan without integration setup and all that things and you still have access to technical support. So anyway, I will break down everything… And send that over. Do.
+
+[00:35:31] Ann Heyse
+We subscribe online. Is it like an online subscription that you can?
+
+[00:35:35] Tyler LaMantia
+Exactly. So it's just credit card. I'll just look into making sure I can get you through the account setup piece. We have like the redesigned onboarding and there is some elements of connecting email and calendar that I think I can bypass for you. And then you effectively would have a free account and then you can upgrade it to business starting at 50 bucks a month. It's credit based, right? So if you need more credits, you buy more credits, but ultimately, you can still get to a good perspective For instance, like creating a template off a landing page off a template, one, two credits maybe. So you can generally use, you can gauge your usage and just add more, but it's month to month, right?
+
+[00:36:17] Tyler LaMantia
+You can go up down, cancel whatever you need. So if urgency and like Exploring for one brand to start and then exploring a path of deeper expansion, that could be a good option. But just keep in mind like that is completely self serve.
+
+[00:36:31] Ann Heyse
+And that's like one person that can use that account. Yeah.
+
+[00:36:37] Tyler LaMantia
+No user limit Purely credit. So you can invite as many people as you'd like at this point. So it's purely of how much you use it, which is directly correlating to the value you're getting within Mutiny as well. So that's kind of roughly the commercial model there. And then ultimately, if you were to say this is great, I want to explore enterprise, then we can come back and continue in deeper conversations.
+
+[00:37:00] Tyler LaMantia
+So I can break all this down for you and provide the recording and such Is Monday morning? Okay for that timing?
+
+[00:37:08] Ann Heyse
+Yeah, that's fine. We have a bank holiday in Belgium on Monday. Okay? But yeah, if I could get it by early next week because people are asking me, Yeah… Pressuring me.
+
+[00:37:23] Tyler LaMantia
+Yeah. I will get at you for Monday absolutely. So when you're back, it's there. I'm just out this afternoon. So part of the reason I asked there, But if that's okay, then I'll break down everything for you and provide the summary here. And then just let me know how I can help from there.
+
+[00:37:35] Ann Heyse
+All right. Thank you so much, Tyler. Thanks for your time.
+
+[00:37:38] Tyler LaMantia
+Thank you so much.
+
+[00:37:40] Ann Heyse
+Have a nice weekend. Bye bye.

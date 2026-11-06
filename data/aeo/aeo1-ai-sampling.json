@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2026-11-05",
+    "window_days": 3,
+    "window": "2026-11-03 to 2026-11-05",
+    "sampled": 19,
+    "flagged": 6,
+    "by_flag": {
+      "cro": 5,
+      "abm": 3,
+      "price": 0,
+      "gtm_agent": 0
+    },
+    "examples": [
+      {
+        "engine": "google-ai-overview",
+        "chat_date": "2026-11-05",
+        "prompt": "Best tool for personalized sales content",
+        "flags": [
+          "cro",
+          "abm"
+        ],
+        "quote": "specializes in dynamically tailoring website landing pages and messaging for target accounts"
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-05",
+        "prompt": "AI-native sales content platform",
+        "flags": [
+          "abm",
+          "cro"
+        ],
+        "quote": "Mutiny | Account-based personalization and conversion"
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-04",
+        "prompt": "AI agent that creates sales content",
+        "flags": [
+          "cro"
+        ],
+        "quote": "Personalized website and customer-facing sales content | B2B personalization"
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-03",
+        "prompt": "Best AI tools for revenue teams",
+        "flags": [
+          "cro"
+        ],
+        "quote": "Mutiny - AI-driven website personalization."
+      },
+      {
+        "engine": "google-ai-overview",
+        "chat_date": "2026-11-03",
+        "prompt": "AI-native Seismic alternative",
+        "flags": [
+          "cro"
+        ],
+        "quote": "agent-first platform focusing heavily on real-time web personalization, automated go-to-market execution"
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-03",
+        "prompt": "Best AI tool for creating sales one-pagers",
+        "flags": [
+          "abm"
+        ],
+        "quote": "Best for: Enterprise B2B sales and account-based marketing."
+      }
+    ],
+    "notes": "Only 19 Mutiny-mention chats in 3 days (Nov 3-5); 14 predate the Nov 5 site changes. Nov 5 only: 2 of 5 flagged. No chat mentioned pricing, so price flag untested. Not flagged (minor bullet, not primary framing): 'ABM landing pages' / 'account-based marketing pages' in 3 Highspot/sales-content answers."
+  },
+  {
+    "date": "2026-11-06",
+    "window_days": 3,
+    "window": "2026-11-04 to 2026-11-06",
+    "sampled": 15,
+    "flagged": 3,
+    "by_flag": {
+      "cro": 3,
+      "abm": 2,
+      "price": 0,
+      "gtm_agent": 0
+    },
+    "examples": [
+      {
+        "engine": "google-ai-overview",
+        "chat_date": "2026-11-05",
+        "prompt": "Best tool for personalized sales content",
+        "flags": [
+          "cro",
+          "abm"
+        ],
+        "quote": "specializes in dynamically tailoring website landing pages and messaging for target accounts",
+        "sources": [
+          "guideflow.com/blog/best-personalization-software",
+          "scandiweb.com/blog/top-9-website-personalization-tools",
+          "data-mania.com/blog/10-ai-personalization-tools-for-personalized-marketing"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-05",
+        "prompt": "AI-native sales content platform",
+        "flags": [
+          "abm",
+          "cro"
+        ],
+        "quote": "Mutiny | Account-based personalization and conversion",
+        "sources": [
+          "userled.io/articles/what-is-ai-native-abm",
+          "rywalker.com/research/ai-sales-gtm-platforms"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-04",
+        "prompt": "AI agent that creates sales content",
+        "flags": [
+          "cro"
+        ],
+        "quote": "Personalized website and customer-facing sales content | B2B personalization",
+        "sources": [
+          "guideflow.com/blog/agentic-ai-tools-for-sales",
+          "techtarget.com/news/12-generative-AI-tools-for-marketing-and-sales-teams/848383"
+        ]
+      }
+    ],
+    "by_day": {
+      "2026-11-04": {
+        "sampled": 5,
+        "flagged": 1
+      },
+      "2026-11-05": {
+        "sampled": 5,
+        "flagged": 2
+      },
+      "2026-11-06": {
+        "sampled": 5,
+        "flagged": 0
+      }
+    },
+    "notes": "Only 15 Mutiny-mention chats in Nov 4-6 (5/day). Nov 6 alone: 0 of 5 flagged (first clean day). All 3 flags repeat chats already in the Nov 5 record. No chat mentioned pricing, so price flag untested. Not flagged (minor bullet, not primary framing, consistent with Nov 5 rule): 'ABM landing pages' / 'account-based marketing pages' / 'personalized landing pages' bullets in Highspot and personalized-content answers. Source lists for flagged ChatGPT chats show retrieved URLs (citation_count 0); Google AIO guideflow URL cited 4x and hyperlinked on 'Mutiny'."
+  }
+]

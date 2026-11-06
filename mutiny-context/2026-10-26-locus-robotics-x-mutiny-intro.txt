@@ -1,0 +1,345 @@
+Locus Robotics x Mutiny Intro
+October 26, 2026 at 03:29 PM
+https://us-53268.app.gong.io/call?id=3867864306786260609
+
+[00:00:01] Tyler LaMantia
+So, sorry?
+
+[00:01:41] Tyler LaMantia
+Hey, Jesse.
+
+[00:01:44] Jessie Kuenzel
+Hi, Tyler. Nice to meet you.
+
+[00:01:46] Tyler LaMantia
+Nice to meet you as well. How are you doing?
+
+[00:01:48] Jessie Kuenzel
+I'm good. How are you?
+
+[00:01:49] Tyler LaMantia
+I'm doing well. I'm doing well. How's your weekend?
+
+[00:01:53] Jessie Kuenzel
+Well, good. Today has flown by. What do you feel like is good for a Monday? I'll take it.
+
+[00:01:58] Tyler LaMantia
+Yeah, yeah, exactly. I feel the exact same. Where are you based? I think I saw the Boston area.
+
+[00:02:03] Jessie Kuenzel
+Yeah, just north of I'm technically in New Hampshire, but just over Gotcha.
+
+[00:02:07] Tyler LaMantia
+How about you? Very nice. I'm in Toronto. Oh, okay.
+
+[00:02:10] Jessie Kuenzel
+Yeah.
+
+[00:02:10] Tyler LaMantia
+Yeah, not too far, But yeah, thank you again for the reschedule last week. I really appreciate it Of.
+
+[00:02:16] Jessie Kuenzel
+Course. Yeah.
+
+[00:02:18] Tyler LaMantia
+Awesome. Well, yeah, good to meet you and looking forward to today As a quick introduction, Tyler, Handel Sales at Mutiny, Just working with our prospective customers as well as some of our larger customers that are already seeing value with the tool. But yeah, I've been here about a year and a half Today, like usually just understand a little bit more about you. What's important in your role that led us here. I can share obviously more on mutiny including jumping into the product if we have some time, But, yeah. And if we seem like there's a good fit, obviously, we can look at scheduling, maybe a more customized walkthrough of the product for Locus Robotics, But how does that sound to you?
+
+[00:02:55] Jessie Kuenzel
+That sounds great? Yeah, Wonderful.
+
+[00:02:58] Tyler LaMantia
+I've.
+
+[00:02:58] Jessie Kuenzel
+done a couple of these now, so I'll give you the background. Yeah, cool. First, I'm new Ish here at Locus. I joined in July so it feels newer than it actually is at this point, But I came into the sales enablement role. I'm sorry, Came into the sales enablement role sort of as like a new role but not really. They were already using Highspot when I came in. Other tech things just didn't come up. Glean is our Brand new haven't. Really rolled it out. But going to be using Glean as the LLM and Salesforce is the CRM. I have a bunch of other, a 1,000,000 other products on top of that, The big ones for the sales team, But my role is technically revenue and sales enablement. But I sit on the marketing team and they own Highspot. So Highspot was Very much used as a basically dam for marketing. It was not well utilized for sales enablement at all. The sales team was really frustrated with it. We're over licensed by a lot. It's not getting the usage at all or any of the value out of it of being able to see what sales are sharing with people because no one's sharing anything.
+
+[00:04:21] Jessie Kuenzel
+Because there's just too much draft in there. Like when I say there's so much stuff. I've already archived like 12,000 things out of it. And there's still like thousands of things Like more than 10,000 things left in there. There's so much stuff. Yeah… It's a nightmare.
+
+[00:04:38] Tyler LaMantia
+Yeah, that's overwhelming.
+
+[00:04:39] Jessie Kuenzel
+Yeah. And like leadership is frustrated with it Also just frustrated with like the contract renewal. So there's like a pretty strong appetite. I think our contract is up in May But I've already gotten direction that My boss is either comfortable ending the contract early if we decide to go with something else or I think my ideal situation would be have a couple two things for a little while because I assume we're going to end up paying the contract to remain no matter what, Get whatever new thing set up, Get some people from the sales team to beta test it When it's new, get brought in from those people so they can be champions and then get something rolled out is kind of my dream… And Locus as a company, I'm not exactly sure how big our sales team is.
+
+[00:05:24] Jessie Kuenzel
+I'd say around 50 people would probably be like using the tool… And I had somewhere I was going with. Oh, Locus is very much moving from it, you know, originally was a startup company. They're much bigger now They're international now. So moving more towards that kind of like enterprise mindset before it, very much, every salesperson was sort of doing their own thing, selling in their own way. We're moving towards standardized one sales deck, everyone trying to get them to use it one way, one set of messaging And really moving too into like sales processes. Everyone has to get the same kind of questions answered before they can qualify an opportunity like all that kind of stuff. So we're in a big transition period but there's not a lot of structure foundationally to build off of. I think that's my whole spiel.
+
+[00:06:16] Tyler LaMantia
+Okay. No, that's super helpful. And I think The plan you laid out is a good one Like that's what we've done with some other companies where it's you know, we can work through setup as you're kind of transitioning off and get like a smaller group, really comfortable acting as kind of those power users and really understanding, yeah, what they need. But I suppose like familiarity on Mutiny like are you coming in fairly fresh? How did you hear about us? And what kind of made you think about us?
+
+[00:06:44] Jessie Kuenzel
+No question. So, my boss, so our CSO, Gina Chung, My boss reports to her, but she sent the link over to me. She owns kind of the contract with Highspot. And she was doing a lot of sales enablement stuff before I joined, And she Really does not enjoy high spots. She, I think, I don't know if she heard about you guys from somebody or if she was doing her own research. But she sent me over the link and asked me to set up a demo. So I think that's probably a good sign.
+
+[00:07:13] Tyler LaMantia
+Yeah, for sure For sure. And I guess from your perspective, like Mutiny or not like What is kind of the core use case you'd be looking to replace high spot? Is, is it like effectively, you know, a sales CMS still, is there more to like what you're actually like hoping to achieve with a replacement? So, I.
+
+[00:07:32] Jessie Kuenzel
+in my opinion, what the sales team needs is process first. And I think Locus To be Frank is very let's buy more tech, stack things instead of solving our internal processes, which is a startup into enterprise mindset. I'm coming from a much bigger company that, you know, we went through a lot of those transitions. But like, you know, I was there for five years, So they're where I was five years ago, Right? Just like watching them go through that. A lot of what I hear from sales from my end is sales needs more content to sell Sales, needs content to sell. They need to find, you know, they need to be able to find content easily That's like the big ask from the sales team. And I do think that's important That's the big use case right now for high spot, which is really, I could do that in SharePoint.
+
+[00:08:24] Tyler LaMantia
+Like, yeah, I.
+
+[00:08:26] Jessie Kuenzel
+think The advantages of a platform like this being able to prove as a marketer especially being able to prove what's being used, tying it back to our CRM being able to eventually once we get processes and better automation set up in Salesforce. The other piece is my background is actually in marketing ops. So I was like on the admin side of Salesforce doing a lot of the like tech and automation for my last group. So I'm really interested in What signals can I set up? What can I push into Salesforce? Can I build dashboards for our sales leadership showing like the utilization and the Roi on like marketing content, right? Because as a marketer, the biggest challenge we have is proving that sales is actually using or not using the resources that we're giving them to help make the case on why we should put resources here and shouldn't put resources There. So from my perspective, that's really important. And I do think as the company grows like more just, I know there's a lot of like AI built in. I think everyone right now probably has some like tech stack and AI fatigue with just like I said, we're launching Glean like there's a 1,000,000 new things If it could integrate into Glean, that would be great Cause, you know, they're getting that set up now too. But For me, I think a new platform that people aren't sick of, aren't going to roll their eyes every time I mention it. And it's easy for the team to use like baseline That's the first thing. And then I think a platform that could grow with us as we grow in our utilization.
+
+[00:09:59] Tyler LaMantia
+Wonderful. And on Glean like what's the use case there? Like, what are, is it to kind of answer questions? Like kind of built into like Slack or something That's how I've heard it used elsewhere. But like I'm always curious That's like it's just one of those platforms that's like you never really know what people are going to use it for.
+
+[00:10:17] Jessie Kuenzel
+I also, so it's it is purely theoretical right now. We just hired.
+
+[00:10:20] Tyler LaMantia
+A senior director.
+
+[00:10:21] Jessie Kuenzel
+Of AI… I'm curious what the adoption and the uses are going to be. Like I said, we went through something like this at my last company and everyone was super excited because it was going to connect to Salesforce and our Confluence and tell us to answer all of the questions of the universe. And then like actually our data in Confluence and Salesforce was horrible. So none of it worked because the data was bad. Yeah, I don't know if that's what's going to happen here, but we'll see, But I think we have Slack. I think the plan is To yeah, like build agents that can ask questions and people can just, you know, update stuff in Glean and it'll push into the right systems. People can look for resources from like, you know, whatever our high spot is and it'll pull it back through Glean rather than having to go to a bunch of places.
+
+[00:11:10] Tyler LaMantia
+Gotcha. Okay. Gotcha. Sounds good. I think like there's some of that you can do directly in Mutiny, not that we ever replace Glean or vice versa, But ultimately like a big part of it is naturally like hosting your content, finding content, having a platform like you said that people enjoy using and brings value and the UI is cleaned and easy to use. And then The other part of it is like, obviously, we can hold all your marketing content similar to a high spot, right? And people can go find it. They can search it in natural language. They can prompt, they can provide information, find that content. The big part of Muni too is creating custom content for deals, right? So whether it be decks or one pagers or competitive comparisons or like deal rooms are massively popular as well. So, like, is that something that you think sales is craving in addition to like just finding content that you already have? Like I'm curious what your kind of reaction is to like use cases of creating custom content?
+
+[00:12:09] Jessie Kuenzel
+Right now, no, I don't think they're doing it, Do I think… Can I ask you like fully honestly?
+
+[00:12:17] Tyler LaMantia
+Yeah, absolutely.
+
+[00:12:20] Jessie Kuenzel
+Are there like B to B tech companies that you've worked with? Yeah, Do… Because like there's different levels of like sales people and there's different levels of what you're selling. I feel like B to B sales people. Especially the more technical your solution gets, the more like traditional a salesperson becomes right? Where they're not really doing sales stuff. They're like getting on a call. And half the time the sales people are more interested in disqualifying a sales opportunity than qualifying it, right? Because they only want the like the best of it, the highest value. I think things like that are a good option, But I'm curious if like that type of functionality gets used often like in your opinion with like the heavier tech B to B stuff.
+
+[00:13:14] Tyler LaMantia
+Yeah, it's a good question. And I think there's always going to be some reps that adopt it more than others, right? Like some are much more like I've worked with like a large team, like one of the accounts I've worked with like Rippling a large team and they vary, right? Like there's lots of levels to it. And some reps are like, Let me find what marketing has and send it and just send over an email. Some reps, you know, that are working a 900 K a 1,000,000 dollar deal and are asked to compare 15 competitors, present four solutions. They're asked for content from a buyer that they just don't have And That's where you know, something like, you know, you can use like deal rooms where you can combine things that follow through a long sales cycle. And it's one home for a buyer to go back with. And then you get analytics on how everyone is engaging, how the executive buyer has engaged with the deal room that you've never even met. So like once they see value of using it once, like it gets adopted, very fast. But like I would never say every specific type of rep uses it. Like some reps just don't use Tools that are given to them. Like truthfully I've been there, I've seen it across every team I've worked at. So I would say there's always that element. But as soon as they get that ask, they're like create this for me or you might lose the deal on a good deal And they don't have it and marketing can't do it That's where Mutiny like puts that in their fingertips. That is like, very appealing for those scenarios.
+
+[00:14:39] Jessie Kuenzel
+And I will say like We are moving more towards trying to do like, you know, everyone is targeted marketing, right? So like for apparel customers that want to automate, you know, we want to have apparel specific content examples and we have it, but it's not all like in one place. So, I think I do think especially for our leadership, you know, whether or not our sales team actually uses it. I think that would be an like appealing sell to our leadership and like if you guys do any like trainings or onboardings to like help with the adoption For sure.
+
+[00:15:16] Tyler LaMantia
+Yeah. That's a huge part of it. I mean, we like when we talk about these like addition to just importing and helping you migrate from high spot, we would help you build templates for like the core custom pieces, right? Like maybe we have a pitch deck template, maybe we have a deal room template, a competitive comparison template. They don't really have to like create from scratch Like they can effectively answer a few questions. And then they have something custom for their deal Grounded in like their emails, if you're connecting your email, grounded in your CRM, if they connect your CRM. And then the last thing I want to ask was like, what about all recording transcripts? Like does the team use like Gong or more of a traditional note taker?
+
+[00:15:54] Jessie Kuenzel
+Or I think we're moving over to using Gong. I don't think it's rolled out yet. But again, you know, we've got a couple months before we would be up on this. I think the plan is to, There are a couple of people trialing Gong now, and I think the plan is to roll it out to everybody And our SDRS are also using Loom, Okay… A trialing Loom, Gotcha. I think. Yeah. But I think Gong is the plan to start using that and be recording the conversation Because that's the other thing is there's not even The sales team right now isn't consistently connecting their emails. The sales force isn't connecting or like, You know, putting their notes in even their last like last activity on an opportunity. Yeah. And that's one thing that concerns me with anything that's like heavily AI based and helping you create these like we don't even put necessarily like what industry it is or what products they might be. Like. I, when I joined, I was like, can I look at a list of the customers and what products they've bought and like what workforce like, right? What warehouse types do they have? And I was like that doesn't exist. Yeah.
+
+[00:17:07] Tyler LaMantia
+So,
+
+[00:17:10] Jessie Kuenzel
+I not that I think it's a reason to not get it but it's a, and they would have to be a push to illustrate like if we get this, We have to make sure that our data is clean and we've got five months, six months to like get it up and going. But the data has to be good and the sales team, the sales leadership has to be bought into the process of it. Yeah, Otherwise, right? Like one thing I've noticed is in the same way that they're quick to buy new products, they're quick to drop them, right? If it's not working, But I think I just want to be mindful of making sure we illustrate that like the processes that we put in on our end have to support the product or no product is going to be good?
+
+[00:17:52] Tyler LaMantia
+Yeah, yeah, definitely. I totally agree. And like Uni is great in the sense like you can kind of use it, what you need to use it for. We're also very much like the pricing which we didn't get into is credit based. So, I mean, like if no one uses our AI functionality, like they can go search for content, It doesn't cost anything. There's no user cost. So then you have some people that might actually really take advantage and start seeing value. And the sales from me is like always FOMO, Like someone closes a big deal with something you need created. It's like, okay, like I need to go try that And like it can level into that, right?
+
+[00:18:28] Tyler LaMantia
+So that's generally what we see. I do ask for Gong for a specific reason. We actually have a sales note taker as well. So I can just sit on your call like, you know, kind of like a granola, take notes on the background of your call and loads into Mutiny to help personalize and customize things too. So not to say like that has to be used. We actually integrate with Gong as well. But there is an element that can be used on the recording side of things too.
+
+[00:18:52] Jessie Kuenzel
+Okay. That's good to know. Yeah, I don't know where we are in the like Gong life. I've heard it mentioned So who?
+
+[00:19:02] Tyler LaMantia
+Knows Gotcha. Yeah. All good. And then I guess last question and I can maybe share a little bit more on the visual side. Is the team considering like other options for like a replacement here? Are you open to sharing a little bit more of what you've liked? What you saw and disliked anything good like that?
+
+[00:19:19] Jessie Kuenzel
+So, our two platforms I've talked with are Gong and not Gong. Sorry, I do this, Doc and one… of the big ones.
+
+[00:19:37] Jessie Kuenzel
+Is that right here? Showpad? Okay. I think Showpad is, well, it's cool. I think it's overbuilt. The doc one was Okay. Like I said, Mutiny was the first one that my boss sent over. I think it was the first thing she was interested in. So, but yeah, those are the only and the only other option frankly that we're considering is just SharePoint.
+
+[00:20:07] Tyler LaMantia
+Sharepoint. Yeah, yeah, for sure. And anything like stand out from like I loved it at those places or you also thought maybe weren't a fit Like and I can be transparent of if Mutiny is good at that or bad at that. And so on.
+
+[00:20:22] Jessie Kuenzel
+The thing I liked about Showpad, like I said, most of it was too advanced for, I think what we'd use, But they do have a focus on like their offline functionality, So things could be used And I don't know how that works with like the AI content that gets created. Our reps do often go into not often but like they're on site at a warehouse And it's possible that they don't have internet there. You know, our sales deck works offline, You know, hopefully they've got it downloaded But it would be cool… I think if, but it's definitely not a deal breaker. It's not something that anyone has like asked for. I just know like our CRO… has mentioned a few times like the sales deck has to work offline. It can't you know, have to have internet connection because they don't always have connection. So that's probably the only like, And I've been to a bunch of warehouses. Most of it's not like they're giving demos like in the middle of the warehouse, Most conference rooms at a warehouse have.
+
+[00:21:25] Tyler LaMantia
+That, Yeah, yeah. So.
+
+[00:21:26] Jessie Kuenzel
+I don't think it's like massive That was the only like giant differentiator really between any of them.
+
+[00:21:33] Tyler LaMantia
+That's good to know though. Yeah, like our decks can be downloaded So they could be used offline, But by default they're online. So it's definitely good to know. I also see like some people that do a lot of onsites, they use Mutiny for onsite one pagers. So you can like print out a PDF like naturally bring that along with you to the meeting as well too. But yeah, that's super helpful. Like anything that I didn't ask that would be helpful to share that's like key in terms of what you're looking for or Thanks for all the info. It was obviously great. But I always like to ask if there's anything missing that's like a core criteria for finding a solution?
+
+[00:22:09] Jessie Kuenzel
+No, I don't think so. I think frankly like Actually I take it back. One thing that would be massively helpful is like I said, we've got an insane amount of data on Highspot right now And we just went through a big layoff internally. So we went from a team of 10 people to four people on marketing and are trying to figure out what to do with all of this content. A team that could help us, you know, whenever you leave any like we're also migrating off of Clues. We've got a whole bunch of data left in clue. And so we're just kind of left with stuff… If there was onboarding services as we're getting set up could help us like go through some of the content and figure out just make sense of the process or help us break it down into small pieces. So it's not just like here's your license, Good luck.
+
+[00:23:03] Tyler LaMantia
+Yeah. For sure. No, that's helpful. You essentially get what we call like a strategist on the account. So they would help you with onboarding and ongoing support as well. And typically, we'll help with the migration. Should the contract size be a certain point. There's no specific point. But as long as it's obviously a meaningful agreement, then we just kind of include that There's actually no line item for ongoing support and success. It's just included in the product. So, yeah, definitely something we'd help in project plan with you and get the content into.
+
+[00:23:35] Jessie Kuenzel
+Cool. Yeah. I'd say that would be a big just for you if we're pitching to like my boss or anything. Yeah, Definitely that would be a big value add because I know she's struggling to figure out how we're going to deal with just this like data. Yeah.
+
+[00:23:49] Tyler LaMantia
+Yeah, for sure. And like, I assume that is mostly the content. Like if there's more that needs to come out of Highspot, you let me know and I can look into it, But I imagine it's mostly just the content deciding what lives in Mutiny for the most part.
+
+[00:24:02] Jessie Kuenzel
+Yeah. I think it's the content like maybe looking at Like just because also again, my background isn't really in Like I've never used Highspot before. So none of these systems Like looking at some of the utilization data. And just as people like some expertise as being, like maybe keep these and you can probably, you, know I can get rid of the stuff that no one's in three years, but just any because there's just there's so much or just.
+
+[00:24:28] Tyler LaMantia
+Yeah, yeah.
+
+[00:24:29] Jessie Kuenzel
+Helping us build out the pages and like here's what people typically put?
+
+[00:24:33] Tyler LaMantia
+Oh, for sure.
+
+[00:24:34] Jessie Kuenzel
+Anything like that. Yeah.
+
+[00:24:36] Tyler LaMantia
+Absolutely. Like on the, what you're creating in Mutiny for templates which like Highspot has some elements of those, where they have their microsites, and like we can see what's used or not used in your account, But ultimately, they sometimes get neglected and that's why they're not used. And we would help you kind of absolutely create some things in addition to general migration too. Oh, yeah, Yeah, of course, Please.
+
+[00:25:00] Jessie Kuenzel
+My caffeine for the afternoon is kicking in. I think… One other thing that majorly frustrated me with Highspot. So like I said, we just redid our sales deck. I got it, uploaded it into Highspot. And I'm looking at it in the Highspot viewer And we have embedded videos And the videos are all formatted incorrectly in the Highspot viewer. If I download it out of Highspot, it works fine. So, I reached out to our rep at Highspot. I opened a ticket and they come back and basically say, yeah, like in the Highspot viewer, it won't videos embedded in PowerPoints won't format correctly, unless you pay extra for this like service. And I was like, isn't this crazy That's the whole point of Highspot?
+
+[00:25:39] Tyler LaMantia
+This is another product.
+
+[00:25:40] Jessie Kuenzel
+Yeah, like to have people look at stuff in Highspot. So that was, That was the moment for me where I was like, I'm totally not recommending every, No.
+
+[00:25:51] Tyler LaMantia
+Yeah, yeah, No, I've heard some other horror stories too of just the add ons. I think someone wanted to, I was talking to, they wanted to add the MCP functionality and it was like or something on top of it. It's just like, yeah, the bits and pieces add up when you think you got everything. But Yeah, I hear you on that. But yeah, I mean, like ultimately, we could do like a really custom demo. I think like the UI Mutiny like obviously like you can have your CSO add you to her account. And like you can really jump in and play around. We're like doing a bit of a facelift to some of the functionality. And like naturally we'll walk you through it in full. I think like from what you said, like I think there definitely could be a fit but just noting like we are very much like AI forward, right? Like it is an AI tool, You're using AI to create new content. But there is elements of like a typical SaaS solution. And like I'm just popping open the library now is like, this is generally like get your content in files, links, whatever organize it into very clear subfolders where reps can come in, search for their content, find content via folders, click into a link. This is just a fake account Copy that link, share it out that's the base use case. So making sure your library is perfect. You have everything in here. It's organized nicely and that they can go ahead and search it from anywhere here From here. Like the whole concept of Muni is making sure we have the context about locus robotics and a couple of different ways like integrations. Is one, right? So you can see some of the things we can connect into naturally, you know, we're only as good as the data you're connected to as you know, but you have things like your call recordings, your CRM information, organizational wide connections. We can connect to anything with an MCP too, which allows us to open the doors to a ton of different other tools. Then there's the personal level Like Mutiny can go ahead and draft my email for me, read my calendar, read what's in there. Help me derive what I need to do as part of a deal, follow up in addition to just like sharing your content piece. Maybe it's writing my email or creating something custom for me. But in regards to like standing up your sales kind of backbone, we have this assistant tab and like there's a lot in here. But like what I want to kind of focus on is this brain section, companies go ahead and like upload their entire sales process, how they win, how they lose their competitor playbooks, like anything. So like AI is catered towards you on a company level. But like reps can also say like this is how I follow up. I write two line emails. Only I share one piece of content or you have ones that go deep, right? So there's an element of knowing who you are as a company and the rep itself. I think that could be valuable based off what you shared of like up leveling the organization there.
+
+[00:28:39] Jessie Kuenzel
+That's really cool, But does it work in a backward sort of way? So like if our reps put in their processes over time, could theoretically… some of the AI like look at that and be like, okay here's, what most of, your most successful reps are like doing frequently, you know, So exactly.
+
+[00:28:59] Tyler LaMantia
+Yeah. So like it'll have you, it'll bring you suggestions to implement. So it can be like configured to just say like click, yes and add that to the company or you can go ahead and kind of do it in a manual way of like saying, this is what I want. But yeah, it learns as it goes on for both like the personal level and the company level. So it just kind of gets smarter as you get more usage in there. Can.
+
+[00:29:22] Jessie Kuenzel
+you like connect to Confluence?
+
+[00:29:26] Tyler LaMantia
+Yes, we have done that through MCP. For for other customers. We'd be like happy to validate that as part of the cycle, but I've definitely seen it done. I just obviously depends on people's setup but we connect to our help center documentation. It's not through there, but we've done that very easily. And I know other customers have done Confluence specifically. Yeah.
+
+[00:29:47] Jessie Kuenzel
+Yeah, Cause I think a lot of our specs are like in Confluence and aren't always Super updated on like the website, you know, sometimes get that gets out of date. So like, yeah, The most recent specs is probably the thing.
+
+[00:30:03] Tyler LaMantia
+Yeah. That, that would allow like mutiny's agent to effectively search confluence and you could pull in things from that route. Something we could always validate further. But should work. I mean, even the library itself when I talked about like the content that you already have like Our agent, which is effectively anytime you're in AI here, like you can start a thread and ask it to do anything Like it can access the library too. So you could say like is that even a scheduled task, Like every morning, go check our website for new content and put it in the library or every morning, go check Google drive and put it in the library or whatever that might be. So lots of automation you can do about that. But yeah, I think from there, like where we focus on is like, yes, they can go share content that exists or our concept of assets is like, I need a comparison. I need a deal room. I need a deck, I'm creating my own things, but your team has that ability to set up templates across the evaluation. So you may say, like We always should be sharing a prospecting page for booking a meeting. We should always do our discovery deck here. We should always offer a deal room or proposal or competitive comparison, And addition to kind of the brain level. It's like this is the content you should be using across your cycle. These are the starting points for you Answer a few questions and customize them for your deal.
+
+[00:31:21] Jessie Kuenzel
+Like at these steps is what you should be using. Yes. Last question, We have a lot of video. Sure. Yeah, How do like deal rooms and all of that stuff. Like do they work well with video? Obviously the videos would have to be tagged Like, you know, you can't read a video the same way you can a PDF. But if they're tagged correctly and marked correctly, like do the assets that the reps can create, like integrate video well? Because I know that's a big portion of like our sales reps say that people want to see Like visuals of the robots working and we just have like thousands of clips. And obviously, I don't want to put them all in there. But, you know, is here's, the top five clips and if they're tagged, right? It could pull them in and be visible in a asset.
+
+[00:32:08] Tyler LaMantia
+Yeah. So, are they just like MPV files? Are they recorded with something?
+
+[00:32:13] Jessie Kuenzel
+Yeah, yeah, they're just like MPV like.
+
+[00:32:15] Tyler LaMantia
+Okay. Gotcha. If you did for just worth noting, like if you did work with Loom and record videos, there, we can read the transcripts and like allow everyone to know where things are Otherwise. Like you can just go upload MP for files. We have a reference description that goes in for every video that you could populate and then it knows exactly how to find it On like custom assets. You can embed it in line so someone can just watch it. You can have a link to it. It could pop open in a viewer experience some options that you could do there. I could show all those live too.
+
+[00:32:46] Jessie Kuenzel
+Yeah. Okay. Yeah, I think if you do like if we have a next meeting with like my leadership and you make like something custom, I can share our deck like our sales deck. Yeah.
+
+[00:32:55] Tyler LaMantia
+That'd be great. That would be great.
+
+[00:32:56] Jessie Kuenzel
+And then if you just put some example videos that you have like in an asset that would get shared out and like just something with a couple of inline video clips and how that might look to a prospect, I think that would Play really well because videos is like the biggest thing.
+
+[00:33:14] Tyler LaMantia
+Yeah, absolutely. If you send me like anything you think would be helpful, like essentially, what I'll do is spin up a demo account for you all or, you know, optionally use the one that's created whatever is easiest. I don't know if there's much in there, but, and then walk through like kind of day in the life like that.
+
+[00:33:30] Tyler LaMantia
+So, I know we're over time here. I'm happy to coordinate over email if that's easiest. But I don't have a hard stop up to you if you wanted to figure out a time now or just kind of speak with the team first?
+
+[00:33:42] Jessie Kuenzel
+Yeah. No, we can… Let's put some let's get something on the calendar Even if I can't get my leadership, we can just like connect. Yeah, for sure Or I can like, I'll remember to email you if I can't make it. Yeah, yeah.
+
+[00:33:56] Tyler LaMantia
+Let's do it. Yes… We, yeah, we can either like do a sync with us and I can walk through what I'd be imagining and plan for what a demo would be. And then like a full demo, we'd need an hour probably time next week, just a time to put it together. But up to you on how you want to kind of go about it. And if you want to sync first or just get the demo booked.
+
+[00:34:17] Jessie Kuenzel
+Yeah. Let's do it. Let's do a reconnect. I have a meeting tomorrow with my boss and Gina our CSO. So I'll let them know that we talked. And then maybe like after that talk, you and I can reconnect quickly. I'll ask them like, do you want to join the next big demo? I'm sure they'll say yes, And then when you and I talk, we can schedule the next.
+
+[00:34:36] Tyler LaMantia
+Wonderful. That sounds great. Yeah.
+
+[00:34:43] Jessie Kuenzel
+So, I'm just going to link to this.
+
+[00:34:49] Tyler LaMantia
+And for like email and everything like are you Google Workspace or are you Microsoft for Microsoft? Yeah.
+
+[00:35:48] Jessie Kuenzel
+Sending you a high spot link of our sales. Wonderful. So you should be able to, I set it so you can download it. So if you.
+
+[00:35:58] Tyler LaMantia
+Awesome. That's very helpful, Just received it. Great. And yeah… if there, I'm wondering if I can grab that video from here or not. I think I can… Yes, I think that should work. I'll let you know if I can't grab that, but this is a great start.
+
+[00:36:20] Jessie Kuenzel
+If you want me to send you a couple, do you want me to just send you a couple like video links from Highscot?
+
+[00:36:25] Tyler LaMantia
+Yeah, that works too. I feel like I'll be able to download them.
+
+[00:36:31] Jessie Kuenzel
+There's some videos like in the deck too that hopefully you can once you download the original you?
+
+[00:36:37] Tyler LaMantia
+Yeah, exactly. Maybe if I download, I can't download the videos off the high spot link, but maybe if I download the actual deck, I should be able to, I'd imagine.
+
+[00:36:45] Jessie Kuenzel
+It'll look it'll look much better if you download the original file anyway. Okay, cool.
+
+[00:36:49] Tyler LaMantia
+Cool. Amazing. All right. So, yeah, that could be a helpful mock up to do for sure. And then I can show you some other things that maybe, are more of… a next kind of iteration of like kind of deal rooms and different asset types that you could potentially work into the process, optionally whatever works for the team there.
+
+[00:37:13] Jessie Kuenzel
+Yeah. And I'll like I said, I'll let you know if we connect on like Wednesday Thursday, Yeah, I'll let you know what our leadership says and like they're definitely interested in something And I think now's like the right time to be talking about this. So, I think here's a good there's a good opportunity to come in and like really grow with the company For.
+
+[00:37:36] Tyler LaMantia
+Sure. Yeah, that's great. Definitely when we speak with people, we're always like let's set up a Slack channel. You have access to both founders, provide the feedback reaction on it. We're also in that stage where we're very eager to just grow with the company and get feedback on the solution too.
+
+[00:37:55] Tyler LaMantia
+Yeah, That sounds good. And I guess, do you want to just ping me after your meeting tomorrow? Do you want to set something tentative for like Thursday just to have in the calendar?
+
+[00:38:05] Jessie Kuenzel
+Yeah, let's just do something. So we have it and like if you need to schedule it or if I need to change or something I'll let you know.
+
+[00:38:11] Tyler LaMantia
+Great. Awesome. Yes, Thursday. Okay. Like I'm pretty open.
+
+[00:38:18] Jessie Kuenzel
+Yeah. Me too. Did you say you're in Toronto? Is that?
+
+[00:38:20] Tyler LaMantia
+Yeah, Eastern Time?
+
+[00:38:22] Jessie Kuenzel
+Never remember. Is that where there's a whole company based there?
+
+[00:38:26] Tyler LaMantia
+We're actually mostly in New York, but I just am one of the legacy remote employees and I go to New York probably a week a month. So I'm traveling down there quite a bit Upstate.
+
+[00:38:37] Jessie Kuenzel
+Or city?
+
+[00:38:39] Tyler LaMantia
+Manhattan. Yes, Sydney. Yeah. The flying in there sometimes is not so great, but, yeah, I get the three weeks at home, so it's fine.
+
+[00:38:50] Jessie Kuenzel
+Good dinners company pays for them.
+
+[00:38:53] Tyler LaMantia
+Yeah, right. Exactly. A week of not any food or grocery bills. It's not too bad. Awesome. Well, I'll just throw in a random time for Thursday. I'm pretty flexible.
+
+[00:39:05] Jessie Kuenzel
+Yes, I just pulled up my calendar Any time except, well, like I'm free after two o'clock and before noon on Thursday.
+
+[00:39:16] Tyler LaMantia
+Awesome. I'll do two 30 because my afternoon is pretty great and open if that works for you. Yeah. Awesome. And we can always adjust to as needed.
+
+[00:39:28] Tyler LaMantia
+Okay. Wonderful. I will send that over now and then just let me know if anything else comes up I can help with like questions or anything. But I think I have a lot of good info to put together a really great demo. Should we get there and make something in Mutiny based off what you said?
+
+[00:39:46] Jessie Kuenzel
+Awesome. And email me back if you want anything else have any other questions? Yes, The phone number and my email signature is my personal numbers if you ever need to text for anything. Awesome.
+
+[00:39:58] Tyler LaMantia
+Amazing. Will do. Thank you so much, Jesse. It was great to meet you and we'll talk soon.
+
+[00:40:02] Jessie Kuenzel
+Talk to you soon. Bye.

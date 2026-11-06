@@ -1,0 +1,150 @@
+Checkr x Mutiny Intro
+November 02, 2026 at 04:00 PM
+https://us-53268.app.gong.io/call?id=8359231771694074593
+
+[00:00:00] Mariza Selvitella
+Thank you.
+
+[00:00:33] Mariza Selvitella
+Fuck.
+
+[00:01:59] Mariza Selvitella
+Hey, Tyler. How's it going?
+
+[00:02:01] Tyler LaMantia
+Hey, there, I'm good. How are you doing? I?
+
+[00:02:03] Mariza Selvitella
+Am doing well. Thank you. Just getting situated. I'm sorry if I have to open the door for a second. My plumber is supposed to be here soon. So it was just super fun timing. No.
+
+[00:02:15] Tyler LaMantia
+Problem at all. Just let me know if you have to step off for a second. No problem at all. And is it Mariza?
+
+[00:02:20] Mariza Selvitella
+Yeah, Mariza?
+
+[00:02:22] Tyler LaMantia
+Awesome. Well, good to meet you. Where are you based? I think San Francisco.
+
+[00:02:26] Mariza Selvitella
+I'm in San Francisco like North Bay, Cool. Just right. I got grandfathered into remote work, but I go into the San Francisco Checkr office occasionally. Yeah, Nice.
+
+[00:02:36] Tyler LaMantia
+Yeah, also kind of grandfathered into remote work too. I'm in Toronto, but Mutiny is mostly New York based. So I kind of go there once a month. Oh, cool. Just short little flight over there, but yeah, mostly remote.
+
+[00:02:51] Mariza Selvitella
+Very nice. Very cool. Yeah.
+
+[00:02:53] Tyler LaMantia
+Yeah. Well, how, yeah. How's your Monday going? How's your weekend?
+
+[00:02:58] Mariza Selvitella
+It's busy. I have two young kids, one who I thought had an ear infection. So I'm like running around trying to take him to the doctors. Drop him back off at daycare. Oh, man. All while, just our Mondays. We typically have a lot of our like cross functional, top of funnel, revenue progression check ins across our go to market team. So, a lot of documentation, a lot of readouts, Mondays are always a little crazy, but, yeah.
+
+[00:03:22] Tyler LaMantia
+That's.
+
+[00:03:23] Mariza Selvitella
+crazy.
+
+[00:03:23] Tyler LaMantia
+That's crazy. Well, thank you for taking the time to speak with me. And again, thanks for, the flexibility last week. So I do really appreciate that. But yeah, looking forward to it. I mean, ultimately today, I want to understand what led you to reach out which I know you shared a little bit more in terms of, you know, kind of automation and scalability of it. Sounds like kind of ABM type plays. So definitely want to hear a little bit more about that, Of course, can jump on the product if it makes sense. And then as a next step, if there is a fit, we can always do a deeper dive on a little more catered to what you shared today. But yeah, with that said, I would love to hear a little bit more about you and what kind of prompted you to talk with us?
+
+[00:04:01] Mariza Selvitella
+Yeah, absolutely. So happy to give some background By myself. I lead the account based marketing team here at Checkr. We really are on the hook for driving pipeline revenue for our direct sales segments That's inclusive of enterprise and commercial… Accounts. So we line very closely to our sales team. We develop like across the full kind of like typical ABM spectrum like one to one bespoke campaigns for our top enterprise accounts. We do scaled ABM for our industries that are our kind of key focuses. And then have a pretty healthy like one to many motion across like enterprise focused thought leadership content Where we're really looking to drive the most. I'd say in terms of just like as it relates to like one to one at scale, we're thinking automation, these kind of bespoke experiences is for our top enterprise must win accounts. This year. It was 30 accounts that we built like one to one campaigns for And going into next year, we're scoping to grow that to like 350 accounts just with a just overall growth across our enterprise team. And just this renewed focus on like how do we like up level these digital experiences for, you know, our must wins. So the way we've done that is we Also knowing like at Checkr, like AI and like how we think about AI and how we implement that to drive scalability and efficiency within our own kind of like campaign processes. We built essentially an in house like one to one landing page builder operator within Claude and a number of connectors. We use Storyblock for our CMS currently. And so my team like really led the charge on building this like Pretty extensive project to drive like full blown web personalization for each of those Muslim accounts. And we just recently launched that. So have a lot of learnings. I think the challenge that we face currently is like, how do we continue to scale this? Especially beyond? Just like the landing page builder agent, essentially agent suite that we created, How do we build and drive the actual like of these pages in market across digital, across sales, outbound. And how do we do that at scale? Because it's still we were able to like automate and like gain major efficiencies on the actual page build side. It's still like we're still building like these campaigns on a manual basis across all the different ad platforms, et cetera. So That's like the highest level background, I'd say There's other components of how we think about like one to one ABM. I know Mutiny has some of these offerings like these kind of like sales Like command centers or, you know, sales hubs. And one pagers. So, I know there's like a lot of use cases that we want to continue to expand to. Like our first one was like, how do we create these kind of bespoke pages we're driving really targeted paid traffic to across these accounts? Based on what we know about them from like research, most first party intent, third party intent, all the things, Happy to dig in further. But that's I would say like the impetus of why I reached out.
+
+[00:07:04] Tyler LaMantia
+Yeah, no, really great context. And like you said, like we cover a wide variety of both the marketing and sales use cases can kind of start with what you need and then grow into it. So lots of flexibility in that sense. And then I suppose What went well with the cloud workflow? And what didn't go well? Like, why are you supposed looking at something else? Cause it sounds like you did a lot of work and getting something really workable upfront. So I'd love to hear a little bit more about that.
+
+[00:07:28] Mariza Selvitella
+Yeah, absolutely. So I think like overall, what went well because we have this set up natively within our Storyblocks, CMS, like our ability to kind of create and publish these pages on our domain using the kind of existing templates and blocks that we have… Was, I think like a big benefit. I think also our ability to kind of aggregate all of the account level insights, both what we know about the accounts based on like previous opportunities, recent traction we've gained from like sales research, and notes on the account and integrating kind of our entire tech stack, Salesforce, Marketo, Gong, Demandbase to drive those level of insights To then feed into these Storyblock templates. And then our ability to kind of publish directly again to domain was like a big win. I think like overall the, I mean, I think we're going to be challenged by this no matter what It's just like, the overall human, the loop kind of review like understanding where we actually really need those checkpoints where we maybe can automate moving forward, To ensure again like the best possible like output was a bit challenging at times. I think overall, just like the, for us internally, like our AI teams hadn't really partnered with go to market in the past, didn't know much about marketing. So it was a lot of like internal knowledge transfer and like try and understand like what do we know? We don't we don't know, We're not like these technical coders, Like we don't know what we don't know And so like, but then there's like the other side of AI team not knowing how marketing operates. So just a lot of like kind of knowledge sharing and like a pretty significant learning curve to like understand how our systems work, what we want the end result to look like. And how do we ensure like quality with, you know, human loop reviews when needed. So, I think that's like another piece that was like, overall, I think the biggest challenge is like, Once the pages were live, I think a lot of people just thought like that's it Like the campaigns are live. It's like, no, we have to like create all the ad creative and like set up all those campaigns. And so like that operational part of like the actual, like deployment of the pages in market is where we like had to resort to like there are some like AI efficiencies we were able to gain with like skills created. And like some of the Figma's, new ad AI, like ad creative capabilities, but that's still kind of like a big part Like can, we like Out source this potentially, and kind of meet the scale that we were able to build with the actual landing page like agent. Okay. And.
+
+[00:10:02] Tyler LaMantia
+And what was the main, I guess channels to distribute the pages Like, was sales heavily involved? Obviously, it sounds like ads were too.
+
+[00:10:10] Mariza Selvitella
+Yeah. Sales is heavily involved. They have. So we actually just recently moved from outreach to a like sales like an AI sales community center or like new system of outreach called Athean, Very similar to Rocks if you're familiar with them. Okay?
+
+[00:10:25] Tyler LaMantia
+Yeah.
+
+[00:10:26] Mariza Selvitella
+So, like, that was the move. And then we built the like AI operators or like their kind of new sequence AI sequences based on like the must win pages themselves. So like each time a sales person were to add like their must win account, they're like the actual like messaging is pulling from the page itself, knowing that has like all the account research and messaging already applied and then also driving eyes to the pages themselves too. So yeah, there's like that was, I would say like one of the other channels beyond like Typical digital like paid social display both at the account and contact level.
+
+[00:11:01] Tyler LaMantia
+Okay. And like, who is, the builder of the accounts? Like you mentioned, like the AI team, and then your team? Like who's kind of actually putting it together and like who do you want to be putting it together, if it's not the same?
+
+[00:11:14] Mariza Selvitella
+Yeah, yeah. Absolutely. So like I will say, like the AI team helped us with like the infrastructure of like how we think about like The, you know, quad co, work, project creation, the different plugins that we needed to essentially feed the agents to do the work. And then the connector suite of like what were the different permission sets between Asana, Salesforce, Marketo, all those things. But like my team, we A like help build the actual like plugins, like the rules and instructions that like fed like the different agents to do the different tasks needed for the page builds. And then we are the ones actually like deploying the Like prompts. Like once, we had like the actual project built, we were the ones like build me 10 pages from the, you know, these accounts like using this brief, yada. So we're the ones doing the actual like page building and then the subsequent like campaign build on top of that,
+
+[00:12:07] Tyler LaMantia
+Okay. Gotcha. And that sounds good. And I think you'd probably take on more of that within Muni as it's like kind of designed for anyone to jump in. And part of the reason I asked you is And I'm sure you kind of saw this but you alluded to is just like the fact that we have actually a lot of sales direct users and we see it approached different ways. Like sometimes there is effectively a marketing ABM team that want to enable their sellers or their prospecting sellers to jump in, use the structure that marketing has put together and self serve page creation for their own outbound. Now, we have other teams that want marketing just to fully control it. And they actually use sellers actually in deals to create things like Deal rooms, one pagers, competitive comparisons, which I think you had alluded to as more of maybe a tier two. So I think where I'm getting at is have you thought of Is sales jumping in and creating experiences at this point? Or is it much more related to your immediate team for the time being?
+
+[00:13:03] Mariza Selvitella
+Yeah, that's a great question. I mean, like for my use case, it's more directed towards my teams and the kind of like empowering sales, whether the pages we're creating, I do, I will say though like sales like they have already kind of, I'm sure you hear this all the time like they've gone rogue and are building on pages either in Canva or in Lovable. And that also has not gone. I mean, like we've had some really great feedback for some of the pages we've built, but it's not controlled and the quality is like far between. So like there's absolutely that use case That sits more within our product marketing team though, which is like there's like a dotted line to like this work stream. I've worked with product marketing to understand like what does the sales team like want and need as it relates to these deal rooms, one pagers, et cetera. And like they're kind of managing like the scoping of requirements and also doing some like the reviews when pushed. If like a salesperson's like I created this competitive one pager, can you just like validate this? Which is again not scalable. So, I think that's that one's kind of a weird use case that like sits in between. I think there's appetite… for sales to get in and do their own thing with like within like sanctioned templates. But yeah, that's it's kind of the wild rush right now. Like because we have, we went like so hard in the paint on AI like we have Claude, we have Lovable, we have like all these, you know, all these different things that they can jump into and kind of like go ham on. And yeah, it's definitely muddy the waters a bit in terms of like what's actually a need? And what's where is there needs for? Like more guidelines? Yeah, it's crazy.
+
+[00:14:39] Tyler LaMantia
+Yeah, yeah, definitely. I've heard the same thing before whether it's through cloud or lovable or any sort of tool. And so I think like definitely could be a value add to your team. Like based off what you said, this is exactly what you described in terms of like having some structure in place for sales to self serve. But that's not to say that has to be your immediate use case, but something that is, You know, used quite heavily by teams using your use case and then broaching into others. But yeah, what it sounds like just breaking into these top accounts like they're net new accounts. I imagine that you're looking for a net new pipeline. Yeah.
+
+[00:15:12] Mariza Selvitella
+Mostly all prospects. There's some like existing opportunities across a couple of them. But with the use cases scaling going into next year, like we're going to have again like new books assigned, The team's going to do their tiering. And then instead of having like two Muslim accounts for their books, they're going to have like 25 apiece. So they're going to have to do that like work of the tiering. So we're going to be essentially starting from fresh come, you know, January which is like where we're kind of having, I know it's still a little late in the day but like having these conversations now to understand yeah, long term like what this looks like. And there's like other use cases like especially because we use Demand based have done a lot of work to like drive our teams towards understanding where their accounts fall within like their journey and how do we, you know if they reach a certain like stage of engagement? Like should we be triggering these kind of personalized experiences for them as well? Like there's like more use cases that are, that have been prioritized, But just for like the foreseeable future like these like must win enterprise campaigns experiences are the top priority going to next? Okay?
+
+[00:16:14] Tyler LaMantia
+Sounds good. A couple more questions then I can maybe show a little bit more about Muni. I know you saw a little bit but… A lot of times when teams are coming over from like creating it with other AI tools and sounds like you honestly figured out a pretty good solution. There's a couple pain points around actually the last mile of taking it to a published link and what to do with the next, which sounds like the domain piece has been figured out on your side. I think we can accomplish something similar. Another thing is like analytics, right? Like how do I actually measure engagement on all of these pages? I'm curious like what you've been able to do On that side and if there's things you would want you need to replicate or is that like a gap that you're hoping we can actually solve for?
+
+[00:16:52] Mariza Selvitella
+Yeah, that's a good question. I mean, I think like we're doing the most basic type of analytics in regards to how we're benchmarking success of like quote, unquote personalized campaigns, Like are we driving overall like increased pages to the actual pages we're creating? Are we seeing more like known visitors or engaged people that we're tracking on the pages themselves? And then like More broadly because these pages like link to our, you know, our home page, there's like our top nav still in there? Like are we just seeing like generally more engagement across the web from these accounts as a whole? So in terms of like time on page or what they're like actually looking at, clicking at spending like that's like a pretty significant gap like We have like Google Analytics and all the things. But like as it relates to like driving insights, it's not something we have a lot of visibility into. We've used other tools in the past where we've had some of that like more meaningful engagement use like Folloze in the past, but like that wasn't on our domain. And that also their analytics were like really funky too. So I think it'd be beneficial to have like a, you know, more of a line of sight into what's actually being like consumed on page where people are spending time Cool.
+
+[00:18:01] Tyler LaMantia
+Yeah, I think we can add some do what you're doing today, but then add some value. But just because the domain has come up quite a bit and I don't want to make sure, I want to make sure this is level set on our end too. We would publish on a subdomain. Is that an issue for you? Do you want this and have to have this be on kind of the root domain? Because yeah, when you mentioned the Folloze thing, I want to make sure that's not a requirement. Yeah.
+
+[00:18:26] Mariza Selvitella
+No, it's not. I think I wouldn't say it's a hard requirement. I think it's an added benefit especially for people to kind of like navigate and like self educate further. But yeah, it's not like a deal breaker.
+
+[00:18:38] Tyler LaMantia
+Okay. Sounds good. Yeah, like we can, By default, it's going to be to a subdomain of your choosing. So it's always branded towards Checkr but not the root domain. And then, you know, you can do other things like create like exportable PDFS and decks and stuff like that too. But yeah, just wanted to kind of make sure I was transparent on that side. But yeah, jump in like for a few minutes here if that's helpful. And then ultimately, we can do a deeper dive. Yeah, I think like starting with just a few core settings because of what you mentioned, like everything's rooted in your domain. So everything is going to be knowledgeable of who you are. And like you saw that'll go into creating your brand, right? So one thing we do well is consistently on brand assets that are of high quality, this can be editable, configurable. And then once it's set, you are good to go. And then again, everything would be that subdomain. So you could choose whatever that might be. From there, you can configure all of the good page metadata associated with it. So it looks and feels like a Checkr domain in addition to embedding any sort of scripts. So whatever tracking you're doing with like Google Analytics or whatever that might be can globally apply to any sort of page you're actually creating.
+
+[00:19:46] Mariza Selvitella
+Okay.
+
+[00:19:48] Tyler LaMantia
+Integrations, like naturally, we want to be able to pull in all of the context you have on all of these accounts. So, I noticed you mentioned Salesforce and Gong like those are already pre built, You can effectively ask Mutiny to go search within your CRM or call recordings to pull in that context and personalize that page, whether it's say an account you've had calls with previously or closed lost notes on the opportunity or whatever else makes its way there. You know, for instance, sometimes people have their demand based data in Salesforce too. The other thing is we can connect to anything with an MCP. So as you're thinking about how you made custom connectors in Cloud, very similar type of structure. So, you know, for instance, I have seen people pull in like Sixth Sense data via MCP. I'm sure Demandbase could do something similar, But like Clay Chili, Paper, User, Gems, I've seen a lot of different things used, but ultimately anything with an MCP very usable to connect and pull that data into.
+
+[00:20:41] Mariza Selvitella
+Oh, great. Okay. So the context of limitations, sorry, based on like the enterprise package? Like do you have to pay for more MCP connectors or based on like, yeah.
+
+[00:20:51] Tyler LaMantia
+Yeah. Good question. Actually, the only thing that's limited to enterprise is Salesforce. And I say that to say enterprise includes everything There's a business plan in between and you can just pay for credits as you need. It's. Kind of a month to month arrangement allows people to kind of dip their toes into Mutiny without a full blown commitment That does not include Salesforce but actually includes a lot of the other things you're seeing today. We can create ad creative and push those to a campaign in LinkedIn. So that's worth mentioning. If you wanted to kind of create a ad creative and just push it to LinkedIn, We don't do any sort of like ad targeting or anything that's all configured in campaign manager within LinkedIn. But if you wanted to create a matching ad to the page you created, you can just prompt your way to do so. Yeah. And like these are like really your organizational wide things that you want to pull context in When we talk about like Mutiny being used as an assistant and that's a lot of the time relevant to sales. There's personal connections, Like for instance, it reviews my transcripts, it drafts my follow up emails, creates recaps and business cases and deal rooms for me as a seller. Then I can just take action with that and go ahead and send that within or after my call as well too. So immediate use case probably more relevant here. But as you think of maybe sales using it, there's a lot of different elements on that side too. And then all agent based as you saw important to note that there is effectively a knowledge section. This is getting a nice little facelift in today or tomorrow. But ideally we want to know how you work as a personal level, and then how your company operates. So teams want to make sure that we have their playbooks around ABM, their ICP, their sales process, anything around there, This can be configurable by you, but also it just learns as you go. So this is just effectively gets smarter and smarter as you use Mutiny There's not a lot of action that you need to take there.
+
+[00:22:42] Mariza Selvitella
+Are you able to like upload like knowledge dumps essentially in there? Yeah, for sure. Okay?
+
+[00:22:49] Tyler LaMantia
+Yeah, you can just do it right here. Drop whatever you need from like attachments or text. You can also ask it to just go look at your integrations to do so too So without even. But I think for yourself like the core use case would be the assets And that's what you kind of created in your free account. That's effectively something you send to a prospect. But within assets, there's also the concept of a library too. So this can hold your pre existing content. So that can be as simple as I just have some of your case study links in here, But that could be files That could be truly anything. And it can also be imagery that can be used in mutiny pages too. So this concept of the library can be used in a couple ways. It can be purely used to use assets, right? I create an asset I want to pull in Rippling's case study for Augusto page. As an example. It's relevant. I want to be able to know that this is the best case study to feature. We also see teams use this as more of like a true like sales CMS. So this is when sellers are in here, They can just go ahead and find the right content, share a link to it, send it to their prospects as kind of one off requests too. So within that, you can start getting very organized in the structure and having folders around what your content lives, and how people can access that in one unified way by searching through the library?
+
+[00:24:08] Mariza Selvitella
+Are you able to like append UTMs when it comes to like understanding like where the if, like If it's being sent from sellers and us being able to kind of understand?
+
+[00:24:18] Tyler LaMantia
+On this, yeah, that's a good question. On this side, this is going to be like the link naturally, This is a website to your website, But there is the fact that you can see how these are being used. So you can see how they're viewed open. And on the like specific links, you will actually see once they have usage Analytics of where they were used. So like if this was used in a business case or a deal room, you could in fact see where that was used across but not by UTM just by Mutiny's kind of native analytics there. Okay. Got it. But yeah, I think like from the perspective of setting up a Mutiny account in full, like what you'd want to do is just create your templates for what you want to use it. If it was just ABM and you wanted to have just a ton of ABM templates. By all means. You can see some starter templates for things people use Mutiny for. So decks recaps, case studies, competitive comparisons, business cases, Event invites is another one. Like whatever makes sense for, you can effectively create these templates that anyone can jump in and just effectively use them. So I have this ABM one I created up front Behind every template. You can even have logic sitting behind it too, where you can say, anytime someone actually uses this, I want to be able to then Ask them a few quick questions and then personalize that upfront. So if I wanted to just say as like a random example, just use a Microsoft, then I can say, how do you want to get contacts? I can either go search integrations, I can upload files. I can just say, go ahead and research for me Whatever way you want to grab that context. And then I can say who's the rep, I want to feature them. And then I can say myself. So this is where like your team could just run this flow Or this is where we also see sellers self serve because it's very simple You're defining the guardrails of how this template's populated. And you can see I put this together in like 10, 15 minutes. It's just like a couple sections. You can customize everything from What appears visually to the text to the case studies to the rep section. And you can see a few different custom components where they can start getting dynamic similar to I'm sure you've implemented across other domains too. So… Very customizable. Everything's prompt driven. You can ask it to code visuals, copy like I mentioned, And then once we're done our population, it'll turn this into a page for Microsoft. And then effectively, you can publish on the subdomain with the click of a button and share that for that account. But while it's doing that, any immediate questions stand out.
+
+[00:26:59] Mariza Selvitella
+I think like just understanding like… That would be the plumber. I think just understanding the overall like this. So if we're saying everyone has access, is it, is there like unlimited seats or is it like a, or is it kind of on a seat by seat basis?
+
+[00:27:14] Tyler LaMantia
+Yeah, it is actually no seat limits. It's purely credit based. So effectively, anytime someone uses the agent, it can take anywhere from like point zero, seven point zero five to a couple credits. So it's all fractional. But you would get a certain amount of credits allotted to you on the enterprise plan To then distribute as you'd like and you can optionally set limits per users.
+
+[00:27:36] Tyler LaMantia
+So people can only use X amount of limits as they jump in. But there's no penalty to inviting more people. And there's even the fact that people can jump in and use Mutiny without credits effectively costing nothing Like going and finding and sharing library content or just looking at analytics or duplicating and editing a page manually Because there's always the element of you don't always need to prompt. You can always edit on this right side as well from replacing imagery to changing text to making small drag and drops and so on too.
+
+[00:28:07] Mariza Selvitella
+I am so sorry, Tyler. I think I'm going to need to cut this short. Yeah, no problem. I'm so sorry to let him in and show us how more broken to it.
+
+[00:28:13] Mariza Selvitella
+No, this is really great. I think you've given me a lot to think about. I'd love if you could follow up again with just like capturing the sales. I think the sales use case I think is really interesting and could be something I would want to loop in our PMM team to explore a little further Because again, I don't think lovable is like quite meeting the need that we Awesome. But I really appreciate the time and I'll keep a lookout for your follow up.
+
+[00:28:37] Tyler LaMantia
+Amazing. I'll follow up by tomorrow and we'll go from there. Thanks, so.
+
+[00:28:41] Mariza Selvitella
+Much. Alright. Take care Bye.

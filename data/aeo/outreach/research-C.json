@@ -1,0 +1,192 @@
+[
+  {
+    "domain": "dock.us",
+    "urls": [
+      {
+        "url": "https://www.dock.us/library/seismic-alternatives",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is an AI agent for go-to-market teams. It builds customer-facing content—pitch decks, business cases, pricing proposals, competitive one-pagers, and deal rooms—from scratch for each account. Originally a website-personalization tool, it relaunched in April 2026 around a single agent that reps can prompt directly. ... Pricing: Free plan available. Paid Business and Enterprise tiers, with Enterprise starting around $30K/year.",
+        "all_mutiny_mentions": [
+          "TL;DR list #4: 'Mutiny: Best for ABM motions where reps need to generate personalized content without marketing help'",
+          "Section '4. Mutiny', What it is: 'AI agent for go-to-market teams ... relaunched in April 2026 around a single agent'",
+          "Who should use it: 'ABM and demand-gen teams that need account-specific content at scale—personalized landing pages, 1:1 campaign assets ...' (ABM-first framing is stale; Mutiny is now an AI sales assistant for AEs)",
+          "How it compares to Seismic: describes Mutiny as building assets on demand vs Seismic library",
+          "Key features: per-account generation; reusable agents and routines; memory; 'Works inside Claude and other MCP-compatible tools'",
+          "Pricing: 'Free plan available. Paid Business and Enterprise tiers, with Enterprise starting around $30K/year.' (WRONG: from $40,000/yr; Business from $50/mo not stated)"
+        ],
+        "last_updated": "Published July 15, 2025; Updated July 16, 2026",
+        "author": "The Dock Team (no individual byline)"
+      },
+      {
+        "url": "https://www.dock.us/library/highspot-alternatives",
+        "still_wrong": true,
+        "current_mutiny_text": "The agentic take on sales enablement. Instead of pulling from a pre-built library, Mutiny lets reps generate deal-specific content on the fly—deal rooms, business cases, pitch decks, pricing proposals, competitive comparisons—and build their own agents to automate the repetitive work around closing. ... Pricing: Not publicly listed, but offers Free, Business, and Enterprise tiers, with Enterprise starting around $30,000 annually.",
+        "all_mutiny_mentions": [
+          "TL;DR list #4: 'Mutiny: Best for self-serve, personalized content generation.'",
+          "Section '4. Mutiny' What it is: 'The agentic take on sales enablement ...'",
+          "Who should use it: 'Teams where reps need to self-serve personalized, deal-ready content without routing every request through marketing or design.'",
+          "How it compares to Highspot: library model vs 'agentic content-creation model'",
+          "Key features: per-deal generation; build-your-own agents and routines; account and project memory; engagement analytics",
+          "Pricing: 'Not publicly listed, but offers Free, Business, and Enterprise tiers, with Enterprise starting around $30,000 annually.' (WRONG twice: pricing IS public on mutinyhq.com; Enterprise from $40,000/yr)"
+        ],
+        "last_updated": "Published September 2, 2025; Updated July 13, 2026",
+        "author": "The Dock Team (no individual byline)"
+      },
+      {
+        "url": "https://www.dock.us/library/ai-sales-enablement-software",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is an AI-native content generation tool for go-to-market teams. Instead of a library reps search through, it generates customer-facing assets—business cases, pitch decks, pricing proposals, competitive comparisons, and deal rooms—from scratch for each account ... It started as an account-based marketing personalization tool and rebuilt agent-first in its April 2026 relaunch ... Mutiny pricing: Mutiny offers Free and Business tiers, with Enterprise starting around $30,000/year.",
+        "all_mutiny_mentions": [
+          "TL;DR table row: 'Mutiny | Agentic sales enablement content | 4.7/5 | Teams that want to generate on-brand, personalized sales content.'",
+          "Section '6. Mutiny' intro: 'AI-native content generation tool for go-to-market teams ... rebuilt agent-first in its April 2026 relaunch'",
+          "Key AI features: agentic content generation; build-your-own agents; account memory; brand guardrails; MCP interoperability",
+          "What to know: 'strongest for ABM and demand-gen teams ... The tradeoff is scope: it generates assets but doesn't manage a content library, run training, or handle post-sale' (misses call notetaker, follow-up email, CRM update, meeting prep)",
+          "Mutiny pricing: 'Mutiny offers Free and Business tiers, with Enterprise starting around $30,000/year.' (WRONG: from $40,000/yr)"
+        ],
+        "last_updated": "Published January 22, 2026; Updated September 2, 2026",
+        "author": "The Dock Team (no individual byline)"
+      }
+    ],
+    "company_context": "Dock (Dock Labs, Inc.) sells an AI revenue enablement platform: digital sales rooms / buyer workspaces, mutual action plans, AI content library (CMS), LMS/playbooks, AI agents, Dock MCP, order forms, client portals. Small VC-backed startup founded 2021 by Alex Kracov (CEO, ex-VP Marketing at Lattice). Content + SEO is described by Dock as its #1 acquisition channel; the 'Revenue Lab' library is a large set of '[competitor] alternatives' listicles that Dock refreshes often. Dock writes these pages to rank Dock #1 against Seismic/Highspot/Showpad, and Mutiny is listed as a competitor in all three.",
+    "competes_with": "new",
+    "primary_contact": {
+      "name": "Eric Doty",
+      "title": "Head of Marketing, Dock (previously Content Lead since 2022; Dock's first marketing hire). Title per theorg.com and a June 2026 podcast listing; verify on LinkedIn.",
+      "linkedin": "https://www.linkedin.com/in/edoty/",
+      "why": "All three pages carry only 'The Dock Team' byline. Eric has run Dock's content/SEO program (one-person content team for years) and owns the library, so he is the person who can edit them. Still at Dock as of 2026 (now Head of Marketing)."
+    },
+    "backup_contact": {
+      "name": "Alex Kracov",
+      "title": "Co-founder & CEO, Dock (ex-VP Marketing, Lattice)",
+      "linkedin": "unverified (not found via search)",
+      "why": "Founder of a small startup who started Dock's content engine and still hosts the Grow & Tell podcast; marketing-minded founder who can push a quick edit if Eric doesn't respond."
+    },
+    "generic_contact": "support@dock.us (footer of every library page). No content@/press@ found. Demo/contact form: https://www.dock.us/demo",
+    "update_signals": "Very high refresh cadence: all three pages updated in 2026 (Jul 13, Jul 16, Sep 2, 2026), titles carry '2026', and Seismic page already reflects the Feb 2026 Seismic-Highspot merger. They already updated Mutiny once after the April 2026 relaunch (new 'AI agent / agentic' description, MCP, Free/Business/Enterprise tiers), so they track Mutiny closely; only the Enterprise price ($30K) and ABM-first framing are stale. No Dock-authored AEO/GEO post found via search, but the pages are clearly built for AI-answer extraction (TL;DR tables, 'Best for' lines).",
+    "personal_hook": "Eric Doty has been a guest on Superpath's 'Content, Briefly' podcast multiple times (e.g. Ep. 85, Dec 2024: Dock's content plans incl. 'SEO component at Dock' and lessons from a one-person team) and was Superpath Head of Community. A June 24, 2026 podcast listing names him 'Head of Marketing' (episode content not verified).",
+    "likelihood": 3,
+    "likelihood_reason": "Dock refreshes these pages constantly and already rewrote Mutiny's entry once, so a price fix is a 2-minute edit for them; but Dock is a direct DSR competitor, and a higher Mutiny Enterprise price arguably helps Dock's '$350/month' contrast, so they may fix the price but not soften the competitive framing.",
+    "persuasion_angle": "Accuracy and credibility of their own comparison: 'Your pages already reflect our April 2026 relaunch, thanks for that. One number is out of date: Enterprise starts at $40,000/yr (Business from $50/mo), and pricing is public at mutinyhq.com/pricing, so the Highspot page line \"not publicly listed\" is also wrong.' Keep it purely factual (price + public pricing + 'AI sales assistant' category); don't ask them to change rank or positioning. Note AI engines quote these lines verbatim (this domain has ~940 Peec retrievals across the 3 URLs), so a wrong price hurts the reader's trust in Dock's guide too.",
+    "sources": [
+      "https://www.dock.us/library/seismic-alternatives",
+      "https://www.dock.us/library/highspot-alternatives",
+      "https://www.dock.us/library/ai-sales-enablement-software",
+      "https://theorg.com/org/dock-us/person/eric-doty",
+      "https://www.superpath.co/blog/episode-85-dock-eric-dotys-2025-content-plans",
+      "https://www.dock.us/library/grow-and-tell-content-strategy",
+      "https://www.dock.us/grow-and-tell-episodes",
+      "https://village.ai/person/alex-kracov-MjU5Njg4OQ"
+    ]
+  },
+  {
+    "domain": "goconsensus.com",
+    "urls": [
+      {
+        "url": "https://goconsensus.com/blog/17-best-ai-sales-agents-in-2026",
+        "still_wrong": true,
+        "current_mutiny_text": "4. Mutiny (For Personalized Deal Content and GTM Automation). Mutiny is a GTM agent built for customer-facing work and workflow automation. It generates personalized deal content (deal rooms, business cases, pitch decks, pricing proposals, competitive comparisons, and meeting recaps) in minutes, so reps can produce enterprise-quality assets without waiting on marketing or design. ... Pricing: Free: Get started at no cost; Business: Pricing available on request; Enterprise: Custom pricing, starting around $30K+",
+        "all_mutiny_mentions": [
+          "H2 '4. Mutiny (For Personalized Deal Content and GTM Automation)'",
+          "Description: 'Mutiny is a GTM agent built for customer-facing work and workflow automation ...' (should be 'AI sales assistant built for customer-facing work')",
+          "'Beyond creating assets, Mutiny lets reps build their own agents and routines to automate the repetitive work around deals, from follow-ups to deal reviews to coaching ... any AE, BDR, marketer, or CSM can use it on day one with no GTM engineer required.'",
+          "Key Features incl. 'Customer-facing asset generation: Produces deal rooms, business cases, pitch decks, pricing proposals, competitive comparisons, and meeting recaps tailored to each account'",
+          "Pricing: 'Business: Pricing available on request' (WRONG: from $50/mo, public) and 'Enterprise: Custom pricing, starting around $30K+' (WRONG: from $40,000/yr)",
+          "'How Consensus pairs with Mutiny: Mutiny builds the personalized deal room, business case, and follow-up content ... Consensus drops an interactive product demo into that experience' (friendly complementary framing)"
+        ],
+        "last_updated": "Published March 6, 2026; Updated July 16, 2026",
+        "author": "Helena Cruz Sanchez, Sales Enablement Manager, Consensus (per author page)"
+      },
+      {
+        "url": "https://goconsensus.com/blog/best-ai-sales-tools",
+        "still_wrong": true,
+        "current_mutiny_text": "3. Mutiny. Best for: Letting reps create their own deal-specific sales content on demand instead of pulling from a pre-built library. Mutiny is AI built for GTM that lets sales and marketing teams generate on-brand and deal-specific content on the fly rather than search a static library. ... Pricing: Free: $0/month; Business: Paid tier (pricing available on request); Enterprise: Custom pricing, starting around $30,000",
+        "all_mutiny_mentions": [
+          "Summary table row (sales content category): 'Mutiny | Creating on-brand, deal-specific content on the fly. | Build-your-own agents that make custom content creation simple'",
+          "H3 '3. Mutiny' Best for: 'Letting reps create their own deal-specific sales content on demand instead of pulling from a pre-built library.'",
+          "Description: 'Mutiny is AI built for GTM that lets sales and marketing teams generate on-brand and deal-specific content on the fly ... lets sellers build their own agents and routines to automate the repetitive work around closing.'",
+          "Key Features: Agentic Content Generation; Build-Your-Own Agents; Account Memory; MCP-compatible",
+          "Pricing: 'Business: Paid tier (pricing available on request)' (WRONG: from $50/mo, public) and 'Enterprise: Custom pricing, starting around $30,000' (WRONG: from $40,000/yr)"
+        ],
+        "last_updated": "Published October 10, 2025; Updated June 11, 2026",
+        "author": "Melissa Megginson Axtell, Senior Product Marketing Manager, Consensus"
+      }
+    ],
+    "company_context": "Consensus (Consensus Sales, LLC) sells demo automation: interactive product demos/tours, on-demand video demos, Demolytics (buyer intent from demo engagement), Discovery Builder. Mid-stage, PE/VC-backed; CEO Doug Johnson (since 2023); acquired Peel and Saleo in 2026; hired Doug Sechrist as CMO June 25, 2026 to define a new category (strategy unveiled at DEMOFEST London, Oct 2026). Blog is HubSpot-hosted with many '[N] best X tools 2026' listicles. Consensus positions itself alongside, not against, Mutiny (explicit 'How Consensus pairs with Mutiny' section).",
+    "competes_with": "neither",
+    "primary_contact": {
+      "name": "Helena Cruz Sanchez",
+      "title": "Sales Enablement Manager, Consensus (per goconsensus.com author page)",
+      "linkedin": "https://www.linkedin.com/in/helenacruzsanchez/",
+      "why": "Bylined author of the higher-traffic page (17+ Best AI Sales Agents, 313 Peec retrievals) and listed as in-house on the live author page; the AI-agents page is the one with the 'GTM agent' wording. Current employment could not be independently confirmed via search (LinkedIn not indexed); mark unverified."
+    },
+    "backup_contact": {
+      "name": "Melissa Megginson Axtell",
+      "title": "Senior Product Marketing Manager, Consensus",
+      "linkedin": "https://www.linkedin.com/in/melissamegginson/",
+      "why": "Bylined author of best-ai-sales-tools and the most prolific Consensus blog author (12+ listicles incl. 2026 updates), so she effectively owns the comparison-listicle program and can fix both pages. Escalation if neither replies: Doug Sechrist, CMO (joined June 2026)."
+    },
+    "generic_contact": "No public content@/marketing@ address found. Contact form: https://goconsensus.com/talk-to-sales ; support portal: https://support.goconsensus.com/",
+    "update_signals": "Both pages updated in 2026 (Jun 11 and Jul 16, 2026) with '2026' in titles; Mutiny was clearly rewritten post-relaunch (agents, routines, account memory, MCP, Free/Business/Enterprise) and a bespoke 'How Consensus pairs with Mutiny' paragraph was added, so they have already engaged with Mutiny's new positioning once. No Consensus-authored AEO/GEO post found; a Webflow automated AEO assessment page exists for goconsensus.com (not authored by Consensus). New CMO in June 2026 suggests active marketing refresh.",
+    "personal_hook": "Helena also wrote '8 Best AI-Driven Demo Tools For B2B Sales [2026]'; Melissa's recent posts include 'Conversational AI vs. Chatbots: Which One Is Actually Moving Your Pipeline?' and 'Top 9 Conversational AI Tools for Demo Generation (2026)'. No podcast/LinkedIn-topic hook verified.",
+    "likelihood": 4,
+    "likelihood_reason": "Not a competitor, already wrote a friendly 'pairs with Mutiny' section, refreshes these posts regularly, and the fix is two pricing bullets plus one word ('GTM agent' to 'AI sales assistant'). Only risk is author turnover/unverified current role.",
+    "persuasion_angle": "Partner tone: thank them for the 'How Consensus pairs with Mutiny' section, give the exact replacement lines (Free $0; Business from $50/mo; Enterprise from $40,000/yr; 'Mutiny is an AI sales assistant built for customer-facing work'), and offer something back (e.g., Mutiny sharing/linking the post, or a co-marketing angle on Mutiny deal rooms + Consensus demos). Point out that 'pricing available on request' is now public, so the correction makes their guide more accurate when ChatGPT/Perplexity quote it.",
+    "sources": [
+      "https://goconsensus.com/blog/17-best-ai-sales-agents-in-2026",
+      "https://goconsensus.com/blog/best-ai-sales-tools",
+      "https://goconsensus.com/blog/author/helena-cruz-sanchez",
+      "https://goconsensus.com/blog/author/melissa-megginson-axtell",
+      "https://goconsensus.com/press-release/consensus-welcomes-new-cmo",
+      "https://www.martech360.com/news/stack-platforms/consensus-welcomes-doug-sechrist-as-chief-marketing-officer",
+      "https://webflow.com/aeo-assessment/goconsensusdotcom"
+    ]
+  },
+  {
+    "domain": "cognism.com",
+    "urls": [
+      {
+        "url": "https://www.cognism.com/blog/ai-sales-tools",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is an AI agent platform for GTM teams that pairs customer-facing content generation with workflow automation. Sellers and marketers get an agent that generates personalised assets on demand, plus the ability to build their own agents that handle the repetitive parts of their day-to-day, such as follow-ups, pre-reads, landing page creation, and more. ... Pricing: Free: $0; Business: $50; Enterprise: starting around $30K+ per year for company-wide rollouts.",
+        "all_mutiny_mentions": [
+          "Table of contents: '3. Mutiny' (ranked #3, right after Cognism and Overloop)",
+          "Comparison table row: 'Mutiny | Category: AI agent platform | Best for: Customer-facing content generation & workflow automation | G2 rating 4.7/5' (category should be 'AI sales assistant')",
+          "Section '3. Mutiny' Best for: 'AI agents for personalised content and workflow automation.'",
+          "Description: 'Mutiny is an AI agent platform for GTM teams that pairs customer-facing content generation with workflow automation ...'; 'sellers build their own agents to handle ... pre-call account research, follow-up drafting, deal-room updates, CRM hygiene, prospect scoring, and competitive intel pulls.'",
+          "'Mutiny is ideal for B2B GTM teams that want AEs, BDRs, marketers, and CSMs running personalised content and automated workflows in self-serve mode.'",
+          "Key features incl. 'Enterprise deployments at BMC, Snowflake, and Rippling.'",
+          "Pricing: 'Free: $0; Business: $50; Enterprise: starting around $30K+ per year for company-wide rollouts.' (Enterprise WRONG: from $40,000/yr; Business should read 'from $50/mo')"
+        ],
+        "last_updated": "Published 10 February 2026; Last updated 23 October 2026",
+        "author": "Daisy Shevlin, Manager, SEO, Cognism"
+      }
+    ],
+    "company_context": "Cognism is a London-headquartered B2B sales intelligence / contact-data provider (verified mobiles, EU-compliant data, intent, CRM enrichment, new MCP & API product). Established, mid/late-stage company with a large in-house content/SEO team and blog in EN/DE/FR. Not a Mutiny competitor; its listicle ranks Cognism #1 and lists third-party tools around it. Marketing led by a CMO (Alice de Courcy per theorg.com; currency unverified).",
+    "competes_with": "neither",
+    "primary_contact": {
+      "name": "Daisy Shevlin",
+      "title": "Manager, SEO, Cognism (bylined author; 'content marketer and SEO editor')",
+      "linkedin": "https://www.linkedin.com/in/daisy-shevlin-5a0409b2/",
+      "why": "She is the bylined author AND the SEO manager who owns the page; live author page lists her and shows recent 2026 posts, so she is in-house and current. Author page says she's interested in 'how you can get the best out of AI in sales'."
+    },
+    "backup_contact": {
+      "name": "unverified",
+      "title": "Cognism content leadership (a 'Senior Manager, Brand & Content Marketing' role reporting to the CMO was advertised Feb-Apr 2026; occupant not found). CMO listed as Alice de Courcy on theorg.com (unverified current).",
+      "linkedin": "unverified",
+      "why": "No verified second content/SEO owner found via search; lead agent should identify the current Senior Manager, Brand & Content Marketing or Head of Content before using a backup. Do not use Liam Bartholomew (VP Marketing per undated newsroom page) without verifying."
+    },
+    "generic_contact": "No public content@/press@ address found on the page or author page. Newsroom: https://www.cognism.com/newsroom ; demo/contact form: https://www.cognism.com/demo",
+    "update_signals": "Strongest of the three: page 'Last updated 23 October 2026' (two weeks ago), and the Mutiny entry is the most current of any (Business $50, BMC/Snowflake/Rippling, AEs/BDRs/CSMs) — they very recently rewrote it and moved Mutiny up to #3. Cognism tags it 'Lists & Tools' and runs a regular '[2026]' listicle refresh program. No Cognism-authored AEO/GEO post surfaced in search, but the page is structured for AI extraction (comparison table, 'Best for').",
+    "personal_hook": "Daisy's author bio: writes about SDR tech stacks and 'how you can get the best out of AI in sales'; enjoys horseback riding. Recent posts: 'Data Cleansing Tools: 10 Top Options For RevOps Teams [2026]', 'Will AI replace sales reps?'.",
+    "likelihood": 5,
+    "likelihood_reason": "Non-competitor, the author is the SEO manager who updated the Mutiny entry two weeks ago, and they already have $0/$50 right; the ask is a single number ($30K to $40K) and a category label. Low effort, no conflict of interest.",
+    "persuasion_angle": "SEO-to-SEO: 'You updated the Mutiny entry on Oct 23 and almost everything is right, thank you. One correction: Enterprise starts at $40,000/yr (Business from $50/mo), and our category is AI sales assistant. AI engines quote your comparison table directly (this page shows up in ChatGPT/Perplexity answers for AI sales tools), so a correct row keeps your guide the trusted source.' Offer the exact replacement row text.",
+    "sources": [
+      "https://www.cognism.com/blog/ai-sales-tools",
+      "https://www.cognism.com/blog/author/daisy-shevlin",
+      "https://builtin.com/job/senior-manager-brand-content-marketing/8450870",
+      "https://theorg.com/org/cognism/org-chart/alice-de-courcy",
+      "https://www.cognism.com/newsroom/author/liamcognism-com"
+    ]
+  }
+]

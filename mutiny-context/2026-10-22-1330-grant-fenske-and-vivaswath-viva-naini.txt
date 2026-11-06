@@ -1,0 +1,219 @@
+Additional prior call: Grant Fenske and Vivaswath (Viva) Naini
+October 22, 2026 at 01:30 PM
+https://us-53268.app.gong.io/call?id=1044300470326621102
+
+[00:00:00] Viva Naini
+Hey, Grant. How are you?
+
+[00:00:02] Grant Fenske
+Viva, hey, man. Doing well Yourself?
+
+[00:00:04] Viva Naini
+Good. How was your week? I feel like it's been like it went by really quickly Like it doesn't feel like it's been a week since I talked to you.
+
+[00:00:11] Grant Fenske
+Yeah. Leave that impression on people. Can't get rid of you? No, I'm kidding.
+
+[00:00:16] Viva Naini
+No, no, no, no, It's just been busy.
+
+[00:00:18] Grant Fenske
+Yeah, it's been a little nutty over here as well. And lately, It's a little interesting. One of the reasons I spurred this meeting was like other senior directors of like our partner marketing team. So like I'm on the demand gen team That's where ABM kind of sits. But like the growth marketing team has been really keen in like getting… involved in microsites to a certain capacity. So, yeah, that's like one of the reasons I'd love to kind of chat through what spurred it. But yeah, it's nutty. It's busy as all get out here.
+
+[00:00:50] Viva Naini
+Yeah. How have you been though? Good week so far? Or good weekend? Like what'd you get up to?
+
+[00:00:54] Grant Fenske
+Mixed results on the week. Yeah, weekend was solid super solid, You know, farmer's market with kid. My wife explored a new park just kind of tooting around until the rain hits. What about you? You get up to anything good? I?
+
+[00:01:07] Viva Naini
+Can't think this last weekend? Oh, I went home to see my parents. I live in New York, but my parents live in DC. So I just took like the bus down, Hang out with them. Saw a couple of hometown friends. One of my good childhood friends is moving out to SF. So like last time I'm going to see him for a while. So just spending time with them.
+
+[00:01:27] Grant Fenske
+Nice. Wow. Taking the bus. Like I don't think I've ever heard someone say they took the bus to another state or something out here That's just like you don't hear that?
+
+[00:01:37] Viva Naini
+I don't know. I'm a big bus fan. I don't know.
+
+[00:01:39] Grant Fenske
+Yeah, public transit, We have like Bart, I don't know if you've been in the Bay Area… But yeah, it's very car centric culture out here. Yeah, the Bart.
+
+[00:01:48] Viva Naini
+Is not great. It's very loud which I didn't realize until the first time I took it Like unreasonably loud for some reason.
+
+[00:01:56] Grant Fenske
+You must have gone under the bay. Once it goes from like Oakland to the city. It's so so loud You're in the water. It's like your ears are popping But hey, beggars can't be choosers, right?
+
+[00:02:07] Viva Naini
+That's right.
+
+[00:02:11] Grant Fenske
+Anyways, yeah, I'd love to, I want to show you like one of the new products that AlphaSense launched because I kind of misunderstood what it does And I don't know if people are intending to replace Mutiny with what Super Analyst. Does I see us like using super analyst outputs inside of microsites? In fact, that's a meeting I had today with a bunch of consulting reps for Deloitte, Accenture, KPMG, So I'd love to kind of get your input on that. I want to talk about you guys at MCP because this other senior director who's kind of getting involved in microsites, is under the impression that we, I mean, I'm the only person who builds microsites, me and two or three other folks really.
+
+[00:02:57] Viva Naini
+Yeah.
+
+[00:02:57] Grant Fenske
+Instead of going into the builder building them ourselves, whether it's template or a one off, he's on the impression like this is slow inconsistent and we should instead be using like Claude and the MCP connectors, which I'm not even sure if we have activated to build microsites instead. So, I'd love to maybe at the very least like switch on the MCPs and start experimenting. But maybe we kind of take these one at a time here. So beginning with Claude and the MCP that you guys offer, what do you see most folks do Like are better outputs achieved through using the MCP or like, do you see better microsites built natively in Mutiny?
+
+[00:03:38] Viva Naini
+Yeah, that's a good question. I would say that it's less about the actual quality of output and how easy it is to make minute changes. I think we see we have a lot of customers who do use Mutiny through the Claude MCP. So they just prompt it through Claude. Like these are for teams that are, you know, they live and breathe and like die inside of Claude. So for them, it's easy to just like to like add Mutiny and build stuff there. But if you want to make like smaller, more granular changes, it's definitely easier in the platform. I don't think your director is entirely wrong. Like I think that there are teams who would get a good like 90 percent pass done with Claude and it's really high quality. And then they'll go into Mutiny and make like the fine tuning adjustments. So that's definitely like a workflow that you guys could, you guys could adopt.
+
+[00:04:26] Grant Fenske
+Right. In terms of, it sounds like at the very least, like I attempted to switch this on right? When we got Claude in the summer. And the teams were like everyone wants an MCP. Like you have to wait your turn And then I quite candidly forgot about it. So I guess what are the steps to switch the connectors on?
+
+[00:04:44] Viva Naini
+Yes, I will send you a website link, but it's basically like you shouldn't add your own custom MCP in the top, right? That is up in the connectors tab that you had. And then I'll just send this over to you. Truthfully I'm not like super well versed with how like the actual MCP. So I'll send this up to you. I think there's some reading that I need to do as well.
+
+[00:05:08] Grant Fenske
+But just.
+
+[00:05:09] Viva Naini
+send you a link for basically like instructions of how to get everything set up.
+
+[00:05:14] Grant Fenske
+Okay. Yeah. Well, I can do that offline then. Okay. So it sounds like high level, Not too terribly different of an output If you're making small tweaks, best to do in platform. If you're going from a template, Claude's pretty straightforward Like you're not going to lose out on. Okay, cool. All right On to, so our new, we launched this new product and I'm again, I'm pretty ignorant of our product as a whole. But this new feature we offer is called Super Analyst And it's like this always on agentic Research thing. I'm not really sure. I'm not doing it justice either. But lately when I'm in these sessions with reps and we're building pages, these reps are sending me these outputs from super analysts. Like I was on the call with the Deloitte team earlier. Excuse me, And they're like, all right. Yeah, this thing's been serving us good. It's a little dusty Let's Polish it up. Absolutely. Guys, They're like, hey Grant. And I always get this question. What are other teams doing? What's Accenture doing? What's Scotiabank doing? And I was like, I'll tell you what guys like Scotiabank, they sent me this. I guess I didn't publish it but they're sending me these outputs, these HTML files, these GIF files and they look really sick. They're super custom. And I'm just plopping them into the microsites. And they were like, Dude like we've got some really custom artifacts or outputs. Can you put this in the Deloitte microsite? I was like, yeah, dude. Send it to me. So they sent me this HTML file and like this is an output of our new product. Super Analyst. It looks super sick if you ask me. So this is, I don't know. I kind of see the future of our microsites hosting a lot of these curated assets. I just simply was like, hey, you know, build a new section and host this HTML file And it looks exactly like it did as I received it in an HTML. So… Yeah, I guess I'll get your hot take on like kind of what your thoughts are here. This is all to help this client like create more custom prompts to use our product more. I think is the overall goal, Long story short. We really want to get people using AlphaSense more as they have these big token pools similar to Mutiny. We got to get them burning those tokens. So, yeah, as this director is getting involved as I'm getting these new features. I'm like man, I need to brainstorm such with my Guy here like talk me through. Am I not thinking of things Like are there blind spots here? Like what are your thoughts? Yeah.
+
+[00:07:40] Viva Naini
+I took a look at this earlier. I think it looks really good. Honestly. It's my understanding that like this product helps you like make your prompts more specific based on inputs that you're giving it. So if you like tell it what level you are, and like some of the other stuff there, which is great. So, We do see a lot of teams who are using, yeah, we call them custom components, but that's like any of these HTML embeds. And I mean, if you tell me more about like what you're trying to achieve, like, I think this already looks like pretty fucking good. Honestly. So do you let me know?
+
+[00:08:14] Grant Fenske
+Yeah. I mean we always run out of time in these calls because let's talk about three accounts and we never get anything done. I always find it's best to focus on one microsite and then we'll like scale from there. So ultimately this ended with like, hey, here's, this output, Can you nest it in the microsite? To which, yeah, it seems to be working great guys. No problem. Yep. In terms of, I guess just to shift gears one last time to like templatization Yep. I know you and I kind of took a stab at building a native template in Muni And I've been building versions of that like all week long, published a few of them. But just yesterday, again, this director, his name's KG. He kind of it's funny. I was like I couldn't tell if this is an idea of his or he's like this is what you are going to do now. It's kind of my quest to figure out but he's like, hey, here is the new ABM microsite template And it looks pretty sick. Honestly, His whole thing is like, all right, Grant's been spending too much time in mutiny building these one offs use this template which honestly, I'm guessing this thing was built in Super Analyst. And now let's start just prompting them in Cloud and building them at great scale. So here's what he sent me. So I'm wondering, I mean it honestly satisfies like all of my asks Like it's co branded looks relatively similar to everything else I've built. Yep, Plus or minus. I think he's oversimplifying things a bit in terms of like if I'm working with an account where expansion is the focus, you know, it's going to look different than like a new logo site. So he was like, okay, that's good feedback. I don't think it's going to be one template, maybe two, but I definitely want to like satisfy his ask. And I think ultimately, this could help me scale these out quite handily. So what do you think about me using this as perhaps a new template? And it sounds like we can't do any MCP building right now. So this would probably be like a mutiny build workflow. Yeah. What are your thoughts? Like? Would something like this even work Like?
+
+[00:10:17] Viva Naini
+Yeah. I think if you went out into the agent and you told it to create a template based on this HTML file, it would do a great job. So you can just go ahead and do that. Yeah, I mean, I will say from like my perspective now that you've like, I don't know from my perspective, the site you just showed me is like if I was a third party, I'd be like this looks like pretty cloddy, But I guess it depends on, you know, who's building it for what? Like who's the end user? But, you know, it might look better once it's all filled out. It's just like from a high level perspective that's kind of my opinion, but.
+
+[00:10:52] Grant Fenske
+Yeah. And I'm seeing all these like, you know, placeholders, I'm like,
+
+[00:10:55] Viva Naini
+Yeah, which I'm sure will go away Like especially if, you throw it into to me, it's going to do like a good job, of fixing all that up but you can just toss it and then we'll see what happens here.
+
+[00:11:06] Grant Fenske
+Any other context? Is this enough to get it down?
+
+[00:11:09] Viva Naini
+That's enough to get it down? Yeah, I think that's fine. If you receive like that top down instruction, from your director, then, you know.
+
+[00:11:21] Grant Fenske
+Well, that's the funny thing is he's not my director. He's so I'm on the demand gen team. I'm super tight with my boss whose name is also Kevin. This gentleman is a different Kevin from the growth marketing team. So anyway, my boss is pretty solid on the thread and I'm like, all right, always looking for help with micro sites. Maybe this is like a sick idea. So let's experiment with it. But I'm also kind of like, who am I beholden to now? Yeah, This is kind of interesting. So.
+
+[00:11:49] Viva Naini
+See, I think this is, it's fine. Like, I don't think this is anything like you mentioned before. Like you, I think you'd already created stuff that looks equivalent to or better than this in my opinion, But like you saw, I mean, Mutiny is able to ingest it and it looks, this is going to look pretty much one to one to the exact like HTML file, that the like that KG put together. Okay, it's.
+
+[00:12:14] Grant Fenske
+still kind of working on the thing?
+
+[00:12:18] Viva Naini
+Looks like it's done. Yeah.
+
+[00:12:26] Grant Fenske
+Okay. So now that it's ingested, it's a template, Go back to home, back to templates. Okay. Let's say, I mean, does it make sense to like try to spin one up real quick and have it apply a lot of those personalization elements that are currently like placeholders. Yeah.
+
+[00:12:43] Viva Naini
+I don't see why not.
+
+[00:12:50] Grant Fenske
+Let me think of an account.
+
+[00:12:59] Grant Fenske
+I had started to work on a Scotia bank one. Let's do that Cause I wasn't super stoked with mine. All right.
+
+[00:13:14] Grant Fenske
+This is the template itself. Okay. This is the actual Microsoft. All right, Scotia bank two.
+
+[00:13:22] Grant Fenske
+Okay. Yeah, I guess would be the best way to like at scale, have a lot of this personalization take place via like the minimum amount of chat inputs possible?
+
+[00:13:33] Viva Naini
+I guess when you're saying on scale, is it just for Scotia bank? You're talking about for all of the different sites you want to make?
+
+[00:13:38] Grant Fenske
+I guess you're right? Like maybe I, again, maybe it's my framework. I keep thinking like, all right, this is a one to one account page for a strategic account.
+
+[00:13:49] Viva Naini
+I mean, you can reframe it to be like you're doing one to one is supposed to be so individualized and hyper specific. But depending on the level of account context you have, you can do like one to one at scale, which is kind of what we see a lot of people in the ABM space trying to do… I think that's something to think about here.
+
+[00:14:08] Grant Fenske
+Why don't, we try to do that? I can just select a random cohort of like 10, Yeah, 10 accounts,
+
+[00:14:21] Viva Naini
+Yeah, I think if that's the case, I probably get things kicked off from the actual template. You can, you can make this a template if you just click the three dots and then save as template. Yep. So it's template Perfect. And then if you wanted to kick this off for the accounts, you could probably just type in the bottom left and say like create this for XYZ accounts. I'm trying to remember like what connectors you guys have set up to pull in context here.
+
+[00:14:52] Grant Fenske
+Oh, meet me connectors. Yeah, I don't know if we've a ton on.
+
+[00:15:00] Viva Naini
+You go to, yeah, that's fine. I would go instead to back to the homepage and then foundations on the left hand side. Yeah. And then integrations Perfect. Let me just check what you guys have set up So it doesn't look like you have Salesforce or Hubspot or anything for that matter.
+
+[00:15:22] Grant Fenske
+Nothing.
+
+[00:15:23] Viva Naini
+Nothing. I mean, oftentimes we see teams that like eventually get Salesforce and Hubspot connected. It just takes a longer like security review for that. I mean, what CRM do you guys have? Do you guys use? Salesforce? Okay. Does Claude have access to Salesforce right now?
+
+[00:15:41] Grant Fenske
+I think so. Yeah.
+
+[00:15:44] Viva Naini
+Cause what you could do is if you have the Mutiny MCP connected in Claude, you could go ahead and just like pull info, It like pulls it from Salesforce. And, okay, So it looks like Salesforce… is not connected either, Or is it, I don't think so.
+
+[00:16:06] Viva Naini
+Yeah… I guess we'll see.
+
+[00:16:11] Grant Fenske
+And I guess the whole reason of this is to like call on certain fields of data in Salesforce to reference like account pain points or something.
+
+[00:16:18] Viva Naini
+Like whatever call notes you have in there pain points, just any additional context helps feed them those pages.
+
+[00:16:26] Grant Fenske
+I've manually looked for that. Never found like a specific standard field that like all the reps use… Cause like, I guess we've acquired companies, We've been purchasing companies. So it's just been like CRMS integrated with one another, Those dupes, on dupes, It's a bit of the wild west in our CRM honestly.
+
+[00:17:00] Grant Fenske
+All right. Anyways, I'll come.
+
+[00:17:02] Viva Naini
+Back to it. But yeah, if you like go ahead and specify the tenant accounts you want. And then if you have like additional call data or you just give them the names and at least do like the account logo stuff, you could certainly go ahead and do that.
+
+[00:17:17] Grant Fenske
+Okay. I didn't think we'd get this far this fast. I should have come prepared with like a cohort of accounts honestly.
+
+[00:17:25] Viva Naini
+Yeah. I think it just really depends on what you're looking to get out of this. Like do you want to have… Like, do you want to be as prescriptive as using this template for like all of your accounts, I'm sure some of them are in different stages or have different pain points. You'd probably want something different, but you let me know.
+
+[00:17:42] Grant Fenske
+Yeah. And I mean, it's a case by case basis. These consulting accounts. These pages are so bespoke. I mean, we're even talking about breaking it out into a tabular infrastructure for like, hey, are you an interested user? Click this button? Everything refreshes. Are you an existing user? Click this tab, all the content changes to help you use a product. More That wouldn't be achieved by certainly this template. You know, I'm not interested in getting into like Slack wars and like, no, like you don't know what's best especially with like a senior director. I'm a mere senior manager, But I'm like, yeah, I do think I could be doing more scalable builds for sure… But to achieve that, that's kind of where I needed to pull in the big guns, you know, yourself to get the template set up. And I guess for my own action items from here on out is gather a cohort of accounts, maybe down market where Something more simple would satisfy the ask. Just get my headshot in there, a link to the Marketo, form, update the logos, and I'm off to the races.
+
+[00:18:45] Viva Naini
+Yeah. I think that's a pretty good strategy. You could have a couple of different templates based on either segmenting it by account or industry or the level of granularity you think it needs. I can assume that not every account needs the tabbed out content, right?
+
+[00:18:59] Grant Fenske
+Yeah.
+
+[00:19:00] Viva Naini
+Yeah. I think the play there being we might have walked through this last time of setting up a routine in the project folders and stuff. But that's the way to really be able to do it scalably and kind of control it. And then.
+
+[00:19:14] Grant Fenske
+we covered a lot of ground last time from projects to removing em, dashes and stuff like that. I don't know if we finished a routine. Okay? We kind of did, yeah.
+
+[00:19:25] Viva Naini
+This is like an automation that you can run to be able to create those 10 accounts. As soon as you list it Based on a template. It's going to push it to a specific folder. I think we even defined the folder last time. I think this is more or less what you're going to be looking for if you want to be able to do this at scale.
+
+[00:19:43] Grant Fenske
+Okay. I think I'll give it some time back And if, when I book some more time, probably next week or the week after, come prepared with like, all right, let's use this template. Maybe we'll have Claude MCPs turned on by then and build out a subset of accounts using that template and see if that kind of satisfies the ask. In the meantime, I'm just going to continue to I guess like do what I've been doing. I don't really want to spend too terribly much time on this whole template because I'm starting to see a lot more adoption on The sales folks actually sending these out which is great especially since I've been helping them Because honestly, the question always comes down to, hey, dude, this asset's great. How can I send it out? Are you guys putting dollars behind it? We will be soon but only for three accounts. But what I've been starting to do is build these outreach sequences which have been freaking awesome. From the sales people's point of view. They're like dude, you just saved my SDR hours.
+
+[00:20:33] Grant Fenske
+Potentially. This is so great. So that's been super helpful for me personally. And, yeah, Okay. Anyways, Vivaswath, appreciate the huddle. I got a decent template to work off of. And then you said you sent over the instructions for the, Yeah.
+
+[00:20:55] Viva Naini
+For the MCP, I sent it over Slack. Yeah. So you can just, You should have each other connected on Slack. But in the meantime, even in the downtime between the week of meetings, if you have questions, shoot them over to me, I'll answer If you want to think about any ideas or get anything going, happy to resolve from there, Just let me know.
+
+[00:21:12] Grant Fenske
+Okay. Appreciate the time and have a good rest of your week.
+
+[00:21:15] Viva Naini
+Yeah, you too. Thanks Grant.
+
+[00:21:17] Grant Fenske
+See ya, Bye.

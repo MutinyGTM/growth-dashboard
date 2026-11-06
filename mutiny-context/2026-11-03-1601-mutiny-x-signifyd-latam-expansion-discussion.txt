@@ -1,0 +1,207 @@
+Mutiny x Signifyd LATAM Expansion Discussion
+November 03, 2026 at 04:01 PM
+https://us-53268.app.gong.io/call?id=7163101267012443700
+
+[00:00:00] Viva Naini
+Hey Leslie, how are you?
+
+[00:00:01] Leslie Zamora
+Hi, Viva. It's correct pronunciation. Perfect. Fine. Everything's fine. And you.
+
+[00:00:09] Viva Naini
+Good. Thanks for hopping on today. I know it's been, we've been trying to talk for a little bit, but I appreciate it. Yeah. So where are you based?
+
+[00:00:19] Leslie Zamora
+I'm based in Mexico and also, I'm sorry about my English. It is not perfect, but I hope we could understand each other well.
+
+[00:00:28] Viva Naini
+Your English is great. We'll be fine.
+
+[00:00:31] Leslie Zamora
+Okay, perfect. Yes, I'm based in Mexico and… I'm coordinating the part of Latin America, Brazil and Hispanic America that we are now trying to reach the Argentina, Chile, Colombia, Costa Rica, markets… That's the main expansion that, we are doing. So we want to start doing a more account based marketing strategy because we have targeted specific accounts in those countries. And that's why we… thought that mutiny would be a great tool for us because we saw that the Naran team is using it and they have mentioned really good feedback about the tool. But right now we have it already integrated in the cloud tool. We can start using part of the agent that We have right now activated. And part of that agent is linked to the Mutiny tool and it's supposed to help us to create like the landing page and other sequences in outreach and everything. But in our case, we can't use it because we don't have a user for our LATAM team. And because, we don't have like the same, it's not that big, our team. So we might just need like one or two use it at most and we maybe we'll start just using like the landing pages and that's it because right now we are, we have outreach but we have it more like for the outbound strategy And it's kind of starting that strategy. So it's not really necessary right now to have the whole service of the marketing that Miocini can give us. But what I know is like Noram have this tool and they use like the sequences, the landing pages with the domain link with Mutiny and other things that helps them to do the strategy for the account based marketing. But I don't understand like what is the whole package of this… service that they have right now? And they didn't quite could tell me what in the specific they have and how it works because I think it's kind of complex. So I prefer just to talk with you instead of start reading all the contract and everything because I think I wouldn't understand anything. So in this call, I would like you to explain a little bit like what we have right now for Signifyd, In my understanding, I think it's just for Naran because of the domain thing. But on another hand, I also think that our domain… It's not like a separate domain completely. I think it's like a sub folder, Yeah, like.
+
+[00:04:12] Viva Naini
+a subdomain, Yeah.
+
+[00:04:14] Leslie Zamora
+Yeah, like a subdomain Exactly because we start our And… Our web page starts with MX and Signify, and the other is VR and the Signify domain. So I'm not really sure that means that it's like a totally separate domain. And if we could still using like the current service that we have and just like have an extra user and kind of link this other, I'm not sure. So that's one of the doubts that I have And, and that's it. But basically, I would like to explain a little bit more about the service that we have and what we could do for the LATAM team.
+
+[00:05:02] Viva Naini
+Yeah, that sounds good. So right now, the Northern America team has an enterprise contract with Mutiny So you can add as many people as you want. There's like a set number of credits you get. So that's I think right now the team has like 48,000 or something. It's like a lot of credits pretty much And they're not using the vast majority of it. We like purposely give our customers like a lot of credit so you guys can experiment and use it to the best of your ability. So today they're creating, yeah, these landing pages, They're creating honestly, just like some of the best landing pages that I've seen are coming from Signifyd folks up in North America, Like it's very impressive. They look really good. Yeah, Like cool, custom components where they have like quizzes built in and like sliders and graphs and everything's moving and it looks really great. So I think, yeah, they're doing a lot of really great account based marketing like one to one ABM finding specific accounts, creating landing pages for them, or creating like event invites. So for like big events, they have, if that's like in a physical place, they're creating events, event invitations using Mutiny and then having people like fill in their name at the bottom and you just pull in the data there. Those are like the two big ones that I've seen the Signifyd team use in North America.
+
+[00:06:28] Leslie Zamora
+Okay. And so for the thing that we needed in LATAM that we want to also have this possibility to do the landing pages, what will be required for us to have that access? Do we need to Have like an extra user or an extra service or what would be the recommendation there?
+
+[00:06:58] Viva Naini
+Yeah, good question. So there's like two main options that you have because yeah, there's two main options. The first one is either you could create a separate like account for LATAM and then basically pull everything together there… That would, you know, we'd have to sign like a new contract there to make sure that we have just everything in place, But we would not charge you the full like enterprise amount. It'd just be like a smaller portion because, you know, Signifyd already has a contract. So that's one option is basically like we can create like a new workspace, bring in all of the like subdomains that you have for LATAM and then run that separately Or We could try to get you guys added to the existing North America workspace. The only thing there is it sounds like, you know, we'd have to have a couple of different active subdomains. So you'd have to have like the normal Signifyd one that they have now in North America. And we'd also have to have like BR and then MX. So there'd be a couple of different options right… Today.
+
+[00:08:10] Viva Naini
+We currently don't support like switching between the different subdomains when you're creating a landing page. So a little bit difficult there.
+
+[00:08:20] Leslie Zamora
+For example, if we want to have a landing page in Spanish or in Portuguese, does the menu and everything of the landing page? If we use the Noram access, the language could be customized or not really?
+
+[00:08:42] Viva Naini
+Yeah, that's a great question. Most of the teams that use it are all like most of our teams are North America. So I actually don't know how like the translation works for being able to build those together. But I can look into it because it makes sense. I.
+
+[00:08:57] Leslie Zamora
+mean, like,
+
+[00:08:58] Viva Naini
+I.
+
+[00:08:58] Leslie Zamora
+think that it wouldn't mind if we Keep, the domain of Signify North America because they say it's the same name, like Signify It's. Not really a big problem. But my doubt is how can we like track the metrics of our LATAM pages, landing pages? And if the language can be For the menu and things like I don't I'm not sure how it is like the landing page service, But if we can customize like put it all in Spanish and, or in Portuguese, it would be great. But if there are some things like the menu or something else that we could not put it in another language, That would be kind of a problem. But for.
+
+[00:09:56] Viva Naini
+sure, everything on the landing page can be either in Spanish or Portuguese. Yeah, it's totally fine. I.
+
+[00:10:03] Leslie Zamora
+think it's not really a big problem.
+
+[00:10:06] Viva Naini
+Okay. Yeah. There's like a specific way that I would make it, do the translation. We have like something called skills. It's just like instructions for the agent. And you could write a skill that says, okay, if I specify that it's for like the Mexico domain, Have it be in Spanish or Brazilian. It should all be in Portuguese.
+
+[00:10:25] Leslie Zamora
+Okay. So in the same time, we can translate the content and everything. Because what I would like is to also take advantage of all the landing pages that are already created. Yeah, and just translate them Because they are really cool. The things that the Noram team had Right now. And so if we can't have them, that would be great Instead of having a new account and start reading from scratch. I think that would be a little bit harder for us. So if we can take those that would be great. But another thing is what it requires for one option or for the other, If we keep with the Noram, If there's a service, what would be the thing that we needed to add for the contract? If there's just to add another user or I don't know, I don't know. And in the other hand, if you can also give me like an estimated… price of having a separate account?
+
+[00:11:30] Viva Naini
+Yeah, I would recommend if you're okay with still using the North American subdomain and you're not super particular about using NX or BR, then just adding yourselves to the North America account would be the cheapest and the easiest. Probably… I don't even know. I don't know if we necessarily, We wouldn't have to change anything in the contract. All we'd have to do is talk to the North American leader who's Angie and then get her approval on adding you guys to the account. You guys can go in and I can help you guys get set up. They don't.
+
+[00:12:08] Leslie Zamora
+need to, It won't do anything else or it won't affect the service that they already have. I mean like the credits that they have, because that could be something that could affect them. Like, I don't know how many credits they are using right now. And if they plan to use more, Maybe I would like also to know a little bit more how Is this contract if we can add them or if we really need to have a separate?
+
+[00:12:40] Viva Naini
+Yeah, that's a great question. So, yeah, if we were to add you guys to their account, then you would also be using their credit pool. But for example, over the past month, the team has only used like 400 credits for the whole month. And then we're giving you guys 48,000 credits for the whole year. So I personally, I don't think that you guys would even come close to possibly using all of them.
+
+[00:13:07] Leslie Zamora
+Do you have like the historical credit views? Yeah, Which one has been like the most big?
+
+[00:13:19] Viva Naini
+Yeah… I can pull it up on my end. I don't know if I can And.
+
+[00:13:24] Leslie Zamora
+Also maybe to have like the total because I don't know the credits are like by year or by month and then they start again or how does it work?
+
+[00:13:34] Viva Naini
+Good question. So, you get 4,000 credits every month.
+
+[00:13:38] Leslie Zamora
+4,000 credits every month. OK? But.
+
+[00:13:40] Viva Naini
+Then they like add together. So like on the first, like you get 4,000 and you get another 4,000, But whatever you don't use in the first month gets added.
+
+[00:13:48] Leslie Zamora
+It's a cumul, You can't complete that.
+
+[00:13:51] Viva Naini
+Yeah. I still wouldn't really be too worried about it For example, for the whole year, the team has only used 1,500, And you get 48,000 the whole year. So, yeah, it's yeah, not even close.
+
+[00:14:07] Leslie Zamora
+Okay. Yeah, because that would be also a good insight if we could negotiate with them and tell them like we have enough credit to share.
+
+[00:14:19] Leslie Zamora
+That would be great. And another thing is like… Do the access like for the admin, access can be just shared by one person or could be shared?
+
+[00:14:35] Viva Naini
+Multiple. Yeah, you can add as many admins as you want. So if you are going to be the primary point of contact for LATAM, we can make you an admin. We can make whoever else you want an admin?
+
+[00:14:44] Leslie Zamora
+And do you know if we can have like a separate like a dashboard or something like to see the metrics that we want to see for the latam pages and to keep them separate for the normal team. So.
+
+[00:15:02] Viva Naini
+How our analytics work? And I can just pull up the platform for you too. That'd be easier to show you? Yeah.
+
+[00:15:08] Leslie Zamora
+Because I don't I haven't seen it.
+
+[00:15:10] Viva Naini
+I think that'll be, this will be easier for you to see.
+
+[00:15:19] Viva Naini
+Okay. So this is what it looks like. This is like the main home page, The way that analytics work. So I'm just going to go down to an asset that we have here. So for example, they created this holiday arcade game page. It looks really good. Yeah, great asset. But where the analytics are is this little button here. And then it'll show you the analytics for just this page. So what you could either do And there's going to be a lot of information here. But what we could either do is you could do the analytics on a per page basis for everything you're creating in Latam. You could maybe have the asset titled Latin America in parentheses or something. And you could see that way.
+
+[00:16:06] Leslie Zamora
+And also, you know, for one reason, it would be great to know how to separate because we need to know how many credits is used in each team, for example. Can we know that?
+
+[00:16:21] Viva Naini
+Yeah. So I'll go and show you. So for usage, for example, we have the dashboard and the platform to show credit usage. What we can do is actually add you guys as a team here, the Latin America team. And then from there, you can see exactly how much you guys have used and that sort of thing. If that'd be helpful.
+
+[00:16:41] Leslie Zamora
+Great. Yes, that would be really helpful.
+
+[00:16:44] Viva Naini
+And then for analytics to separate it out for how Pages in LATAM are doing versus Northern America, you can actually just chat with the chatbot here year of like… Show me analytics for all pages created in Latam. And then this, if you had like titled it Latin America or Brazil or Mexico or something, it'll be able to pull everything together for you And you can do analytics that way.
+
+[00:17:13] Leslie Zamora
+OK. Would be great too. Could that be like a dashboard? Like more accessible?
+
+[00:17:23] Viva Naini
+Yeah. We currently don't support group… analytics for multiple assets. Unless you just do it through here and you get some text on it But nothing super visual.
+
+[00:17:37] Leslie Zamora
+Or if we can do the same thing like the team… metrics could be shown as team.
+
+[00:17:49] Viva Naini
+Not for the analytics. I don't think it worked that way. Either You might be able to within… projects. I'll look around for you to see if there's a way that we could do that of looking at like just analytics for just like latin America and still have.
+
+[00:18:08] Leslie Zamora
+Or by project. And if inside of one project, we can have different small projects or whatever. It could be great. I mean, like when you do campaigns and sub campaigns and things like that. If we can have that kind of division. Yeah.
+
+[00:18:27] Viva Naini
+We currently don't have like sub folders. So you wouldn't be able to do like a project and then a project in a project, but you should have separate projects for everything.
+
+[00:18:35] Leslie Zamora
+OK. Yeah. And for example, in this thing of having a project, how is… What does a project have? Like different landing pages or What is inside of a project?
+
+[00:18:53] Viva Naini
+Yeah, great question. So you can put in any of like the assets you're creating? So like, yeah, landing pages or decks or like forms can all just live in one space. And then you can talk to the agent to ask questions about just those things inside of the folder. It's just like easier for organization And so that the AI has better understanding of what you're trying to do is if you put it inside of projects, OK. But you can put anything in there. Yeah.
+
+[00:19:20] Leslie Zamora
+Okay. I know a little bit more about how it could work if we keep the same access… as with norm. And in the other scenario, what would be the?
+
+[00:19:42] Viva Naini
+Yeah. So that would.
+
+[00:19:44] Leslie Zamora
+require.
+
+[00:19:44] Viva Naini
+like a separate enterprise contract for you guys. So we'd have to do like an entire like, you know, put the order form you guys have to sign it. You have to go back and forth with the legal stuff, But it would basically just be the cost of like setting up a separate workspace for you guys and then however many credits you want. So it would just cost more is pretty much how it is and maybe take a little bit longer to get. Does?
+
+[00:20:11] Leslie Zamora
+It have like a visible… advantage of having a separate account? Like what would be the advantage of having? Or at least just mostly costly.
+
+[00:20:27] Viva Naini
+That's why I think the best option for you is just to get added onto the North America. One. The only reason I would ever suggest the second one is if you guys think you're going to be adding a lot of people to like the Latin America account, and you want that like separation Because at some point there'll probably just be like too many small things. We'd have to move around. Yeah, I think it just depends on what you guys are thinking for how many people you want to get added. And you will have access? I think.
+
+[00:20:53] Leslie Zamora
+In the short term, we won't need a lot of people in Mutiny… to have access. Okay? That'll give me a better vision of what, can we do Another thing that you could recommend? Me? In this case, I don't know if there's another thing that we should know. Yeah.
+
+[00:21:18] Viva Naini
+I think as long as you have, I'm happy to hop in on this call too, but having an open conversation with Angie and I can connect you guys about how this could work. But having an open conversation around credit use and what you're thinking about in terms of what kind of pages you want to create. And I can help you think about the way that we keep everything separate… And just try to help out there. There's not too much else I would recommend. Yeah.
+
+[00:21:45] Leslie Zamora
+Yes, for sure. We should talk with Angie. I already talked with her, but she didn't know how to explain the contract that they have. So she recommended me to reach you and talk with you to understand better The platform and what it includes and everything Because she's almost all the time busy. So she couldn't explain all these things to me So that's why we prefer to reach you. But yes, now that I have a little bit more of context, I could again talk to Angie and explain to her that we have enough credits to share. And then I started like seeing how can we separate those credits?
+
+[00:22:39] Leslie Zamora
+And then when we have like a decision… we can reach you out again and talk and ask you some doubts if we have and start like working with that. So this was really helpful for me, The context. So maybe we will write you or have another meeting to see.
+
+[00:23:10] Viva Naini
+More about.
+
+[00:23:10] Leslie Zamora
+this.
+
+[00:23:11] Viva Naini
+I'll send you an email after this to tell you more about how many credits the team has used today, how many more there are? Just so that's easy for you to go to Angie and be like, okay, we have these many credits that are not being used and we only need this much.
+
+[00:23:25] Leslie Zamora
+That would be really great because I put in my notes those.
+
+[00:23:29] Viva Naini
+I'll get you the exact numbers, But.
+
+[00:23:31] Leslie Zamora
+it would be great if you shared that directly with me. Cool. Perfect. So, thank you. Viva, Of course. Thanks, Azeem, We'll see you again. Bye.

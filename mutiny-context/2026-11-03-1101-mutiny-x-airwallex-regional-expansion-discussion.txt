@@ -1,0 +1,177 @@
+Mutiny x Airwallex Regional Expansion Discussion
+November 03, 2026 at 11:01 AM
+https://us-53268.app.gong.io/call?id=5408105448979844500
+
+[00:00:00] Viva Naini
+Hey, James. How are you? How's it going Good? How was your PTO?
+
+[00:00:07] James Alexander-Dann
+Yeah, it was nice. Thanks. I was in South Africa, so it was good to get away. Nice.
+
+[00:00:11] Viva Naini
+What'd you think? Have you been there before?
+
+[00:00:13] James Alexander-Dann
+I have been there before, but I went on safari for the first time, which was really nice.
+
+[00:00:17] Viva Naini
+Very nice. I went when I was like in high school to Johannesburg and Pretoria and Cape Town. It was gorgeous. I mean, it's a great country. Yeah… Hey, Tyler.
+
+[00:00:30] Tyler LaMantia
+Hey, James.
+
+[00:00:31] James Alexander-Dann
+Hey.
+
+[00:00:32] Tyler LaMantia
+How are you doing?
+
+[00:00:34] Viva Naini
+James just got back from South Africa, which is cool.
+
+[00:00:38] Tyler LaMantia
+Nice. What did you do there?
+
+[00:00:40] James Alexander-Dann
+Yeah, I went to the wine country and went on safari for a week as well, but nice to get two weeks off and escape for a bit.
+
+[00:00:49] Tyler LaMantia
+I've been dying to do a safari. It's on the bucket list. It must have been pretty cool.
+
+[00:00:54] James Alexander-Dann
+Yeah, it was awesome. Yeah. How are you?
+
+[00:00:59] Tyler LaMantia
+Good. All things good. Been busy, But yeah, no real exciting trips coming up. I'm going to Ireland next year, so I'm excited for that one for a little trip, But, yeah, all things good. I can't believe it's November That's the only thing that's terrifying a little bit.
+
+[00:01:16] James Alexander-Dann
+Yeah, that's really terrifying… Vinay. Thanks for the time. Essentially, I've been hit up by Singapore, Hong Kong and Australia for access. They are saying things that are very unhelpful to me like they want to throw five K in and get five KS worth of credits. And that obviously doesn't work with how credits are run and managed.
+
+[00:01:42] James Alexander-Dann
+And I'm going a bit crazy having to field all these requests from all the multiple teams. It's really great for Mutiny Mutiny's getting really good airtime and really good kind of Publicity within Airwallex, which is great. The CEO asked for access that he's doing something in there like lots of people are doing pieces. But Now it's kind of got a bit unwieldy for me to manage. And our global teams have not stepped up to help. And I just want to understand how we can do this Ideally for me like selfishly as the EMEA marketer, I would love to have separate mutiny instances for each of our regions where we can put fixed credit amounts into each one so that I can manage EMEA credits, Nina can manage America Credit. So we can appoint someone else for each other region. And they can then look to do that. If we want to share best practice, we can share them in an internal snap channel and then get Mutiny to build a template off the landing page for each different instance. Is that kind of thing possible? Is that have other things been done?
+
+[00:02:54] Tyler LaMantia
+Yeah. I think From Viva, from your perspective, I think that's what those teams had expressed preference for, anyway, right? The separate accounts. I mean, in my perspective, that is the best way about going about it. Technically, every new workspace is a new subscription. And naturally, we wouldn't be charging a full price, but there would be an element of cost with it. I think the question for you, James is like when you're thinking about credits, right? Like your team purchased credits, I know sales kind of threw in. Would you envision splitting some of those credits with other regions or are you saying, hey, like these are our credits? Like this team needs to kind of contribute their own credits in their own accounts. So that would be kind of the first question I would want to kind of understand from like how people are approaching those conversations, how you're thinking about it?
+
+[00:03:47] James Alexander-Dann
+I think it's more. They just want to use it for free. And I'm like, no, we paid for this regional budget like we had. Nina and I had a good working relationship and agreement of how we use it for the US and EMEA, Other people wanting to join, wanting to use it on two different pieces, asking for credit increases, asking for other stuff, people then monitoring the EMEA usage being like, why are they giving this person more credits?
+
+[00:04:09] James Alexander-Dann
+And I'm like I don't have to justify that… this dude's running a test campaign like even more credits I paid for them type of thing. And I think the way that people are looking at is that they're buying a certain amount of credits and it's hard to implement that on a monthly limit. The fear that I have and I know that Nina has and other people is that another region could join contribute five K and then use substantially more than five K'S worth of credits for their team. There's a lot of work to be done, and it just it create an imbalance. I think whether there's within one platform, you can have the credits can be applied in a different way or other pieces. I don't know what best practice is. But the main thing we're trying to get here is there is some, the global contribution is negligible at this point. It's more that was throwing in money for sales for as far as I'm concerned EMEA in America. So the current platform that's in there, we'd want to split that based on the usage between the Americas and EMEA. If there was an ANZ platform, create an ANZ platform where they can buy the amount of credits they want to use.
+
+[00:05:16] James Alexander-Dann
+Same for Hong Kong, same for Singapore, If those are set completely separate instances in Mutiny or whether there's a way of doing workspaces or there's a way of managing the credits where a team can only pull from their team's credits regardless of their monthly limits. Those are some of the questions I'm being asked And essentially, I want to just talk to you guys. So I can then talk to Rob and be like, hey here's the proposed solution. These are all they've reached out to me. This is how we want to do this. I also do think that we need to put onus on global for owning some of these pieces. I'm happy to still be a champion advocate for Mutiny. We'll always help out other regions and other pieces, but I'm not going to manage it for other regions.
+
+[00:06:02] Tyler LaMantia
+Yeah, for sure. Yeah.
+
+[00:06:04] Viva Naini
+That makes sense. I think the strongest path forward is probably if we can meet with global and try to understand from their perspective, what works out. I think there are a couple of different options for us to The thing.
+
+[00:06:19] James Alexander-Dann
+That's tricky is that like in Singapore, it's their marketing team that reached out In Hong Kong. It's their startups team that have reached out. And then in ANZ, it's the enterprise sales team that have reached out. So, it's not as if there's like one centralized team that's doing that. So, I think whether we need to set up a thread with Rob from Global Revenue Enablement, with Ajay from Marketing Ops, with Myself or with other people for how we look to manage this, I can set up a thread and put the right people in it. I think it's more a way that if people want to put budget forward to buy credits for their team, that they can do that. And it doesn't create undue admin for or… misuse of those credits for other teams. I think so. Yeah, it's a good problem to have, but it's definitely, hey, it was alarming to wake up from a Slack message from the chief strategy officer saying, can you give me and Jack access to the platform and help him with that? And I was like here's access off you go. Yeah. But I think, yeah, almost if you can just work on a doc or work on like, hey, this is how we think we can do that. I think the regional model even. I think it's helpful even if it's a case of like, hey, this is for EMEA. If people want to buy budgets, EMEA can be managed. Each region should have one kind of owner who manages the credit allocation. And that can be for different teams from marketing to account management, to startups, to partnerships to different pieces. I think we've done a good job in EMEA of being used by A variety of different teams. And I think they're all hearing about it. And seeing these pages from different people. The startups team saw some of the startups pages. The enterprise team saw some of the deal rooms And I think that's why there's like different use cases and different teams asking for it. I think the idea of trying to get that something out this week or next week to share with the team is they are doing budgets for next year at the moment. So, if teams want to allocate a certain amount of resource to enabling their team for this, we've got kind of we're in the right time to do that. For them. It might be that they don't want to contribute a lot. They might want to start small or do different pieces.
+
+[00:08:48] James Alexander-Dann
+It's yeah, it was just more to me like the casualness of, hey, They're going to give you five K. Can you set them up and get them all going? I was like, no, Yeah… Tyler.
+
+[00:08:59] Viva Naini
+And I can take that back and then put together like a first draft of that document or like a proposal there and then send it over to you. We can jam on it and then hopefully get that out to the team later.
+
+[00:09:09] James Alexander-Dann
+This week. Yeah. And I can set up a thread just to try and get the right people involved and be like, hey, we're having success. Other regions want to use this. This is the best way of us doing it. We can create a shared prompt library in Slack or whatever just to share best practice. However keeping pieces makes the allocation of the credits more easy because it is done a monthly limit. I assume that's not changing. So it's more how we do the other pieces and how we manage the total credit amount that we should do.
+
+[00:09:39] Tyler LaMantia
+Yeah, for sure. So, yeah, I think like the clearest path is definitely Effectively different workspaces for each region. There can be a user that is a member of all of them And you could toggle quickly between each, no problem Credit pool assigned to each workspace, monthly limits, determined from there, It's the cleanest way, You know, we'd have to go through some basic account setup, but Ultimately, it's just getting your brand in maybe a couple skills that could be region specific anyway, as well as sharing some of the best practices that you've done.
+
+[00:10:10] Tyler LaMantia
+And we can help relay that information over. So I think on us, it's just determining that commercials. Technically a workspace comes in at a fresh new account cost, which is like starting around the four to K mark. We're not going to charge that. We just need to figure out what that looks like and how flexible we can get depending on the credits that they need. I think understanding what credits they need, you know, they're throwing five K out, you know, that's roughly 5,000 credits. It could be enough, could be not, but it probably would have to be a higher number than that to get a new workspace.
+
+[00:10:41] James Alexander-Dann
+So, is that, so there's a workplace setup fee Because I guess for our renewal in EMEA in America, we didn't have to do that because we had an existing workplace. So our agreement was just purely credit based.
+
+[00:10:51] Tyler LaMantia
+Your workspace already existed So effectively, we were just renewing a workspace that existed. And listen, we're not going to like go look at charging a brand new customer fee like we would if it was someone not Airwallex, But ultimately, just like paying five K is more aligned with like what Rob did, where it's like I'm just adding 10,000 credits into an account that already exists versus setting up a whole new account with X amount of credits. Either way, we'll figure that out. On our end. We'll come together with something that's creative.
+
+[00:11:20] James Alexander-Dann
+I think I would say that's completely valid. And I already understand that. I just think we need to hammer that home a little bit to label teams and the other teams that want access being like, hey, this is why that we need to think about these different things.
+
+[00:11:36] Tyler LaMantia
+For sure. And we'll relay the benefits of having a new workspace. And obviously, whatever the cost might be, I think depending on how many credits they need generally, It could be more aligned with what they want anyway. Just on a cost perspective. If it was adding credits to your account or adding a new workspace, it could be just not different. The difference is like just purchasing 5,000 for a brand new workspace, might not be doable, but we'll I'm.
+
+[00:12:03] James Alexander-Dann
+with you, I think it was also more of a flippant, They just want to use.
+
+[00:12:06] Tyler LaMantia
+It, Yeah, for sure. They just want to throw a bunch of them.
+
+[00:12:09] James Alexander-Dann
+I think that this is a better way of doing it or putting at least putting a proposal to say that Otherwise, I'm just going to start deflecting all requests to Rob and then he'll quickly.
+
+[00:12:20] Tyler LaMantia
+Yeah, for sure. Yeah. So we'll work with our CEO, Jale, And I think she actually, she even had a conversation with Jb on your strategy team.
+
+[00:12:34] James Alexander-Dann
+He's the one who actually added Jale, He's, very senior. So I think he's a very good stakeholder to have on place, Just almost just be like, hey, like From the team, we've got multiple requests that we need to structure this in a way that fits how Airwallex operates.
+
+[00:12:49] Tyler LaMantia
+For sure for sure. Yeah, agreed. So that could be a good line because she's very invested in Airwallex. And sounds like he is a great contact Question for you on EMEA versus America. Is that totally fine for you and Nina to continue to operate in unison, Obviously different regions. So, yeah, we'll have to check on that.
+
+[00:13:08] James Alexander-Dann
+I'll check with Nina. I mean, Nina, if we could separate it and do those different pieces Again… we don't necessarily mind, but I will check with her. It's more if there's a cost of if we move to let's say Five, four workplaces or three or, Yeah, yeah. Is there a different cost between that? Because, yeah, it would be cleaner for us to do that. We're quite good amongst ourselves. Just the two of us figuring out what's fair, what's being used? Yeah?
+
+[00:13:37] Tyler LaMantia
+Yeah, for sure.
+
+[00:13:38] James Alexander-Dann
+I've created the custom teams for Amir so I can easily identify Amir usage. I don't think she's done that for the States.
+
+[00:13:45] Tyler LaMantia
+Okay.
+
+[00:13:46] James Alexander-Dann
+But I've got a call with her later so I can check in with her about that Sounds.
+
+[00:13:51] Tyler LaMantia
+Good. And we can include an option whether it costs something or not that's something. I think we just have to figure out on our end But we can include a couple options where maybe that's split as well. So there's X amount of workspaces. And then an option that just remains as is to see what that looks like. And you could just split your credits in half or however you've determined Who budgeted what as part of this initial platform, You could determine that, but you still have a lot of credits left. So naturally, I don't think that would be a problem if there was a split. It's just a matter of looking into the workspace thing. So, yeah, that makes a lot of sense to me. We have some conversations internally to do and then maybe we'll come back with you later this week and then we can get connected to the right people and Jolly can probably reach out to Jb just kind of explaining the situation there too.
+
+[00:14:40] James Alexander-Dann
+Yeah, I think, yeah, let's get a proposal and share it with Rob. And then I think once we've shared that, then maybe John, I should reach out to Jb. I think Jb will ask questions straight away from us. And if we've got everything ready, then I think once we've shared that, just use that as a touchpoint. I think it's useful to get exact touchpoints exact to exact helpful. So, yeah, I think that's a good plan. But yeah, let's get our ducks in the way first and then do.
+
+[00:15:06] Tyler LaMantia
+That For sure. Okay. Sounds good. Yeah, I think the only other thing was Viva I think you had brought this up previously is obviously we have a lot more coming on like the sales assistant functionality, stuff you haven't been using. There's been some interest Jb and Jolly talked about that Honestly just wanted to ask you about like the integrations piece Like is that something just completely blocked from your team from regards to having reps explore some of those personal integrations like to do with Pipetree? I know we don't want to do anything without your kind of It's.
+
+[00:15:36] James Alexander-Dann
+more, I just got hit by a few reps at the same time saying like, why have we integrated Pipe Dream? It's new features we can't use. You want to do them. And I was like, hey, not me. They use a different third party integration that's not Pipe Dream. I can't remember which one it is. I think.
+
+[00:15:54] Tyler LaMantia
+It might be like,
+
+[00:15:54] James Alexander-Dann
+Rakato, Yeah, I think that's what they use. And so I think they have one of those approved. So for them to justify to, Oh sure Why we need to get another one approved when we already have one in place is something that I'm not sure. Also we need to put forward a strong business case and that business case needs to be more than a couple of the account managers want to sync their calendar. And I think the thing to me is like this goes beyond ABM and marketing which is kind of more what I have influenced in ARIMA, And the people that I know are more of the marketing ops people and some of that stuff. So, I think going through Jb or going through Rob and being like, hey, like I know you're building these agents like to help your sales team and account managers. You're building these different pieces, Some of these could potentially be built in Mutiny or could do other pieces. It's worth that conversation. I can't get to the insights. It's more If I'm getting hit up about integrations. I can't really help them For sure. I think it's great to have the name of sessions in pieces, but those integrations as far as I'm aware right now will not be done. I think they could be in the future, but I sadly don't have a huge amount of control over that area That's fine.
+
+[00:17:11] Tyler LaMantia
+Go ahead. I.
+
+[00:17:13] James Alexander-Dann
+Think we could get that. I mean, at the moment We all have in the whole company, we have Claude, Our Claude credits have been until about three weeks ago, we had like pretty much unlimited Claude credits. We've now got set limits And so credits as a thing are being a little bit more curtailed. Yeah. So I think it's more a case of if you were to pitch it to Jb and Rob almost just be like, hey, I know you have multiple tools Where's the best place to get the best return or best Roi off the credits. You have Potentially using a third party tool that's tailor made to do these pieces instead of trying to retrofit something through Chord that could use up more of your credits would be the angle I would go with. Okay?
+
+[00:18:00] Tyler LaMantia
+Yeah, very helpful.
+
+[00:18:02] James Alexander-Dann
+And I think, Yeah, we've still got a huge push internally to build as much stuff we can. I think they're just, Hey, Jb was the person who originally tried to build his own one to one landing page tool in Claude, and then I showed him Mutiny was better. So, I think there's… buy in and engagement with Mutiny. The sales side piece we haven't Yeah, We've lent into. Obviously, we haven't done it, but I think They've just tried to build quite a few internal tools themselves. Yeah, Don't think they're beloved by the sales team. And so, I think adoption is still an issue that they're engaging with And so how they can try and do more. It's again, yeah, slightly beyond my remit. So I'm not, I think, yeah, Rob and Jb are the two people to try and engage with that especially on a global level.
+
+[00:18:54] Tyler LaMantia
+Sounds good. Yeah, sounds good. So it sounds like, I mean There's two elements. It's like PycDream is just kind of a blocker in itself. But the other blocker is maybe you want to use your current tooling for those type of workflows anyway, But I think from our perspective, we'll approach it with those two. And really it's just like, hey, if you're trying to do this internally, you could do a little bit of an AB test with a group using Mutiny, see costs, see efficiency, see adoption, see productivity, see how it's working on the other side. But I totally understand that's Kind of something that needs to come first after Let's focus first on like what a good proposal could look like for multiple regions using Mutiny into separate workspaces. And then from there, with the right groups, whether it's some in EMEA, or it's some with the enterprise and Z team or whoever that might be. We can maybe explore trying to push those integrations over with a few groups to see if it's valuable or something along those lines.
+
+[00:19:49] James Alexander-Dann
+Yeah, I agree. I think, yeah, Mutiny is still viewed as asset creation That's kind of how it's been done. But yeah, I think there's definite potential scope to try and show that there's some other functionality you can do with that. Cool.
+
+[00:20:07] Tyler LaMantia
+Awesome. Well, I think that's some action items from our end. Anything else from you, James, or even Viva We will do some work on our end to make sure we get you something this week.
+
+[00:20:17] James Alexander-Dann
+That'd be really helpful. And yeah, once that comes over, I'll set up that thread just to get the right people so we can get this moving forward and stop people chasing me. Yeah, for sure. Cool. Thank you so much.
+
+[00:20:32] Tyler LaMantia
+Awesome. Thanks so much James Bye.

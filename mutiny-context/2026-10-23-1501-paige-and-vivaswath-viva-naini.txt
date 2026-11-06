@@ -1,0 +1,402 @@
+Paige and Vivaswath (Viva) Naini
+October 23, 2026 at 03:01 PM
+https://us-53268.app.gong.io/call?id=6940148460920392206
+
+[00:00:00] Paige Wunderlich
+Hey, How are you? I'm good. How are you?
+
+[00:00:04] Viva Naini
+Good. Happy Friday.
+
+[00:00:06] Paige Wunderlich
+Happy Friday to you too. How's the rest of your week been Pretty good. Good. Oh, you can kick this out if you want to.
+
+[00:00:14] Viva Naini
+I mean, I don't really care. Okay? It's been good. We did like a soft launch for the new products which I don't know if you saw that on LinkedIn or anything.
+
+[00:00:26] Paige Wunderlich
+I didn't no.
+
+[00:00:28] Viva Naini
+Anyway, we basically like gosh, this fathom, I'm gonna kick.
+
+[00:00:34] Paige Wunderlich
+it out, Kick it out.
+
+[00:00:37] Viva Naini
+I thought it was gonna be something else If it's fathom, I'm kicking it out.
+
+[00:00:39] Paige Wunderlich
+Yeah.
+
+[00:00:41] Viva Naini
+Yeah, we, I mean, as, you know, like we basically just like relaunched for exactly what you've been beta testing, rolled it out to all of our free and business users. So We've been doing that and doing all like the comms for it. And we did like big LinkedIn blast and.
+
+[00:00:59] Paige Wunderlich
+Yeah. Are you guys doing that? And, you know, this is probably something I should ask before, but are you guys doing it more as like a value add for current customers or are you doing it more as a like an… upsell for like future? Both.
+
+[00:01:23] Viva Naini
+We're really looking to like redefine the product Like, I think Mutiny like it started off as more like ABM marketing. Yep. And now we like are really trying to hone in on like basically like you as the ICP and like be able to help sellers do their thing.
+
+[00:01:39] Paige Wunderlich
+Yep.
+
+[00:01:41] Viva Naini
+We're working with all these AEs to try to like redefine the product and like make this experience really good. It's like this is kind of where we see everything going.
+
+[00:01:50] Paige Wunderlich
+Cool. That makes sense. Okay. Yeah… that makes sense. Well, very cool. I'm sad that I missed the announcement on LinkedIn. I would have liked it or done something to it.
+
+[00:02:03] Viva Naini
+Well, good. How's the rest of your week been? I know you've been busy And thanks again for hopping on like last minute with the training That was.
+
+[00:02:11] Paige Wunderlich
+Awesome. Oh, yeah. Yeah. Happy to help. And I actually done with Brent this morning because he had a couple more questions. But yeah, the rest of the week has been crazy. It's been really good, but it's been crazy.
+
+[00:02:26] Viva Naini
+Like a week until end of quarter. I'd assume, right?
+
+[00:02:29] Paige Wunderlich
+Yeah, just until next Friday And I feel like all of my deals… I mean, I knew that they likely were not going to be this quarter but I was kind of muscled into, you know, yeah, put them in as like best case. I'm guessing that most of them will not close this quarter, which is okay. It's kind of one of those things where it's like I could hit my Q for number in like the first two weeks of the quarter, which is never like a good look, but that's fine.
+
+[00:03:03] Viva Naini
+Is it not a good look? I guess I'm like I'm not an enterprise seller. So I don't why is that a bad look?
+
+[00:03:08] Paige Wunderlich
+Because it basically means that like the way that, that's taken usually is that you could have done more to bring them in at the end of the quarter rather than letting them slip into the next quarter. And so if you hit your Q4 number, like if you don't hit your Q3 number, and then you hit your Q4 number in the first couple of weeks, it's like.
+
+[00:03:31] Viva Naini
+You did a great job, You could have, you could have just done it two weeks earlier. Yeah, But it's like not surely.
+
+[00:03:37] Viva Naini
+And this is between us like surely sales leaders know that that's not how that works, right? It's like sometimes deals slip and it's like not your fault.
+
+[00:03:45] Paige Wunderlich
+Yeah. I think where I currently like at Atomicwork, yes, they are more understanding of that Previous jobs. Yeah, not at all. Yeah. So that's okay. I'm glad I'm here and that they are more understanding and are willing to just be okay with it coming in maybe a couple of weeks late because I'm doing everything I possibly can to get it in And I just don't think it's quite enough. There's one week left and.
+
+[00:04:14] Viva Naini
+And you got to juggle taking care of the kids Like this is, I know there's a ton of stuff going on. So, yeah, a.
+
+[00:04:18] Paige Wunderlich
+Lot going on That's for sure. But on the topic, of mutiny, I have been running into like some really weird snags lately and not necessarily anything to like, I… don't know. It's just, it's been weird lately Like things are not quite… Working how they may be normally would. So things like I'll give you an example. I've noticed recently that like chat history as it relates to an asset kind of goes missing after a period of time, which is fine. But sometimes it'll go missing for like my most recent chat will go missing But everything previous will be there. But like the most recent one is not and it doesn't it, it's like it forgets. It doesn't do the here's a, I'll show you. I'll show you actually because I was just working on one and it came up and I was like perfect. I am going to show Viva this later. Okay… Cool. Yes. Okay. Yeah. Okay. So This right here, I have two of these documents. They're the same thing. I didn't realize that this wasn't done or else I would have done it. But this here, I literally copied and pasted from the response that I got on this one and just pasted it over here. Like clearly all the rest of the history is gone. So I just put it in here. But all that to say that I came back over here and… it's gone Like where I asked it to do that and how I figured that out. It's like completely gone. It also didn't do it. But like I copied and pasted that from… The message that I sent on this one. I.
+
+[00:06:11] Viva Naini
+See. Okay. So the prompt you had from this current asset, you copy and paste it into the other tab?
+
+[00:06:17] Paige Wunderlich
+Yeah. And so that's the only reason why I know that it was over here is because I pasted it over to this one And it was on this one because I mean, I don't know what refactor for inline editing. Like I would never say that I would say this, which is what I ended up saying after the fact, But I had it brought that up as a suggestion down here because I said, why can't I click on anything? And it said you need to refactor for inline editing. So, it gave me that as a prompt down here, I clicked on it And then I copied the refactor text, pasted it over here. And then I came back over here and I was like, where… did it go? It was just gone. So, anyway, just like random and that's been a couple of times that I've noticed like it's like I put something in, I maybe toggle away and then I come back and it's just missing The most.
+
+[00:07:12] Viva Naini
+Recent prompt is gone.
+
+[00:07:14] Paige Wunderlich
+Yeah. So, anyway, so it looks like… Okay, Yeah, It's still not working. That's fine. So, yeah, just kind of like some weird things that I'm running into that I'm like not used to. Okay. Like, okay, this one now is working. But like, so in this one, I was like, hey… Oh, see it's not here either. So weird. I had a whole conversation about, yep. Okay. So see this is another good one. Yeah. So it says you're right? I removed the tabs and replaced with the default purple. I didn't but like, where is it getting that from? Because it like deleted my old, my last message Like my message in which I've called that out is not on here.
+
+[00:08:11] Viva Naini
+Can you try something really quickly? Yep, You go to home. Yeah. And then you see like the recent and then the show all button.
+
+[00:08:24] Paige Wunderlich
+Here.
+
+[00:08:25] Viva Naini
+On the left hand side?
+
+[00:08:27] Paige Wunderlich
+Oh, on the left, Yeah.
+
+[00:08:29] Viva Naini
+So, these are your threads, I guess it's.
+
+[00:08:33] Paige Wunderlich
+probably the,
+
+[00:08:34] Viva Naini
+second one, Maybe it's either the second or the third one. I'm wondering if this will show you some of those.
+
+[00:08:42] Paige Wunderlich
+Oh, yeah. Here it is.
+
+[00:08:43] Viva Naini
+Yeah, This is something that I also need to talk to the product team about. Sometimes if you navigate from the asset and you click onto, it doesn't show.
+
+[00:08:56] Paige Wunderlich
+Messages.
+
+[00:08:57] Viva Naini
+Yeah, exactly. It doesn't show messages for some reason. But if you go to threads, it shows all of the messages Which I feel like most users probably just want to see all the messages all the time is.
+
+[00:09:05] Paige Wunderlich
+My assumption Totally Yep Either that or like I think the other issue is that it like I would assume that if so, see now it's showing up on here. That's really interesting. Okay, here we go. So now it's showing everything. Yeah, Which is great. But before to like, I thought I was losing my mind a little bit because I was like, I know I took that from somewhere. I know I asked for that And I'm like, okay, one, it didn't happen Fine. But like, where did it go? And I'm like did, Did?
+
+[00:09:39] Viva Naini
+I make this up? Yeah.
+
+[00:09:41] Paige Wunderlich
+Truly, I was like, was I working in cloud? Like, where did I get this from? What am I doing? And it's just like that moment of like, Oh, crud, Like I must have screwed something up. And now, as I'm like as I was going through it and like recounting my steps, I was like, no, no, I definitely did it. So anyway, I agree Having all of the history there, whether it's in working memory or not is really helpful. So that you don't I almost feel like mutiny gas lit me today. That's how I feel.
+
+[00:10:16] Viva Naini
+I'm sorry, You don't deserve that on Friday.
+
+[00:10:21] Paige Wunderlich
+But, yeah, that's I mean, that's just kind of where we're at. So anyway, okay. I'm going to reopen this so that I don't lose my place on both of these. But yeah, I think and I think too, maybe it would be helpful. I've got to like work with… With Aish and team. I think like some of our branding is like really off. Yeah.
+
+[00:10:47] Viva Naini
+I noticed on your like the Cerebras page is like not super good looking.
+
+[00:10:53] Paige Wunderlich
+Well, did you see what I?
+
+[00:10:54] Viva Naini
+Did you see?
+
+[00:10:55] Paige Wunderlich
+My message on there. Yeah, It's like why does this look bad?
+
+[00:11:00] Viva Naini
+I was just poking around before we were on call and I was like, let's see what you're up to. So then, yeah, I was like, I agree, Like it does not look good. I think not the standard that we like typically create assets for you guys. Like some of our stuff looks really like the AV stuff Like that's a good that's a good page, right? It is.
+
+[00:11:16] Paige Wunderlich
+A good page Yep.
+
+[00:11:17] Viva Naini
+So, yeah, I don't know. Let me look And.
+
+[00:11:21] Paige Wunderlich
+I feel like maybe on AV like where I've kind of in the past, in my prompt, I will say base my branding for this page off of the Atomicwork website and I like put it in there. I feel like when I don't do that, What I get isn't very much in line with what I would expect. Like it's pulling from obviously our brand guidelines, which I don't know if maybe there's like some conflicting stuff in there, but like,
+
+[00:11:51] Viva Naini
+we're.
+
+[00:11:52] Paige Wunderlich
+that orange and like then the purple and we're like not really using either of those things. And our website now is like, I think very slick compared to what it used to look like. And so it's like, can we make… Can we make our branding fall more in line with the website? Or like maybe that's the default compared to defaulting… to, I don't know the brand guidelines, I don't know, But yeah.
+
+[00:12:18] Viva Naini
+I would say how it works from like a mechanical perspective. Yeah, This is the old one.
+
+[00:12:23] Paige Wunderlich
+Ugly, Not good. Okay. New one. Good Looks great.
+
+[00:12:27] Viva Naini
+So, it's going to go into here. And then How do I disable this? You can delete it. I'm probably not going to do that, but we can make one of these defaults which will more or less do what we need. This one's already a default theme. So it really shouldn't be pulling from the other one. Like this one stylistically definitely looks closer to what your new website looks like.
+
+[00:12:49] Paige Wunderlich
+Yes, it does.
+
+[00:12:51] Viva Naini
+I mean, I think this is something to maybe bring up with Aish. But like you could reasonably, I think delete this old one.
+
+[00:12:59] Paige Wunderlich
+Can I delete that without deleting it for everybody? Or is it Like, is this?
+
+[00:13:03] Viva Naini
+For me, Yeah, this is an org wide setting Just because like the way that the product is like you're supposed to have like one centralized person. Yeah. So that kind of makes sense. So, yeah, Like the real solution is just like deleting it and then probably deleting this one because these are copies. Yeah. But I think if you want to bring that up with Aisha, it's probably She's like probably the right person to manage it Yep.
+
+[00:13:24] Paige Wunderlich
+Okay. I will do that. And then for the recording stuff to your question last week, and I mentioned this yesterday, I think the button pops up in a really great spot. I'm like very pleased with that.
+
+[00:13:39] Viva Naini
+Yeah, You like the new little like cute sticky Guy, like the little That's.
+
+[00:13:42] Paige Wunderlich
+great. Yeah, It's not like It's not like obnoxious, Like I've hidden my granola one because I feel like seeing like the little wave things on the side is like really annoying. And so I just hide it every time. But yeah, I like him and he's like It truly is the one area of my screen that I've noticed that I like very rarely go to. So it's helpful. I do think that having some form of like push notification from the app post recording with like Your follow ups are ready or something like that would be a helpful thing for me. I know that I can like navigate and go find them and like if I go to the website, But sometimes I get like so sideways in my day that… Yeah, I get to the end of my day, I've sent the email and I just have like completely forgotten about the fact that I could have easily More easily done it. And I think a push notification like a desktop one would be really helpful.
+
+[00:14:52] Viva Naini
+Okay. So you mean just like on the system screen Like something that comes up on the top, right? You're like your follow ups are ready. Click here. Yeah. Yep, Exactly. I think we have one for like your meeting notes are ready, But I don't know if we have one that's like your follow ups are ready too. Yeah.
+
+[00:15:07] Paige Wunderlich
+Yeah. I've seen the meeting notes one. Yeah. And I think, you know, that is helpful. But usually when I get that one, it's like right after my meeting. And nine times out of 10, I am like going from.
+
+[00:15:21] Viva Naini
+Meeting to meeting.
+
+[00:15:23] Paige Wunderlich
+Yeah, where I am like right into another meeting. And so, I mean, I guess it would just take like a more of like a personal change of just like clicking that and opening it in my browser and just letting it sit there for when I'm ready to get back to it.
+
+[00:15:38] Viva Naini
+Yes, I mean, it's definitely easy. Like it'd be, Yeah, easier for you to have that pop up Though. I guess like I'm thinking about what that flow would look like and it'd basically be like you're on the first call, You get like the notification that says your meeting notes are ready. Then you hop on to the second call And then presumably like halfway through the second call, you get the pop up that says like follow up is ready. And then what do you do from there?
+
+[00:15:59] Paige Wunderlich
+It's not really going to like really change anything about the fact that my day is.
+
+[00:16:04] Viva Naini
+Yeah, Like it's still, Yeah, I think there's something there. I think that's a good point that we probably should be like more clear Right now, the only way that we have it indicated is either like on the homepage or like a little bell in the top left corner. But, Oh, yeah, yeah, yeah. But I think for like high volume, Like I've noticed that I don't really click the bell too much because it's like It's like creating a lot of stuff and like I don't sift through all of it, I think the shape of that is wrong. So I will, I'll note that down and I'll bring that to the product team and see if we can jam on there. But I think that's great feedback.
+
+[00:16:36] Paige Wunderlich
+Cool. Yeah, Just, I think like more of a, I think There are so many different tools that we use Every single day to get our jobs done. And I know that's the case for any role right now, right? Like that's. Not me specific That's not sales specific, Like anybody and everybody. You've got so many different options for the tools that you can use to do your job. That as much as you all can potentially redirect my attention back to Mutiny, I think it will be helpful in the long run of like keeping Users engaged in going back to Mutiny for those random things rather than, you know, I'm already working on something in Cloud and I'm potentially just going to continue going there… Even if it's like an extra step of effort of whatever it's like I'm already there. So I might just do it. And so I don't know the answer or the solution to that problem. But I've just found that that's kind of something that I've been running into. And so, I think whatever you guys can do to like redirect people is good.
+
+[00:17:51] Viva Naini
+Yeah, That's great feedback. Cool. I have one more thing before we drop because I know you're busy, Keep it short, But we have this like new cool. I don't know Voila, Bye. Oh, you actually wait, let me see. Let me see if you'll have surely you'll have this.
+
+[00:18:25] Viva Naini
+Okay. I'm going to share my screen. So which one of these accounts would you say you like know the best? Maybe?
+
+[00:18:36] Paige Wunderlich
+Coursera.
+
+[00:18:37] Viva Naini
+Coursera… It's one of your like bigger.
+
+[00:18:42] Paige Wunderlich
+Yeah.
+
+[00:18:43] Viva Naini
+So, we have this new people tab which we had before but it's like way smarter now of, I don't know. Have you, have you looked like clicked into this at all? Have you seen this?
+
+[00:18:53] Paige Wunderlich
+Not recently? No, I mean, I did like probably a couple of weeks ago, but not recently. Yeah.
+
+[00:19:00] Viva Naini
+So, we've rolled out a new kind of iteration of it where we're trying to do our best to sort people's like roles and see like kind of like what they do in the deal. Are they relevant Pull in as much information as you can about them? This one's going to be missing a little bit because you don't have your email connected, But in terms of like people, are these like accurate, Are their roles somewhat accurate Kind of Without the email, it's tough.
+
+[00:19:25] Paige Wunderlich
+Yeah. I would say kind of, Yeah, Yes, I'm.
+
+[00:19:32] Viva Naini
+hesitant.
+
+[00:19:32] Paige Wunderlich
+It's well. So like Darla is like our primary person, Like she is like our.
+
+[00:19:39] Viva Naini
+champion, or?
+
+[00:19:42] Paige Wunderlich
+Just.
+
+[00:19:43] Viva Naini
+like main point of contact?
+
+[00:19:44] Paige Wunderlich
+Main point of contact. She's also the decision maker.
+
+[00:19:48] Viva Naini
+Yeah. Oh, okay.
+
+[00:19:50] Paige Wunderlich
+And her boss is Karthik who I also saw listed there. Karthik is technically our champion funny enough, but he is not going to be influencing the decision because he wants to leave it up to Darla. Okay. Interesting. He's not funny and he's the boss. So, yeah, kind of an interesting little scenario. But, but yeah. So this is kind of a weird one as well. I think influencer for Karthik is actually very accurate, But yeah, Darla, I would think that through all the conversations that we've had with them that would probably be… kind of like an easy to know or like an easy to pull out thing. But also, it's only showing one call with her on it Yep.
+
+[00:20:38] Viva Naini
+Is that not, how often have you called her?
+
+[00:20:40] Paige Wunderlich
+Yeah, that's weird. I mean, I guess it's possible that I didn't I haven't activated mute need for all of our calls, but I would think that I probably had.
+
+[00:20:51] Viva Naini
+On the meetings tab, it's showing like four meetings with Coursera, You had one last Friday last Wednesday and then a couple at the top of the month.
+
+[00:21:00] Paige Wunderlich
+Oh, interesting. Yeah, I mean do.
+
+[00:21:05] Viva Naini
+You think you've met with her?
+
+[00:21:07] Paige Wunderlich
+There's probably been. I don't know There's been a lot. Okay. Probably more on the, along the lines of like 10 to 15, but that must be like a me problem with not starting my recording, but I could have sworn that like yesterday, I had a call with them and I could have sworn that, yeah.
+
+[00:21:28] Viva Naini
+You're right? I'm gonna throw it right here. I guess it's just assigned. Okay. So you're just going?
+
+[00:21:33] Paige Wunderlich
+Oh, that's me. I do have been trying to go through and like assign them as I think about it. So that is a me problem. Yes. Oh, there's Darla. Yeah. Okay. That makes me feel better. I was like, I just not capture those.
+
+[00:21:45] Viva Naini
+There's a ton with Darla, actually.
+
+[00:21:47] Paige Wunderlich
+Yeah, there's a lot That's why I was like, wait a second. I don't know about that. Oh, yeah. There's another one. There you.
+
+[00:21:54] Viva Naini
+Go. Perfect. Okay, cool. Let's let's lock those in. Okay, cool. Those are all There's.
+
+[00:22:00] Paige Wunderlich
+more.
+
+[00:22:01] Viva Naini
+This is like four in just the last two days. Yeah, you're not There's. One more here. Don't worry. I got it for you.
+
+[00:22:07] Paige Wunderlich
+Thank you. I appreciate it. I will all go through and make sure that those are all connected. I just, yeah, sometimes forget about that. Yeah.
+
+[00:22:14] Viva Naini
+I just want to make sure that we have all of your calls too, that you're like are these accurate? These are like a lot of calls. So this looks like pretty accurate to me.
+
+[00:22:22] Paige Wunderlich
+Yeah, probably pretty accurate. I mean, most of my time has been spent on Coursera, recently. So that makes sense that those would all be up there. I'm sure that there's maybe been a couple that I haven't recorded, But in general, this looks to be pretty darn accurate. Yeah, Great. Yeah, Yep.
+
+[00:22:41] Viva Naini
+Okay, cool. I will take a look at, Let's see The branding thing we talked about. I think we just talked to Aisha about it and then have her delete the old branding. Yeah.
+
+[00:22:52] Paige Wunderlich
+Fine.
+
+[00:22:53] Viva Naini
+I will bring up with product about like the chat history being only accessible through threads versus being able to see it when you click the asset, Like it should be visible all the time. It's probably the best way to do it. Yeah. And then was there something else?
+
+[00:23:09] Paige Wunderlich
+No, I don't think so.
+
+[00:23:10] Viva Naini
+Okay. Yeah. I sent you over that, SOF template, Do you have that?
+
+[00:23:15] Paige Wunderlich
+Yes, I do have it. Oh, it should be in here. I opened it in here. Here. It is. Oh, there it is. Yep. Okay, cool. Yes. And I looked through it. And funny enough, I had just completed two SOFs right before you said that over, Of course. So I am going to, No, it's perfect. I am going to, When I have my next one which shouldn't be too far out. I'm going to test that out as soon as I get there. But thank you for doing that because I do think that that's one of those things that like it's not a pretty page to look at. It's. Not like one of these fun ones but it's absolutely necessary. And it's one of those like annoying things. And if it were able to like listen to my conversation when I'm giving someone like when I'm on a proposal call and I'm like telling someone about the dollars that they're about to spend And then spins that up for me. That would be a very glorious thing. Even if I have to go in and tweak some of the numbers. It's totally fine.
+
+[00:24:13] Viva Naini
+I would recommend. So if you've already completed two of them, you probably throw them into Mutiny into the agent and then talk to it about like I just finished these two. I want to leverage this kind of language when I reuse the SOF template. If you define, when in the deal, you usually create an SOF, I think the agent will do a good job of recommending it for you when the time is right, and start pulling some of that info. I just want to plant that seed of that's kind of how we ideally want users to use the product of just start coaching. You need to be able to do some of this stuff for you.
+
+[00:24:50] Paige Wunderlich
+Cool. Okay, cool. I'll do that. Cool.
+
+[00:24:56] Viva Naini
+Okay. And then one last thing I'm so sorry?
+
+[00:24:58] Paige Wunderlich
+Yeah, no, you're fine.
+
+[00:25:00] Viva Naini
+We did like, I'm sure you noticed this, but we redid like the templates page. Yes, I want to get your like immediate just like gut reaction. What do you think? Is it like too much stuff Like what do you think about this?
+
+[00:25:11] Paige Wunderlich
+No, I actually like it being more organized this way. I think that we do need to get to the point And I know that this was like maybe something we talked about like a long time ago was like, are there people that can create like what's the difference between… like someone who can create a template and someone who just creates a template? You know, like I think having that segmentation of like admins create templates or approve templates, like I should go into my assets, look at my stuff and create a template from my stuff Or I could create a template and I should like promote it to being a company wide template kind of thing Because I think the challenge here is that a lot of people create templates but it's not necessarily all things that we would want to reuse And like as I'm looking at, you know, some of these from like a while ago, like they're all kind of the design that we're trying to move away from. And so then it's like, okay, how do we like over time get some of these out and get new ones in or update the branding on them? But all that said that would be a problem. Regardless. I think the actual structure of how they're grouped is really nice. I do think that at some point in time it would be really helpful to have like sections that are maybe defined by us or defined more by like our deal stages, whether that be pulled from Hubspot or wherever that is like for this deal stage, here are your templates for this one here, your templates? Because I think that's what's maybe missing here. Is that this is a really good start. But to have like here are all of the like if you're at the demo stage, here are all your demo templates, If you are at discovery, here are your discovery templates, That level of like just a little bit more granularity. It would be really helpful.
+
+[00:27:13] Viva Naini
+Okay. Awesome. That's great feedback. So it sounds like there's two main things One being able to like there should be a more controlled space for some of these templates. So like approved by admins or like something that's like kind of bumped up to the top of like here are the company standard ones, Yes. And then being able to better understand how like Atomicwork specifically runs their deals, how you guys are like staging things in Salesforce or how it's about like whatever your actual phases are, versus like three kind of high level buckets, which fine. But it's like not true to how you guys run deals, right?
+
+[00:27:45] Paige Wunderlich
+Yeah. Yep. I think that's fair. And honestly, like I said, I think this is a really good start to where they are and it does help to separate them out. But I do think that having it be, yeah more specific to like the deal stages that we see in Hubspot and have it mimic that, would be extra helpful.
+
+[00:28:07] Viva Naini
+Yeah. I think it's great feedback. Okay, cool. I'll take some of those back. I'll like write something up, send over a product and, I'll get working on some of them, but I appreciate it.
+
+[00:28:15] Paige Wunderlich
+You're amazing.
+
+[00:28:16] Viva Naini
+Have a great weekend. Make sure to get some more, no screen time.
+
+[00:28:20] Paige Wunderlich
+Yes.
+
+[00:28:22] Viva Naini
+Have fun with the kids. I hope like let me know if there's anything I can do to help with any of the deals that you're like running.
+
+[00:28:28] Paige Wunderlich
+I appreciate it. Yeah. Fingers crossed on all of them. I've got, I don't know probably in the neighborhood of like 600 K that I'm waiting on like right this moment And I'm like,
+
+[00:28:41] Viva Naini
+There's only so much you can do. You sometimes just gotta wait and that's like that feeling really sucks.
+
+[00:28:44] Paige Wunderlich
+Yeah. Honestly, that's where I'm out with a lot of these. It's like I.
+
+[00:28:48] Viva Naini
+can't nurture anymore? There's nothing else. I can do It's. Just, yeah, It's.
+
+[00:28:51] Paige Wunderlich
+just, yeah, And like Expedia, you've seen that in there for a 1,000,000 years Like… they're just, they're giving me a hard time. So anyway, looking forward to kind of getting toward the end of this. This. I'm looking forward to next Sunday being November first where what's done is done and we can just move on from there. Cool.
+
+[00:29:16] Viva Naini
+Well, fingers crossed for you. I'm hoping. Thanks.
+
+[00:29:19] Paige Wunderlich
+I appreciate you. Okay. And I hope you have a good weekend and I will see you next week. Yes. Okay. Bye. Yeah.

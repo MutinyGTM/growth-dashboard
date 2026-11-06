@@ -1,0 +1,308 @@
+[
+  {
+    "domain": "tofuhq.com",
+    "urls": [
+      {
+        "url": "https://tofuhq.com/post/the-10-best-account-based-marketing-tools-of-2026",
+        "peec_retrievals": 333,
+        "peec_citations": 379,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny offers a no-code website personalization and testing platform. Customers rave about their campaign recommendations and playbooks... You can see what Mutiny's interface would look like on your homepage by entering your url here.",
+        "all_mutiny_mentions": [
+          "Meta description: '...content tools like Tofu, Hushly, Mutiny, and Drift.'",
+          "Content Tools Comparison table row: Mutiny | Best For: 'No-code website personalization' | Channels: 'Website and landing pages' | AI Content Gen: 'AI-driven page variants' | Personalization: 'Account level' | Integrations: HubSpot, Marketo, Salesforce, Clearbit | Pricing: 'Custom pricing'",
+          "6sense section: Mutiny listed under 'Select Integrations'",
+          "Section '### 9. Mutiny' (quoted above) with stale stats: 'G2 Rating: 4.7 out of 5 stars (22 reviews)', 'Segment Breakdown: 50% Midmarket, 26% Enterprise', 'Select Customers: Notion, Qualtrics, Clickup, Brex, Amplitude, Snowflake, Attentive', 'Select Integrations: Hubspot, Marketo, Salesforce, Segment, Clearbit, 6sense, Slack'",
+          "FAQ 'Which ABM tools integrate with HubSpot and Salesforce?': lists Mutiny",
+          "FAQ 'difference between ABM campaign managers and ABM content tools': 'ABM content tools like Tofu, Hushly, and Mutiny focus on creating and personalizing the actual content -- emails, landing pages, and web experiences'"
+        ],
+        "last_updated": "Visible 'Last updated: May 18, 2026' (body images date from 2023; Mutiny section looks unchanged since original 2023 post)",
+        "author": "No byline on page (unverified who owns it)"
+      },
+      {
+        "url": "https://tofuhq.com/post/best-tools-for-1-1-abm-campaigns",
+        "peec_retrievals": 196,
+        "peec_citations": 140,
+        "still_wrong": true,
+        "current_mutiny_text": "If your ABM strategy is heavily focused on the website and landing page experience for target accounts, Mutiny is a top choice. Mutiny is an AI-powered personalization platform that excels at creating 1:1 microsites and dynamically personalized web pages for each of your target accounts. ... It's worth noting that Mutiny's platform is limited to website personalization and doesn't handle multi-channel campaign orchestration.",
+        "all_mutiny_mentions": [
+          "Meta/OG description lists Mutiny among the 9 tools",
+          "Intro: 'We cover Tofu, Mutiny, UserLed, ...'",
+          "Quick picks: 'Mutiny: Ideal for teams focused on 1:1 website personalization. Mutiny automatically generates personalized microsite landing pages for each target account... though it limits itself to [web]'",
+          "Body: 'some point solutions can personalize one channel (for example, Mutiny on websites only)'",
+          "Comparison table row: Mutiny | 'Website-focused ABM personalization' | 'Website/microsites only' | 'Yes, for web pages' | 'Segment to 1:1 (web only)' | Salesforce, HubSpot, Clearbit, 6sense | Pricing 'Custom (~$10K+/yr)'",
+          "Heading '### 2. Mutiny (Best for 1:1 Web Personalization)' with Key Features: Automated 1:1 Microsites, Account Insights & Signals ('real-time signals when a target account is engaging on your site'), Website Personalization Widgets, Analytics and Impact Dashboard; Best For: 'Marketing teams that prioritize web personalization as their core ABM tactic... small-to-midsize ABM teams'",
+          "UserLed section: 'bring some of the personalization magic of Mutiny beyond the website' and 'Unlike Mutiny, which is web-centric...'",
+          "FAQ (Tofu vs others): 'Mutiny handles website personalization well but does not generate multi-channel assets.'",
+          "FAQ (microsites): 'Both Tofu and Mutiny can automate personalized microsites. Mutiny focuses specifically on web-based microsites and landing pages for each account.'",
+          "FAQ (CRM): 'Mutiny integrates with Salesforce and HubSpot for visitor identification.'"
+        ],
+        "last_updated": "Visible 'Last updated: April 8, 2026' (blog index shows original Aug 5, 2025)",
+        "author": "No byline on page (unverified)"
+      }
+    ],
+    "additional_pages_seen_not_in_rows": [
+      "https://www.tofuhq.com/post/tofu-vs-mutiny-for-abm-campaigns",
+      "https://www.tofuhq.com/post/best-ai-tools-for-b2b-landing-page-personalization (search snippet: Mutiny 'starting around $1,000/mo')",
+      "https://www.tofuhq.com/post/personalization-at-scale-top-ai-tool-compared-for-b2b-marketers",
+      "https://www.tofuhq.com/post/top-ai-tools-for-multi-channel-b2b-marketing-campaigns-2026"
+    ],
+    "company_context": "Tofu (Tofu Technologies, San Mateo) sells an AI ABM/'agentic demand gen' platform that generates personalized emails, landing pages, microsites, ads and PDFs per account. Founded 2023 by Eunjoon 'EJ' Cho (CEO), Elaine Zelby and Honglei Liu; ~$17M raised ($5M seed led by Index, $12M Series A led by SignalFire with HubSpot Ventures). Small team (~25-35, sources conflict). Runs a large volume of 2026 comparison/listicle posts that position Tofu as #1; at least 5 posts frame Mutiny as its web-only foil.",
+    "competes_with": "old",
+    "primary_contact": {
+      "name": "Elaine Zelby",
+      "title": "Co-founder (one source lists CRO & Co-founder); ex-Slack marketing leader",
+      "linkedin": "not found (unverified)",
+      "why": "Posts have no bylines; Elaine is the co-founder with the marketing background and was the named contact on Tofu's Jan 2025 'first growth marketing hire' posting, so she likely owns the blog/SEO program or knows who does."
+    },
+    "backup_contact": {
+      "name": "Eunjoon 'EJ' Cho",
+      "title": "Co-founder & CEO",
+      "linkedin": "not found (unverified)",
+      "why": "Small startup; CEO can route or approve a factual correction if marketing does not reply."
+    },
+    "generic_contact": "No content@/press@ found. Demo form: https://www.tofuhq.com/lp/request-a-demo. A Jan 2025 public job posting (career.com) routed applications to an elaine@ address at tofuhq.com - lead agent to verify, not confirmed current.",
+    "update_signals": "Refreshes often: both flagged posts carry 2026 'Last updated' stamps (May 18 and Apr 8, 2026) and '2026' titles, yet the Mutiny copy was carried over unchanged, which suggests template/SEO refreshes rather than fact-checks. Tofu publicly cares about AI search: it published 'What We Learned Analyzing 40,000+ AI Citations' (Profound data) and posts on AI and SEO. Page 1 has an explicit fairness disclosure ('All tools were evaluated using the same criteria'). No partial Mutiny update seen.",
+    "personal_hook": "No personal hook found for Elaine or EJ. Company-level hook: Tofu's own '40,000+ AI citations' study (https://www.tofuhq.com/post/linkedin-what-we-learned-analyzing-ai-citations) found comparison tables get cited most, and both flagged pages lead with comparison tables.",
+    "likelihood": 3,
+    "likelihood_reason": "Tofu refreshes these posts often and cares about AI citations, but it is a direct competitor to Mutiny's old product and benefits from describing Mutiny as 'web-only'. With no bylines, it is unclear who owns the edit.",
+    "persuasion_angle": "Mutiny left the website-personalization category, so Tofu now has a free 'Mutiny is no longer an option here' story. The fix helps Tofu: buyers asking ChatGPT for 'Mutiny alternatives for ABM landing pages' are being sent to a product that no longer exists, and an accurate page is more likely to be cited. Point to their own fairness disclosure and their 40k-citation research: AI engines are quoting a 2023 description stamped 'updated May 2026'.",
+    "sources": [
+      "https://www.tofuhq.com/post/the-10-best-account-based-marketing-tools-of-2026",
+      "https://www.tofuhq.com/post/best-tools-for-1-1-abm-campaigns",
+      "https://www.tofuhq.com/post/linkedin-what-we-learned-analyzing-ai-citations",
+      "https://www.tofuhq.com/post/tofu-vs-mutiny-for-abm-campaigns",
+      "https://www.businesswire.com/news/home/20231019167641/en/Tofu-raises-5M-seed-round-to-put-B2B-Marketing-on-Autopilot",
+      "https://www.vcaonline.com/news/2025021306/tofu-raises-12m-series-a-to-consolidate-martech-for-enterprise-gtm-teams/",
+      "https://yespress.io/tofu",
+      "https://withsurface.com/gtm-leader-interviews/elaine-zelby-tofuhq",
+      "https://career.com/job/tofu/growth-marketing-lead/j202501192116439948399"
+    ]
+  },
+  {
+    "domain": "prismic.io",
+    "urls": [
+      {
+        "url": "https://prismic.io/blog/best-abm-platforms-for-enterprise-accounts-and-b2b-marketing",
+        "peec_retrievals": 305,
+        "peec_citations": 197,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny personalizes your existing website based on visitor attributes. You can change headlines, CTAs, and content blocks without touching code, then A/B test which personalization approaches improve conversion.",
+        "all_mutiny_mentions": [
+          "Category summary: 'Web/landing personalization (Prismic, Mutiny, Intellimize): Best for converting clicks... Prismic = scalable 1:1 landing pages, Mutiny = on-site personalization.'",
+          "Prismic section cons: 'Newer product: Less established than platforms like Mutiny or Intellimize'",
+          "'### 2. Mutiny' - 'Best for: On-site website personalization' / 'Pricing: Mid-market to Enterprise (custom quotes)' / body quoted above",
+          "Mutiny Limitations: 'Existing website required', 'Requires implementing Mutiny's script on your website', 'Traffic volume needed'",
+          "FAQ: 'Some platforms like Mutiny and Intellimize also offer no-code website personalization, though they focus on modifying existing sites rather than generating new landing pages.'"
+        ],
+        "last_updated": "Published January 2, 2026 (no 'Updated' stamp)",
+        "author": "Tosin Adelowo (Senior Growth Marketer, Prismic)"
+      },
+      {
+        "url": "https://prismic.io/blog/10-best-account-based-marketing-tools-with-landing-page-personalization",
+        "peec_retrievals": 254,
+        "peec_citations": 355,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is an enterprise ABM platform focused on converting existing website traffic through personalization. ... That said, Mutiny is primarily a website personalization tool rather than a dedicated landing page builder.",
+        "all_mutiny_mentions": [
+          "TL;DR: 'Mutiny and Demandbase are strongest for personalizing existing websites based on who's visiting, especially at enterprise scale.'",
+          "'### 2. Mutiny' (ranked #2) with bullets: 'Best for: Mid-market and enterprise B2B companies' / 'Standout feature: No-code website personalization' / 'Landing page personalization: Dynamic content changes based on visitor segments'",
+          "Screenshot alt 'Mutiny abm page builder' (old Mutiny UI screenshot from Dec 2025)"
+        ],
+        "last_updated": "Published January 2, 2026 (no 'Updated' stamp)",
+        "author": "Tosin Adelowo"
+      },
+      {
+        "url": "https://prismic.io/blog/8-best-ai-tools-for-1-to-1-abm-campaigns-detailed-guide",
+        "peec_retrievals": 231,
+        "peec_citations": 120,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny personalizes your existing website for target accounts. Rather than building separate landing pages, Mutiny modifies on-page content based on visitor attributes—showing different headlines, CTAs, or social proof depending on who's viewing.",
+        "all_mutiny_mentions": [
+          "TL;DR: 'tools like Mutiny focus on website personalization'",
+          "Comparison table row: Mutiny | 'Website personalization' | 'On-site experiences'",
+          "'### 2. Mutiny' with How it works ('Identifies visitors through reverse IP lookup...'), Best use cases (homepage/pricing page personalization), Key features ('A/B testing capabilities...'), 'Ideal for: Teams wanting to personalize their main site experience...'",
+          "FAQ (page speed): 'Dynamic personalization platforms like Mutiny require careful optimization to avoid impacting site speed...'"
+        ],
+        "last_updated": "Published January 7, 2026 (no 'Updated' stamp)",
+        "author": "Tosin Adelowo"
+      },
+      {
+        "url": "https://prismic.io/blog/the-6-best-abm-landing-page-tools-complete-comparison",
+        "peec_retrievals": 190,
+        "peec_citations": 311,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is a website personalization platform that modifies existing pages based on visitor attributes. Rather than building new pages, it overlays personalized content using firmographic and intent data - useful for teams wanting to personalize without rebuilding.",
+        "all_mutiny_mentions": [
+          "Key takeaways: 'Website personalization tools such as Mutiny modify existing pages but are not optimized for creating net-new, one-to-one ABM landing pages.'",
+          "Comparison table row: Mutiny | 'Personalizing existing pages' | 'Overlay-based' | Developer required 'No' | Native ABM focus 'Yes'",
+          "'### 5. Mutiny' - 'Best for: Teams wanting to personalize existing website pages without rebuilding them' / 'Key strength: No-code personalization overlays using firmographic and intent data' / Pros: no-code, works on existing pages, firmographic and intent targeting / Cons: 'Not designed for net-new ABM landing pages', 'Limited ability to restructure full narratives', 'Requires sufficient traffic'"
+        ],
+        "last_updated": "Published January 2, 2026 (no 'Updated' stamp)",
+        "author": "Tosin Adelowo"
+      },
+      {
+        "url": "https://prismic.io/blog/best-mutiny-alternatives-for-abm-landing-pages",
+        "peec_retrievals": 78,
+        "peec_citations": 11,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny pioneered AI-powered website personalization for ABM teams, but its enterprise pricing and technical requirements aren't a fit for everyone.",
+        "all_mutiny_mentions": [
+          "Title/meta: '8 Best Mutiny Alternatives for ABM Landing Pages (2026 list)'",
+          "TL;DR: 'for teams willing to invest in full website personalization, Insider and Dynamic Yield provide similar capabilities to Mutiny.'",
+          "Section 'Why Teams Look for Mutiny Alternatives': 'Enterprise pricing limits accessibility' ('Mutiny's pricing model targets large organizations with substantial budgets'), 'Full website integration adds complexity' ('requires developer resources'), 'Data stack dependencies increase total cost' ('you typically need third-party enrichment tools like Clearbit or ZoomInfo'), 'Website personalization vs landing page generation'",
+          "Every one of the 8 alternatives has 'Where it beats Mutiny' / 'Where Mutiny is better' lines describing Mutiny as website personalization with AI segmentation",
+          "'Why Prismic Is the Best Alternative': 'Unlike Mutiny, which requires website integration...' and 'Compared to Mutiny's enterprise pricing and data stack requirements...'",
+          "FAQ x3: 'Mutiny personalizes your existing website by integrating with your current infrastructure...' plus enrichment and pricing FAQs"
+        ],
+        "last_updated": "Published January 9, 2026 (no 'Updated' stamp)",
+        "author": "Tosin Adelowo"
+      }
+    ],
+    "series_note": "Yes, all 5 share one author (Tosin Adelowo) and look like a programmatic SEO/lead-gen series for Prismic's ABM Landing Page Builder. They were published in a 7-day burst (Jan 2, 2, 2, 7, 9, 2026), alongside sibling 'X alternatives' pages for Folloze, Unbounce, Instapage and LandingRabbit (Jan 9-15), and the high-converting ABM landing pages guide (Jan 7). All use the same template: TL;DR, comparison table, Prismic ranked #1 with the same VITRONIC '60 pages in 90 minutes' proof point, then FAQs. They reuse the same Mutiny screenshot. The copy reads as AI-assisted, but I cannot confirm that. The sibling posts likely mention Mutiny too (not checked).",
+    "company_context": "Prismic is a Paris-founded headless CMS / page builder (founded 2013; raised EUR16M from Eurazeo Growth and Aglae). Since late 2025 it has pushed an 'ABM Landing Page Builder' (AI-generated per-account page variations) and now brands itself 'the agentic web platform for marketers and AI'. It is not a CMS competitor to Mutiny, but the ABM builder targets the same 1:1 ABM landing-page job that Mutiny's old product did. These listicles are SEO plays to capture 'Mutiny alternative' and 'ABM landing page' demand.",
+    "competes_with": "old",
+    "primary_contact": {
+      "name": "Tosin Adelowo",
+      "title": "Senior Growth Marketer, Prismic (author bio: 'helps drive product-led and sales-led acquisition')",
+      "linkedin": "not found (unverified)",
+      "why": "Author of all 5 pages and still publishing on Prismic's blog (posts dated Aug 2026, one updated Oct 13, 2026), so he is in-house and can edit the whole series in one pass."
+    },
+    "backup_contact": {
+      "name": "Edwina Dendler",
+      "title": "CMO, Prismic (HubSpot Unbound speaker page; a Prismic blog post calls her Head of Marketing)",
+      "linkedin": "not found (unverified)",
+      "why": "Owns marketing and the blog's AI-search push. Escalate to her if Tosin does not reply."
+    },
+    "generic_contact": "No content@ or press@ found. Each post has a public 'Join the discussion' comment box, which can serve as a last-resort public correction. Demo/contact: https://prismic.io/demo. Company LinkedIn: https://www.linkedin.com/company/prismic-io",
+    "update_signals": "None of the 5 pages has been updated since January 2026. However, Tosin updates other posts (e.g. 'Best Free Headless CMS', updated Oct 13, 2026) and puts '2026' in titles. He is publicly invested in AI search: 'Why your content ranks on Google but AI never cites it' (Aug 6, 2026), 'The Best GEO Tools' (Aug 5, 2026), 'How to Optimize Content for AI Search Engines' (updated Aug 7, 2026) and 'The Best CMS for AI Search (We Tested 744 Websites)' (Aug 11, 2026). Prismic's growth team also runs GEO webinars. No partial Mutiny update seen.",
+    "personal_hook": "Tosin wrote 'Why your content ranks on Google but AI never cites it (and how to fix it)' (Aug 6, 2026) and 'The Best GEO Tools' (Aug 5, 2026). His ABM pages are in fact being cited by AI (Peec: ~1,060 retrievals and ~990 citations across the 5 URLs), but with outdated Mutiny facts.",
+    "likelihood": 3,
+    "likelihood_reason": "The author is in-house, active and fluent in GEO, and one edit pass covers all 5 URLs. However, these are low-maintenance lead-gen pages for a product that competes with Mutiny's old use case, and the 'Mutiny alternatives' page's premise depends on Mutiny still being in the category.",
+    "persuasion_angle": "The fix strengthens their pitch: Mutiny retired its website-personalization product in 2026, so former Mutiny users actually need an ABM landing-page alternative. Prismic can say so accurately and pick up that demand. Tie it to Tosin's own writing: these pages are among the most AI-cited in the ABM category, and stale vendor facts are the fastest way to lose that citation trust. Offer a ready-to-paste 1-2 sentence replacement for each page.",
+    "sources": [
+      "https://prismic.io/blog/best-abm-platforms-for-enterprise-accounts-and-b2b-marketing",
+      "https://prismic.io/blog/10-best-account-based-marketing-tools-with-landing-page-personalization",
+      "https://prismic.io/blog/8-best-ai-tools-for-1-to-1-abm-campaigns-detailed-guide",
+      "https://prismic.io/blog/the-6-best-abm-landing-page-tools-complete-comparison",
+      "https://prismic.io/blog/best-mutiny-alternatives-for-abm-landing-pages",
+      "https://prismic.io/blog/authors/tosin-adelowo",
+      "https://prismic.io/blog/why-your-content-ranks-on-google-but-is-not-cited-by-ai",
+      "https://prismic.io/blog/ai-seo-2026",
+      "https://unbound.hubspot.com/speakers/edwina-dendler",
+      "https://www.frenchweb.fr/cms-headless-prismic-leve-16-millions-deuros-aupres-deurazeo-growth-et-aglae-ventures/422834"
+    ]
+  },
+  {
+    "domain": "turtl.co",
+    "urls": [
+      {
+        "url": "https://turtl.co/blog/best-abm-platforms-in-2026",
+        "peec_retrievals": 144,
+        "peec_citations": 243,
+        "still_wrong": true,
+        "current_mutiny_text": "Only the TL;DR is still wrong: 'The best ABM tools in 2026, by category: 6sense (intent), Demandbase (orchestration), Turtl (content and personalization), Mutiny (web personalization), PathFactory (content experience)...'. The body section is now correct: 'Mutiny: Best for AI-generated sales and deal assets. Mutiny rebuilt its product in 2026 as an AI assistant built for sales. It joins sales calls, learns how your team sells, then drafts the follow-up: personalized pitch decks, executive business cases, pricing proposals, deal rooms and 1:1 prospecting pages, plus the CRM update.'",
+        "all_mutiny_mentions": [
+          "TL;DR bullet: 'Mutiny (web personalization)' - WRONG",
+          "Section 4 'Sales engagement and coordination' intro: 'a newer wave of AI sales assistants creates the personalized assets reps send to accounts' (correct framing)",
+          "'#### Mutiny: Best for AI-generated sales and deal assets' - correct; 'What it does well: ...Mutiny runs on triggers rather than prompts...'; 'Worth knowing: Mutiny's focus has moved from website personalization to the sales team. If you're evaluating it for on-site personalization, check what's still included.' (could say the website-personalization product is retired); 'Best for: Sales-led B2B teams...'",
+          "Comparison table row: Mutiny | Category 'AI sales assistant' | 'Personalized decks, business cases and deal rooms created from sales calls' | 'Engage, Accelerate' | Pricing tier 'Mid–Enterprise' (minor: Mutiny now has Free $0 and Business from $50/mo, with Enterprise from $40,000/yr)"
+        ],
+        "last_updated": "Visible date Mar 02, 2026. Body says 'Pricing tiers reflect publicly available information at the time of the October 2026 update', so the page was refreshed in Oct 2026.",
+        "author": "Elliott King (VP of Marketing, Turtl)"
+      }
+    ],
+    "company_context": "Turtl (London HQ plus NYC office) sells an 'AI-first ABM revenue content platform': interactive, personalized, trackable docs and landing pages that replace PDFs, with account reveal, revenue analytics and a 'Hatch' revenue AI agent. It is a mid-size, VC-backed scale-up (Octopus Ventures portfolio). Customers include AWS, Cisco, 8x8, Kantar and Aviva. It overlaps with new Mutiny on personalized sales/deal assets and with old Mutiny on ABM personalization.",
+    "competes_with": "both",
+    "primary_contact": {
+      "name": "Elliott King",
+      "title": "VP of Marketing, Turtl",
+      "linkedin": "https://www.linkedin.com/in/elliottgking/",
+      "why": "Byline author of the page (linked from the Turtl author box). He is in-house and clearly already maintains the Mutiny section, so the remaining fix is one TL;DR bullet."
+    },
+    "backup_contact": {
+      "name": "Nick Mason",
+      "title": "CEO, Turtl (per Latka; unverified current)",
+      "linkedin": "not found (unverified)",
+      "why": "If Elliott does not respond. Turtl also has a Head of Brand Creative who manages the content writers, but I found no name for that role."
+    },
+    "generic_contact": "Contact form: https://turtl.co/about/contact/ (UK HQ phone 020 4514 5316). No content@ or press@ found.",
+    "update_signals": "Strongest of the four sites. The Mutiny section and comparison table were already rewritten to reflect the 2026 relaunch (likely in the Oct 2026 update); only the TL;DR bullet and pricing tier were missed. The title carries '2026', the page has a dated-update note, and Turtl publishes a support article on 'Optimizing Turtl Docs for AI & LLMs (GEO/AEO)', so it thinks about AI search.",
+    "personal_hook": "Turtl author bio: 'Elliott is VP of Marketing at Turtl, an award winning brand marketing leader, and a startup advisor.' Best hook: thank him for already updating the Mutiny section in the Oct 2026 refresh. (Search surfaced an Elliott King who wrote 'Marketing Wins' (2026) and advises an AI-visibility agency, but I could not confirm it is the same person; do not use it.)",
+    "likelihood": 4,
+    "likelihood_reason": "They have already done 90% of the fix themselves, and the remaining TL;DR bullet contradicts their own body copy and table. That makes this a 30-second consistency edit, and the request goes to the author, who is a VP.",
+    "persuasion_angle": "Thanks plus consistency. 'Thank you for updating Mutiny's section in your October refresh. One leftover: the TL;DR still lists Mutiny as web personalization, which contradicts your table. AI engines quote TL;DRs first, so ChatGPT and Perplexity are still repeating the old line from your page.' Optionally ask to change the pricing tier to 'Free / from $50/mo; Enterprise from $40k/yr'.",
+    "sources": [
+      "https://turtl.co/blog/best-abm-platforms-in-2026",
+      "https://www.linkedin.com/in/elliottgking/",
+      "https://turtl.co/about/contact/",
+      "https://getlatka.com/companies/turtl/contacts",
+      "https://talent.octopusventures.com/companies/turtl/jobs/37455334-vp-of-marketing",
+      "https://careers.turtl.co/jobs/8271414-senior-brand-content-writer"
+    ]
+  },
+  {
+    "domain": "warmly.ai",
+    "urls": [
+      {
+        "url": "https://warmly.ai/p/blog/ai-sales-marketing-tech-stack",
+        "peec_retrievals": 129,
+        "peec_citations": 151,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny: An AI-powered website personalization platform. Mutiny alters your website copy or offers dynamically based on who comes to your website. If your outbound AI sends someone to a landing page, Mutiny could ensure that the page speaks directly to their vertical or pain point, boosting conversion. Think of it as extending personalization beyond the email into the site experience.",
+        "all_mutiny_mentions": [
+          "One bullet in the tool-recommendations area, directly after Warmly's own 'Warm Offers' (website pop-up personalization) description (quoted above). No table, pricing or 'best for' entry for Mutiny."
+        ],
+        "last_updated": "Posted on March 18, 2026",
+        "author": "Chris Miller (Head of Demand Generation, Warmly)"
+      },
+      {
+        "url": "https://warmly.ai/p/blog/b2b-martech-stack",
+        "peec_retrievals": 76,
+        "peec_citations": 24,
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny offers a no-code AI platform that helps performance marketing teams personalize website experiences at scale. The platform is built for B2B brands looking to deliver account-level or firmographic-based messaging by adapting headlines, CTA buttons, visuals, and page layouts to each visitor's profile.",
+        "all_mutiny_mentions": [
+          "Category '#8: Website Personalization Tools'",
+          "Webflow Optimize entry: 'Similar to: Mutiny.'",
+          "'### Mutiny' - 'Best for: B2B marketing teams that want to personalize website experiences at scale to increase conversions and pipeline.' / 'Similar to: Webflow Optimize.'",
+          "Features: 'Automatically generates customized landing pages for high-value accounts using AI-based theming and content adaptation', 'tailored headlines and messaging prompts', 'test variants with automatic hold-outs'",
+          "Pricing: 'Mutiny doesn't disclose product prices, so you'll have to book a demo or contact its team' (wrong: pricing is public, Free $0 / Business from $50/mo / Enterprise from $40k/yr)",
+          "Pros & Cons: no-code website personalization; AI segment recommendations; Salesforce/HubSpot integrations; 'Pricing is enterprise-level and not transparent.'"
+        ],
+        "last_updated": "Posted on December 10, 2025 (title says '[2026]')",
+        "author": "Alan Zhao (Co-founder & Head of Marketing, Warmly)"
+      }
+    ],
+    "company_context": "Warmly sells person-level website visitor identification, intent signals, and AI GTM agents (inbound chat/'Warm Offers' pop-ups, AI outbound). HubSpot agreed to acquire Warmly (announced June 30, 2026; terms undisclosed; one source says it closed July 1, 2026), and Warmly's capabilities are folding into HubSpot. The warmly.ai blog is still live and posting (articles updated July 29, 2026). It overlaps with old Mutiny via website personalization pop-ups. Its AI sales agents are adjacent to, not the same as, new Mutiny's post-call sales assistant.",
+    "competes_with": "old",
+    "primary_contact": {
+      "name": "Alan Zhao",
+      "title": "Co-founder & Head of Marketing, Warmly (named among team joining HubSpot; post-acquisition title unverified)",
+      "linkedin": "https://www.linkedin.com/in/alan-j-zhao/",
+      "why": "Authored b2b-martech-stack and heads marketing, so he owns the blog. His public bio is about brand reputation and quality content, which makes him receptive to an accuracy ask."
+    },
+    "backup_contact": {
+      "name": "Chris Miller",
+      "title": "Head of Demand Generation, Warmly (per warmly.ai author page; post-acquisition status unverified)",
+      "linkedin": "https://www.linkedin.com/in/chris-miller-435aa3100/",
+      "why": "Byline author of ai-sales-marketing-tech-stack, the higher-traffic URL (129 retrievals). Email him directly about that page if Alan is unresponsive or now focused on HubSpot work."
+    },
+    "generic_contact": "No content@ or hello@ found. Public addresses seen in Warmly docs and policies: support@warmly.ai (API support), privacy@warmly.ai, security@warmly.ai. These are not editorial, so treat them as last resort. Warmly review posts carry a disclaimer: 'if there's any misinterpretation of the information, please contact us, and we will fact-check it.' Demo: https://www.warmly.ai/p/book-a-demo",
+    "update_signals": "The blog is actively maintained in 2026: titles carry '[2026]', and review posts have 'last updated on the 29th of July, 2026' disclaimers that invite fact-check requests. Warmly writes about GEO/AEO ('How B2B Buyers Use ChatGPT to Research Vendors (And How to Show Up)') and cites a stat that 'pages updated within 60 days are 1.9x more likely to appear in AI citations'. Negative signal: the HubSpot acquisition means team and priority churn, and the blog's long-term future is unclear. Neither flagged page has been touched since Dec 2025 / Mar 2026. No partial Mutiny update seen.",
+    "personal_hook": "Alan Zhao's author bio: 'I believe that brand (reputation) is the only defensible moat left in B2B marketing. Quality content is the mechanism to build your company reputation.' Warmly's own GEO guide says freshness drives AI citations.",
+    "likelihood": 2,
+    "likelihood_reason": "Mutiny is a minor mention in long listicles, and the team is mid-integration into HubSpot, so blog edits for third parties are a low priority. The ask is small, and their own fact-check disclaimer and GEO writing give a respectable opening.",
+    "persuasion_angle": "Use their own words: their posts promise to fact-check corrections, and their GEO guide says fresh pages win AI citations. The ai-sales-marketing-tech-stack post is about AI sales tooling, and Mutiny is now an AI sales assistant, so the correction makes the post more relevant. For b2b-martech-stack, the pricing line ('doesn't disclose prices') is now simply false, because pricing is public. Keep it to two pasteable sentences.",
+    "sources": [
+      "https://www.warmly.ai/p/blog/ai-sales-marketing-tech-stack",
+      "https://www.warmly.ai/p/blog/b2b-martech-stack",
+      "https://www.warmly.ai/p/author/alan-zhao",
+      "https://www.warmly.ai/p/author/chris-miller",
+      "https://www.warmly.ai/p/blog/warmly-is-joining-hubspot",
+      "https://www.cmswire.com/digital-experience/hubspot-acquires-warmly-to-boost-ai-sales-agents/",
+      "https://www.warmly.ai/p/blog/b2b-buyers-chatgpt-geo-guide",
+      "https://www.warmly.ai/p/privacy-policy"
+    ]
+  }
+]

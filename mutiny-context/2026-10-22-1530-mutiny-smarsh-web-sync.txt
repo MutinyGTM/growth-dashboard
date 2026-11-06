@@ -1,0 +1,315 @@
+Mutiny <> Smarsh Web Sync
+October 22, 2026 at 03:30 PM
+https://us-53268.app.gong.io/call?id=3455485586402131448
+
+[00:00:00] Viva Naini
+What's up? Hey… I'm seeing the Elizabeth… Holmes documentary today, So.
+
+[00:00:11] Jonthan Tschida
+Good, Dude. It's so good.
+
+[00:00:13] Brison Edwards
+So,
+
+[00:00:13] Viva Naini
+excited to watch?
+
+[00:00:15] Jonthan Tschida
+It is so good. We went last weekend the day after opening. Yeah, So good.
+
+[00:00:20] Viva Naini
+Yeah. Does it deserve the hype that's getting?
+
+[00:00:22] Jonthan Tschida
+Yeah, it does The first hour. You're like this is just another documentary.
+
+[00:00:27] Viva Naini
+And then you're like, whoa, Isn't it like three hours long?
+
+[00:00:30] Jonthan Tschida
+It is. Yeah.
+
+[00:00:31] Viva Naini
+I'm excited to watch it. It'll be good. Yeah, you'll like it. Hey, Brison, How are you?
+
+[00:00:36] Brison Edwards
+Hey, y'all, how's it going?
+
+[00:00:37] Judson Thumm
+Good. We.
+
+[00:00:38] Viva Naini
+were just talking about. I don't know if you're tapped into movies, but we were talking about the Elizabeth Holmes documentary that came out recently.
+
+[00:00:44] Brison Edwards
+Oh, yeah, yeah.
+
+[00:00:45] Viva Naini
+Yeah. Have you seen it too? Yeah. Okay. No spoilers, So good.
+
+[00:00:49] Jonthan Tschida
+So,
+
+[00:00:49] Viva Naini
+good. I'm seeing it today. So don't say anything. I've heard it's good.
+
+[00:00:53] Brison Edwards
+It's such a unique and weird film. It's like it's a documentary, but I feel like it's its own genre almost Like you'll see what I mean? But it's Yeah, very good. I don't know if you're a fan of Nathan.
+
+[00:01:05] Viva Naini
+I am, I watched so much of Nathan for you when I was growing up. I think he's incredible. So, I'm really excited to see. I feel like I've heard a lot of commentary around how it forces you to reevaluate the relationship between someone who's the subject and the producer of the documentary. So I'm really excited to have to think about that, which is cool.
+
+[00:01:25] Brison Edwards
+Yeah, yeah. It's really, She, in a way like there's kind of a parallel between the two of them because, you know, Nathan, he kind of like plays a character of himself. It's like a hyper reality version of him and Elizabeth Holmes does that except she's like crazy. You know what I mean? She's like, so it's just, they have this kind of weird like dyad relationship. And anyway, yeah, I'm really?
+
+[00:01:49] Viva Naini
+Pumped I booked tickets like relatively last minute. So, it's like me and my friend are going to go in like the very front row of like a random theater in New York. We're going to be staring at it. It's going to be worth it for three hours. So we'll see.
+
+[00:01:59] Brison Edwards
+That happened to me too. I was like documentary Nobody's going to go And I get my tickets and I'm like.
+
+[00:02:07] Viva Naini
+Maybe we'll be using universal experience. Judson. We're talking about the Elizabeth Holmes documentary.
+
+[00:02:11] Judson Thumm
+Yeah. I was like, what movie are we talking about? Yeah.
+
+[00:02:14] Viva Naini
+So I was telling Brison and John that I'm watching it today at like nine P. M. So I'll be at the movie theater from nine to midnight and I'm sure I'm going to be like locked in. I'm really excited That's what you.
+
+[00:02:24] Judson Thumm
+Just saw Brison, right? Yeah.
+
+[00:02:25] Brison Edwards
+Yeah. It's highly recommend Very unique film.
+
+[00:02:29] Judson Thumm
+Your neck is going to be hurting.
+
+[00:02:32] Jonthan Tschida
+I.
+
+[00:02:32] Viva Naini
+was telling all my coworkers. I feel like I spend like obviously like a lot of time looking down. So maybe it'll be good to like force myself to look up.
+
+[00:02:40] Judson Thumm
+We're all looking at our phones. So, yeah, it's therapeutic.
+
+[00:02:45] Viva Naini
+It's Cool. Therapeutic. Thanks for hopping on guys. Why don't we do like quick round Robin intros. I know that Amanda kind of introed us over email, but I think it should be good to like set the basis and we'll walk through what you guys want to discuss today. So, I'm Viva, I'm an AI strategist over on the Mutiny team. I basically lead our CX department. So being able to like understand how you guys want to use the product. Smarsh has been a really great customer of ours for a while. Amanda is a killer. She's really great at what she does. And we worked like pretty closely with her to develop your guys' like ADM strategy and be able to work from that perspective. I've been at Mutiny. I think only like three months now, but it's definitely felt like a lot longer than that. I used to do management consulting where I was like in charge of doing enterprise Glean deployments Now, bringing that skill set over to Mutiny and helping our customers get the most out of the product. And then I'll let John go from there, But I live in New York. I am from Washington DC. That's about it. Yeah, Cool.
+
+[00:03:47] Jonthan Tschida
+Hey, everyone. Nice to meet you guys. I'm John, I'm the technical support lead here at Mutiny. I've been here a little over two years, Spent my whole time in tech and support.
+
+[00:03:58] Jonthan Tschida
+So if you reach out to the support and have an issue, I'm probably the one on the other side of the ticket answering the questions. So any areas you run into, I'll be the one helping sort it out. And anytime Viva needs a tag in support for product questions, I'm going to be the one answering. So, yeah, looking forward to working together and it's good to put faces to the names and stuff.
+
+[00:04:16] Brison Edwards
+Awesome. Thanks.
+
+[00:04:17] Judson Thumm
+I'll go first. So, Judson, I'm the senior director for web strategy here at Smarsh. I'm not sure if Amanda, you know, told you backstory We used, we first brought Mutiny in when they did inbound personalization, and then you didn't do inbound personalization. So, you know, we took a long time to kind of get VW up and running and we're still, I would say in infancy there in terms of where we want to, What we want to do. But the goal was always to even with what Amanda is doing to make sure that if somebody came to the dot com site from Mutiny to make sure that we were aligning those experiences and personalizing there. But then I've been pretty much out of the loop of what functionality and new feature sets you have. So I mean, I look at it as almost like a start from scratch Like and I know Amanda's giving me, but I'm curious of hearing like what you think Smarsh is using Mutiny for currently, right? And from your perception, your perspective as opposed to hers, And then what other areas that we could be using it?
+
+[00:05:24] Brison Edwards
+Brison. Oh, yeah. So Brison Edwards from Atlanta, Been at Smarsh for just over six months now. So I just help manage optimizing the site in terms of content, its technical performance, user experience. It's kind of like a holistic site… optimization role, But I'm very interested today in your analytics features. We're kind of having somewhat of a difficulty having a cross domain attribution… looking at your analytics features like we can get to the specifics later. But yeah, that's kind of like my main focus for this call.
+
+[00:06:08] Viva Naini
+Cool. Sounds good. So high level sounds like we were looking to basically determine like how smart she's using it today. Go over what Amanda's created, Try to align that with maybe Judson's some of your like forward looking strategy as to like how you want the website to be operating and make sure that things are aligned from a visual perspective between like these microsites and the general website. And then talk a little bit about like future facing what's the roadmap? Like what can Smarsh also do with the tool? And I know Amanda included a little bit about like the go to market kind of perspective and capabilities that we have there. So does that sound like a good? And then Brison will cover the analytics after that.
+
+[00:06:45] Judson Thumm
+Sure. Yeah, Sounds good. Cool.
+
+[00:06:48] Viva Naini
+So I think the, you know, what we'll start off with is kind of my understanding of how Amanda is using it today, what we've seen. And then we can go into some of the roadmap stuff there. So Amanda has created some like I think really impressive like microsites and like landing pages that are being kind of tied into your guys' website. It's generating like thousands of views which is really sick. So she's created them for different verticals like life sciences, for specific phase rollouts, even some more specific like landing pages. And I'm happy to pull those up if you guys haven't taken a look at those already. But my understanding that she's like using those to generate traction, make it specific for specific like industries or verticals you guys are reaching out to and then trying to generate like demand and pipeline from there, Are you kind of aligned with that as well? Judson Or, you know what's your take on it?
+
+[00:07:39] Judson Thumm
+Yeah. So that's exactly it. And I don't want to interrupt too much but I think where there's like sometimes there's a there's potential bleed and like Amanda's doing that. And so somebody would be like, well, why don't we just spin up a, you know, I'm going to air quote a campaign landing page or people just say a landing page, right? Which we have a process for. And if this could be a better process that's fine. But I want to make sure to what Bryson is saying, right? That we are looking across platform and having proper attribution. So it's like one example of making sure that we are building this platform into our process in an optimized fashion.
+
+[00:08:18] Viva Naini
+What does the current process look like today?
+
+[00:08:21] Judson Thumm
+For like a campaign landing page. So, I mean, in general, everything is on Wordpress, right? It still is. And for a short time we were using NAC to use to do, which is like a page builder for Marketo to do landing pages. And in my opinion full transparency, that was not a good decision And that was made by somebody that is no longer here. And, it was a, What it was thought was a solve to stop it to solve, a bottleneck of the production content team. But that's not really the case. We weren't doing these six a week, They were. I think in a year and a half, there were like eight of them, right? So then somebody was like, well, why don't we just use Mutiny for it And talking for another team where I get, you know, there's our design team, our studio team is in a different organization but their concern is, well, while it's easy, it doesn't properly match, right? The, the UX look and feel of the site where I agree and those types of things. So again, just it's really just stitching everything together properly. I'm not saying we shouldn't be using it. I want to use it and then make sure we're using it correctly, right?
+
+[00:09:34] Viva Naini
+Yeah. So it sounds like there's maybe a discrepancy in some of those visual components from like what the design team thinks it should look like, and then what it actually looks like.
+
+[00:09:41] Judson Thumm
+And I should, so like when we do a campaign landing page, and when one of the criteria of using Knack versus Wordpress is a Wordpress page, should be an evergreen page that is updated. A campaign landing page should be finite. It should be no index and no follow. And we should only be pushing people there, right? And at the end of whatever X period, We no longer push anybody there, right? So that's the key criteria of a campaign page regardless of the platform that it's built on.
+
+[00:10:10] Viva Naini
+Gotcha. Makes sense. Cool. Okay. Trying to like wrap my head around kind of what else we should address. Then It sounds like at least for the campaign landing pages that they need to be like you said, finite, make sure that they're at least on brand and then that they're easy to push In the process and tied together. I guess I'm curious what are kind of the gaps that you're seeing or that you want to get resolved?
+
+[00:10:38] Judson Thumm
+So, I'm not saying that there are actually gaps. I'm saying that there is the potential for gaps if we do that, right? So I have not Done the green light. The only person who really should be using Mutiny right now is Amanda, Right? And then again, this is and this isn't your problem. This is a, hey, somebody says, why can't I just go do that Because it might be faster than doing what the approved and proper process is. And if, again, if this is a better way, let's change the approved and proper process. So I just wanted to kind of, you know, Check in and see like if there are other things And I don't know any of the net new feature sets. So I mean, again, I think we could go, we don't have to do it now but maybe like not a soup to nuts demo of the platform but I guess like an overview refresher or something like that. Yeah, I.
+
+[00:11:23] Viva Naini
+Mean, I'm happy to give you like a quick walkthrough of kind of the updated feature set and see how this could plug into the general flow. So I'm going to pull up. I'm already in Amanda's account here here. So, I guess, yeah, Judson Brison, what's your familiarity level with Mutiny? Have you guys like poked around in here at all? Like usage stuff like that?
+
+[00:11:43] Brison Edwards
+I haven't built a Mutiny page myself but I've kind of worked on creating… like a clone basically specifically for an accessibility audit and kind of helping set up like consent and plugging stuff up in the back end As far as like analytics. I haven't.
+
+[00:12:08] Judson Thumm
+looked at it since we brought it on board to do personalization.
+
+[00:12:11] Viva Naini
+Okay. So I'm sure it looks way different from when it was back then, Right? We have changed quite a few things but I will say that like the core functionalities, Yeah, We've shifted a little bit from like inbound personalization to being more of like an agentic centered platform. So I'm sure you guys are plenty familiar with like Claude and ChachiBT, and how those work. So definitely have like our agent at the center of everything where you can just communicate with it through the chat box here to help you build pages using natural language. And this honestly, like enables a lot more personalization and customization Customization and the previous inbound personalization platform you can create. I'll just pull up one of like Amanda's here. For example… You have a lot more flexibility in what you can build. And all of this is like native HTML and CSS, and basically be able to chat with the agent to create a page like this relatively quickly and spin it up within a few minutes using the agreed upon brand and established branding that we have with Smarsh. So we've worked with Amanda and the team to kind of like make sure that at least things from visual perspective are relatively aligned. So all this can be spun up like in a few minutes, just using the chat window Can even embed like forms here that pulls in like Marketo or other integrations that the team might have. Looks like there's a couple of repeating things here that we'd have to QA with Amanda. But for example, this is like one landing page. And then you can see that Amanda here is like just chatting with it and being able to talk through kind of the editing process off to the side. So honestly, this is like the core functionality for a lot of our ABM teams is being able to like Create specified landing pages or microsites, and have that be like you're mentioning Judson kind of like a campaign push. So if you're sending out an email or blast or something loop them to here and then it can go out to like the general website after or using this for like lead gen or pipeline gen.
+
+[00:14:06] Judson Thumm
+So that's.
+
+[00:14:08] Viva Naini
+kind of like the high level overview, You can create any kind of assets you can really think about. So most of our ABM teams are creating landing pages or microsites, but you can also create… Like custom HTML demos and you can create proposals and PowerPoints, and basically like anything that can live on a web page can be built with Mutiny. So there's a lot of like flexibility with the platform that we didn't previously have with inbound personalization. Definitely. Yeah, that's kind of the high level Brison, I'm happy to walk through some of the analytics now if you want to take a look at that. So the analytics are accessible through just hitting like this little analytics button or on the asset prior. You can see like the little button there We have tracking for like who's engaging if they're identified, Who engaged with the platform. And then I think you guys have like a Sixth Sense, Yeah, Sixth Sense integrations. We're able to see at least, you know, using the UTM trackers like who is interacting from the account level, Who's like clicking on it? And we even have like session replays. So you can go see who's like how they're actually interacting with the page. So you can see how people are like scrolling down what they're clicking on over time. So I'll just Give you an example here. So this person like scrolled down to like the form at the bottom Looks like they were just like idling around here, Probably plug some numbers in, But we do replays of like how people are actually engaging with things?
+
+[00:15:41] Judson Thumm
+And is that a native Mutiny form or is that connecting to our Marketo forms? Do you know?
+
+[00:15:48] Viva Naini
+It's a good question. I can go check here. And then, John, do you know how I can check directly here? If it's Marketo or Mutiny native?
+
+[00:15:55] Jonthan Tschida
+Yeah. If you click the form, yeah, it looks like it's an embedded form. So I'm assuming it's embedded from Marketo? Yeah.
+
+[00:16:02] Viva Naini
+Marketo. Yeah. Exactly. There you go. So yeah, you can embed Marketo relatively easily And this can all be done through the agent on the left hand side. So you don't even have to embed everything. You just tell it, use this Marketo link and throw it in And the agent does it pretty well for you. So then, yeah, Brison, I'm curious to hear more about the attribution you're talking about whether or not this kind of satisfies your high level vision or if there's something more specific you're thinking about with how you'd be able to conduct attribution?
+
+[00:16:32] Brison Edwards
+So basically, is there an ability to create a custom tag, let's say for each user not at the account level, That way we can say someone comes from a paid ad, they land on a Mutiny page, You know, they click a button, they go to Smarsh and then take some conversion action later. We're just having trouble. It seems like once they leave Mutiny and actually come over to our site, the attribution breaks Part of that reason. And I found this. I don't know if this is because of the AI or some other setting is like the default at least for the pages that we have seems to be that there's a no referrer attribute to it for some reason. So that's a part of it. But As far as tracking a specific user throughout their conversion journey, that's something I'm kind of having trouble with. So my idea is to basically have some kind of a custom. When a person lands, it generates a custom attribute for that user that can then be passed along to RGA for, and Salesforce, all that stuff. So when I was looking around, I didn't see an ability to do that, But I'm wondering if that's just something I missed.
+
+[00:17:43] Viva Naini
+Yeah. John, do you have any insight there?
+
+[00:17:45] Jonthan Tschida
+Yeah. So an ideal state, some user A, visits a Mutiny site, They get some sort of user ID tied to them that can be tracked across domains. Is that kind of the idea?
+
+[00:17:56] Brison Edwards
+Yeah, essentially. Yeah.
+
+[00:17:57] Jonthan Tschida
+Yeah. We don't have anything for that natively right now. I think the easiest fix would just be like having Amanda ask the agent to update any CTA that goes to the main site and add a referrer, Because that's something that can be very easily added to Mutiny assets. And then at least there'd be some sort of referrer that's showing X amount of users from this Mutiny asset page landed on this page in Smarsh. I'd probably have to get with our product team to see the extent of what the agent can set. If it's allowed to set cookies in a browser, then there might be a way to have Because as Viva said, the agent has full customization to add custom JavaScript and stuff. And so I know you can set cookies via JS. And so you might be able to generate unique IDs. The issue is that there's also a lot of back end stuff that goes into IDs making sure you're not deduplication all that kind of stuff. So we'll have to do a little more on that. But as a V0, we could at least just update the CTAs across all the assets to make sure that there's some sort of referrer. So you get an idea of who's going from Mutiny to Smarsh. Yeah.
+
+[00:19:01] Judson Thumm
+Right. That's one of the main issues, right? That's going to spin up a bunch of pages. And every time you cross the bridge, we lose who it is That's obviously a big blocker for us to make sure that we are.
+
+[00:19:15] Viva Naini
+continuing.
+
+[00:19:16] Judson Thumm
+to track all that engagement And we qualify people for leads not just with form fills, but by enough engagement with a certain amount of pages, you qualify enough points, right? So if we lose all of that, it's suboptimal.
+
+[00:19:28] Viva Naini
+Yeah. I see. So you're not able to do the proper internal scoring to see whether or not an elite is fully qualified. If you're losing them across that bridge, right? Right? Gotcha. OK, That's certainly something we can bring back with the product team. I'll make sure to note that down and then bring that up with them. Put that on our radar. I think we've heard that from a couple of different clients especially as attribution becomes such a big part of the game here. So we'll definitely look into that for you guys, you.
+
+[00:19:56] Jonthan Tschida
+Guys, I just want to quickly.
+
+[00:19:57] Brison Edwards
+Another question I had is do you guys have an analytics API or do we have to rely on manually exporting data?
+
+[00:20:05] Viva Naini
+Yeah, good question. As far as I'm aware, you can Do it directly through the agent. So then ask it for like a summary of all of it Or you can export, but I don't you can export it, but I don't think we have something that loops straight into like another analytics platform You would have to export and you could probably set up an automation of like Power Automate or some other kind of tool that would do that for you. But nothing native as far as I know.
+
+[00:20:28] Jonthan Tschida
+I did see that Google Analytics was added. So those visits should also be going to your GA platform. The asset visits We used to expose things like the web experience ID to the data layer like that's not a thing anymore because web experiences aren't a thing, But we do, you can obviously still filter for like URL in Google Analytics, right? So each asset has a unique URL, You can use that to filter in GA, to see the visits and things like that. And then one thing I do want to note is that we do have an MCP. So if your analytics tools or other AI tools you use allows custom MCPs, you can add the Mutiny one and that will have full access to your analytics as well for the account. So this might be one way in, from accessing analytics outside of Mutiny, if that makes sense.
+
+[00:21:11] Brison Edwards
+Yeah, that's awesome. Actually, That'd be great.
+
+[00:21:13] Viva Naini
+What are you guys using downstream for analytics?
+
+[00:21:16] Brison Edwards
+Well, mostly Google Analytics. Oh, cool. And then everything ideally ends up in Salesforce, but we just seem to be having trouble tracking across the entire user journey. So, yeah.
+
+[00:21:30] Viva Naini
+Yeah. And I'm happy to send you some documentation around the MCP after, so you can see how that works. And then we should have a help doc around Google Analytics and stuff too, right? John. Yeah, I'll make sure to send you some help docs after.
+
+[00:21:43] Brison Edwards
+Is the MCP an added cost or is that something we get with our subscription tier? You already get it? Yeah. Oh, nice. That's awesome. That's great. Cool. Another thing that I, if I can go back a little bit to the whole US… The agent, I'm assuming that we're not doing any custom coding so far, Maybe Amanda is or not. But the agent doesn't seem to be adding accessibility features that are required by WCAG in order for us to maintain conformance… which is a huge liability for us. So, I'm wondering, Are you able to control the context for an agent? Can we have either a system prompt or some kind of knowledge corpus that I can reference? Where we can say you have to build things in this way and make sure you have the ARIA attributes and semantic heading tags, all of that stuff. I don't know how you guys approach that.
+
+[00:22:39] Viva Naini
+I can go ahead and field the first half of that. And then John, I'm going to call on you for the rest of it. But the way to do that for across your assets would be to create a skill for it. So if you like specifications for the type of accessibility features or the ways you need to be able to build pages or any kind of underlying code that would be required for accessibility requirements, You've got to just create a skill and then drop in any of the actual requirements here and then say that it has to be universally applicable to any of the assets you create. So then if Amanda is creating a page, it would force the accessibility stuff on all those assets. You can even audit it using the agent and making sure that it completes all of the requirements there. That's my recommended solution. I think, John, if you want to give anything else you'd want to add there.
+
+[00:23:24] Jonthan Tschida
+Yeah, I think also utilizing templates would be helpful too. I know you mentioned having repeatable actions for people to come in and create assets at some point down the road, if that's ever a thing. But templates is a really good way to do that. So you can have like a landing page template, an event page template. And then when more people other than just Amanda, if they're creating assets, and then they can follow these templates that will then also follow the skills to make sure that all of the… Accessibility stuff and all that is already on the page as well automatically without them even having to think about it. So templates and skills, I think those two combined would kind of be the ticket for accomplishing that across all your creation in Mutiny.
+
+[00:24:03] Brison Edwards
+That makes sense. Yeah, Awesome. Yeah.
+
+[00:24:05] Viva Naini
+So if there are any other like high level universal guidelines you'd want to set you do that through skills And then the agent would be forced to do that across the assets, it generates… Cool. And then I want to save a little bit of time to talk about those go to market features that we were talking about and the future state roadmap. I guess Judson, if you could provide a little bit more color as to the specific questions you had around there, I'm happy to talk about it generally speaking too, but just want to make sure that it's pretty specific to what you're looking for.
+
+[00:24:39] Judson Thumm
+So, I mean, it was a pretty blanket statement and I think it might have been just a little bit dated based on not seeing. So I just logged back. So I was trying to log back in to Mutiny which I haven't done. I was like, I don't even know if this password is still accurate to.
+
+[00:24:51] Viva Naini
+Kind.
+
+[00:24:53] Judson Thumm
+of look around. So, I mean, I think if we're talking about the way the pages are built to… me, it's more about making sure that we aren't Abandoning the person as they cross the bridge and making sure that we can use that. So all of that has to be somewhat seamless obviously from the front end experience, but obviously on the back end as well for us. So I think it's just a little bit more kind of homework as to what Amanda is doing. And then if there is a natural progression for non ABX content?
+
+[00:25:29] Viva Naini
+Yeah, sounds good. I think, yeah, we'll take that back as homework like you mentioned of seeing how we could cross the bridge there… I'll make sure to get an answer from our product team relatively soon on what that could look like.
+
+[00:25:42] Judson Thumm
+While I'm in there, where was the view that you were in to see all of the different pages that we have?
+
+[00:25:48] Viva Naini
+Yeah. So I'll go ahead and share my screen and walk you through. If you are an admin on the platform, which I can go check really quick to see if you all are.
+
+[00:26:01] Judson Thumm
+I don't want to be anywhere where I can create damage. I want to do no harm.
+
+[00:26:06] Viva Naini
+Okay. Well, you're a user, so there should be no harm for you to do. But if you just go to assets, this is where you can see your own assets There.
+
+[00:26:14] Judson Thumm
+It is right?
+
+[00:26:15] Viva Naini
+Your assets would be across the team That's all I need. Yeah, cool. Though. I don't know if you'll have complete visibility because you have the user role, The admin role can see across the whole org. So that's just like a specification there, but it depends on what you want to be seeing.
+
+[00:26:33] Judson Thumm
+Yeah. I'm fine with that right now. Cool. And then from the style guide perspective, that was just Amanda kind of inputting that stuff.
+
+[00:26:47] Viva Naini
+Yeah. The style guide is it would have been set up by whoever onboarded Amanda when the contract was signed. So I'm actually like, I'm not sure exactly who set it up with her, but it would have been one of our old CX people. But yeah, updatable This can be changed by people in the organization. And I'm happy to sit down with anyone on the Smarsh team to be able to make sure that's really aligned with like the UI UX that you guys are looking to achieve. Cool.
+
+[00:27:16] Jonthan Tschida
+I'm assuming your team probably has a guidelines doc of some sort or a handful of them, You can just give that to the agent and ask it to update your brand as well. So then it will just pull in all the colors and all the rules and stuff. And then as Viva showed, there's a visual guidelines where you can even write out specific things if it's doing things you don't want or you want it to style CTAs a specific way and things like that. It's pretty verbose and you can get pretty in the weeds with it.
+
+[00:27:41] Judson Thumm
+Perfect. I mean, Bryson's in the process of actually creating a Actual design system guide. I'm sorry to use actual twice but that's what's happening. So I think that, yeah, would be something we could roll into here. Cool.
+
+[00:27:54] Viva Naini
+And, yeah, Brison, let me know. I guess you have my email but we could probably do you guys use Slack?
+
+[00:27:58] Judson Thumm
+Yes, No, We use Teams. I mean, Smarsh does have Slack accounts but they are usually for You have to get approval because Teams is where Microsoft shop, yeah.
+
+[00:28:09] Viva Naini
+Unlucky. I say that all the time but man, I hate Teams and all that kind of stuff. But you guys have my email.
+
+[00:28:16] Viva Naini
+So then if you ever want to hop back onto a call, I can work through the brand guidelines with you and get those updated once the style guide is ready to go.
+
+[00:28:23] Brison Edwards
+Okay, cool. Cool.
+
+[00:28:26] Viva Naini
+Any other questions?
+
+[00:28:29] Judson Thumm
+Not for me right now. I just kind of want to poke around a bit now that I've Got a little bit of a view, Brison, anything else on your end?
+
+[00:28:35] Brison Edwards
+Yeah, nothing on the top of my head. Yeah, I think you kind of answered the biggest questions I had, so.
+
+[00:28:39] Viva Naini
+Nice. And we'll make sure to send you over those help docs we talked about with the MCP… And I'm trying to think of the other one And then the Google Analytics. We'll send it over to you to both of you guys on the email. And then I'll send you over my calendar booking link too, so that if you guys have any questions, just book a slot on Me and John can hop back on and help you guys out. So, yeah, All right, Cool. Thanks.
+
+[00:29:02] Judson Thumm
+Very much. Nice meeting you guys.
+
+[00:29:03] Viva Naini
+Thanks, guys. Bye bye.

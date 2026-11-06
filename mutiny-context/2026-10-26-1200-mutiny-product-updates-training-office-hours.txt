@@ -1,0 +1,207 @@
+Mutiny Product Updates+Training / Office Hours
+October 26, 2026 at 12:00 PM
+https://us-53268.app.gong.io/call?id=7163784873712778692
+
+[00:00:00] Viva Naini
+Hey, John. How are you?
+
+[00:00:04] John Quinn
+Good. Almost afternoon. And well, how are you doing? Happy Monday?
+
+[00:00:07] Viva Naini
+Good. Happy Monday. I guess technically, if it's noon, is it afternoon Or is it just like as soon as it hits 12 one?
+
+[00:00:15] John Quinn
+Good point. It could be 12 one. That would probably be it. Yeah.
+
+[00:00:33] John Quinn
+Hey, Rich. How are you?
+
+[00:00:37] Richard Hussey
+Hey, guys.
+
+[00:00:45] Richard Hussey
+Might have to jump off in like 10 minutes.
+
+[00:00:48] Tyler LaMantia
+Okay.
+
+[00:00:55] Tyler LaMantia
+Hey, Tyler. Hey, Viva. Hey, John and Rich. How are you, Tyler? Good. How are you doing?
+
+[00:01:05] John Quinn
+Cannot complain Ready for the work week.
+
+[00:01:08] Tyler LaMantia
+Yep. Weekend is always a quick one.
+
+[00:01:21] Viva Naini
+You can probably get started here. I don't know how many other people are going to hop on today, but didn't really have anything super lined up on the books. Wanted to have this be like an open session for John and Rich for you guys to basically come and ask any questions that you guys have around Mutiny, how to use it? If there are use cases you want to build, Jeff and Jim just hopped on. So that's great. So, yeah, just open season here. Let us know if there's anything you want to experiment on or work on. Last time, we talked about maybe some QBRs that could be built out using Mutiny and then having that kind of auto populate, but happy to work on anything.
+
+[00:02:06] John Quinn
+Yeah, I'm not prepared with a ton of use cases at the moment, but I got a good feeling some others are going to pile in. So hopefully some folks will have some ideas Cool.
+
+[00:02:18] Jeff Clark
+One I can talk about if anyone is interested is for a while, I've used a note taking application for meetings, but a lot of people on this call may not realize that the Mutiny actually has its own note taking application that will upload things right into the Mutiny page, so it can build a page right after your meetings. So you can have it record what's going on with the meeting, and it will actually then build a page after the meeting with your notes.
+
+[00:02:49] John Quinn
+Yeah. So Jeff, is that a plug in that you're running on the back end while we're in like a Teams bridge. How does that work?
+
+[00:02:58] Jeff Clark
+Yep. Similar to what I've shown you with Granola Mutiny… does the same thing. So it has a little app that you download right at the web page, which I'm trying to get into my Mutiny thing so I can show you. All right?
+
+[00:03:19] Jeff Clark
+And… we,
+
+[00:03:26] Jeff Clark
+Share Desktop to share. All right. Where did I download this? There is a small applet.
+
+[00:03:36] Viva Naini
+Yeah, it's well, this is interesting. It's typically found if you click on your profile on the bottom left and go to setting.
+
+[00:03:44] Jeff Clark
+I mean, I've downloaded it already. I'm just trying to remember where it actually is… There. It is Mutiny desktop app, Is that it?
+
+[00:03:53] Viva Naini
+Yeah, that's correct. Jeff. I think you might have gotten early access to it. We rolled it out to a couple of different accounts and people throughout Gotcha. Like throughout our user base. I'm unsure if we have that for the rest of the Fortinet team. I don't think we have that live But it is something that we're like rolling out as a larger product initiative, But it's mostly live to our like free and business customers. It's coming to Enterprise in the next like few weeks.
+
+[00:04:22] Jeff Clark
+Gotcha. Interesting. Wonder how I ended up getting access to that?
+
+[00:04:25] Tyler LaMantia
+Yeah, yeah, It seems like you beat us to it, Jeff, which is great to see. But I think like now that you've found that, I think for like a next session probably not today, but we could do a bigger overview of what's to come including the recording as well. There is some functionality surrounding like email as well. But correct me if I'm wrong, Jeff, the team is like all Microsoft, right? Like it's Outlook.
+
+[00:04:54] Jeff Clark
+Yeah, we are all an Outlook team Gotcha. Which for better or for worse, that's where we are at least right now.
+
+[00:05:02] Tyler LaMantia
+Gotcha.
+
+[00:05:03] Jeff Clark
+Yeah. So the email integrations, I don't believe I've seen for Outlook. Yeah, Exactly.
+
+[00:05:09] Tyler LaMantia
+Exactly. We did the Google workspace first and it kind of will help kind of go along with the recording. I mean, you can still get value of the recording as well too. Yeah. But yeah, the Google, So we'll keep you all in mind when Outlook comes in. But like the idea is here, like Jeff said, like, you know, we can take some notes on your calls and then from there provide you a suggestion of what you need to follow up on and like action that email or action, the asset you need to create whether it's you know, a business case proposal, QBR, whatever that might be, whatever is brought up in that transcript. So I think we can probably put together a fully fuller enablement session on the recorder and how the team could use it without the Gmail things and keep you updated when… Outlook is. But yeah, it seems you beat us to it like I mentioned, So it's great to see But we would have definitely done a fuller overview for you all too. Okay?
+
+[00:06:09] Jeff Clark
+And I am finding like I'm trying to, yeah, it lets me connect to my Google calendar but it does not, there is no integration with our Outlook calendar yet.
+
+[00:06:17] Tyler LaMantia
+Yeah, exactly. Yeah. We have that as an item to look into right now, But we tackled Google first which unfortunately alienates a few of the Microsoft folks, But I know we'll get there eventually.
+
+[00:06:33] Jeff Clark
+Okay. It does look like this actually is no longer working for me. At one point. It was actually copying taking. I thought I was sending my notes here, but when I go in, it actually doesn't show the notes. So it may not be fully integrated for me. It may have just been something I downloaded and it actually does pop up during meetings, but I.
+
+[00:06:47] Tyler LaMantia
+actually,
+
+[00:06:47] Jeff Clark
+don't see the notes themselves.
+
+[00:06:50] Tyler LaMantia
+Okay. Let's look into this Viva and we'll get back to you, Jeff on Best Path Forward It is coming. And it'll be a great use case, I think for everyone, but we're essentially like just starting to roll it out and I guess it was in a spot in your account which we had thought it might be limited to a few other customers. So we'll take that away, Jeff and get you some more info.
+
+[00:07:13] Jeff Clark
+Sounds good.
+
+[00:07:17] Viva Naini
+Jeff, any use cases you've been thinking about recently with Mutiny that you'd maybe want to trial or go through or build out?
+
+[00:07:24] Jeff Clark
+Yeah. I think that the problem there's still some stuff that is just kind of missing for what mine and John's use case is, or that we've got to figure out. I've got to figure out how I build a page and then share that with a customer in a way that isn't just me copying a link to a page. You know what I mean? That I think has been my biggest struggle is I can go build a really attractive looking page, but then I'm still writing them an email and sending them a link to a really attractive looking page. I mean, it's not, I don't see it building out like an email template for me, which would be helpful unless I'm just missing that functionality. I don't know how to use it. You know what I mean?
+
+[00:07:57] Viva Naini
+Yeah, that makes sense. We can actually like through the agent. You can have it, write and draft emails… Because, you know, you guys are Outlook and don't have the Gmail integration. We can't push it directly to the inbox, but you can work with Mutiny to at least draft up emails and do that sort of thing. We're not like a, you know, mass outreach type of platform. So maybe that functionality is missing but you can certainly, you know, work with it to at least create like an email template. Okay?
+
+[00:08:26] Jeff Clark
+Other than that, I mean, I think it's just one of those where, you know, we're yeah, I don't think we've fully rolled this out to anybody yet. It's just when we've kind of played around with some different ideas. But so I don't have anything right off the top of my head.
+
+[00:08:41] Viva Naini
+That's right. And Rich and Jim, you know, Rich, we did a session a few weeks ago or a month ago. Now, Any other like I guess top of mind, use cases that come to you that would help work through some deals? What are some things you want to put in front of clients? Anything there?
+
+[00:09:02] Richard Hussey
+I like… We want to do like the landing pages because a few of our clients, we work on a lot of our products with. So we're building that out. I do like the QBR idea. We have one company that we're setting up a QBR for. We'd probably use it for that, but nothing outside of those ideas right now, I don't know Jim, you could speak to it too.
+
+[00:09:29] Jim Fuoco
+Yeah, I think right now we, I just haven't gone super hard into it. It's just at Fortinet itself like we already just because of how we're built out like with certain deals like, you know, Jeff's NSC, like myself, like if we have a big deal like we're already going into like two or three different systems to keep deals updated as it is. So sometimes it's like any other layer is just where you just have to go in and do updates. It's one more thing to check off, right? Like and this is more a Fortinet issue than anything. So I just haven't done much with it yet. So I don't have a whole lot of feedback to be honest.
+
+[00:10:02] Viva Naini
+Gotcha. What would be the best way to help you out? Do you want me to send you like a recording of a platform walkthrough or some help docs? I guess what would help you in your own time, kind of get up to speed?
+
+[00:10:15] Jim Fuoco
+First and foremost, you could manipulate time That's probably the best way. But beyond that, yeah, just some reference stuff. And when we have some downtime, I would like to learn it just basically because of how we operate internally. Like we have this a system. It's just a lot of updating admin stuff as well just to get the bare minimum done. So, adding a layer is just like, all right. One more thing to add to the checklist. And that's why I've just been putting it off itself. But yeah, that's more me issue than anything.
+
+[00:10:42] Viva Naini
+That makes sense. What I can do is I can, you know, we can either walk through it now and we can maybe build out some pages or I could send a loom over with some like high level use case examples. Just let me know what makes the most sense there.
+
+[00:10:56] Jim Fuoco
+Yeah, send it along please. I do want to take a look. I think there's value. I just like I said, I've been dragging my feet.
+
+[00:11:02] Richard Hussey
+Yeah. We also like this is like another thing like Jim and I usually go into the office once a week and we haven't had an office in the past few weeks or months. So this would be something we would do where we'd actually sit down and do it together in person and we just haven't had that ability yet. To be honest, it's like a nice to have It's not a need to have yet. And I think a lot of the nice to haves and like what we're thinking about and doing is usually when we have our office days And because of the New York City Fire Department, I guess we're just not having an office until the end of the year.
+
+[00:11:38] Viva Naini
+Gotcha. What happened to the office?
+
+[00:11:41] Richard Hussey
+Who the fuck knows? I guess we didn't grease an inspector or something, Do, you know? Tim?
+
+[00:11:48] Jeff Clark
+Well, to be clear, we're moved, we moved from one office to we're moving to a, in a new office in New York And they're just waiting for the us to get permission to what be in the building. Yeah.
+
+[00:12:01] Richard Hussey
+There's like a sinkhole or something. I have no idea. Every time you hear it. It's something different. It's apparently supposed to be nice though and huge, Quinn. I don't know if you or Jeff saw it yet, but Jim's been there.
+
+[00:12:14] John Quinn
+One of my customers was near it and just sent me a picture from the outside That's as much as I've seen.
+
+[00:12:19] Jeff Clark
+Yeah, it looked like an old brownstown, so it was a little bit confusing as to how it was. I had also heard that it was really big. I was like really, It looks just like a house.
+
+[00:12:27] Richard Hussey
+Same Jeff, Same.
+
+[00:12:29] John Quinn
+I saw it at first and I was like, is that a Boost Mobile next door? Like where are we? Where's the Dollar General at Amen, you know?
+
+[00:12:38] Tyler LaMantia
+Maybe when you guys are moved in, we'll have to come visit one day, Maybe do a live session together, just work through some stuff. I feel like that could be a good opportunity just to find some real use cases. I think for the time being, it's like anything you're asked to do really custom for a client like in terms of getting the materials over, I think of Mutiny in that situation versus proactive making work for you. The other thing I've seen people really like dive into more recently is just like decks as well. Like if you do need to create a very custom deck, something that you don't have slides for already, you can always give Muni a shot too, in addition to kind of the page designs. Lots of people are using them, but kind of presentation style too.
+
+[00:13:19] John Quinn
+So that's an interesting perspective. Tyler. I kind of like that, right? Because, you know, for Rich and I, when we need to put together a deck, right? Obviously, there's decks ready available for us, but There are 300 slides and it's out of this world, you know? So that would be interesting to tell Mutiny to consolidate this to a presentable topic in 30 minutes, you know?
+
+[00:13:42] Tyler LaMantia
+Yeah, for sure. Like, you know, like there's obviously like the standard decks, I think like everyone's like this is good for this use case and repeatable things. But like as soon as you have to get custom, then it requires Picking and choosing and customizing and adding slides Especially if you're just like I just need a four slide deck on very compact points before a demo before a call, You can always try Unity and just tell it to make a slide format Or I've heard people if you go on site And you want to do like a one pager and like print it out Like you can do like a PDF style with them. You need like maybe a bit of agenda what you're going to talk about, things like that. So those are some other things like beyond just kind of like the digital pages and links that you can think about us for. But again, like we'll do a larger enablement session. When we're We're having all these things launch including the recorder Jeff found And we can go over more deeper use cases. But I think in the time being, it's like you're asked for something super custom or you think they need to build something super custom, Think of us Set up time with me and Viva, We could do it as you need it versus just, hey, what do you guys have? So, yeah, that'd be my suggestions until then And we can always Do a deeper session with you all once. Kind of some of this new stuff is launching and maybe come to the office if the sinkhole slides over or whatever else is going on.
+
+[00:15:02] Richard Hussey
+Yeah… I like that idea. Just feed it our materials and then just pump it out Because Quinn, I agree with you When it comes to pulling slide deck, I just make my own, you know?
+
+[00:15:15] John Quinn
+Yeah. And so do we, right? But then it's We're a pretty large company. It feels ridiculous, you know?
+
+[00:15:21] Richard Hussey
+Yeah, I agree with you. Yeah.
+
+[00:15:24] Tyler LaMantia
+So, yeah, if you're about to do one of those and you're going to spend time with each other anyway, feel free to just ping us and see if we're available. We're happy to help. We could save it as a template. So it's reusable for the future Kind of customize it easy. So, yeah Jim.
+
+[00:15:39] Richard Hussey
+Maybe we'll do that because we've been here for going to be four years in January and people will be like, what do you use? What deck do you use to go over like Fortinet and Intro Claws? We don't use any decks. Yeah. And we've been like we've had that on our to do list for four years of just making like a concise deck for Fortinet. So that might be something when we head into the new year to actually develop.
+
+[00:16:06] Tyler LaMantia
+Yeah. Could use to spend some time on there And we can even build logic behind it. So it's like, you know, you have your base template and then me and you ask you a few quick questions like, hey, like What clients is for, What products are they interested in?
+
+[00:16:19] Tyler LaMantia
+What's their pain points? Just as an example, you can define the questions You answer the questions. And then it customizes the deck for you too. So I think that could be a really helpful use case when we sit down. And obviously, we need your expertise on what makes sense to put in the deck itself. But we'd be happy to give you our kind of mutiny expertise and combine them and create something for you all to kind of reuse.
+
+[00:16:44] Tyler LaMantia
+Cool. Well, honestly, I mean, Viva, if you don't have anything, I feel like we probably give the team back some time. We can follow up with some stuff as some new releases come out. And then maybe the next one we focus, we'll come prepared to talk about the new release which yeah, it's kind of still in progress But good to see Jeff. You had found it And I think there's a lot of use there. And then we could talk a little bit more about decks too. But like again meantime when you have a specific request and you're going to do it anyway, just feel free to ping one of us and we can always hop on live.
+
+[00:17:15] Richard Hussey
+Awesome. Cool.
+
+[00:17:15] Tyler LaMantia
+Thanks guys. Awesome. Cheers, guys.
+
+[00:17:18] John Quinn
+Have a good week. Have a good week. Bye.

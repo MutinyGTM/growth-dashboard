@@ -1,0 +1,204 @@
+D2L x Mutiny Intro
+October 30, 2026 at 03:02 PM
+https://us-53268.app.gong.io/call?id=4459594885882607201
+
+[00:00:00] Erik Frye
+you.
+
+[00:00:13] Tyler LaMantia
+Hey, Eric. Hey Alberta.
+
+[00:00:17] Alberto Alonso
+Hi, Tyler. How are you? I'm good. How are you guys doing? Nice to meet you.
+
+[00:00:22] Tyler LaMantia
+Nice to meet you.
+
+[00:00:23] Erik Frye
+Very nice.
+
+[00:00:26] Tyler LaMantia
+I saw you guys are both in Ontario like near Kitchener. Yeah, Very nice. I'm in North York. I'm from like the Aurora area, but yeah. So nearby, Are you guys both from that area?
+
+[00:00:39] Erik Frye
+I grew up here yeah.
+
+[00:00:41] Alberto Alonso
+Nice.
+
+[00:00:42] Erik Frye
+Not.
+
+[00:00:42] Alberto Alonso
+me, I'm actually long story. I'm from Peru, lived some years in Brazil, and then I moved to Canada like five years ago, more or less.
+
+[00:00:51] Tyler LaMantia
+Nice. And.
+
+[00:00:52] Alberto Alonso
+I've been living here since I moved to Canada.
+
+[00:00:55] Erik Frye
+Awesome.
+
+[00:00:56] Tyler LaMantia
+Well, good to meet you both. I'm looking forward to chatting today Honestly for today. Just want to understand what you're looking for, Eric. I understand you have kind of history with Mutiny, So we'd love to hear a little bit more about that and kind of what prompted you to reach back out. But yeah, as a way of introduction, I'm Tyler handle sales at Mutiny, Been here about a year and a half.
+
+[00:01:19] Tyler LaMantia
+So saw kind of the Full transitions as I know Eric, you've kind of seen some of that at least and saw it sounds like a little bit of a demo prior, but we'd love to maybe first start with intros to you both and we can dive a little deeper in what you're looking for.
+
+[00:01:36] Erik Frye
+Sure. How about if you want to start?
+
+[00:01:38] Alberto Alonso
+Of course. Yeah. So I'm Alberto, I work in revenue marketing for America. I'd say that our main role here in revenue marketing is kind of like connecting the marketing strategy to revenue outcomes pipeline in the region demand. So that's why we are interested to know a little bit more about APM Place especially from the website perspective. Yeah.
+
+[00:02:03] Erik Frye
+And Eric Fry, Director of Digital Marketing, Look after our corporate website DTOL. Com We used. So, yeah. So we used Mutiny for two years to, We had switched away from using BWO to do AB testing and personalization, moved to Mutiny because it had better integrations with a number of our tech stack. And just at that time like fit our needs better. And so when we were coming up for renewal, the team at Mutiny had let us know that there was the end of lifing that product and moving more towards the ABM side of things. We did the demo… And like certainly interesting. And I had shared the demo with members of our marketing team at the time Just wasn't the right fit. At that time. We just weren't quite ready to do that exploration. And we knew we needed, Like still to have like an AB testing platform. So then, we utilize the partnership that you guys had formed with BWO to go back to them. And so at least we could do the AB testing. But since then, you know, so we're a user, of six cents to do our like intent based targeting towards the accounts that matter to us. And… We just want to make sure that we're being able to target these accounts at scale which, Seeing the demo from last time, I believe that's kind of your main thing that you guys try to do is be able to build out these landing pages and experiences for these different accounts. And I actually just wanted to make sure that we connected with you guys as we were talking with some other vendors, Alberto would hopefully be able to kind of see from you guys what this product can do, and see if it's something that might now fit in with what we're looking for.
+
+[00:04:19] Tyler LaMantia
+Wonderful. And just kind of quick check on the rest of the stack or anything that you think would be relevant in regards to connecting with Mutiny. So like Sixth Sense, anything else like you think that holds valuable account context that you would want to feed, say an ABM experience like maybe as basic as your CRM but also always curious if there's other tools too.
+
+[00:04:41] Erik Frye
+Yeah, Salesforce obviously. But then… I think there could be some other tools but we do use Salesloft as well for our BDR outreach and those cadences. So we want to make sure that those things are then hooked up. We Not that we need to have this, but we do use Qualified on our website. So like maybe integrations that, you know, we want to include Qualified within these experiences as well, But that's not like a game changer for us. But I think at that core, right? CRM, Sixth Sense, that type of thing makes sense.
+
+[00:05:29] Alberto Alonso
+We use Play as well, but for some data enrichment and maybe we're exploring having some workflows working from Clay. But yeah, that's.
+
+[00:05:38] Erik Frye
+it.
+
+[00:05:39] Tyler LaMantia
+Wonderful. I will share how integrations come into play for all of those. And then, yeah, like I think obviously you saw quite an evolution of Mutiny prior. Erica, We've even gone a little further like we've kind of redeveloped the platform to actually be agent first like many people have. And then there's also the element of We kind of have two user bases. One is definitely account based marketing, generating custom assets for their target accounts. And I'll share a little bit more about that. The other side is even sales too. So we have a lot of sales users within Mutiny actually jumping in themselves, putting in and taking advantage of structure. Marketing is put together to Effectively do some workflows around their own day to day. But I think namely like create assets for deals in pipeline. So like creating deal rooms, recaps competitive comparisons and so on That's not always relevant to everyone. Sometimes it's purely more of the account based marketing play. So I guess what I'm kind of getting at is just like in terms of how you're thinking about this, do you envision sales working with Mutiny or more? So your team to kind of create ABM experiences?
+
+[00:06:49] Erik Frye
+I think out of the gate more of a marketing play but certainly could be like look at adding sales into the mix. I had recently learned that sales does use at times these WIX to build some specific pages for an account that they're trying to target. So there could certainly be some interest in them Instead of them doing there doing it within Unity.
+
+[00:07:21] Tyler LaMantia
+Exactly. I've seen another client. It was the same thing. Let's Get pipe gen marketing kind of account based marketing in Mutiny. And then ultimately, if you want to create experiences that are templatized for reps to jump in and quickly create. And that team got the team off lovable, which was going a little rogue in terms of what people were doing. And then ultimately, you could do something similar where your brand, your structure, your tracking, your templates are set up and reps can self serve as they go in addition to the core ABM use case there. But I'm just curious and then I can obviously jump into the product a little bit today, but has the team started creating any experiences for target accounts? And are you thinking about it on a one to one level or just high level idea of how you're thinking about the ABM program and if there's anything in place already?
+
+[00:08:13] Erik Frye
+So we do have like, I guess there are certain pages that we have built but we've not done them to like the level of like one to one. Nor have we really seen if we do something like that, we don't really see a ton of traffic coming through to them. So it's been a little bit of a challenge to find like the value in like spending more time building these like bespoke pages versus doing something that where we can kind of build one page and then, or at least provide the context of what the page should be able to be and then have that the agents go and like build them out more at scale?
+
+[00:08:58] Tyler LaMantia
+Gotcha. So a little bit more segment based or like persona or industry type of experiences? And okay.
+
+[00:09:05] Erik Frye
+Yeah.
+
+[00:09:06] Tyler LaMantia
+Wonderful. Well, I can share a little bit more about where we sit today and then ultimately get your thoughts. Is there any questions that you had coming in or things like you're really curious about up front? Like I want to make sure in our last little bit, we are covering things other than, hey, what's new with Mutiny? Things that maybe you came in with questions on?
+
+[00:09:31] Erik Frye
+I think just understanding and like, you know, what kind of sets your product apart from maybe some of your competitors, you know, how you guys… how you guys integrate with the other tools in our tech stack to make that like easier. So, we're not having to go and like export lists and like import them, right? We want to make sure that this is kind of a one stop shop. We just be able to just like click a few things and then we're kind of we can be moving. We don't have, we don't want it to be a like highly technical solution. We want like non technical marketers able to go in and build out these pages and launch them on their own without having like a web developer or anyone like that involved.
+
+[00:10:25] Tyler LaMantia
+Wonderful. Yeah. And any competitors in mind that you'd like me to speak to?
+
+[00:10:35] Erik Frye
+No, like, I mean, just, yeah, just like what is your like, you know, differentiator that you guys feel you guys like set yourself apart?
+
+[00:10:44] Tyler LaMantia
+Sounds good. Yeah, It feels good And Alberto anything from your side or is that pretty much aligned with what you're looking at too? I?
+
+[00:10:52] Alberto Alonso
+Think it's pretty much aligned. I mean, I'm very interested to see how we can like leverage Sixth Sense information into ABM pages. And for me, also user experience is very important. I mean, having marketers having the ability to do this without coding or any technical knowledge.
+
+[00:11:08] Tyler LaMantia
+Wonderful. All right. Good stuff. Well, what we'll do is spend about 10 minutes or so on the product obviously like a high level demo. And then from there, we can obviously go deeper if it's of interest. Just let me know when you can see.
+
+[00:11:23] Alberto Alonso
+My screen And let me just, I got way too many open now.
+
+[00:11:30] Tyler LaMantia
+All right. Should just be our general settings of the platform. Can you see that? Okay, Good stuff. So effectively, Mutiny actually has evolved to even have a couple of different plans. You can technically get started for free with Mutiny. We even have a kind of month to month option, but naturally, the enterprise option has a lot more flexibility and we can talk a little bit more about packaging and in the future, but point being like ultimately, you can kind of get your hands on the product before actually committing. Everything is going to be tied to the D to L domain. In addition to that, we're going to configure a brand for you. So naturally, Mutiny's core use case for a long time is assets, which is really what we refer to as like what you're creating for prospects, whether it's an ABM page, whether it's like a sales deal, acceleration, play anything along those ends. This is just generated from your website, like in a one shot. Obviously, once your team jumps in, you can edit this, your logo, your colors, your fonts, typography, does. It does a, pretty good job upfront. But importantly, too, there's also visual guidelines generated as well. So everything's generated from your site, These can be edited both from just a natural editing here or via prompts and uploading files that maybe you already have around your brand too. From there, anything you create within Mutiny is going to be hosted on a subdomain off your main brand. So whatever domain that would like to be, you can kind of add that to Mutiny. And then that's configured within the platform here, the rest page metadata, Fabicon, Fallback image preview, image title description configured here as well. What I'll point out as well as two is just the custom code snippets here. So like whether it's just like GA, or Tag Manager, or I have seen qualified use here. So every page you create effectively would have the qualified script load on it. So anything you think comes to mind that is very script based that you use on your website. This is where it would apply to anything you create in Mutiny on that subdomain there… Those are the two things I like to highlight up front, From there in terms of context. So we're creating assets. We're running workflows within Mutiny. What can we pull information from? There? Is a few you'll see highlighted here. But importantly, we've opened up Mutiny to anything within MCP. So, for instance, I know Sixth Sense launched their MCP recently as well. I have seen someone connect that within Mutiny. As well to pull information through that route, I have Clay connected with my actual Mutiny account. I've seen like Chili Piper and I've seen like User Gems. There's there's a lot you can do naturally as more and more teams implement, the MCP approach. So what you see has some native integrations here, but there's obviously a lot more flexibility on what you can connect there too. Salesforce being a big one naturally pull in account data from there. You can go ahead and choose what permissions you'd like these tools to have. So for instance, we can read and write to both. So say you want to pop open your ABM link to a Salesforce field. So anyone can access it. There's an example of writing over to Salesforce. But if you primarily want to just read the information within to generate personalized context, you can do so as well. But before stopping for questions, just come just summarizing their shared connections. Anyone in the organization can access but not necessarily manage. But like you can pull information in, There is also personal connections and this kind of gets into more of that assistant type workflow. Usually a bit more relevant to reps, but, you know, I can send my emails. I can help look at my calendar, what's on the day to help me prep for my calls, read anything in my drive. All of these are customer initiated Up to you on what you want to connect, if at all anything. And then you can add more too. So because integrations came up, I will just pause if there are any questions around this piece.
+
+[00:15:34] Erik Frye
+Can you maybe talk a little bit more about like the integration within six cents?
+
+[00:15:43] Tyler LaMantia
+Yeah, I can send you the screenshot of actually a different account. After the call. I was looking into this earlier and this was their MCP. Truthfully, we don't have Sixth Sense so I'm unable to test it very deeply, But I think it just gives access to their Revy agent which I believe they call. And effectively, you can pull any information that the Revy agent would have access to just by prompting. So I can give you the specific screenshot of the permissions in a follow up, but their MCP documentation is pretty much what generally we can access. And again, like something, should you want to test that out before you could do in kind of one of our freer business accounts. But yeah, that's my understanding, It's mostly the ready agent base. So whatever that has access to, Okay?
+
+[00:16:33] Alberto Alonso
+And one question just to connect the dots here. Yeah, I don't know if you know Eric, but the radio agent has access to all the information in Sixth Sense like for example, the segments that we create, or… the buying stages, I.
+
+[00:16:47] Tyler LaMantia
+Believe. Yeah.
+
+[00:16:48] Alberto Alonso
+All right. Okay.
+
+[00:16:52] Tyler LaMantia
+But yeah. So I mean like from here, you have your connected sources. The other thing I'll just highlight is like Mutiny is agent based as well. So you're prompting for information. There's the concept of a assistant knowledge. This is effectively like how do we know both your company and this user better? So this is a developing brain that continuously gets smarter as you work within Mutiny, but you can of course provide context up front. So just on your company level, like your ICP, your competitors, your playbooks, your sales process, your stages, how you run ABM, how you win customers, Anything that you think would be helpful for our agent to know as you're creating things, you can go ahead and populate here. But we have many customers that don't do anything upfront and just let the agent continuously get smarter and smarter as you're doing action. So it'll constantly save and update this both from a company perspective, accessible to the admins. And then like for me, like as I use Muni for my own cases, I can like have preferences stored as well too. Yeah, big use case assets. So assets is our term for anything you're going to send to the customer. So let's just call it an ABM page in our example here. But primarily the successful Mutiny accounts, both configure two things which would be a template and a library. The library is just your existing content. So this actually pulls in some of it natively from your website. When we configure the brand, There's not going to be everything here But things like some of your case studies, some imagery from the website. Anything you think you would like to feature in pages or have the agent know more about This can be populated both agent based by prompting and saying, go find my case studies in Google Drive or my website, or you can just bulk upload files too. So if I'm creating an ABM page, and I just want all my case studies to be accessible, Muni, then can research and look at this to say, hey, like this is about K 12. I'm creating a K 12 page. Let's pull in our best case study And same with kind of images as well. So just Pre existing content you can take advantage of here as well Separate use cases. Sometimes we see people use this kind of like as a true sales CMS too where reps can just go grab links for content too. But either way it can all be filtered and sorted by folders neatly in the library there. Thank you Templates. So this is kind of like where it's like what do you? Want to use Mutiny for, And that could simply be to start to say, I want to do ABM with Mutiny. And I'm going to create five to 10 ABM templates that are across different things. And I want to use those to populate for specific accounts segments or so on. You can see an example of like other things people are doing within Mutiny. The flexibility is up to you. I think when you talk about competitive differentiation, I'd say that's the big one Create whatever you want in any format you want. It doesn't have to fit into any box. It can completely be designed with exactly what you want it to look like and for any purpose. So we have people again, ABM is a big one Business cases, proposals decks, one pager, PDFS, deal rooms has taken off a lot too. So The flexibility to create anything you want across the revenue team of what they need is really a big thing. And then the flexibility within that to create it exactly what you'd like it to look like. So I put this one together for ABM 10 minutes or so And you can see again just agent base. You can see some of my prompts and I'll talk about what I've done there in a second, But essentially took your brands. I took a few screenshots of your website, dropped it into Mutiny and made, some sections. You can see, we can get interactive with components. You could do Roi calculators, quizzes, anything along those lines? I've embedded your demo which is completely functional to populate the Novatic demo, quick counting stats down to count based context, case studies more in a sales section. So when I think about what you want to create and bringing your vision to life like this is really where we're strong in and very prompt based to do visuals, CSS, code, copy, whatever you need. But then you also have the option to just do the right side editing for last mile changes Anything that needs a quick Polish on that front or even replacing an image from your library too. So before talking about the editing experience a little further, I'm pausing there to see any thoughts on the page or questions.
+
+[00:21:37] Erik Frye
+How does Mutiny deal with desktop and mobile? So right now, I can see that there's a desktop option at the top. I'm assuming you can switch over to the mobile view, but, does it just build that? All like that? It just, it just tries to always build something that is responsive.
+
+[00:21:57] Tyler LaMantia
+Exactly. Occasionally, if you're doing some really like unique things like you can see that you have to edit this a little bit. One thing I think is unique to like in terms of just like being able to prompt is like be like change this for mobile, not for desktop. Like you can have a completely different mobile version. But to answer your question directly, Eric, like it is meant to be responsive always. I did not edit this one for mobile and it looks pretty good. Maybe I'd change a little spacing here and there and maybe on this plus sign, but that's about it. Yeah. And then you can also if you ever wanted to do just like a PDF format, obviously, this is web designs but a printout type style. You can see what that would look like when you export it, for a PDF too.
+
+[00:22:37] Erik Frye
+Very interesting.
+
+[00:22:40] Tyler LaMantia
+And then from there, you can preview it to see what the client experience would be like as well. And then behind every template, you can actually add instructions as well too. So like simplest way to describe this is like anytime someone on your team uses this Eric that you designed, you could just say ask them two questions What's the account and what's the context. They answer the questions, You define how that populates the template. So that's where we see actually like people extend, you need to like BD reps or AEs, And then there's like a deal room or a prospecting page. And it just says, Tyler, what's the account? Where do you want to pull the context from? I enter that I get the page I'm published and I can go send it. So just beyond the visuals kind of the instructions behind the template can be configurable as well. And then, yeah, once you kind of close out and create all of your templates and get your library set up and your brands configured, You're you're kind of set to go to start creating experiences. But the last thing I'll highlight before closing out is that behind just creating assets is automation that you can configure, You can see some like sales specific ones that are about prep, followups replies, and so on All can be triggered off. But you can create custom things like I've seen with ABM customers do something that says, Hey, every Monday, go to Salesforce, check accounts that are marked tier one, or check accounts that have moved into the awareness stage, use our ABM template and build ABM experiences for all of them, create a matching ad copy, create an HTML email, like whatever you want to do on autopilot without hands on keyboard. You can kind of configure that to run on a schedule as well. So not just creating one asset, but like developing the automation behind a repeatable play. And whether that's like something in sales or something in marketing, you can configure these, to be to your liking there… that's kind of like the high level demo of like where Mutiny sits like a lot of changes. Even since I think that initial ABM demo, I'd love to hear what you thought if it kind of aligns with what you're looking for. And then I can, we can share a little bit more about what would make sense to continue conversations.
+
+[00:25:03] Erik Frye
+Yeah. A couple, So I think might benefit from just having like, a fuller demo. I remember, and I don't know if this is just not part of the product now but, or just a matter of time. There was in the demo I had last year, there was like, a tool that helped the user like do research and actually like try to determine like what are going to be like the pain points or like things that we want to actually target within that particular experience or campaign. And then it would like pull in data, from, in Salesforce. Does it mean you still do that stuff today?
+
+[00:25:48] Tyler LaMantia
+Yeah, just different UI in the sense of like that chat that I'm just asking to change pages That's where you do it. So like go research or use Play or use Salesforce or use the public research in the online. So, yeah, same thing. Just different kind of paradigm of where you'd see it, Right?
+
+[00:26:06] Erik Frye
+Okay. And so the reason why like you guys then like connect to like why you look for like MCP connections is because your chatbot is, It is an LLM, It's your own right? Maybe you guys are using Anthropic or OpenAI, behind the scenes, But your bot is then using those MCP connections just like ChatGPT does or Cloud does in a different chat, Okay?
+
+[00:26:37] Tyler LaMantia
+Exactly.
+
+[00:26:39] Erik Frye
+Other thing in terms of pricing, we don't have to get into the details of it. But… What are the different levers that can be pulled in terms of determining if something's going to be more or less expensive? Is it number of seats? Is it number of experiences we can build, Number of integrations? What are some of those things that go into the pricing of Mutiny for you guys?
+
+[00:27:07] Tyler LaMantia
+Yeah. So When we're talking about our enterprise plan, which is just the yearly plan of like a typical software plan. There's obviously like a self serve, go sign up online. It's month to month but both, But there's obviously some feature differences between those two. But say just the enterprise plan of what lever is going up and down is just credits Unlimited seats. So like you could grow this across the organization and invite whatever you'd like without restriction. But you're looking at credits for using Mutiny and like any actual it's just what you're prompting But like things like the library or editing in the right side editor, like those are not credits. Like there's no credits unless you're prompting for things used with AI. So enterprise starts at 48,000 credits a year. I can break down what credits mean further and obviously, But there's a lot for a marketing use case. When I see and talk to marketers that don't want like a bunch of AEs in there to start. I would never say go past the minimum That sits at just under 40,000 per year. If you're going to say we want BD to access, we want AEs to access, we want deal rooms we want in deal assets. Then I'd start saying you might look beyond the enterprise minimum, Then there's the business plan, but you're stripping out Any support on our side, Salesforce integration, SSO, custom contracting, just like pay with your credit card and go nuts kind of thing.
+
+[00:28:31] Erik Frye
+Yeah. We'd likely be looking at an enterprise license just even from a, From just those things that you talked about like SSO Salesforce Exactly. Yeah. And then like our own like custom like terms like we can redline and stuff like that. That's going to be stuff that we typically look for.
+
+[00:28:52] Tyler LaMantia
+Gotcha. So, yeah, I mean honestly, we can discuss scope further, but like starting at about 39 K. If your use case is primarily starting with ABM, I think you could grow into other things and probably land right about that price. Okay?
+
+[00:29:07] Alberto Alonso
+All right. Awesome. I have one more question.
+
+[00:29:09] Alberto Alonso
+Yeah, of course, Just an example. Let's say I have like a segment of 500 accounts. The level of personalization that we can get with those pages is just like the name of the company or can they see different things depending on their pain points? Or like how AI would automate that differentiation between pages?
+
+[00:29:33] Tyler LaMantia
+You can have them completely be 100 percent different. You can customize the customer stories, the logos, they see, the text, the copy, the logos of the account itself. So, I mean, it's up to you of how much you want to vary away from how personalized each is. There's no limitation because every account has their own link, right? So it's not like one page that dynamically changes. You're having a specific link developed for every account. So they can be truly way different or they can be very similar and you swap out company name and logo. It's kind of up to you of how you want those changed per account And.
+
+[00:30:10] Alberto Alonso
+Let's say we don't have the capacity to do those changes. They can be done automatically as well.
+
+[00:30:17] Tyler LaMantia
+Yeah. I mean, you could just like start a group of campaigns like say, let's say you just had 100 accounts that are universities. As an example, You could have a university ABM template, and then you could provide Mutiny with data whether it's from Salesforce or a CSV and be like create me 100 copies of this for these accounts. And it can just go ahead and do that. Like obviously, it'll take a bit of time but you can go do other things, just automating those in bulk. So the idea is like we can support you going like one to few, one to many. But scaling one to one is very easy because it's ultimately the same process within.
+
+[00:30:53] Alberto Alonso
+Mutiny. And then if inside one account, we have different personas with different pain points. Is that possible also to personalize or deliver?
+
+[00:31:03] Tyler LaMantia
+Yeah. I mean, you could create like a page that has multiple sections for each persona. You could create multiple pages for one account. I think those are the two options. It won't change depending on who visits. So I'll be clear on that, but you can make the page speak to different personas or you can just create another copy of the same page that is completely changed to that persona.
+
+[00:31:28] Alberto Alonso
+All right. Okay. Perfect.
+
+[00:31:30] Tyler LaMantia
+Yeah, But awesome. I do have to jump. I will follow up and then maybe potentially put some times in for a fuller demo And yeah, be in touch with that and we can continue conversations from there.
+
+[00:31:44] Erik Frye
+Awesome. Thanks Tyler.
+
+[00:31:46] Tyler LaMantia
+Thanks. Both. Have a good weekend.
+
+[00:31:47] Alberto Alonso
+Cheers.

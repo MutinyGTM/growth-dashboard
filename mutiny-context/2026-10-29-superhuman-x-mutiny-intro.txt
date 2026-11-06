@@ -1,0 +1,225 @@
+Superhuman x Mutiny Intro
+October 29, 2026 at 04:01 PM
+https://us-53268.app.gong.io/call?id=5115205352226013867
+
+[00:00:00] Tyler LaMantia
+Hey Ollie.
+
+[00:00:03] Allie Forth
+Hey, Tyler. How's it going? Good, good. How are you doing? Good. Nice to meet you.
+
+[00:00:08] Tyler LaMantia
+Yeah, nice to meet you too. I think maybe we talked once upon a time ago with Lisa, but I was probably more in the background A while ago. Yeah, yeah. How have things been?
+
+[00:00:20] Allie Forth
+Good. Very good. I've been gone a lot of the time since then. I had a baby, so I was a maternity leave, Congratulations Pretty quickly after that conversation, Thanks.
+
+[00:00:33] Tyler LaMantia
+Did you just return recently then?
+
+[00:00:36] Allie Forth
+Nice. Yes, maybe a month ago.
+
+[00:00:39] Tyler LaMantia
+Very nice. Well, welcome back. Thanks. Hey, Allison. Hey, Brenda.
+
+[00:00:45] Allison Nasrollahi
+Hey, how's it going?
+
+[00:00:47] Tyler LaMantia
+Good, good. How are you doing?
+
+[00:00:49] Allison Nasrollahi
+Can't complain Pretty good?
+
+[00:00:51] Tyler LaMantia
+Very good. Nice to meet you.
+
+[00:00:54] Brenda Chavez
+Hi, nice to meet you.
+
+[00:00:56] Tyler LaMantia
+Nice to meet you guys. Where is everyone based? Is everyone West Coast?
+
+[00:01:01] Allie Forth
+I'm in Chicago?
+
+[00:01:02] Tyler LaMantia
+Chicago Seattle.
+
+[00:01:07] Allison Nasrollahi
+I am in Napa.
+
+[00:01:09] Tyler LaMantia
+Nice, good representation. I'm in Toronto. So we're all over the place.
+
+[00:01:14] Shamita Jayakumar
+Nice.
+
+[00:01:16] Allison Nasrollahi
+I think Parla and Shamita will likely join soon, but we can kind of dive in.
+
+[00:01:22] Tyler LaMantia
+Yeah, sounds good. So, yeah, I was just talking to Ali. I talked with her and Shamita a long time ago. It was mostly my colleague, Lisa who has left since, but was leading the conversations just about any potential opportunities, Partnerships.
+
+[00:01:37] Tyler LaMantia
+So, it's good to see the team come around again And Shamita gave me some good context of just things you're interested in. I think a lot of the questions around connecting with other tools in addition to kind of what's new with Mutiny there. So, yeah, wanted to dive into that. But yeah, first intro to myself go to market team here at Mutiny. I've been here about a year and a half. And I wanted to just get a sense of All of your roles. I think Allison and Brenda, especially both of you since I haven't had the chance to meet, But most importantly, too like what your familiarity is with Mutiny and like anything you want to make sure we cover today too?
+
+[00:02:18] Allison Nasrollahi
+Yeah, let's do it. I am our senior director or director manager of marketing operations. Yikes. And I'm Allie's manager. I oversee kind of the team that runs all day to day campaign ops, platform ops. Allie has really run point on all things ABM platform operations for us. And we've seen our kind of ABM program go kind of like scale up, scale, back, scale up, scale back And we're kind of in that motion of like reinvestment right now. We've been using Folloze for a couple of years. The Infrastructure and definitely tracking of the platform has not worked well for us. I actually, for a brief stint did use Mutiny, gosh five plus years ago at a company called EverFi, And we really liked it. It like worked, super well for us. I think the company has probably gone through an evolution since I've been in the platform. But yeah, I would say like Allie and I are in partnership on how we enable our marketing team to use the tool. And then definitely on the like integrations and tracking front. Okay?
+
+[00:03:36] Tyler LaMantia
+Wonderful. Thank you so much. And then Brenda, maybe pass it to you.
+
+[00:03:41] Brenda Chavez
+Yeah, sure thing. I work really closely with Shamita, I joined her to support a lot of the execution of the program. So in the tool, I'll be mostly focusing on that on the creation of the landing pages and the boards and whatnot?
+
+[00:03:59] Tyler LaMantia
+Wonderful. And hi, Shmita. Great to see you again. We're just doing some brief intros and I was just sharing some things that you had shared over email that we wanted to make sure to cover today, but maybe giving you a chance to jump in if there's anything specific you wanted to focus on, or, yeah, anything beyond what you shared in email?
+
+[00:04:18] Shamita Jayakumar
+Yeah, I think, yeah, as I mentioned, we were huge fans of the product when we used it at Coda, And I think we just found it really easy to use that like anyone else on the team could use it almost without onboarding. You could kind of just jump in and get the hang of the tool and start building pages. And as we have like more marketers on the team that want to create Either landing pages or like workflows, That's probably something we're looking for in a tool right now. Brenda spends a lot of time troubleshooting things and Folloze that like honestly just seem unnecessary in 20 26, Like it's a little bit of an archaic tool. And so, yeah, other than the things that like operations has mentioned, we are just like, would really like something that is super scalable. We are going to be… Yeah, like we're going to be churning out a lot of very specific solutions over the next year for our product. And we'll want a tool that will allow us to like generate, many personalized landing pages at once. So, yeah, just wanted to say that.
+
+[00:05:33] Tyler LaMantia
+Wonderful. Ali. Anything from your side that was missed from the team or you're really curious about today?
+
+[00:05:39] Allie Forth
+I feel like for the most part everything's been covered. I guess the part that impacts me the most that I personally care about the most is like the integrations with how people pass over to Salesforce and campaigns, and that sort of tracking. That is beyond what we see in Mutiny, but in Salesforce as well.
+
+[00:06:01] Tyler LaMantia
+For sure. OK, that's really helpful Like truthfully I think even in our last conversation, I mean, it was like the creation of pages. I think we can do incredibly well for your team and like happy to kind of demonstrate that further share what's new about like creating beautiful looking pages in your brand in bulk personalized By pulling in data from other systems. I guess where we're very strong. I do want to just dive into like what's needed from like the tracking perspective right away because ultimately, I'm not sure if we can do anything further than when we last talked to me and Ali, We do and can push a variety of different things to Salesforce, Pretty much any field we can like update campaign statuses, we can fill out fields. We can push our analytics over there. But I know Pardot was kind of the main question. Last time We don't necessarily have any integration with Pardot other than just using any sort of scripts on pages like effectively you can add any sort of tracking script from Pardot. I don't know if that gets you what you need. So I think like long way of saying like what specifically would you be looking for or would be an improvement over Folloze as it relates to the tracking piece?
+
+[00:07:16] Allie Forth
+Allison can probably speak more to this, but we're in the process of moving away from Pardot. So that might change like everything Honestly. I know in the past, the reason we were having such a hard time with it is because everything had to pass from Pardot first to Salesforce. And that might not be the case anymore. Going forward Today. It still is, I believe, but going forward that will change.
+
+[00:07:43] Allison Nasrollahi
+Yeah. I'm open to pushing in with our systems team. We will be on part out for probably another year because we're just looking at like discovery. And so I don't want there to be like a gap in coverage for our ability to like use a AVM tool like this… But it's honestly pretty much the same to.
+
+[00:08:06] Allie Forth
+Just.
+
+[00:08:07] Allison Nasrollahi
+Give you a peek under the hood with Folloze. We, they, their support team created this like custom script for us that pushes to a Pardot form handler. And the script is really doing all the hard work for us And it's not reliable. Does it work? Sure. It kind of works, but like it's kind of a pain in the butt to use. We are primarily looking at Salesforce Marketing Cloud. Next, They're like new tool which is actually in a native Salesforce environment. So every integration will be directly with Salesforce anyways. So it sounds like that will be possible. Really what we do need to do is like create… Contacts and add them to campaigns and update member statuses. Is really what we need to be able to do. And then some of that page tracking stuff I think would still be meaningful Maybe updating custom fields as well. We are also potentially though Like we're still very early phases but looking at Marketo which I.
+
+[00:09:18] Allison Nasrollahi
+I think my internet is being funky. I don't know why you guys keep going in and out. I'm going to just keep talking. We're also looking at a tool called conversion. Yeah.
+
+[00:09:28] Tyler LaMantia
+All right. That is helpful. I think like as it stands today, truthfully, the script solution you have been Folloze may be the path for mutiny as well. I know it doesn't sound like a super reliable solution but like if things need to go to Pardot, it would be purely needed to do through a script solution to today. So do you want to be like transparent upfront about that? Like I don't think there's going to be any sort of Improved solution as it relates to passing anything from Mutiny to Pardot itself In the future. Like I mentioned, like we do have a more robust integration with Salesforce from a CRM perspective that you absolutely can push a variety of things over. I even tested updating someone's campaign status from Mutiny's agent, and it worked well and pushing over analytics data to a field too. So, I guess pausing there like, is that kind of I suppose a deal breaker in considering Mutiny. Like I know that was kind of where we landed last time, but that was a long time ago. So that's kind of where I wanted to start it before anything.
+
+[00:10:33] Allie Forth
+The thing that was the main blocker last time was that we were still in our contract with Folloze.
+
+[00:10:42] Allie Forth
+So like we would have had to continue paying for that. So we couldn't justify moving to another tool that was only going to make it like a little bit easier for the marketers. But at this point, our contract with Folloze is coming to an end. I think what in January? So it's like if we could even meet Shamita's needs, Shamita and Brenda's needs in a lot better way at least would be like balanced. I think to justify the cost of paying for two tools, we needed to like check every single box. So I think that I would say it's not a deal breaker.
+
+[00:11:21] Allison Nasrollahi
+And I would say I would probably push in with our systems team to vet just the direct Salesforce integration. Because if we end up moving forward with Salesforce Marketing Cloud next, that will be the case for all of our integrations.
+
+[00:11:38] Tyler LaMantia
+Makes sense. And yeah, I'd be happy to kind of bet it with Mutiny, we can do some live testing with our development account. And if at any point you got to the point you'd want to test with your own accounts, like we can enable you to do that before actually purchasing. Obviously, it depends on the team's preferences. So, yeah, happy to validate that. Do you guys do?
+
+[00:11:57] Allison Nasrollahi
+Pilots? Like any sort of, I guess it's a free like we could, Yeah.
+
+[00:12:02] Tyler LaMantia
+You could, there's like the enterprise plan, there is no pilot, but that said, like there's two options between There's a free plan with very limited credits. There's also a business plan that you can literally pay 50 bucks for a month and open up a lot of features. If you were like very interested in that. Technically, the business plan does not include Salesforce. I can switch on Salesforce for you if you wanted to kind of test that and purchase a month to month plan as a beginning point. So keep that in mind. So while technically no, on the enterprise side, there's still ways to really validate what you need up front before, like agreeing to an annual subscription.
+
+[00:12:43] Allison Nasrollahi
+That's 50 dollars per month per user.
+
+[00:12:45] Tyler LaMantia
+No user fees within Mutiny at this point purely credit based. So depending on the consumption you use to create pages that's effectively what you would pay. So 50 bucks is the entry point for 50 credits per month. And then obviously, you can just purchase more if you needed more, Whereas Enterprise gives you like an annual allotment starting at 48,000 credits per year. And.
+
+[00:13:10] Allison Nasrollahi
+sorry to get in the weeds on this but is every single thing a credit Like every lead we sync over to Salesforce, every page we create, it would be helpful to have kind of a rundown on that.
+
+[00:13:21] Tyler LaMantia
+Yeah, can break it down a lot further. But at its simplest level, it's all fractional. Like it depends what you ask the agent to do. Some things can take point zero, two credits. Some things can take two or three credits. It really depends Like for instance, I was just monitoring for another account to you can create a like full blown like ABM page personalized. I had used a template that was already created in Mutiny. I customized it to the account which was Nike and it took me two credits Standing up like your templates. So like your best in class versions of your ABM pages, for example, sometimes can take more credits because you're designing a page, but like if we get to the pricing, I'll break down examples, Like even if we did a full demo, like what I tend to do is like I'll build some things for you. And then after the call, look into what things took on the credit side to give you some more tactical examples of things too.
+
+[00:14:15] Allison Nasrollahi
+Helpful. Okay. That's all good to know Just for the superhuman side, I wouldn't mind doing a like trialing the business plan. And then if we're like I'm serious about making this move, starting to get things going with procurement and infosec, if we need to… I sort of already saw we have like access in Okta, I believe and things like that. So we'll need to do some like research… on our end of that, what that would look like. But yeah, I would say like I'd rather us try all this out. And then also that would be super great if we could turn on the Salesforce integration, But I imagine we'll need to do a more rigorous security review if we were going to do that.
+
+[00:15:06] Tyler LaMantia
+Yeah. That's obviously the one consideration where I have the ability to turn that on for you. Not everyone can take us up on that without terms and a contract in place. I'm happy to help with the security for you. But obviously like we can't sign anything until a subscription. So just let me know how that would work on your end. And I'm happy to support that. And generally what we can do.
+
+[00:15:26] Allison Nasrollahi
+Would it need to be the enterprise subscription?
+
+[00:15:29] Tyler LaMantia
+Yeah, exactly. Yeah. So like business is like because you can start at 50 bucks a month. It's completely like online self serve credit card, web terms.
+
+[00:15:38] Tyler LaMantia
+There's not much we can do on that side to support that at scale. But if you did sign up, what I can do as you're evaluating enterprises like be a really close point of contact. And essentially, we can do like a what I call like a workshop style demo in your actual account like show you tips and tricks, building practices, how you kind of go about using Mutiny and best practices in your account. So should you move to enterprise? I mean half the setup's already done as well, right? So you kind of take advantage of that time Because we would just convert that existing account. So always an option, Otherwise more typical evaluation path of just kind of a full demo as a next step. But I'm happy to still jump into the product a bit today. If it's helpful. Is there any other questions from people you have for me? Like I just want to make sure I think Sixth Sense was talked about. We have a, We can connect to anything with an MCP. And Sixth Sense recently launched their MCP. I'm not sure how robust it is, but I know people have been using it to query data in Sixth Sense. So our integration, Yeah. Awesome. So we can connect to anything with an MCP. I've seen a variety of things from like Clay to chili paper, to Sixth Sense, to truly a lot of different things outside of like the native Salesforce integration. But I think those were the main questions. Anything else? Shamita or the rest of the team that you were curious about before? Maybe we just pop into the app for a little bit?
+
+[00:17:12] Shamita Jayakumar
+I think just showing us what's changed. I know what we were using previously was also, I think a lot of it was Sunset. So if you could just call out, so we don't have a vision in our minds of like what's possible Or just like if it's done differently now with AI or something? Yeah, that would be great just to show the changes.
+
+[00:17:32] Tyler LaMantia
+For sure. So let's spend about 10 minutes covering a few things that are new?
+
+[00:17:38] Allison Nasrollahi
+And I'll just add as you're jumping in if we, I'm guessing we won't be able to do like a Salesforce integration without a full InfoSec review and all of that. So I'll do digging on that on my end. But a technical call with like, I don't know if you have like a technical solutions engineer or something like that where we can really interrogate the Salesforce integration, bring our systems team on. Like that could be a good option as well instead of like doing the actual integration before we sign a contract.
+
+[00:18:11] Tyler LaMantia
+For sure. Yeah, If you send as many as much questions ahead of time and I can send those internally. So I just know who the best person very well might be someone from our engineering team or a lean and mean team. So, I'm a borderline solutions engineer but not a Salesforce expert. So I'd probably pull someone in So yeah, any information I can do my best to answer, And then of course, pulling the right people from our product side too.
+
+[00:18:38] Allison Nasrollahi
+Sounds good.
+
+[00:18:40] Tyler LaMantia
+Wonderful. Okay. So I think like the first thing I will mention is like we have really opened up the platform to both sales and marketing. Like that sounds like obviously this is an AVM and marketing case, but I say that to say like there's some areas that are in mutiny that won't be as relevant to you. And then there's still the core use cases for account based marketing and campaigns that are very relevant. A couple of things I wanted to highlight out front on that Assets is the core use case here. So building custom pages for your target accounts. Obviously, we will pull in your brand first and foremost, It's all just based off your website. Everything can be tweaked here. This is me not editing this but naturally everything we want to make sure is in SuperHuman's brand. From there, everything will be hosted on a subdomain that you can configure. So whatever that might be, go superhuman. Com or whatnot, Everything is published automatically to that subdomain. Obviously the page metadata can be configured here. But importantly, I show this to talk about the script. So any sort of scripts you want to have on mutiny pages if it's just like tag manager or whatever that might be, these will apply to every single mutiny page there. I'd say that's probably the core settings. I wanted to talk about Integrations. You can see a couple that are named up front and we have some integrations pre built here. But this is again where anything with an MCP. So Sixth Sense, for example, you can just pop that in authorize and enter your credentials and then effectively use that as input for the agent. So wide variety of these. You can either both write and read, You can choose the permissions on these. For example, if I'm in Hubspot, you can see a ton of the read only tools versus our write tools and determine what it can do and can't do Similar with Salesforce. And then on the personal side, a little bit more sales oriented in regards to connecting to my own Google workspace, probably less relevant for your team. So get in context to just ask AI to personalize a page from Salesforce data to Sixth Sense data or anything else via MCP. Could be the most kind of relevant use case here Team happened to use Gong or anything for call recordings that could be helpful to pull into page personalization?
+
+[00:21:13] Shamita Jayakumar
+Yeah, we use MCP and Gong a lot to kind of do similar stuff manually now. Yeah.
+
+[00:21:18] Tyler LaMantia
+Awesome. So, yeah, I mean you could use the Gong integration to say like obviously based off the last couple transcripts or the closed loss deal and whatnot to personalize pages too. So cool. Yeah, from there, like the agent is effectively built on leading models but you can customize what it knows about both you personally and relevant. I think for ABM as a whole, the company. So you can see, I can drop in notes transcripts files. I can just speak to the agent and just dump a lot of context in. But how you go to market your ICP, your sales process, your competitors, your battle cards, whatever you want to Mutiny to always know when you're operating and creating This is where effectively that would live. You can see there's even suggestions as you use the agent itself, where it'll actually continue to optimize and learn as you do work and as you create pages. But this is that underlying layer of knowledge about the AI knowing more about Superhuman in itself as you use the product. And then lastly assets are the core use case, right? So creating pages and those are the things that are sent to prospects and hosted on that subdomain. But ultimately, the first step to making a very successful MeetMe account is to configure your templates, right? So they can sit across a bunch of different use cases and sort them specifically on how a deal is run. I've created one mock up for ABM, one to one. You could have tons of these. But you're not limited to one specific type of page or a box that you have to fit a use case into. These are just examples. You can kind of click any of these and they're kind of our starter templates that'll start building But comparisons, case studies, decks, recaps, proposals, deal rooms, some more sales oriented, just general landing page event invites. You can kind of create anything. And then once you have your templates in place effectively, you have this best in class version to then use and personalize for your accounts. So I just did one super quick up front And you can see here that I would effectively be able to Use different imagery, copy the brand, of course, and then create a page for you for your target accounts. And this is my take. You can truly customize this in any which way just by prompting on the right here and using the agent to really customize visuals. We do interactive components and a whole lot more on what you can do in terms of this page. So pause there in case there are any questions on what I'm showing now.
+
+[00:24:04] Parla Duman
+This is so cool. Hi, I'm Parla, by the way. Nice.
+
+[00:24:07] Tyler LaMantia
+To meet you bro.
+
+[00:24:09] Parla Duman
+I was kind of wondering some of the use cases that you shared earlier of the templates or you mentioned they're very sales led ones. If we wanted to have this be a sales resource, what… does the licensing look like?
+
+[00:24:24] Parla Duman
+Or seat utilization? If we wanted to have some of our more enterprise account managers be able to leverage this, Either the pricing proposals or like meeting recaps etc?
+
+[00:24:35] Tyler LaMantia
+Yeah, yeah, for sure. So because there's no user restriction, you can invite any of them. What I suggest doing is effectively putting a credit limit on specific users. So you're going to get allocated, say you bought Enterprise the minimum package just for an example, for example, 48,000 credits per year Depending on how many people you actually invite, you could say reps can use 50 credits per month to create a variety of things.
+
+[00:24:58] Tyler LaMantia
+All they need to do from their concept of using, you need jump into the templates, click your proposal, your business case use that provide a bit of information and personalize it. So there's no restrictions on who you can invite. It's just more of modeling how you want to use the credits that you're purchasing. But it's a great use case Like that's. Where we see a lot of teams Marketing, puts the structure in place. They use it for their own campaigns. But extending the value on sales relevant use cases like deal rooms have really taken off for those larger complex deals that maybe take months and need something to follow that use case throughout. But it could be as simple as like an interactive Roi calculator proposal or any of the things you're seeing here too. So yeah, if that's an interest, definitely a great use case to explore. But yeah, like from the perspective of using it effectively, I will get an asset once I use it from a template. I just mocked this one up for ramp. So, you know, it's been customized for them. This is where, you know, I could go say like use Gong, use Salesforce data, customize this, you know, something I've seen too or something I think is popular as well as like if you have anything on your site that you really like that you want, you need to effectively recreate or, You know, work similarly, That's exactly how I got your logo bar. I just screenshotted this dragged it over, asked me to recreate it and that's how I got to that point. So using visuals files, integrations, like everything within the agent is just prompt based where I can ask it to completely change this page. And, you know, I don't create anything, Create a maturity quiz or Superhuman. I don't know what that's going to do, but you can do the interactive components as well too. So just like whatever comes to mind whether you speak into Mutiny which is my favorite of just dropping my thoughts into how to design the page or provide just prompts on the left. You can go ahead and share or customize this and then ultimately share it on that subdomain with a customized URL. So this is kind of that end experience. I copy this link. I can require anyone to have to enter their email to view the page or a password or anything along that side. And then I can go ahead and distribute that with the tools in my marketing stock here too. So… But yeah, that's like roughly like I would go through much more of a customization exercise of how this would all look in practice. I think the only other thing I would highlight is that we also have the ability to set up automated workflows to say every Monday morning check Salesforce for accounts marked tier one, Create ABM pages for all of them within our template. So bulk creation, automated hands off creation is also something you can do in addition to just kind of creating a one off page like I did too.
+
+[00:28:06] Parla Duman
+So I actually had a similar question. I was asking if you had a Sixth Sense integration, but like our Sixth Sense for example, like syncs to Salesforce and I'm assuming it would be updated if like an account just moved into consideration. Like we then have a workflow to create.
+
+[00:28:22] Tyler LaMantia
+Yeah. So we do have the ability and we were talking about this a little earlier is just connect to Sixth Sense via MCP. But truthfully the Salesforce route might be better if you just have those in fields, You could use both. But yeah, you could say every it's time based, not trigger based though necessarily. So like right? When it moves, It's not going to recognize it but you could have it check daily for example.
+
+[00:28:45] Parla Duman
+Or weekly And.
+
+[00:28:46] Tyler LaMantia
+Then yeah, you could use it every time in consideration, use our consideration ABM template or whatever that might be and create that page and personalize it and customize it too. So that's a perfect example of like the automation I'm speaking to.
+
+[00:28:59] Parla Duman
+That's really cool.
+
+[00:29:01] Tyler LaMantia
+Yeah. So I mean, ultimately, there's the two paths here and they're not mutually exclusive. Where it's you know, you can get into your account. I believe there's still an like an account. You can access, Shamita, Correct me if I'm wrong. Can you still get into that one? Okay. Yeah. So Feel free to invite the team in there. You can kind of poke around within that account, play around if you, I'll add a few extra credits for you already just to start. And then if you do kind of want to explore a lot further and unlock some of the business features, or do you want me to enable or Salesforce, just let me know. We can also set up like a workshop style demo for next week or the week after. Those are kind of, I think would be the logical next steps, But I'm curious if there's anything else that comes to mind for you all.
+
+[00:29:45] Shamita Jayakumar
+Do you all just want to do that? Would that be helpful, Shamita? Parla? Brenda, That would be great. Yeah, I have to head to another meeting but thank you so much.
+
+[00:29:53] Tyler LaMantia
+Of course, I will follow up and we can coordinate from there.
+
+[00:29:57] Shamita Jayakumar
+Appreciate it. Thanks Tyler. Nice meeting you.
+
+[00:29:59] Tyler LaMantia
+Thank you. Bye bye.

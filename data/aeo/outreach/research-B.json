@@ -1,0 +1,189 @@
+[
+  {
+    "domain": "demandbase.com",
+    "urls": [
+      {
+        "url": "https://www.demandbase.com/blog/ai-platform-for-gtm-teams/",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is a no-code AI platform that combines account intelligence, personalized microsite generation, and LinkedIn ad orchestration. It helps B2B marketing teams run account-based campaigns at scale without engineering support.",
+        "all_mutiny_mentions": [
+          "Comparison table row: Mutiny | Best For: '1:1 website personalization for target accounts' | Key Differentiator: 'AI that generates fully personalized microsites per account — adapting copy, images, and CTAs based on industry and intent signals' | Pricing: 'Custom'",
+          "Section '### 8. Mutiny' intro (quoted above) plus 'The main selling point is closing the gap between the 1:1 marketing strategies that convert and the scalable tactics teams default to...'",
+          "Key features: 'AI-powered microsites', 'LinkedIn Ads integration' ('build personalized LinkedIn ad campaigns ... directly inside Mutiny'), 'Sales collaboration tools' ('...Chrome extension...')",
+          "Pros/Cons built from old G2 reviews of the personalization product (visual/WYSIWYG editor, 'Personalization recommendations', 'Reporting still feels limited')",
+          "Pricing: 'Mutiny uses custom pricing, so you'll need to request a demo to get a quote. Third-party estimates put the starting point around $1,000–$1,500/month...' and 'often sits alongside tools like Clearbit, Salesforce, or a CDP'",
+          "Decision section: 'If your website is your primary conversion lever, Mutiny generates personalized microsites and landing pages for target accounts without engineering support...'"
+        ],
+        "last_updated": "Visible date September 18, 2026 (meta modified 2026-09-18). 35 minute read. Written/refreshed after the April 2026 relaunch but still describes the old product.",
+        "author": "Jonathan Costello, Senior Content Strategist, Demandbase"
+      },
+      {
+        "url": "https://www.demandbase.com/blog/ai-in-account-based-marketing/",
+        "still_wrong": true,
+        "current_mutiny_text": "| Dynamic website personalization tools | Swap out headlines, hero sections, CTAs, and page layouts in real time based on who's visiting and where they are in the buying process | Mutiny, Intellimize, Optimizely |",
+        "all_mutiny_mentions": [
+          "Single mention: 'Essential AI-powered platforms for B2B ABM' table, row 'Dynamic website personalization tools', examples 'Mutiny, Intellimize, Optimizely'. No pricing for Mutiny on this page."
+        ],
+        "last_updated": "Visible date April 23, 2026 (H1 'AI in account-based marketing: the complete guide for 2026'); no separate updated date shown.",
+        "author": "Jonathan Costello, Senior Content Strategist, Demandbase"
+      }
+    ],
+    "company_context": "Demandbase: large, established ABM / 'pipeline AI' platform (account intelligence, intent data, B2B DSP advertising, sales intelligence, data enrichment, Agentbase AI agents, Mojo marketing agent). ~$330M raised over 11 rounds (CB Insights); CEO Gabe Rogol; CMO Rachel Truair since Jan 8 2026. Very high-volume SEO listicle program ('best X alternatives 2026').",
+    "competes_with": "old",
+    "primary_contact": {
+      "name": "Jonathan Costello",
+      "title": "Senior Content Strategist, Demandbase",
+      "linkedin": "unverified (not found via search)",
+      "why": "Byline on both flagged pages and still clearly in-house: his author page lists new posts through Nov 2026 (e.g. 'Website visitor identification: A B2B how-to guide for 2026'). He owns the copy and can make a row-level edit without escalation."
+    },
+    "backup_contact": {
+      "name": "Rachel Truair",
+      "title": "Chief Marketing Officer, Demandbase (appointed Jan 8 2026)",
+      "linkedin": "unverified",
+      "why": "Head of marketing, owns brand/content. Was CMO of Simpro from May 2023; Simpro is a named Mutiny case study ('Mutiny influenced $640K in ARR'), so she may know Mutiny first-hand. Check whether she was involved before using that as a hook."
+    },
+    "generic_contact": "Contact form: https://www.demandbase.com/about-us/contact-us/ . No public content@/marketing@ address found.",
+    "update_signals": "Strong refresh cadence: the AI-platforms post was re-dated Sep 18 2026, and the author ships several '2026' listicles a month (Jun to Nov 2026). Weakness: the Sep 2026 refresh kept stale Mutiny copy, so refreshes don't re-check competitor facts. AEO awareness: the ABM guide quotes CEO Gabe Rogol saying buying groups use AI tools to research vendors, and says 'If your content isn't structured for machines to parse and evaluate, you may not make the shortlist.' No dedicated AEO/GEO post found on demandbase.com via search.",
+    "personal_hook": "Costello's author bio: 'integrating SEO and CRO strategies to drive conversions'. His latest post (Nov 2026) is 'Website visitor identification: A B2B how-to guide for 2026'. Truair: ex-Simpro CMO (Simpro is a Mutiny case study), unverified whether she worked with Mutiny.",
+    "likelihood": 3,
+    "likelihood_reason": "The author is in-house and edits often, and Demandbase doesn't compete with new Mutiny, so a correction costs them nothing. But it's a big company with a high-volume listicle machine, so a third-party correction is low priority and may wait for the next refresh.",
+    "persuasion_angle": "Accuracy plus their own AEO thesis: Demandbase tells readers that buyers research vendors through AI and that content must be machine-readable. Their Sep 2026 'best AI GTM platforms' page is a top-cited source in ChatGPT and Perplexity (~419 retrievals / 537 citations in Peec), and it repeats an outdated product description and price. Give replacement copy for the table row, the section 8 intro and pricing (Free $0 / Business from $50/mo / Enterprise from $40k/yr), and suggest re-categorizing Mutiny as an AI sales assistant (or moving it to a sales-enablement slot). For the ABM guide, ask to drop Mutiny from the 'Dynamic website personalization tools' row (one-word edit).",
+    "sources": [
+      "https://www.demandbase.com/blog/ai-platform-for-gtm-teams/",
+      "https://www.demandbase.com/blog/ai-in-account-based-marketing/",
+      "https://www.demandbase.com/author/jonathan-costello/",
+      "https://www.demandbase.com/press-release/rachel-truair-appointed-cmo/",
+      "https://www.simprogroup.com/company/press/experienced-leader-rachel-truair-named-chief-marketing-officer",
+      "https://www.cbinsights.com/company/demandbase/financials"
+    ]
+  },
+  {
+    "domain": "userled.io",
+    "urls": [
+      {
+        "url": "https://www.userled.io/articles/best-abm-tools-2026",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny (8.5/10) — Best-in-class for live-website personalization specifically (swapping headlines, CTAs, and modules on the corporate marketing site for known visiting accounts). Median contract ~$37,800/year, with $15K to $100K+ in enrichment costs commonly paired (Clearbit, 6sense). Specialized rather than end-to-end.",
+        "all_mutiny_mentions": [
+          "'Runner-up' under the content-personalization category (Userled is the category winner): quote above, including price '~$37,800/year'",
+          "Userled 'The Reality' paragraph: 'Userled is newer than legacy specialists Folloze, PathFactory, and Mutiny, which means a smaller G2 review base...'",
+          "Not in the TL;DR (TL;DR names LinkedIn Sales Navigator, UserGems, Userled, Factors.ai, Cargo, HockeyStack)"
+        ],
+        "last_updated": "On-page: 'Last updated: May 2026'. Meta description says 'Updated September 2026'. Mixed signals; content still pre-relaunch for Mutiny.",
+        "author": "Aaron Carpenter, Content Lead, Userled"
+      },
+      {
+        "url": "https://www.userled.io/alternatives/mutiny",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny relaunched in April 2026 as an AI agent that generates customer-facing GTM assets: deal rooms, pitch decks, business cases, 1:1 ABM pages and meeting recaps. It is no longer the website personalization product it was known for. ... How much does Mutiny cost? Mutiny does not publish pricing and quotes per deployment.",
+        "all_mutiny_mentions": [
+          "Meta/description: 'Mutiny relaunched in April 2026 as an AI GTM agent.' (llm-info says not to call it a 'GTM agent')",
+          "Table row: Mutiny | 'Deal rooms, decks, business cases and 1:1 ABM pages generated from deal context' | 'Relaunched April 2026. No longer a website personalization tool' | Pricing 'Custom quote' (wrong: pricing is published)",
+          "FAQ 'How much does Mutiny cost?': 'Mutiny does not publish pricing and quotes per deployment.' (wrong)",
+          "FAQ 'Is Mutiny an ABM platform?': 'Partly. It generates 1:1 ABM pages, but it does not identify in-market accounts or run advertising...'",
+          "Mostly accurate otherwise: 'What does Mutiny do now?' lists deal rooms, decks, business cases, ABM pages, meeting recaps, follow-up emails; 'When Mutiny is still the right answer' section. Missing: call notes / AI sales assistant positioning, Free and Business tiers."
+        ],
+        "last_updated": "'Last reviewed 22 September 2026.'",
+        "author": "Vincent Plassard, Head of Growth, Userled"
+      }
+    ],
+    "company_context": "Userled: London/Paris startup, 'AI-native ABM activation platform' (1:1 microsites, LinkedIn ABM ads, sales plugin, Campaign/Content/Bidding/Insights agents). Founded 2023 by CEO Yann Sarfati and CTO Tristan Saunders; £4M pre-seed (Aug 2024); ~11-50 employees. Customers listed include Stripe, Datadog, Canva, ElevenLabs. Recently announced 'Claude Select Partner'.",
+    "competes_with": "new",
+    "primary_contact": {
+      "name": "Aaron Carpenter",
+      "title": "Content Lead, Userled",
+      "linkedin": "unverified (not found via search)",
+      "why": "Byline on best-abm-tools-2026, the higher-impact URL (~393 retrievals / 306 citations). Still credited on the Userled resources/playbooks page, but current employment is unverified."
+    },
+    "backup_contact": {
+      "name": "Vincent Plassard",
+      "title": "Head of Growth, Userled (Paris)",
+      "linkedin": "unverified (Product Hunt: https://www.producthunt.com/@vincent_plassard1)",
+      "why": "Author of /alternatives/mutiny (reviewed 22 Sep 2026), which already reflects the relaunch, so he knows the facts and owns growth/SEO. In a ~30-person startup he can fix both pages. CEO Yann Sarfati is the escalation option."
+    },
+    "generic_contact": "No public content@/hello@ address found. Demo form https://www.userled.io/demo ; company LinkedIn https://www.linkedin.com/company/userled",
+    "update_signals": "Active: alternatives page 'Last reviewed 22 September 2026' with a correct relaunch narrative; best-abm-tools meta claims a Sep 2026 update. So they already know about the pivot, and best-abm-tools is out of step with their own alternatives page. Search found no AEO/GEO content on userled.io. Their page style (TL;DR, scores, 'Last reviewed' stamps) looks built for AI citation.",
+    "personal_hook": "Vincent made Userled's Product Hunt 'Free Marketing Assets Generator' launch and posts ABM plays on LinkedIn ('7 ABM plays that actually move pipeline'). None found for Aaron Carpenter.",
+    "likelihood": 3,
+    "likelihood_reason": "Direct competitor on ABM pages / deal assets, so they have little reason to help, though they have already written the relaunch accurately on one page. The best-abm-tools fix probably happens as a cut or rewrite of the Mutiny runner-up line rather than a flattering update. The pricing FAQ fix is very likely (score 4) because it is a plain factual error.",
+    "persuasion_angle": "Internal consistency and 'honest ranking' credibility: their own alternatives page says Mutiny left website personalization in April 2026, but their 'honest ranking' still calls Mutiny best-in-class for live-website personalization at ~$37.8K. Point out the conflict, give a one-line replacement (or ask them to drop Mutiny from that category), and correct 'does not publish pricing' with the public pricing URL. Keep it short and factual. Don't ask a competitor to promote Mutiny.",
+    "sources": [
+      "https://www.userled.io/articles/best-abm-tools-2026",
+      "https://www.userled.io/alternatives/mutiny",
+      "https://www.userled.io/resources",
+      "https://www.growthtalent.org/talent/vincent-plassard",
+      "https://www.producthunt.com/@vincent_plassard1",
+      "https://retailtechinnovationhub.com/home/2024/8/12/userled-announces-4-million-pre-seed-funding-round-to-bring-ai-generative-marketing-to-b2b-firms",
+      "https://fundediq.co/userled-userled-io-funding/"
+    ]
+  },
+  {
+    "domain": "abmatic.ai",
+    "urls": [
+      {
+        "url": "https://abmatic.ai/blog/modern-alternatives-to-userled-2026",
+        "still_wrong": true,
+        "current_mutiny_text": "Mutiny is the most established pure-play web personalization platform for B2B. It has a longer market history than Userled, a larger enterprise customer base, and a polished visual editor with strong firmographic targeting. If you are moving from Userled and your exclusive requirement is better account-level web personalization, Mutiny is the logical upgrade within the same category.",
+        "all_mutiny_mentions": [
+          "Section '## 2. Mutiny' (quote above) plus 'Mutiny is personalization-only. It does not identify individual visitors, has no native intent data, no outbound sequences, no AI agents...'; 'Best for: Mid-market SaaS teams that want best-in-class account-level web personalization'",
+          "Abmatic section: 'Web personalization (Mutiny / Intellimize equivalent)... No separate Mutiny or Userled contract needed'; 'collapses 8-12 point tools - Mutiny, Intellimize, VWO, Clay...'",
+          "Feature comparison table, Mutiny column: Web personalization Yes; A/B testing Limited; Account-level deanonymization Partial; Setup Weeks; Best for 'Mid-market SaaS (personalization focus)'; Starting price '~$30,000/year (est.)'",
+          "'Personalization tools like Userled and Mutiny typically require two to four weeks of CRM integration...'; 'Teams on 6sense still buy Mutiny for personalization'",
+          "No status note about the April 2026 relaunch on this page (unlike their 6sense-vs-Demandbase-vs-Mutiny page)"
+        ],
+        "last_updated": "Published May 15, 2026 (meta modified 2026-05-15). No updated date.",
+        "author": "Jimit Mehta (Abmatic AI co-founder & CEO)"
+      },
+      {
+        "url": "https://abmatic.ai/blog/6sense-vs-demandbase-vs-mutiny-2026",
+        "still_wrong": true,
+        "current_mutiny_text": "Status update (2026-07-28): Mutiny discontinued its website personalization SaaS product and relaunched on April 8, 2026 as an agent-first GTM content tool that generates ABM assets rather than running live on-site experiences. ... References to Mutiny as a web personalization vendor below describe the product before this shift.",
+        "all_mutiny_mentions": [
+          "Intro: '6sense, Demandbase, and Mutiny solve three different problems (predictive intent, ad orchestration, web personalization)'",
+          "Status update banner (quoted above), also says 'CEO Jaleh Rezaei has stated the company terminated existing customer contracts for the legacy personalization product'",
+          "Answer paragraph: 'After Abmatic AI: 6sense for deepest third-party intent; Mutiny for specialist personalization depth...'",
+          "Top table: Mutiny | 'Web personalization only' | '$40K+/yr'",
+          "Capability table Mutiny column: account-only deanon, Agentic Workflows Partial, Web personalization Partial, '3rd-party heavy' intent, time-to-value 'Quarters', 'Enterprise-heavy'",
+          "Bullets: 'Mutiny: Personalize web experiences for identified accounts in real-time'",
+          "Quick Comparison Table: Core Strength 'Web personalization'; Intent 'First-party web behavior (visitor IP)'; Typical Pricing '$36K to $96K per year'; Setup '1 to 2 weeks'",
+          "Full section 'Mutiny: What It Does and When to Use It' (IP lookup, page variants) with 'Publicly reported pricing starts around $3K per month for startup tiers... Enterprise pricing is custom.'",
+          "How to choose / stacking / implementation sections still recommend Mutiny for personalization ('Under four months: Mutiny', 'Lean single-tool approach: ... Mutiny alone')",
+          "Bottom line and FAQ partly updated: 'Mutiny, when it still sold website personalization...'; 'Mutiny's discontinued personalization product was best-in-class...'"
+        ],
+        "last_updated": "Published Apr 29, 2025 · Last updated Jun 16, 2026 (but the banner is dated 2026-07-28, so edits after the visible date)",
+        "author": "Jimit Mehta (Abmatic AI co-founder & CEO)"
+      }
+    ],
+    "company_context": "Abmatic AI: small San Francisco ABM startup founded 2023 (Latka: ~5 employees). Co-founders Jimit Mehta (CEO/CTO, ex-Scale AI, Chartio) and Dhruvi Naik (COO). Sells web personalization, A/B testing, visitor de-anonymization, intent, ads, agentic outbound/chat; from $36K/yr. Positions itself as the replacement for Mutiny's retired personalization product and publishes at very high volume (largely templated/AI-assisted), including a Mutiny-pivot conquest cluster: 'What happened to Mutiny', 'Mutiny contract terminated', 'Mutiny feature parity map', 'old Mutiny vs new Mutiny', 'Mutiny alternatives'.",
+    "competes_with": "old",
+    "primary_contact": {
+      "name": "Jimit Mehta",
+      "title": "Co-founder & CEO (Crunchbase also lists CTO), Abmatic AI",
+      "linkedin": "unverified (village.ai profile: https://village.ai/person/jimit-mehta-MzA4ODM4MzY)",
+      "why": "Bylined on both flagged pages and the whole Mutiny cluster. In a ~5-person company the founder controls the blog directly."
+    },
+    "backup_contact": {
+      "name": "Dhruvi Naik",
+      "title": "COO & Co-founder, Abmatic AI",
+      "linkedin": "unverified (village.ai profile: https://village.ai/person/dhruvi-naik-Mjc2MzY1OTE)",
+      "why": "Only other named leader. Use her if Jimit doesn't reply."
+    },
+    "generic_contact": "support@abmatic.ai (shown on https://abmatic.ai/support, decoded from the Cloudflare-protected mailto link), support form at https://abmatic.ai/support#contact (reply within 2 business days).",
+    "update_signals": "Very high. They have already added a dated 'Status update (2026-07-28)' banner to the 6sense/Demandbase/Mutiny page and published 'What happened to Mutiny?' (Jul 14 2026) plus a cluster of Mutiny-pivot posts. Their nav includes 'OpenAI Ads' and an MCP server, so AI search is on their radar. No AEO/GEO post found via search. Pages appear to be regenerated programmatically, so edits are cheap for them.",
+    "personal_hook": "Jimit wrote 'What Happened to Mutiny? The 2026 Website Personalization Pivot Explained' (Jul 14 2026), so the ask is just 'make your older pages match your own post.'",
+    "likelihood": 4,
+    "likelihood_reason": "Saying Mutiny no longer sells web personalization helps Abmatic's own conquest story, and they have already patched one page, so the 'old product' fix is very likely. Pricing and framing fixes (sales assistant, Free/Business tiers) are less certain, and they may word the pivot unflatteringly.",
+    "persuasion_angle": "Consistency with their own reporting: 'Your What-happened-to-Mutiny post is right; these two pages contradict it and are among the most-cited Mutiny sources in AI answers (~294 retrievals on the Userled-alternatives page).' Ask for (1) a status note or rewrite of the Mutiny section on modern-alternatives-to-userled-2026, removing the '~$30,000/year' estimate, and (2) on the 6sense page, removing the stale pricing ('$36K to $96K', '$3K per month') and the 'Mutiny for personalization' recommendations in the TL;DR / decision sections. Give current pricing and a one-line current description (AI sales assistant). Note: their 'terminated every customer contract' Forbes claim also appears on these pages. Mutiny should decide separately whether it's accurate before asking for edits there.",
+    "sources": [
+      "https://abmatic.ai/blog/modern-alternatives-to-userled-2026",
+      "https://abmatic.ai/blog/6sense-vs-demandbase-vs-mutiny-2026",
+      "https://abmatic.ai/blog/what-happened-to-mutiny-website-personalization",
+      "https://abmatic.ai/support",
+      "https://abmatic.ai/blog/author/jimit-mehta",
+      "https://www.crunchbase.com/organization/abmatic-ai",
+      "https://getlatka.com/companies/abmatic.ai",
+      "https://village.ai/person/jimit-mehta-MzA4ODM4MzY",
+      "https://village.ai/person/dhruvi-naik-Mjc2MzY1OTE"
+    ]
+  }
+]

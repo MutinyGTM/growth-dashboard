@@ -1,0 +1,168 @@
+Movable Ink x Mutiny
+October 28, 2026 at 01:31 PM
+https://us-53268.app.gong.io/call?id=7735850413349825663
+
+[00:00:00] Tyler LaMantia
+Yeah, I'm on off. Hey, Tyler. Hey.
+
+[00:00:04] Neil Gollogly
+Mona. Hey, Tyler.
+
+[00:00:06] Tyler LaMantia
+How are you both doing?
+
+[00:00:08] Neil Gollogly
+Good. How are you doing?
+
+[00:00:10] Tyler LaMantia
+I'm doing well. I'm doing well. Thank you. Hey, Ben. Hey, Tyler. How's it going? Good, good. How are you? Nice to meet you. Nice to meet you too.
+
+[00:00:21] Neil Gollogly
+I know Shannon's joining but she's running a couple minutes behind. Been under the weather a little bit, so.
+
+[00:00:29] Tyler LaMantia
+No problem. That type of time of year, for sure. There's something going around Mutiny. I feel like everyone's been putting out six, But that's okay. And then I believe it was Kevin. I don't think he had replied to the invite And then Brian, I think just declined. So something must have came up.
+
+[00:00:48] Neil Gollogly
+Yeah, we're going to circle back with Brian And I know Kevin has a conflict, So that's fine. I met with him yesterday and talked to him. So I'm going to keep him in the loop.
+
+[00:00:59] Tyler LaMantia
+Awesome. Good stuff. Should we give Shannon a moment or just dive in?
+
+[00:01:04] Neil Gollogly
+We could probably just dive in Cool.
+
+[00:01:08] Tyler LaMantia
+Good stuff. Awesome. Well, yeah, been a little while. I know the team had a big event, so hopefully that went well, But yeah, I think I kind of shared the agenda roughly with you, Neil, but talk a little bit about Muni and the use cases, kind of a bit of a recap A little bit more on how we're priced in our packaging and what I would suggest and kind of how credits map to outputs. Obviously, there's a lot of dependencies there and I can talk through some things we can do to validate there. But that's what I had planned today. Like how does that sound to the team here? Is there anything we wanted to make sure to cover instead or add or change?
+
+[00:01:48] Neil Gollogly
+Sounds good. I would say that we're definitely in the stage of wanting to get an idea on pricing as we're planning for budgets for next year and all that good stuff. So, you know, I think ideally, we have a couple options and understand like what each level would mean for us if there's any limitations and things like that, But yeah, it's just really the pricing point.
+
+[00:02:16] Tyler LaMantia
+Anything from you, Mona and Ben or does that sound pretty aligned with what you're looking for? Cool, Good stuff? Neil only like one question I had like and I'll hold you to it, but like, is there a rough timeline you're looking for a solution? Like is that the beginning of next year?
+
+[00:02:33] Tyler LaMantia
+Is it a bit fluid? Just understanding, you know, kind of a work back from when you'd like something launched, if you do decide to move forward?
+
+[00:02:43] Neil Gollogly
+Yeah, if we did, I'm thinking next year early next year would be the time.
+
+[00:02:50] Tyler LaMantia
+Good stuff. All right. Well, I have some slides that I can run through. So just give me a moment and I'll pull that up. TCH.
+
+[00:03:10] Tyler LaMantia
+Can you see the slide here?
+
+[00:03:12] Neil Gollogly
+Yes.
+
+[00:03:13] Tyler LaMantia
+All right, good stuff. So yeah naturally built in mutiny prior to the call. Another great use case in regards to the team, if you ever wanted to explore kind of decks and slides as well. But pretty much, I know we went through like a big workshop and I know Ben, you weren't on that call but worked with the team to kind of build some mock ups and examples. You can kind of see two on the screen there just on what we can do. But ultimately, I think the big focus here is Personalized content for outreach. So drive pipeline and then maybe more secondary as a fast follow for in deal content or enabling reps and AEs to use the platform. But ultimately, we want to give you kind of the guardrails in place around your approved content, your brand, your account context, your messaging to work alongside any buyer conversation. So with that more detail here and I won't spend too much time. But from what I understand, I kind of want to confirm like ultimately it's two things being focused on the start which would be kind of Neil, what you've been doing on the ABM side a little bit more manually. So scaling out that motion. Obviously, they work, They're successful. They're wanted, but it's very difficult for you to kind of actually do this at bulk. So partner with sales, have one off account pages or bulk creation of like one to one, one to few, one to many ABM Alongside even exploring other just general landing page destinations and even events is a good use case. And I think someone just joined there, Shannon And then more secondary or not more secondary. But in kind of partnership with that side is like the VD group and like helping them actually get hands on You building out templates per SE and just saying like, hey, like all you have to do is jump in answer a few quick questions and they're actually able to self serve for their own outbound and prospecting motion as well. And then across both who's engaging notifications on buyer engagement, what they're viewing, where they click Doing the session, replays and summaries to understand what's working alongside like actually following up on buyer intent. So that's kind of where I look at like where your initial focus is, Neil. Would you agree with that? Or the rest of the team? I want to make sure like I'm thinking about your initial scope correctly?
+
+[00:05:29] Neil Gollogly
+Yeah, I am sorry, Shannon, because you just hopped on and you're definitely catching up. This is definitely the initial like thought behind like how marketing and sales will utilize the platform, but just want to chat and see if there's a larger scope with anything in terms of like if there's a broader sales team or other teams that would being there utilizing it, I know we would probably want there's unlimited seats. So we would roll it out for like, you know, 300 plus people now. I don't imagine they will be building much but just wanted to see if there's any other kind of use cases beyond just the ABM and the BDR stuff. Yeah.
+
+[00:06:12] Shannon Cook
+So What I really want to see Mutiny do is allow our account teams to take their prospects and on a journey throughout the sales cycle where they can start with these, either, you know, business development led or marketing led ABM pages, right? And it's for a particular account. And if we get somebody in the sales cycle and there needs to be more specification of use cases of pricing of things that they've talked about. Let that be a true landing page hub for the resources that they need while being able to archive. So to speak, the reason that hooked them and got them there. Because we all know that there are conversations that our sales team get in with the digital team. But maybe like the CTO needs to come in and they want to have resources. So it just kind of becomes this like ever expanding space. So, I mean, logistically speaking, if we're able to give all of the outbounders a seat, then we should be able to cover, you know, from that prospect perspective, but there is opportunity to also give creator credits to our CX directors for, you know, top line accounts and like being able to live that hub. I think transparently speaking, we want to understand what that looks like from a proposal perspective. You know, knowing the tools that we have today, it's important for our go to market teams to be able to find the right assets from a governance perspective which we're talking about, but then be able to utilize resources for a, you know, central repository for these clients and prospects to refer back to. So from an ABM perspective, obviously, we get that from a prospecting perspective. Obviously, we get that. But naturally, there is benefit for our CX team to also utilize this type of this type of solution. So I am interested in that. However that could certainly be a phase two depending on, you know, I want to make sure that we hit the ground running with the ABM and prospecting piece first.
+
+[00:08:32] Tyler LaMantia
+Amazing, very helpful context. And, and like my next slide is legitimately that it's like what's the next buyer conversation, right? So this is where we've had a lot of success as well, like in addition to like the top of funnel and it is like exactly what you laid out Shannon almost like you had my slide but it is like in terms of like creating the deal assets or customer assets for like what the buyer needs after that meeting happens. And that could be like a deal room which is like we've seen a lot of success with that evolves alongside the conversation or a deal hub, for a customer or recaps or comparisons or proposals, whatever that might be connecting to actual deal context. And then the other side of it is, and this generally costs nothing in Mutiny is just like hosting your content that already exists and allowing people just to share content that actually marketing has created already. That is a no agent action that is a no credit action. Anyone can jump into Mutiny. And just say, I'm searching for a case study, I can go find that in the library and I can share it. So this would be like what I'd refer to more as like, the reps running cycles or running accounts versus focusing on getting that meeting in the first pace. So it is really up to you on how many people you wanted to include. Off the bat, we can talk pricing and a little bit more about that. But you can obviously grow into it. At any point. You can start with a small pilot group across reps who run cycles, really up to you. But I think looking at both those use cases important to seeing the whole value of me. You need to awesome. And of course, like just highlighting like behind the assets, like, of course, we can automate many different actions. I think like what will be definitely used by your team? Neil is automating creation of pages, right? So you can do this in bulk. You can do this on routines. You can do this off triggers that are found in Gong or Salesforce or whatever that might be. So introducing the automation that helps you scale out creating assets. We are actually launching a rep assistant seat as well. Doesn't really need to be something focused on now, but you would have early access to that if you ever want to explore. I mean put simply it's like in addition to creating say an asset for a deal, we can automate a lot of actions that just need to take up Or happen around that. Like just the email that goes along with it, maybe an internal action item that you need to send to Slack Essentially looking at the call transcript, pulling in everything that needs to happen, giving the team a suggestion, an overview of the deal, a very account based view, and then being able to do more than asset work. So, the point being here is we can always start with the assets that's Mutiny's core competency, but automation around assets really gets deep and something we'd work to introduce that with your team as well. Yeah.
+
+[00:11:19] Neil Gollogly
+And Ben, I'll just call out because I'm guessing and you can tell me Tyler, but that will require a lot more integrations, say into our Salesforce, Gong probably Slack just to get that useful data that's probably it's occurring outside of Mutiny but needs those integrations in order for that to be effective.
+
+[00:11:44] Tyler LaMantia
+Yeah. Like ultimately like you can just upload things to Mutiny Like if you choose not to integrate and you just want to pull contacts here and there as is. But yeah, where it gets value is like Mutiny's agent can just go search, Salesforce can search, Gong can search your email on a personal level, not organizational wide. All customer initiated like you choose what you're integrating with absolutely And all of those are available and at no additional cost. So you can start with them, grow into them. But, yeah, I'll pause there in case there is a question, Ben on anything integration related?
+
+[00:12:19] Benjamin Yau
+No, I think that all makes sense. I think question, Neil, are the people who are owners of those other tools that we plan to integrate with. Are they aware of mutiny?
+
+[00:12:33] Neil Gollogly
+No, I would say short answer. No, Okay.
+
+[00:12:36] Benjamin Yau
+And that's fine. I don't think they need necessarily to be aware unless it starts manipulating information or whatever behind the scenes. Yeah.
+
+[00:12:44] Tyler LaMantia
+Yeah. And while Mutiny can do write actions to tools, you can completely disable those as well. So like if you just want read access by all means, that could just be something that, that's all Mutiny can do on the integration front.
+
+[00:12:58] Neil Gollogly
+Okay.
+
+[00:13:01] Tyler LaMantia
+Okay. So this was kind of the email you had sent me, Neil, and I know I've kind of had a question around it. So I just wanted to kind of start here because like this really defines what I'd recommend ultimately. So like I have a recommendation today, I think maybe I edit that based off your feedback but on like the third page builder front like let's say 30 people at Movable Ink, use Newsagent Absolutely do not need more than our enterprise minimum agreement. And I'll show you what that looks like. If you're thinking about extending to, you know, 150 or I believe it might have even been 300 total, Just whatever scales up. I did like more of a conservative number. Naturally, there could be more credits needed. And I'll talk all about credits. But like for my context Is how you're thinking about it? 30 people in just in terms of marketing and outbound. Is it more just depend on cost and how many people you want to actually include? Just because it would change what I'd recommend depending on how many people you want access. But before allowing you to answer, the one thing I will say is Again no user fee, So everyone can have access and you could set all of those people's credit limits to zero So they can come in. They can look at assets. They can even use the just native editor on the right side. Neil, as you've built and just like tweak manually, They could use library content and find library content. They could leverage and view analytics of the assets, but they cannot use AI to build or create anything. So that's kind of the overview. And I'd love to get a feedback sense of like maybe where this number came from. And like how you're thinking about it with that information provided? Yeah.
+
+[00:14:48] Neil Gollogly
+I would say it… would be a lot more building in the beginning. We have lists of target accounts. Let's just say like 100 to 300 accounts that we want to go after. That we know is the core focus for the BDR team. So In the first quarter, they would be definitely ramping up and getting up to speed with building those pages out. And as Shannon mentioned, I'm almost counting like a page build as when we're refreshing a page. So when it kind of turns from A prospecting page to okay, we have a, you know, we have a meeting with them. Let's now turn over the content, update the page. Maybe it's kind of swap it out with a newer template for that purpose. So I'm kind of counting those as, you know, part of those pages per month. But that was the best kind of guesstimate that I can make in terms of like translating like the output that we want to like having you say, okay, well here's how many credits would deliver that?
+
+[00:15:53] Tyler LaMantia
+Gotcha. Okay. Well with that said like maybe let's just get into the credit pieces and then we can work backwards of what actually makes the most sense First thing plans before even credits Now, noting like we do have a month to month plan called our business plan Based off what you've provided. I think enterprise would be the best fit, but I always just like to share that there is multiple options. These are kind of the main differences. There are a few other things here. But ultimately, you can start very low and buy credits as you need them within the business plan, Cancel any time, month to month agreement. You cannot connect to Salesforce, Complete standard web terms. Obviously a self serve checkout experience. There's no contract negotiation, no SSO, There's a bit limitations on like the concepts of routines and projects. Big one is like you're Effectively on your own for, you know, however much you purchase On Enterprise, you have a dedicated point of contact Instead of a shared Slack channel. We will help you build your first templates. We'll do onboardings, we'll do trainings. We'll do separate rep trainings. Pretty much have a thread to us always for help And then any sort of features that we're launching. Like I mentioned, the assistancy, probably not a key decision criteria now, but early access to product, Generally a lot of input into our direction within the product And then on credits, you're going to have a better per price where it's a dollar credit on every business plan, no matter how much you're purchasing. So yeah, I'll share that just to kind of have that in mind. But not really where we're focused is on the enterprise plan in terms of any sort of contractual agreements. But just keep in mind that option does exist. Okay? So on Enterprise, you will effectively get an annual credit pool for your team. They do not expire monthly. You can use them exactly how you want. There's peaks and valleys to everyone's types of businesses. There could be a slow time in the summer where you're not using it a lot and it picks up naturally in a lot of Q4 or Q3 or whatever that might be. They are Not expiring and only are used for any sort of AI work. I'll talk about examples of how credits are consumed. But like any AI tool, like depending on the amount of context you're asking it to receive or providing and what output you're asking and how customized. It just does depend. So we are completely fractional in terms of the credit model. Something can take point zero five and something. Could take three credits And I have some like actual examples that I could show you. You can limit users monthly. And this is where I say you could have seats that are in there with zero credits allocated to them. You could have a cap for actually builders. And you could say every cap or every builder has a cap of 100. But Neil has 300 because he does a lot more. For example, That way you protect that upper limit and you're never going to essentially run out. You can kind of forecast how these credits are allocated. But importantly, if you have a credit of 300, Neil, and you only use 150 for a month, like that does not go away. That's still just part of the overall pool Without credits. I kind of talked about this, but look at the library, grab your existing content.
+
+[00:19:08] Tyler LaMantia
+They could duplicate and edit a template manually and still share it. They could review analytics. And then again AI is where the credits come into play. Wow… Here's. Some examples like this was done in a test with our CTO recently, in a couple of different accounts. I mean ultimately like, these do depend on your account and what you're asking it to do, Right? A couple of things that are going to be pretty standard is finding content manually. I just talked about that That's zero Tighten or rewrite and copy. Like again like less than point one five to do a credit, Finding library content by saying like, hey look at my movable ink Gong transcript and find me the best case study with them Still less than point three. Once we get into asset creation, you're looking at like one pagers, sometimes only needing like point six three to get to that initial generation. And then of course, if you're doing any sort of edits, like maybe you get up to the one to two credits creating reworking a deck, a five and ideal room as an example two point one nine. But just to like bring it to life a little bit more, I did these and actually Like measured the credit specifically. So this Nike page, this was created from our retail template, right? So having a template in place is dramatically reduces credit consumption because like your structure is already there. I just had to personalize this to Nike. I created this for less than a credit, has some kind of interactive elements. I pulled an image from Nike's website. I customized the copy obviously pulled in their website. Sorry, their logo have some interactive elements. This is just an example with some content from the library to talk through them, a sales CTA, and so on. So once that template's in place, like you're really looking at less than a credit to actually build that exact page On a deal room example. And this is maybe something that's like really fits to what Shannon talked about in terms of something that could follow a deal. Again, this was a template I built And keep in mind these starting points can be used for your actual account. If you do convert it as something from like helping them compare competitively to pricing to impact to an implementation plan, Really really detailed action plan. And this still took less than three credits. Once we worked off the template. What I kind of like to point out is that building the reusable templates with our team is a really core step to conserving credits.
+
+[00:21:40] Tyler LaMantia
+We help with that on Enterprise, which some of it is actually us building which doesn't even take your credits. And then from there, you can personalize for values that are very minimal when you consider how much are included. Yeah, I'll pause there in case there's any questions on credits and then I can talk to you what would be actually included in an enterprise plan?
+
+[00:22:03] Neil Gollogly
+Yeah, this makes sense. And I'm… happy to hear that templates really help the efficiency of building a page because when I was doing, it was like a full new page every time, never using a template. So I was seeing more like that four to six credits usually per page.
+
+[00:22:24] Tyler LaMantia
+I think one.
+
+[00:22:26] Neil Gollogly
+thing that's not mentioned because this is just about the page building is how Routines and things like that automations I believe also eat at credits depending on what it is. And that could affect… how much work credits are being allocated on a month to month basis, especially if reps are setting up a lot of routines and things like that. But I don't want to get too in the weeds there because I know it's again dependent on a lot of integrations and things like that.
+
+[00:22:58] Tyler LaMantia
+Yeah, yeah. For sure. Like if you were just essentially using routines to automate page creation without integrating into much like effectively you're looking at Creating pages for these accounts on a multiple, right? Because you're just going to create X amount of accounts If you're like looking at pulling in context, we've done a lot of efficiency work. Like I actually noted it here Like it used to take like eight to nine credits. Like we've really worked on model optimization. I created a deal room just like a very basic first generation. I asked it to use all of our gone calls are my Hubspot notes for your account and my Gmail. It was marginally more than using a bunch of transcripts. So it is a lot more efficient than it has been especially on integrations front. The other thing I encourage you, I obviously pull these directly from the product but You have a trial account, Like if you want to continue working out of there a little bit and start creating things with like 50 more credits available and just like see how things go and where credit efficiency is. Even do that live together to help you validate? Like I'm always happy to support that as well. But point being that like getting into the pricing, I'll circle back to that one. The enterprise plan starting at what you'd see on our website, just under 40 K has 48,000 credits. So like when you say like 30 builders, like I genuinely have zero concern. You would ever come close to that upper limit even if you are doing automated tasks as well. So you're looking at planning for planning purposes. Again, they're granted annually at 4,000 credits a month. So, I mean, I usually like to say like give a rep a credit limit of 100 per month And they usually are in a good spot. And that can work back to how many Reddit reps you want to incorporate. So while I included another option, ultimately, I don't think you would need more than this for what you shared up front, It would probably even give you some room to grow as well.
+
+[00:25:10] Neil Gollogly
+Okay.
+
+[00:25:15] Tyler LaMantia
+And then just from here, we talked a little bit about this but the, you know, for instance, like if you had a 30 builders 3,000 per month, that's assuming everyone hit their cap every single month, which naturally is not usually the case. You know, then you're looking at the 300 credits or 3,000 credits per month there too… Which again gives you some still some room here too for leeway and admin purposes that might have higher costs as well too. So that would be that minimum starting point. Can I ask a?
+
+[00:25:51] Shannon Cook
+Question about this? Yeah, of course. So it's not necessarily we're saying to you like, hey, we need 30 creators. You're just giving us credits and whether we have one creator or 100 creators. It doesn't really matter.
+
+[00:26:04] Tyler LaMantia
+100 percent That's genuinely like where it's kind of up to you to Decide who you want to include and you can use credit limits as a mechanism to control limits. So you don't go over, But you can expand at any point, right? Like ultimately you can go ahead and sometimes we'll even build in like a credit schedule into an order form. So you have a path to expansion as well. But add as many as you'd like explore as many use cases as you'd like You have that flexibility to do so with this credit volume granted annually. That makes sense. Thank you. Of course. But yeah, that's ultimately the pricing. Like I'd love to present more options but like generally from what you described, unless you do want to kind of explore, hey, like if we had All 300 people at a certain amount of credits, What would you recommend? Like I'm happy to do that too. But based on where the starting point was provided, I think this would be more than enough and give you the opportunity to potentially introduce maybe a smaller pilot group of like people in CX or AEs and see how it goes and prove it out in that use case too. Oh, yeah. From there, I think I covered most of these pieces. Templates are a big piece And just mentioning like CX stuff in terms of our help here is no additional cost and work. Our team doesn't consume credits and we'll help you, with some of these templates and set up pieces as well. So that's one of the benefits of enterprise. But yeah, a lot of content. I know we're pretty much at time. So pausing for any other questions before just understanding what's next on your end.
+
+[00:27:45] Neil Gollogly
+So that's the enterprise recommendation you shared That's the lowest the enterprise model can go. Yeah?
+
+[00:27:54] Tyler LaMantia
+Exactly. Yeah. That's our minimum. It wouldn't be business. Yeah, exactly. Yeah.
+
+[00:27:59] Neil Gollogly
+I'm doing some rough math. It's like if we did business At the max from the website, it's 3,000 credits a month, That's about 36,000 dollars for the year, which again, we can cancel at any time. But then there's some limitations around routines projects, integrations and support.
+
+[00:28:24] Tyler LaMantia
+Exactly. Yeah. Big one being support And then also like the actual cost of the per credit because you think about the enterprises at 39 840. Yeah. You're paying like three K more for like, you know, 12 K more credits. So you do get a bit of a volume discount and that goes forward for any additional add ons you want to do.
+
+[00:28:43] Tyler LaMantia
+But by all means like business is there for a reason and can always explore that. It would just be completely self serve from here. OK… Awesome. Yeah, Shannon, Mona, Ben, any other questions? I can follow up with some more info and a recap? But I want to make sure I've answered everything for today, at least.
+
+[00:29:04] Benjamin Yau
+Yeah. I think if we just decide to move forward guidance on credit consumption in terms of how to be the most efficient, that would be something that would be helpful for our team.
+
+[00:29:15] Tyler LaMantia
+Definitely. Yeah. Big part of implementation and templates are the big unlock credit limits and the prompts behind templates.
+
+[00:29:23] Tyler LaMantia
+So it's like instructions for how a template's used, is also, very big as well too. But knowing we're a minute over Neil, just quick question like what's next on your side? What can I expect after I follow up? Does the team just need some time to debrief anything you need, on my end?
+
+[00:29:41] Neil Gollogly
+Just these notes, if you want to share the deck or if you have another format, we'd love to have that, But we're going to, we're going to debrief internally.
+
+[00:29:50] Tyler LaMantia
+OK. Sounds good. So I'll follow up with some more info. And then if I don't hear from you, I'll just touch base early next week and see how things are going and we can determine if another call can make sense.
+
+[00:30:00] Neil Gollogly
+OK.
+
+[00:30:02] Tyler LaMantia
+Awesome. Well, thank you all. Enjoy the rest of your day and hopefully talk soon.
+
+[00:30:07] Neil Gollogly
+Thank you Tyler.
