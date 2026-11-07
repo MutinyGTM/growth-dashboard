@@ -58,7 +58,7 @@ const HOST = (process.env.POSTHOG_HOST || 'https://us.posthog.com').replace(/\/$
 const PROJECT = process.env.POSTHOG_PROJECT_ID || '381053';
 const KEY = process.env.POSTHOG_PERSONAL_API_KEY;
 const OUT = 'src/beta-posthog.json';
-const ROLLOUT_UTC = '2026-10-21 04:00:00'; // = Oct 21 2026 00:00 America/New_York
+const ROLLOUT_UTC = '2026-10-21 01:00:00'; // = Kyle's dashboard 2240501 start (Oct 20 9 PM ET). Nick, Nov 7: match it exactly; anyone before Oct 21 00:00 ET is counted on Oct 21.
 const TZ = 'America/New_York';
 const INTERNAL_EMAIL_RX = /@(mutinyhq\.com|gomomentic\.com)$/i;
 
@@ -435,7 +435,8 @@ function writeA1(out) {
 
 // --- Created users (Nick, Nov 6 2026) -----------------------------------------
 // Website visitors tab numerator: people who fired [Activation] Organization
-// Created, counted ONCE on the Pacific day of their first one (event starts
+// Created, counted ONCE on the Eastern day of their first one (Nick, Nov 7:
+// Eastern to match Kyle's PostHog dashboard + the Sign ups metric; event starts
 // Aug 28 2026). Same exclusions as dashboard 2240501 (email not containing
 // "mutiny", not in Internal / Test cohort 257060) + @gomomentic.com. Daily
 // counts only (no ids), so src/beta-org-creators.json is committed.
@@ -443,7 +444,7 @@ const OC_OUT = 'src/beta-org-creators.json';
 export const OC_QUERY = `SELECT toString(d) AS d, count() AS n
 FROM (
   SELECT person_id,
-    toDate(toTimeZone(min(timestamp), 'America/Los_Angeles')) AS d,
+    toDate(toTimeZone(min(timestamp), 'America/New_York')) AS d,
     argMin(lower(coalesce(toString(properties.email), '')), timestamp) AS em
   FROM events
   WHERE event = '[Activation] Organization Created'
@@ -458,9 +459,9 @@ ORDER BY d
 LIMIT 10000`;
 export function buildOrgCreators(rows, pulledAt = new Date().toISOString()) {
   const daily = rows.map(([d, n]) => ({ d: String(d).slice(0, 10), n: Number(n) })).filter((r) => r.n > 0);
-  const lastDay = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date(pulledAt));
+  const lastDay = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date(pulledAt));
   return {
-    source: `PostHog project ${PROJECT}, [Activation] Organization Created (first per person, Pacific day)`,
+    source: `PostHog project ${PROJECT}, [Activation] Organization Created (first per person, Eastern day)`,
     pulledAt, firstDay: daily[0]?.d || null, lastDay, daily,
   };
 }

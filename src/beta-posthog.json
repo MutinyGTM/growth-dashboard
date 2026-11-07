@@ -2,18 +2,35 @@
   "source": "PostHog project 381053 (dashboard 2240501 logic)",
   "pulledAt": "2026-11-07T21:36:00.942Z",
   "rolloutStart": "2026-10-21",
-  "rolloutStartUtc": "2026-10-21T04:00:00Z",
+  "rolloutStartUtc": "2026-10-21T01:00:00Z",
   "tz": "America/New_York",
   "counts": {
-    "org": 127,
-    "gmail": 42,
-    "cal": 25,
-    "rec": 31,
-    "perms": 30,
+    "org": 128,
+    "gmail": 43,
+    "cal": 26,
+    "rec": 32,
+    "perms": 31,
     "a1": 4,
     "a2": 4
   },
   "creators": [
+    {
+      "pid": "1098194c-c918-5906-92ad-20aefc6d844e",
+      "uid": "d26f401b-7d08-4e4a-a9c6-7d6c9d4bab95",
+      "email": "mp@marcelopark.com.br",
+      "orgUtc": "2026-10-21T03:36:02.283Z",
+      "org": "2026-10-20T23:36",
+      "gmail": "2026-10-20T23:36",
+      "cal": "2026-10-20T23:37",
+      "rec": "2026-10-20T23:38",
+      "perms": "2026-10-20T23:39",
+      "orgs": [
+        {
+          "co": "7a5669d0-eaf1-44c1-9550-6c553299d924",
+          "utc": "2026-10-21T03:36:02.283Z"
+        }
+      ]
+    },
     {
       "pid": "999717ae-5e6f-5162-a2b1-a0833ddec92b",
       "uid": "2d4e6387-7c52-4820-a920-84f882848e03",

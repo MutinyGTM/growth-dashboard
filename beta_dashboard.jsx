@@ -408,14 +408,76 @@ const SIGNUP_COUNT_START = '2026-02-16';
 // whole fiscal year call these hundreds of times).
 const lowerBound = (arr, key, x) => { let lo = 0, hi = arr.length; while (lo < hi) { const m = (lo + hi) >> 1; if (key(arr[m]) < x) lo = m + 1; else hi = m; } return lo; };
 const sliceByDate = (arr, key, a, b) => arr.slice(lowerBound(arr, key, a), lowerBound(arr, key, addDays(b, 1)));
-const COUNTED_SORTED = SIGNUPS.filter((s) => s.d >= SIGNUP_COUNT_START).sort((x, y) => (x.d < y.d ? -1 : x.d > y.d ? 1 : 0));
+// Company creators: the signup row created a new company — not joining an
+// existing one (jx: accepted invite or teammate's company) and not left
+// without a company (nc).
+const isCreator = (s) => !s.jx && !s.nc;
+// SIGN UPS = ORG CREATORS (Nick, Nov 7 2026): the "Sign ups" metric everywhere
+// now counts only the first person on a new company. Everyone (creators +
+// joiners) is "All users" — allUsersIn(). signupsIn() feeds every sign up
+// count, rate and cohort on the page, so they all follow.
+const byD = (x, y) => (x.d < y.d ? -1 : x.d > y.d ? 1 : 0);
+const ALL_USERS_SORTED = SIGNUPS.filter((s) => s.d >= SIGNUP_COUNT_START).sort(byD);
+const allUsersIn = (a, b) => sliceByDate(ALL_USERS_SORTED, (s) => s.d, a, b);
+// SIGN UPS = POSTHOG ORGANIZATION CREATED (Nick, Nov 7 2026 — "I don't want any
+// questions about discrepancies between PostHog and the dashboard"). From the
+// cutover (new onboarding launch, Oct 21 2026 00:00 ET) a sign up is a person
+// who fired [Activation] Organization Created — the same people as Kyle's
+// PostHog dashboard 2240501 — counted ONCE per person, on the EASTERN day of
+// their first one (Kyle's timing). Internal / test users excluded the same way
+// (cohort 257060, @mutinyhq.com, @gomomentic.com). Data: src/beta-posthog.json
+// (npm run pull-posthog), creators without viaExport.
+// Before the cutover: the old rule (first signup row on a company, Metabase,
+// Eastern days since Nov 7) — the event didn't exist / fired at the start of sign up then.
+// Export org creators WITHOUT the event (existing users creating another
+// company, tracking misses — see TRACKING_GAPS.md) are NOT sign ups any more;
+// they stay in All users.
+// Each PostHog sign up borrows its Metabase signup row (same user + company)
+// for channel, role and milestones; if the export doesn't have it yet, it's a
+// bare row (cf 'ph') until it does. The matched Metabase row is tagged `su`
+// so All users lists can tell sign ups apart. Everything (sign up rows,
+// milestones) is on Eastern days since Nov 7 (ingest-signups converts).
+const PH_SIGNUP_CUTOVER = betaPosthog?.rolloutStart || '2026-10-21';
+const etDayFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' });
+const PH_SIGNUP_ROWS = (() => {
+  const byUid = new Map();
+  for (const s of ALL_SIGNUP_ROWS) if (s.uid) (byUid.get(s.uid) || byUid.set(s.uid, []).get(s.uid)).push(s);
+  const out = [];
+  for (const c of betaPosthog?.creators || []) {
+    if (c.viaExport || !c.orgUtc) continue;
+    // Kyle's dashboard starts Oct 21 01:00 UTC (Oct 20 9 PM ET); Nick (Nov 7):
+    // include those 3 hours, counted on the cutover day.
+    const d0 = c.org ? c.org.slice(0, 10) : etDayFmt.format(new Date(c.orgUtc));
+    const d = d0 < PH_SIGNUP_CUTOVER ? PH_SIGNUP_CUTOVER : d0;
+    const co = c.orgs?.[0]?.co || null;
+    const cands = byUid.get(c.uid) || [];
+    const src = (co && cands.find((s) => s.co === co))
+      || cands.filter((s) => s.d >= addDays(PH_SIGNUP_CUTOVER, -1) && !s.jx).sort(byD).pop()
+      || null;
+    if (src) src.su = d;
+    out.push({ ...(src || { uid: c.uid, co, cf: 'ph' }), email: src?.email || c.email || '', d, su: d, ph: 1, jx: 0, inv: 0, nc: 0 });
+  }
+  return out;
+})();
+// Pre-cutover side. A Metabase row that a PostHog sign up already claimed
+// (same user + company) counts on the PostHog side only,
+// so the total since Oct 21 ties to Kyle's dashboard.
+const PH_CLAIMED = new Set(PH_SIGNUP_ROWS.filter((r) => r.co).map((r) => `${r.uid}|${r.co}`));
+const PRE_CUT_SIGNUPS = ALL_USERS_SORTED.filter((s) => isCreator(s) && s.d < PH_SIGNUP_CUTOVER && !PH_CLAIMED.has(`${s.uid}|${s.co}`));
+for (const s of PRE_CUT_SIGNUPS) s.su = s.d;
+// A sign up (either side of the cutover). On All users rows: the Metabase row
+// a PostHog sign up matched, or a pre-cutover creator.
+const isSignup = (s) => Boolean(s.su);
+// Day to compare milestone days against (both Eastern since Nov 7).
+const msDay = (s) => s.d;
+// Type label for All users rows (tables).
+const userTypeOf = (s) => (s.jx ? 'Joiner' : isSignup(s) ? 'Sign up' : 'Org creator (prior account)');
+const userTypeTitle = (s) => (s.jx ? 'Joined an existing company' : isSignup(s) ? 'Sign up: fired Organization Created in PostHog (before Oct 21: first person at a new company)' : 'First person at a new company, but PostHog has no Organization Created for them (usually an existing Mutiny account creating another company), so not counted as a sign up');
+const COUNTED_SORTED = [...PRE_CUT_SIGNUPS, ...PH_SIGNUP_ROWS].sort(byD);
 const signupsIn = (a, b) => sliceByDate(COUNTED_SORTED, (s) => s.d, a, b);
 const neverCompletedIn = (a, b) => NEVER_COMPLETED.filter((s) => s.d >= SIGNUP_COUNT_START && inRange(s.d, a, b));
-// Company creators: the signup created a new company — not joining an existing
-// one (jx: accepted invite or teammate's company) and not left without a
-// company (nc). Same rule as the channel table's "company creators".
-const isCreator = (s) => !s.jx && !s.nc;
-const COUNTED_SIGNUPS = SIGNUPS.filter((s) => s.d >= SIGNUP_COUNT_START).length;
+const COUNTED_SIGNUPS = COUNTED_SORTED.length;
+const COUNTED_ALL_USERS = ALL_USERS_SORTED.length;
 const pctChange = (curr, prev) => (prev ? ((curr - prev) / prev) * 100 : null);
 const pct = (n, d) => (d ? (n / d) * 100 : null);
 const ptsDiff = (a, b) => (a != null && b != null ? a - b : null);
@@ -490,12 +552,15 @@ const sumFramerHi = (a, b) => {
 };
 // Created users (Nick, Nov 6): the Website visitors tab's rate cards divide
 // PostHog org creators — people who fired [Activation] Organization Created,
-// counted once on the Pacific day of their first one — by Framer visitors,
-// instead of sign up rows. npm run pull-posthog → src/beta-org-creators.json.
-// The event starts Aug 28 2026, so these rates start there.
+// counted once on the Eastern day of their first one (Nov 7: Eastern, like
+// Kyle's dashboard) — by Framer visitors, instead of sign up rows.
+// npm run pull-posthog → src/beta-org-creators.json. The event starts Aug 28
+// 2026, so these rates start there. From the sign up cutover (Oct 21) the
+// daily counts ARE the Sign ups metric (PH_SIGNUP_ROWS), so the two tie.
 const OC_START = betaOrgCreators.firstDay;
 const OC_END = betaOrgCreators.lastDay;
-const OC_BY_DATE = Object.fromEntries(betaOrgCreators.daily.map((r) => [r.d, r.n]));
+const OC_BY_DATE = Object.fromEntries(betaOrgCreators.daily.filter((r) => r.d < PH_SIGNUP_CUTOVER).map((r) => [r.d, r.n]));
+for (const r of PH_SIGNUP_ROWS) OC_BY_DATE[r.d] = (OC_BY_DATE[r.d] || 0) + 1;
 const sumOrgCreators = (a, b) => {
   let s = 0;
   for (let d = a; d <= b; d = addDays(d, 1)) s += OC_BY_DATE[d] || 0;
@@ -600,7 +665,7 @@ const STEPS = [
 // connected + Recorder signed in, with the SAME PostHog events as the New
 // onboarding card (PH_ONB_STEPS): [Activation] Integration Connected toolkit =
 // gmail / google_calendar (confirmed connections), [Recorder] Signed In. Per
-// signup: phEm / phCal / phRec (Pacific days) from npm run pull-posthog →
+// signup: phEm / phCal / phRec (Eastern days) from npm run pull-posthog →
 // ingest-signups. Replaces the Metabase recorder install + Gmail + Calendar
 // (any status) definition. The individual step cards (STEPS) use the same
 // PostHog fields (Oct 26); Metabase rec/cal/em are no longer shown.
@@ -650,7 +715,7 @@ function activationStats(step, a, b) {
 // Activated (Nick, Oct 26 2026) = completed A2: fired [Activation] A2 Reached
 // (recorded 3 meetings; swapped in Oct 30 from [Onboarding] A2 Activated) in
 // PostHog, the same definition as PostHog dashboard 2240501. s.a2 =
-// first A2 (Pacific day), attached per signup by ingest-signups /
+// first A2 (Eastern day), attached per signup by ingest-signups /
 // build-posthog-signups from npm run pull-posthog. Replaces "sent an email
 // (send or draft) OR published an asset" everywhere (funnel, channel table,
 // Activation, Returned, Paid). A2 only exists from the new onboarding rollout
@@ -667,14 +732,14 @@ const ACT_TRACK_FROM = '2026-10-21'; // new onboarding rollout = first day A2 ca
 // PostHog-only from the new onboarding rollout.
 const ACT_DATA_FROM = ACT_TRACK_FROM;
 // "Data as of" on the Activation tab (Nick, Oct 26): date + time each source
-// was last refreshed, Pacific. Sign ups = the user_signups export's timestamp
+// was last refreshed, Eastern (Nov 7). Sign ups = the user_signups export's timestamp
 // (from its file name, kept in SIGNUP_SRC.exportedAt when ingest writes it,
 // else the ingest run) and its last sign up day; PostHog = last pull-posthog.
 const fmtAsOf = (iso) => {
   if (!iso) return null;
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
-  return `${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles' })}, ${d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' })} PT`;
+  return `${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/New_York' })}, ${d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET`;
 };
 const ACT_AS_OF = [
   `sign ups through ${monDay(SIGNUP_SRC.lastDate)}${fmtAsOf(SIGNUP_SRC.exportedAt || SIGNUP_SRC.pulledAt) ? ` (export ${fmtAsOf(SIGNUP_SRC.exportedAt || SIGNUP_SRC.pulledAt)})` : ''}`,
@@ -685,7 +750,7 @@ const actDate = (s) => s.a2 || null;
 // PostHog [Activation] A1 Reached = created 3 threads (Nick, Oct 30; first
 // fired Oct 29). New event only; the old A1 Magic Moment / First Action
 // Completed no longer count. Same as the New onboarding card's A1.
-// s.a1 = first one (Pacific day). Tracked from the rollout, like A2.
+// s.a1 = first one (Eastern day). Tracked from the rollout, like A2.
 const A1_DEF_TEXT = 'reached A1: created 3 threads (PostHog [Activation] A1 Reached)';
 const a1Date = (s) => s.a1 || null;
 const ACT_SORTED = SIGNUPS.filter(actDate).sort((x, y) => (actDate(x) < actDate(y) ? -1 : actDate(x) > actDate(y) ? 1 : 0));
@@ -729,13 +794,14 @@ const FIRST_REC_TRACKED = SIGNUP_SRC.phOnb?.first?.rec || SIGNUPS.reduce((m, s) 
 // tracked" (no point, not zero) and are skipped in pooled rates.
 const CONV_WINDOWS = [7, 14, 30];
 const DEFAULT_CONV_WINDOW = 7;
-const SIGNUPS_BY_DAY = SIGNUPS.reduce((m, s) => {
-  if (s.d >= SIGNUP_COUNT_START) (m[s.d] || (m[s.d] = [])).push(s);
+const SIGNUPS_BY_DAY = COUNTED_SORTED.reduce((m, s) => {
+  // Sign ups (PostHog org creators from the cutover, Nov 7), so conversion-window cohorts are sign ups only.
+  (m[s.d] || (m[s.d] = [])).push(s);
   return m;
 }, {});
 function makeDailyConv(dateFn, trackFrom, days) {
   const lastMature = addDays(DATA_END, -days);
-  const within = (s) => { const x = dateFn(s); return Boolean(x && x >= s.d && daysBetweenISO(s.d, x) <= days); };
+  const within = (s) => { const x = dateFn(s); return Boolean(x && x >= msDay(s) && daysBetweenISO(msDay(s), x) <= days); };
   const tracked = (d) => !trackFrom || addDays(d, days) >= trackFrom;
   // Pooled rate over signup days a…b (mature + tracked days only).
   function pooled(a, b) {
@@ -974,6 +1040,9 @@ function buildModel(range, grain, custom, minStart) {
       hiConvPrev: highIntentPrev == null ? null : pct(hiCreatorsPrev, highIntentPrev),
       signups: curr.length,
       signupsPrev: prev.length,
+      allUsers: allUsersIn(START, END).length,
+      allUsersPrev: allUsersIn(PRIOR_START, PRIOR_END).length,
+      allJoiners: allUsersIn(START, END).filter((s) => s.jx).length,
       visitors,
       visitorsPrev,
       conv: pct(curr.length, visitors),
@@ -1019,7 +1088,7 @@ function buildModel(range, grain, custom, minStart) {
       // week mixes bot-counted days → gap). Raw `conv` stays for the faint line.
       const comparable = w.start >= MEASURE_BREAK;
       const visitorsAdj = comparable ? sumSessionsAdj(w.start, end) : null;
-      const row = { ...w, signups: list.length, visitors, visitorsAdj, convAdj: comparable ? pct(list.length, visitorsAdj) : null, preBreak: !comparable, adjScaled: comparable && overlapsConsentAdj(w.start, end), cumVisitors, cumSignups, conv: pct(list.length, visitors), highIntent, allSessions: sumSessions(w.start, end), hiReach: hiReachOf(highIntent, sumSessions(w.start, end)),creators: list.filter(isCreator).length, hiConv: highIntent == null ? null : pct(list.filter(isCreator).length, highIntent) };
+      const row = { ...w, signups: list.length, allUsers: allUsersIn(w.start, end).length, allJoiners: allUsersIn(w.start, end).filter((s) => s.jx).length, visitors, visitorsAdj, convAdj: comparable ? pct(list.length, visitorsAdj) : null, preBreak: !comparable, adjScaled: comparable && overlapsConsentAdj(w.start, end), cumVisitors, cumSignups, conv: pct(list.length, visitors), highIntent, allSessions: sumSessions(w.start, end), hiReach: hiReachOf(highIntent, sumSessions(w.start, end)),creators: list.filter(isCreator).length, hiConv: highIntent == null ? null : pct(list.filter(isCreator).length, highIntent) };
       ROLES.forEach((r) => { row[r.key] = 0; });
       list.forEach((s) => { row[roleKey(s)] += 1; });
       ROLES.forEach((r) => { row[`${r.key}_pct`] = list.length ? (row[r.key] / list.length) * 100 : 0; });
@@ -2479,7 +2548,7 @@ function HighIntentToSignupCard() {
       question={(
         <>
           <span style={{ display: 'block', color: C.black, fontWeight: 600 }}>Do high-intent visitors create an account?</span>
-          <span style={{ display: 'block', marginTop: 6 }}>Each week: company-creator signups ÷ sessions that viewed at least one high-intent page.</span>
+          <span style={{ display: 'block', marginTop: 6 }}>Each week: sign ups ÷ sessions that viewed at least one high-intent page.</span>
           <span style={{ display: 'block', marginTop: 6 }}>Only signups that created a new company count. People accepting an invite or joining a teammate's company, and signups that never set up a company, are left out, since they mostly don't arrive through the website.</span>
           <span style={{ display: 'block', marginTop: 6 }}>It's a ratio of two weekly totals, not a tracked path: a signup counts whether or not that person saw a high-intent page.</span>
           <span style={{ display: 'block', marginTop: 6 }}>High-intent pages: pricing (/pricing), customer stories (/customers/…), case studies (/case-studies/…), and use-case pages (/use-cases/…).</span>
@@ -2505,7 +2574,7 @@ function HighIntentToSignupCard() {
           <Tooltip content={({ active, payload }) => active && payload?.length ? (
             <TooltipBox title={weekTitle(payload[0].payload)} rows={[
               { label: 'High-intent → sign up', value: fmtPct(payload[0].payload.hiConv, 1), color: C.black },
-              { label: 'Company-creator sign ups', value: fmtInt(payload[0].payload.creators) },
+              { label: 'Sign ups', value: fmtInt(payload[0].payload.creators) },
               { label: 'High-intent sessions', value: fmtInt(payload[0].payload.highIntent) },
               { label: 'All sign ups (for reference)', value: fmtInt(payload[0].payload.signups) },
             ]} />
@@ -2529,7 +2598,7 @@ const rateFromNote = (M, F) => (F.rateStart !== M.START ? ` Starts ${monDay(F.ra
 
 // Created users (Nick, Nov 6): both visitor-tab rate cards use PostHog org
 // creators ([Activation] Organization Created) instead of sign up rows.
-const OC_DEF_NOTE = `Created users = people who fired [Activation] Organization Created in PostHog (created a new company workspace), counted once, on the Pacific day of their first one. It fires as soon as the workspace is created, whether or not they finish onboarding; people who accept an invite or join a teammate's company don't count. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. The event starts ${monDay(OC_START)}, so this card does too.`;
+const OC_DEF_NOTE = `Created users = people who fired [Activation] Organization Created in PostHog (created a new company workspace), counted once, on the Eastern day of their first one (from Oct 21 these are exactly the Sign ups metric). It fires as soon as the workspace is created, whether or not they finish onboarding; people who accept an invite or join a teammate's company don't count. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. The event starts ${monDay(OC_START)}, so this card does too.`;
 const ocRateFromNote = (M, F) => (F.ocRateStart !== M.START ? ` Starts ${monDay(F.ocRateStart)}${F.ocRateStart === OC_START ? ', when PostHog starts tracking created users' : ', the first day of Framer data'}.` : '');
 
 function FramerVisitorToSignupCard() {
@@ -3218,7 +3287,7 @@ function SignupsByChannelCard() {
     { key: SR_INVITED.name, sub: SR.perSignup || INVITE_DAILY ? 'accepted an invite to an existing company — never asked' : 'available after the next pull-data', color: SR_INVITED.color, n: SR.invited, act: SR.actInvited || SR.actJoined, actCombined: !SR.actInvited },
     { key: SR_DOMAIN.name, sub: 'found their team’s company through their email domain, no invite — never asked', color: SR_DOMAIN.color, n: SR.domain || 0, act: SR.actDomain || SR.actJoined, actCombined: !SR.actDomain },
     { key: SR_JOINED.name, sub: `joined an existing company, no join type recorded${PH_JOINS_FROM ? ` (tracked from ${monDay(PH_JOINS_FROM)})` : ''} — never asked`, color: SR_JOINED.color, n: SR.joined, act: SR.actTeammate || SR.actJoined, actCombined: !SR.actTeammate },
-  ].sort((a, b) => b.n - a.n);
+  ].filter((r) => r.n > 0).sort((a, b) => b.n - a.n); // joiner rows are 0 now that sign ups = org creators (Nov 7)
   // Other (no answer) stays at the bottom. Never completed is no longer a row
   // (excluded from sign ups, Nick Oct 15) — see the button under the card.
   rows.push({ key: SR_OTHER.name, sub: SR.otherList ? 'created a company, no answer · click to see who' : null, color: SR_OTHER.color, n: SR.other, act: SR.actOther, ...(SR.otherList ? { onClick: () => openUsers({ ...NEVER_MODAL, title: 'Other (no answer)', subtitle: `signed up ${rangeLabel(START, END)}, created a company but no answer or invite in Amplitude`, users: SR.otherList }) } : {}) });
@@ -3242,7 +3311,7 @@ function SignupsByChannelCard() {
         accent={C.purple}
         title="Sign ups and conversion by channel"
         question={`Self-reported “How did you hear about us?” · ${view === 'chart' ? M.grainAdj : view === 'growth' ? `share of sign ups, ${M.grainAdj}` : `${M.label} · ${rangeLabel(START, END)}`}`}
-        footnote={`${SR.perSignup ? `Every signup in the period (Metabase) is looked up in Amplitude by user id and put in exactly one row: its own “How did you hear about us?” answer (referral_source, bucketed with the same rules as the live dashboard's “User signups by Channel”); otherwise, for signups that joined a company that already had a signup, how they joined (PostHog “Organization Joined” join type, tracked from ${PH_JOINS_FROM ? monDay(PH_JOINS_FROM) : 'Aug 28'}, ${PH_JOINS_FROM ? PH_JOINS_FROM.slice(0, 4) : '2026'}): Joined via invite (accepted an invite; also Amplitude “User Invitation Completed” when PostHog has no join type) or Joined via domain match (found their team's company through their email domain, no invite); joiners with neither are Joined (method unknown), mostly before PostHog tracked it; otherwise Other (created a company but no answer in Amplitude). Only company setup asks the question, so joiners are never asked. Rows add up to Overall. Internal (@mutinyhq.com, @gomomentic.com test account) signups are left out, like the rest of this page.` : `Channel = the signup's self-reported answer (Amplitude referral_source daily totals), bucketed with the same rules as the live dashboard's “User signups by Channel”. Only company setup asks the question. Joined via invite = Amplitude “User Invitation Completed” (daily unique users). Joined (method unknown) = signups on a company that already had an earlier signup (Metabase), minus those invites; the domain-match split needs per-signup data. Other = what's left. Answers are daily totals here, not per person, so the split is approximate — run npm run pull-amp-events for exact per-signup rows.`} Overall = all Metabase signups in the window, matching the rest of this page. Never-completed signups (no workspace, or one never named) are left out of every sign up number on this page; use “View never-completed sign ups” under the card to see them.${view === 'table' ? ` Sign up → activated = share of the row's signups in the period that have activated (${ACT_DEF_TEXT}) so far, same as the funnel. ${SR.perSignup ? `Every row is exact: it's the share of that row's signups that have activated (hover a cell for the count).` : `It's filled in only where we know each signup's group: the two joiner rows share one rate (${fmtPct(SR.actJoined.rate, 1)}, ${fmtInt(SR.actJoined.k)} of ${fmtInt(SR.actJoined.n)}) because the joiner split is only an Amplitude total; channel rows need each person's answer (run npm run pull-amp-events) — together, company creators (the people who were asked) activated at ${fmtPct(SR.actCreators.rate, 1)} (${fmtInt(SR.actCreators.k)} of ${fmtInt(SR.actCreators.n)}).`}` : ''}${view === 'growth' ? ` Growth: each channel's share of that week's sign ups, for the weeks in the reporting period; the last point is the week in progress. Hover a week for counts.` : view === 'chart' ? ` ${monthly ? 'Fiscal YTD shows monthly columns; the faintly striped one is the month in progress.' : `${M.mode === '1w' ? 'Last week shows the same columns as Last 4 weeks; the table on the right is last week only. ' : ''}Faintly striped bar = week in progress. The chart runs to the current week; a week with no bars has no sign up data yet (the signups export ends ${monDay(DATA_END)}).`}` : ' Activated → paid comes from stripe-dash.'}`}
+        footnote={`${SR.perSignup ? `Every signup in the period (Metabase) is looked up in Amplitude by user id and put in exactly one row: its own “How did you hear about us?” answer (referral_source, bucketed with the same rules as the live dashboard's “User signups by Channel”); otherwise, for signups that joined a company that already had a signup, how they joined (PostHog “Organization Joined” join type, tracked from ${PH_JOINS_FROM ? monDay(PH_JOINS_FROM) : 'Aug 28'}, ${PH_JOINS_FROM ? PH_JOINS_FROM.slice(0, 4) : '2026'}): Joined via invite (accepted an invite; also Amplitude “User Invitation Completed” when PostHog has no join type) or Joined via domain match (found their team's company through their email domain, no invite); joiners with neither are Joined (method unknown), mostly before PostHog tracked it; otherwise Other (created a company but no answer in Amplitude). Only company setup asks the question, so joiners are never asked. Rows add up to Overall. Internal (@mutinyhq.com, @gomomentic.com test account) signups are left out, like the rest of this page.` : `Channel = the signup's self-reported answer (Amplitude referral_source daily totals), bucketed with the same rules as the live dashboard's “User signups by Channel”. Only company setup asks the question. Joined via invite = Amplitude “User Invitation Completed” (daily unique users). Joined (method unknown) = signups on a company that already had an earlier signup (Metabase), minus those invites; the domain-match split needs per-signup data. Other = what's left. Answers are daily totals here, not per person, so the split is approximate — run npm run pull-amp-events for exact per-signup rows.`} Overall = all sign ups in the window, matching the rest of this page. Since Nov 7, 2026 a sign up is the first person on a new company (org creator), so people who joined an existing company aren't sign ups and the joiner rows are empty; they're counted in All users. Never-completed signups (no workspace, or one never named) are left out of every sign up number on this page; use “View never-completed sign ups” under the card to see them.${view === 'table' ? ` Sign up → activated = share of the row's signups in the period that have activated (${ACT_DEF_TEXT}) so far, same as the funnel. ${SR.perSignup ? `Every row is exact: it's the share of that row's signups that have activated (hover a cell for the count).` : `It's filled in only where we know each signup's group: the two joiner rows share one rate (${fmtPct(SR.actJoined.rate, 1)}, ${fmtInt(SR.actJoined.k)} of ${fmtInt(SR.actJoined.n)}) because the joiner split is only an Amplitude total; channel rows need each person's answer (run npm run pull-amp-events) — together, company creators (the people who were asked) activated at ${fmtPct(SR.actCreators.rate, 1)} (${fmtInt(SR.actCreators.k)} of ${fmtInt(SR.actCreators.n)}).`}` : ''}${view === 'growth' ? ` Growth: each channel's share of that week's sign ups, for the weeks in the reporting period; the last point is the week in progress. Hover a week for counts.` : view === 'chart' ? ` ${monthly ? 'Fiscal YTD shows monthly columns; the faintly striped one is the month in progress.' : `${M.mode === '1w' ? 'Last week shows the same columns as Last 4 weeks; the table on the right is last week only. ' : ''}Faintly striped bar = week in progress. The chart runs to the current week; a week with no bars has no sign up data yet (the signups export ends ${monDay(DATA_END)}).`}` : ' Activated → paid comes from stripe-dash.'}`}
       >
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 12 }}>
           <ViewToggle value={view} onChange={setView} options={[{ value: 'chart', label: `${M.grainLabel} chart` }, { value: 'table', label: 'Table' }, { value: 'growth', label: 'Growth' }]} />
@@ -3253,7 +3322,7 @@ function SignupsByChannelCard() {
               title={`${M.label} · ${rangeLabel(START, END)}`}
               unit="sign ups"
               total={SR.total}
-              items={SR_STACK.map((b) => ({ label: b.name, color: b.color, n: srValue(SR, b.name) })).sort((a, b) => b.n - a.n)}
+              items={SR_STACK.map((b) => ({ label: b.name, color: b.color, n: srValue(SR, b.name) })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n)}
               hidden={H.hidden}
               onToggle={H.toggle}
               onShowAll={H.showAll}
@@ -3266,7 +3335,7 @@ function SignupsByChannelCard() {
                 title={`${M.label} · ${rangeLabel(START, END)}`}
                 unit="sign ups"
                 total={SR.total}
-                items={SR_STACK.map((b) => ({ label: b.name, color: b.color, n: srValue(SR, b.name) })).sort((a, b) => b.n - a.n)}
+                items={SR_STACK.map((b) => ({ label: b.name, color: b.color, n: srValue(SR, b.name) })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n)}
                 hidden={H.hidden}
                 onToggle={H.toggle}
                 onShowAll={H.showAll}
@@ -3484,7 +3553,22 @@ function EnterpriseMeetingsCard() {
 // Sign ups per week (Nick, Oct 20): replaces the cumulative card on the Sign
 // ups tab. Weekly in every reporting period, Fiscal YTD included (Nick asked for per week).
 // Line chart (Nick, Oct 20); the week in progress draws as a dotted tail.
-function WeeklySignupsCard() {
+// "More detail" (Nick, Nov 7): All users + Recently added users are hidden
+// under the Sign ups chart until this button opens them (remembered per browser).
+function SignupsWithDetail() {
+  const [open, setOpenState] = useState(() => {
+    try { return window.localStorage.getItem('beta-signups-detail-open') === '1'; } catch (e) { return false; }
+  });
+  const setOpen = (v) => { setOpenState(v); try { window.localStorage.setItem('beta-signups-detail-open', v ? '1' : '0'); } catch (e) { /* ignore */ } };
+  return (
+    <>
+      <div className="full"><WeeklySignupsCard detailOpen={open} onToggleDetail={() => setOpen(!open)} /></div>
+      {open && <div className="full"><AllUsersWeeklyCard /></div>}
+      {open && <div className="full"><RecentSignupsCard /></div>}
+    </>
+  );
+}
+function WeeklySignupsCard({ detailOpen, onToggleDetail }) {
   const M = useModel();
   const { WEEKLY, WINDOW } = M;
   const data = WEEKLY.map((w, i) => {
@@ -3495,7 +3579,7 @@ function WeeklySignupsCard() {
     <Card from={SIGNUP_COUNT_START}
       title="Sign ups"
       question="Are we on pace?"
-      footnote={`Every signup in each ${M.grainEach}, including repeat signups by the same person (someone signing up to two companies counts twice); internal (@mutinyhq.com, @gomomentic.com test account) and never-completed signups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''} No goal set yet.`}
+      footnote={`Sign ups in each ${M.grainEach}. From ${monDay(PH_SIGNUP_CUTOVER)} (new onboarding launch): people who fired [Activation] Organization Created in PostHog — the same people as Kyle's PostHog “New user onboarding” dashboard — counted once per person on the Eastern-time day of their first one (like Kyle's dashboard, it starts Oct 20 9 PM ET; those 3 hours count on ${monDay(PH_SIGNUP_CUTOVER)}). Org creators PostHog didn't record (e.g. existing users creating another company) aren't sign ups; they're in All users under “More detail”. Before ${monDay(PH_SIGNUP_CUTOVER)}: the first person on a new company in the Metabase sign up export, also on Eastern days (two companies = twice; never-completed left out). People who joined an existing company are never sign ups. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''} No goal set yet.`}
     >
       <StatRow delta={<Delta value={pctChange(WINDOW.signups, WINDOW.signupsPrev)} />}>
         <Stat label={`Actual · ${rangeLabel(M.START, M.END)}`} value={fmtInt(WINDOW.signups)} explain={`${fmtInt(WINDOW.signups)} signups from ${rangeLabel(M.START, M.END)}.${WINDOW.signupsPrev != null ? ` ${fmtInt(WINDOW.signupsPrev)} in the ${M.prior}.` : ''}`} />
@@ -3514,6 +3598,120 @@ function WeeklySignupsCard() {
           <Line dataKey="signupsPartial" stroke={C.black} strokeWidth={2} strokeDasharray="2 4" dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} legendType="none" isAnimationActive={false} />
         </LineChart>
       </ZoomContainer>
+      {onToggleDetail && (
+        <div style={{ marginTop: 14, display: 'flex', justifyContent: 'center' }}>
+          <button type="button" onClick={onToggleDetail} aria-expanded={detailOpen}
+            style={{ fontFamily: FONT_BODY, fontSize: 12.5, color: C.purple, background: 'none', border: `1px solid ${C.lightGrey}`, borderRadius: 4, padding: '5px 12px', cursor: 'pointer' }}>
+            {detailOpen ? 'Less detail ▴' : 'More detail ▾'}
+          </button>
+        </div>
+      )}
+    </Card>
+  );
+}
+
+// All users per week (Nick, Nov 7): everyone who signed up — sign ups (org
+// creators) + joiners. Sits under Sign ups. Was the "Sign ups" chart before
+// sign ups were redefined as org creators.
+function AllUsersWeeklyCard() {
+  const M = useModel();
+  const { WEEKLY, WINDOW } = M;
+  const data = WEEKLY.map((w, i) => {
+    const next = WEEKLY[i + 1];
+    return { ...w, allFull: w.partial ? null : w.allUsers, allPartial: w.partial || next?.partial ? w.allUsers : null };
+  });
+  const joiners = WINDOW.allJoiners;
+  const orgCreators = WINDOW.allUsers - joiners;
+  return (
+    <Card from={SIGNUP_COUNT_START}
+      title="All users"
+      question="How many people are joining, including teammates?"
+      footnote={`Everyone in the sign up export (Metabase) in each ${M.grainEach}, on Eastern days: org creators (first person on a new company) plus joiners (joined an existing company by invite, domain match or unknown method). This is wider than Sign ups: from ${monDay(PH_SIGNUP_CUTOVER)} Sign ups only count people PostHog saw fire Organization Created, so org creators it missed (e.g. existing users creating another company) are here but not there. Repeat sign ups by the same person count (two companies = twice). Internal (@mutinyhq.com, @gomomentic.com) and never-completed sign ups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''}`}
+    >
+      <StatRow delta={<Delta value={pctChange(WINDOW.allUsers, WINDOW.allUsersPrev)} />}>
+        <Stat label={`Actual · ${rangeLabel(M.START, M.END)}`} value={fmtInt(WINDOW.allUsers)} explain={`${fmtInt(WINDOW.allUsers)} users from ${rangeLabel(M.START, M.END)}: ${fmtInt(orgCreators)} org creators + ${fmtInt(joiners)} joiners. ${fmtInt(WINDOW.allUsersPrev)} in the ${M.prior}.`} />
+        <Stat label="Joiners" value={fmtInt(joiners)} explain={`${fmtInt(joiners)} people joined an existing company from ${rangeLabel(M.START, M.END)} (${fmtPct(pct(joiners, WINDOW.allUsers), 0)} of all users).`} />
+      </StatRow>
+      <Legend items={[{ label: `All users (${M.grainAdj})`, color: C.black, line: true }]} />
+      <ZoomContainer height={220}>
+        <LineChart data={fromRows(data, SIGNUP_COUNT_START)} margin={chartMargin}>
+          {grid}
+          <XAxis {...xAxis} />
+          <YAxis {...yAxis} domain={[0, 'auto']} allowDecimals={false} />
+          <Tooltip content={({ active, payload }) => active && payload?.length ? (
+            <TooltipBox title={weekTitle(payload[0].payload)} rows={[
+              { label: 'All users', value: fmtInt(payload[0].payload.allUsers), color: C.black },
+              { label: 'Org creators', value: fmtInt(payload[0].payload.allUsers - payload[0].payload.allJoiners) },
+              { label: 'Joiners', value: fmtInt(payload[0].payload.allJoiners) },
+            ]} />
+          ) : null} />
+          <Line dataKey="allFull" stroke={C.black} strokeWidth={2.5} dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} isAnimationActive={false} />
+          <Line dataKey="allPartial" stroke={C.black} strokeWidth={2} strokeDasharray="2 4" dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} legendType="none" isAnimationActive={false} />
+        </LineChart>
+      </ZoomContainer>
+    </Card>
+  );
+}
+
+// Recently added users (Nick, Nov 7; was "Recent sign ups"): newest first,
+// under All users, behind "More detail". Toggle Sign ups / All users / Joiners
+// (always opens on Sign ups). Sign ups = the sign up metric's rows (PostHog,
+// Eastern days, from the cutover); All users / Joiners = the Metabase export. Box is 10 rows tall; "See next 10"
+// appends more inside it (scroll). Collapsible (remembered). Summary = last 7 days.
+const RECENT_SEGMENTS = [
+  { value: 'creators', label: 'Sign ups', noun: 'sign ups', filter: isSignup },
+  { value: 'all', label: 'All users', noun: 'users', filter: () => true },
+  { value: 'joiners', label: 'Joiners', noun: 'joiners', filter: (s) => Boolean(s.jx) },
+];
+const RECENT_SIGNUP_DAYS = 7;
+function RecentSignupsCard() {
+  const [open, setOpenState] = useState(() => {
+    try { return window.localStorage.getItem('beta-recent-signups-open') !== '0'; } catch (e) { return true; }
+  });
+  const setOpen = (v) => { setOpenState(v); try { window.localStorage.setItem('beta-recent-signups-open', v ? '1' : '0'); } catch (e) { /* ignore */ } };
+  // Always opens on Org creators (Nick, Nov 7) — the choice isn't remembered.
+  const [segKey, setSeg] = useState('creators');
+  const seg = RECENT_SEGMENTS.find((x) => x.value === segKey);
+  const from = addDays(DATA_END, -(RECENT_SIGNUP_DAYS - 1));
+  const all = React.useMemo(() => allUsersIn(SIGNUP_COUNT_START, DATA_END), []);
+  const signupRows = React.useMemo(() => signupsIn(SIGNUP_COUNT_START, DATA_END), []);
+  const rows = React.useMemo(() => (segKey === 'creators' ? signupRows : all.filter(seg.filter)), [all, signupRows, seg, segKey]);
+  const week = all.filter((s) => s.d >= from);
+  const creators = signupsIn(from, DATA_END).length;
+  const joinersWk = week.filter((s) => s.jx).length;
+  const roleLabel = (s) => ROLES.find((r) => r.key === roleKey(s))?.label || (s.role ? s.role : '—');
+  const columns = [
+    { key: 'user', label: 'User', sortVal: (s) => (s.email || s.uid || '').toLowerCase(), render: outUserCell },
+    { key: 'type', label: 'Type', sortVal: userTypeOf, render: userTypeOf, cellTitle: userTypeTitle },
+    { key: 'channel', label: 'Channel', sortVal: srGroup, render: srGroup },
+    { key: 'role', label: 'Role', sortVal: roleLabel, render: roleLabel },
+    { key: 'd', label: 'Signed up', tabular: true, firstDir: -1, sortVal: (s) => s.d, render: (s) => monDay(s.d) },
+  ];
+  return (
+    <Card from={SIGNUP_COUNT_START} to={DATA_END}
+      title="Recently added users"
+      question="Who joined most recently?"
+      footnote={`Newest first — toggle Sign ups, All users or Joiners. The table is 10 rows tall; “See next 10” loads 10 more into it (scroll to see them). Sign ups = the Sign ups chart's people (from ${monDay(PH_SIGNUP_CUTOVER)}: fired Organization Created in PostHog). All users / Joiners come from the Metabase sign up export. All dates are Eastern: joiner = joined an existing company (invite, domain match or unknown); “Org creator (prior account)” = first person on a new company with no Organization Created event in PostHog (usually someone with an existing Mutiny account creating another company), so not a sign up. Internal and never-completed sign ups are left out. Channel is the same grouping as Sign ups by channel. The summary line counts the latest ${RECENT_SIGNUP_DAYS} days (${rangeLabel(from, DATA_END)}). Older sign ups may show “unknown” where the export didn't keep an email. Click a column to sort, or a user to open their admin profile.`}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginTop: 6 }}>
+        <div style={{ fontFamily: FONT_BODY, fontSize: 13.5, color: C.muted }}>
+          Last {RECENT_SIGNUP_DAYS} days: <span style={{ color: C.black, ...tabular }}>{fmtInt(creators)}</span> sign ups · {fmtInt(joinersWk)} joiners · {fmtInt(week.length)} all users
+        </div>
+        <button type="button" onClick={() => setOpen(!open)} aria-expanded={open}
+          style={{ fontFamily: FONT_BODY, fontSize: 12.5, color: C.purple, background: 'none', border: `1px solid ${C.lightGrey}`, borderRadius: 4, padding: '5px 10px', cursor: 'pointer', whiteSpace: 'nowrap' }}>
+          {open ? 'Hide table ▴' : 'Show table ▾'}
+        </button>
+      </div>
+      {open && (
+        <div style={{ marginTop: 14 }}>
+          <ViewToggle value={segKey} onChange={setSeg} options={RECENT_SEGMENTS.map(({ value, label }) => ({ value, label }))} />
+        </div>
+      )}
+      {open && (rows.length ? (
+        <OutcomeTable key={segKey} columns={columns} rows={rows} pageSize={10} noun={seg.noun} minWidth={640} rowKey={(s) => `${s.uid || s.email}|${s.co || ''}|${s.d}`} defaultSort={{ key: 'd', dir: -1 }} />
+      ) : (
+        <div style={{ marginTop: 18, padding: '28px 20px', border: `1px dashed ${C.lightGrey}`, borderRadius: 4, fontFamily: FONT_BODY, fontSize: 14, color: C.muted }}>No {seg.noun} yet.</div>
+      ))}
     </Card>
   );
 }
@@ -4040,7 +4238,7 @@ function MilestoneCumulativeCard({ field, trackedFrom, modal, accent, title, que
   const { START, END } = M;
   const [CONV_WINDOW_DAYS, setConvDays] = useState(DEFAULT_CONV_WINDOW);
   const openUsers = useUsersModal();
-  const base = React.useMemo(() => SIGNUPS.filter((s) => s.d >= SIGNUP_COUNT_START && s[field] && s[field] >= s.d && daysBetweenISO(s.d, s[field]) <= CONV_WINDOW_DAYS), [CONV_WINDOW_DAYS, field]);
+  const base = React.useMemo(() => COUNTED_SORTED.filter((s) => s[field] && s[field] >= msDay(s) && daysBetweenISO(msDay(s), s[field]) <= CONV_WINDOW_DAYS), [CONV_WINDOW_DAYS, field]);
   const upTo = (d) => base.filter((s) => s[field] <= d).length;
   const weekly = M.WEEKS.map((w) => {
     const end = w.partial ? DATA_END : w.end;
@@ -5350,11 +5548,11 @@ function Collapsible({ title, children, defaultOpen = false }) {
 // ups: solid = did the step, striped = hasn't yet. Click either part to list them.
 const AF_START = '2026-09-07';
 const AF_SEGMENTS = {
-  creators: { title: 'Activation funnel — org creators', who: 'org creators', filter: isCreator, def: 'sign ups that created a new company (workspace)', note: 'How this differs from the New onboarding (PostHog) cards at the bottom of this tab: this funnel’s org creators are narrower — sign ups that ended up as the first person at a real company. PostHog’s are wider — anyone who started creating an org (fired Organization Created), finished or not, so it includes people who never completed sign up (Sep 21 – Oct 18: 62 such people, none of whom reached User Setup Complete).' },
+  creators: { title: 'Activation funnel — sign ups', who: 'sign ups', filter: isSignup, def: 'sign ups (from Oct 21: fired Organization Created in PostHog; before: the first person on a new company)', note: 'From Oct 21 these are the same people as the New onboarding (PostHog) cards: people who fired Organization Created, once per person, on Eastern days.' },
   // One funnel for everyone (Nick, Oct 26: "don't break them up"), with the
   // same steps + definitions as the New onboarding — org creator outcomes card.
-  all: { title: 'Activation funnel — All sign ups', who: 'sign ups', filter: () => true, def: 'every sign up in the period, org creators and invited users together', phSteps: true },
-  invited: { title: 'Activation funnel — invited users', who: 'invited users', filter: (s) => Boolean(s.jx), def: 'sign ups that joined an existing company (accepted an invite or joined a teammate’s workspace)' },
+  all: { title: 'Activation funnel — All users', who: 'users', stepLabel: 'All users', filter: () => true, def: 'every user in the period: sign ups (org creators) and invited users together', phSteps: true },
+  invited: { title: 'Activation funnel — invited users', who: 'invited users', stepLabel: 'Invited users', filter: (s) => Boolean(s.jx), def: 'sign ups that joined an existing company (accepted an invite or joined a teammate’s workspace)' },
 };
 const onbStepsDone = (s) => ONB_STEP_DEFS.filter((st) => s[st.key]).map((st) => st.label).join(' · ') || 'None yet';
 // Funnel modal: one column per step — ✓ + date when done, otherwise — (with
@@ -5381,10 +5579,10 @@ const AF_STAGE_COLS = [
 // Steps of the combined funnel → signup-row fields (PostHog, same events as PH_ONB_STEPS).
 const AF_PH_KEYS = [['gmail', 'phEm'], ['cal', 'phCal'], ['rec', 'phRec'], ['onb', 'onbDone'], ['perms', 'phPerms'], ['a1', 'a1'], ['a2', 'a2']];
 const buildActFunnel = (a, b, seg) => {
-  const cohort = signupsIn(a, b).filter(AF_SEGMENTS[seg].filter);
+  const cohort = seg === 'creators' ? signupsIn(a, b) : allUsersIn(a, b).filter(AF_SEGMENTS[seg].filter); // segments pick sign ups / joiners / all users
   if (AF_SEGMENTS[seg].phSteps) {
     return [
-      { key: 'signups', label: 'Sign ups', list: cohort, dateOf: (u) => u.d, def: `${AF_SEGMENTS[seg].def} (never-completed sign ups excluded, as in the Sign ups metric)`, ev: [], note: 'Every sign up in the period: org creators and invited users. Never-completed sign ups are left out, as in the Sign ups metric.' },
+      { key: 'signups', label: AF_SEGMENTS[seg].stepLabel || 'Sign ups', list: cohort, dateOf: (u) => u.d, def: `${AF_SEGMENTS[seg].def} (never-completed sign ups excluded)`, ev: [], note: 'Every user in the period: sign ups (org creators) and invited users. Never-completed sign ups are left out.' },
       ...AF_PH_KEYS.map(([ph, field]) => {
         const st = PH_ONB_STEPS.find((x) => x.key === ph);
         return { ...st, key: field, list: cohort.filter((s) => Boolean(s[field])), dateOf: (u) => u[field] };
@@ -5392,7 +5590,7 @@ const buildActFunnel = (a, b, seg) => {
     ];
   }
   return [
-    { key: 'signups', label: 'Sign ups', list: cohort, dateOf: (u) => u.d, def: `${AF_SEGMENTS[seg].def} (never-completed sign ups excluded, as in the Sign ups metric)` },
+    { key: 'signups', label: AF_SEGMENTS[seg].stepLabel || 'Sign ups', list: cohort, dateOf: (u) => u.d, def: `${AF_SEGMENTS[seg].def} (never-completed sign ups excluded)` },
     { key: 'onboarded', label: 'Completed onboarding', list: cohort.filter(isSetUp), dateOf: onbDate, def: ONB_DEF_TEXT },
     { key: 'activated', label: 'Activated', list: cohort.filter((s) => Boolean(actDate(s))), dateOf: actDate, def: ACT_DEF_TEXT },
   ];
@@ -5447,8 +5645,8 @@ function ActivationFunnelCard({ segment, onSegment, filter }) {
               subtitle: range,
               users,
               summary: inStep
-                ? { label: st.label, value: fmtInt(n), sub: `${fmtPct(pct(n, top), 1)} of ${fmtInt(top)} sign ups` }
-                : { label: SEG.phSteps ? `Haven't reached ${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} yet` : `Haven't ${st.key === 'onboarded' ? 'completed onboarding' : 'activated'} yet`, value: fmtInt(notYet), sub: `${fmtPct(pct(notYet, top), 1)} of ${fmtInt(top)} sign ups` },
+                ? { label: st.label, value: fmtInt(n), sub: `${fmtPct(pct(n, top), 1)} of ${fmtInt(top)} ${SEG.who}` }
+                : { label: SEG.phSteps ? `Haven't reached ${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} yet` : `Haven't ${st.key === 'onboarded' ? 'completed onboarding' : 'activated'} yet`, value: fmtInt(notYet), sub: `${fmtPct(pct(notYet, top), 1)} of ${fmtInt(top)} ${SEG.who}` },
             });
           };
           const cur = onSegment ? (filter ? `${filter.key}:${filter.inStep ? 'in' : 'out'}` : null) : sel;
@@ -5473,7 +5671,7 @@ function ActivationFunnelCard({ segment, onSegment, filter }) {
                 )}
               </div>
               <div style={{ ...tabular, fontFamily: FONT_BODY, fontSize: 12.5, marginTop: 10, minHeight: 36, lineHeight: 1.45, color: C.muted }}>
-                {i > 0 ? <>{fmtPct(pct(n, top), 1)} of sign ups<div>{fmtInt(notYet)} haven't yet</div></> : <>Everyone in the cohort</>}
+                {i > 0 ? <>{fmtPct(pct(n, top), 1)} of {SEG.who}<div>{fmtInt(notYet)} haven't yet</div></> : <>Everyone in the cohort</>}
               </div>
             </div>
           );
@@ -5556,7 +5754,7 @@ function CohortStepCard({ kind }) {
 // PostHog dashboard). Data: npm run pull-posthog → src/beta-posthog.json.
 // "A1"/"A2" here are EPD-9795's definitions (First Action / First Review
 // Action Completed), NOT Lever 2/3's A1 (first meeting) / A2 (first send).
-const PH_CREATOR_NOTE = 'How “org creator” differs from the Activation funnel — org creators: PostHog’s is wider — anyone who started creating an org (fired Organization Created), finished or not. The funnel’s is narrower — sign ups that ended up as the first person at a real company. Organization Created fires at the very start of sign up, before a company is named, so many people here never finish (Sep 21 – Oct 18: 62 people fired it but have no company in the sign up export; none reached User Setup Complete).';
+const PH_CREATOR_NOTE = 'Org creator = fired [Activation] Organization Created (since Nov 7 the Sign ups metric uses the same rule from Oct 21). People who created a company without the event firing (e.g. existing users creating another company) are not here; they are in All users.';
 // ev = the PostHog event(s) that define each group (hover a title to see them,
 // Nick, Oct 26); where = extra filter; note = plain-English caveat.
 const PH_ONB_STEPS = [
@@ -5609,40 +5807,25 @@ const PH_STAGE_COLS = PH_ONB_STEPS.map((st) => ({
   render: (u) => (u[st.key] ? afDone(fmtET(u[st.key])) : afNo('')),
 }));
 
-// Same timeframe as the sign up metric (Nick, Oct 23): cohort = org creators
-// whose Organization Created falls in the reporting period (Pacific days, like
-// sign ups: START → END, week-to-date excluded), and a milestone only counts
-// if it happened by the end of the period's last day. So nothing newer than
-// the sign up data shows up here. Step times are Eastern wall clock; the end of
-// END (Pacific) = 03:00 Eastern the next day.
-const phPtFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' });
-const phPtDay = (iso) => (iso ? phPtFmt.format(new Date(iso)) : null);
-// Org creators PostHog misses (Nick, Oct 26: "we should count these"): sign up
-// export rows that are the first person on a company (isCreator) since the
-// rollout, but whose person never fired [Activation] Organization Created
-// (e.g. an existing user creating another company). npm run pull-posthog pulls
-// their milestones (viaExport); anyone the last pull didn't have yet is filled
-// in here from the signup row (PostHog Gmail / Calendar / Recorder / A2 days).
-// Listed on both cards and in TRACKING_GAPS.md for troubleshooting.
-const PH_UIDS = new Set((betaPosthog?.creators || []).filter((c) => !c.viaExport).map((c) => c.uid).filter(Boolean));
-const PH_EXPORT_ONLY = SIGNUPS
-  .filter((s) => isCreator(s) && s.uid && s.d >= (betaPosthog?.rolloutStart || '2026-10-21') && !PH_UIDS.has(s.uid))
-  .map((s) => {
-    const pulled = (betaPosthog?.creators || []).find((c) => c.viaExport && c.uid === s.uid);
-    const day = (d) => (d ? `${d}T12:00` : undefined);
-    return pulled ? { ...pulled, d: s.d } : {
-      pid: null, uid: s.uid, email: s.email || '', orgUtc: `${s.d}T19:00:00.000Z`, org: `${s.d}T00:00`, viaExport: 1, d: s.d, dayOnly: 1,
-      ...(s.phEm ? { gmail: day(s.phEm) } : {}), ...(s.phCal ? { cal: day(s.phCal) } : {}), ...(s.phRec ? { rec: day(s.phRec) } : {}), ...(s.a2 ? { a2: day(s.a2) } : {}), ...(s.a1 ? { a1: day(s.a1) } : {}),
-    };
-  });
+// Same timeframe as the sign up metric (Nick, Oct 23; Eastern days since Nov 7
+// to match Kyle's dashboard): cohort = org creators whose first Organization
+// Created falls on an Eastern day in the reporting period (START → END,
+// week-to-date excluded), and a milestone only counts if it happened by the
+// end of END (Eastern). Step times are Eastern wall clock.
+// Nov 7 (Nick): export-only org creators (no Organization Created event,
+// e.g. existing users creating another company) are NO LONGER added here, so
+// these cards are exactly Kyle's PostHog cohort and tie to the Sign ups metric.
+// They're still in All users. Log of cases: TRACKING_GAPS.md.
+// Clamped to the cutover: Kyle's start is Oct 20 9 PM ET, counted on Oct 21.
+const phEtDay = (c) => { const d = c.org ? c.org.slice(0, 10) : c.orgUtc ? etDayFmt.format(new Date(c.orgUtc)) : null; return d && d < PH_SIGNUP_CUTOVER ? PH_SIGNUP_CUTOVER : d; };
 function usePhCohort() {
   const M = useModel();
   const start = betaPosthog?.rolloutStart || '2026-10-21';
   const a = M.START > start ? M.START : start;
   const b = M.END;
-  const capET = `${addDays(b, 1)}T03:00`;
-  const creators = [...(betaPosthog?.creators || []).filter((c) => !c.viaExport), ...PH_EXPORT_ONLY]
-    .filter((c) => { const d = c.viaExport && c.d ? c.d : phPtDay(c.orgUtc); return d && d >= a && d <= b; })
+  const capET = `${addDays(b, 1)}T00:00`;
+  const creators = (betaPosthog?.creators || []).filter((c) => !c.viaExport)
+    .filter((c) => { const d = phEtDay(c); return d && d >= a && d <= b; })
     .map((c) => {
       const o = { ...c };
       for (const st of PH_ONB_STEPS) if (st.key !== 'org' && o[st.key] && o[st.key] >= capET) delete o[st.key];
@@ -5651,7 +5834,7 @@ function usePhCohort() {
       if (o.gmail && o.cal && o.rec) o.onb = [o.gmail, o.cal, o.rec].sort()[2];
       return o;
     });
-  const exportOnly = creators.filter((c) => c.viaExport);
+  const exportOnly = [];
   return { creators, exportOnly, start, a, b };
 }
 // Footnote only (Nick, Oct 26: tucked away, not on the card itself): who
@@ -5712,12 +5895,12 @@ function PostHogOnboardingCard({ onSegment, filter }) {
   return (
     <Card
       accent={C.green}
-      title="New onboarding — org creator outcomes"
+      title="New onboarding — sign up outcomes"
       from={start}
       question="Of people who created an organization in this period, how many reached each milestone by the end of it?"
       footnote={<>
         {steps.map((st, i) => <span key={st.key} style={{ display: 'block' }}><b>{i + 1}. {st.label}</b> = {st.def}</span>)}
-        <span style={{ display: 'block', marginTop: 6 }}>{`Same events and criteria as the PostHog dashboard “New onboarding — creator outcomes”, but on the sign up metric's timeframe (Oct 23): cohort = people whose Organization Created falls in the reporting period (Pacific days, same as sign ups; earliest ${monDay(start)}, the new onboarding launch), and a milestone counts only if it happened by the end of the period's last day — so PostHog's own dashboard (which runs from Oct 21 00:00 ET to now) will show more. Internal / test users (PostHog cohort “Internal / Test users”, @mutinyhq.com) and @gomomentic.com excluded. Milestones are independent, in any order. Counted per person (PostHog person), not per sign up, and org creators only (no joiners), so these won't tie to the sign ups total or the activation funnels above. A1 and A2 here are the new EPD-9795 definitions, not Lever 2 (first meeting) or Lever 3 (first send). Source: PostHog${asOf ? `, as of ${monDay(asOf)}` : ''}. Bars: solid = reached it; striped = hasn't yet. ${onSegment ? 'Click either part to filter the table below; click it again to clear.' : 'Click either part to list them.'}`}</span>
+        <span style={{ display: 'block', marginTop: 6 }}>{`Same events and criteria as the PostHog dashboard “New onboarding — creator outcomes”, but on the sign up metric's timeframe (Oct 23): cohort = people whose first Organization Created falls in the reporting period (Eastern days, same as sign ups; earliest ${monDay(start)}, the new onboarding launch), and a milestone counts only if it happened by the end of the period's last day (Eastern) — so PostHog's own dashboard (which runs to now) will show more for recent periods. Internal / test users (PostHog cohort “Internal / Test users”, @mutinyhq.com) and @gomomentic.com excluded. Milestones are independent, in any order. Counted per person (PostHog person). Since Nov 7 this cohort IS the Sign ups metric from ${monDay(start)}, so the first bar ties to Sign ups for the same period. A1 and A2 here are the new EPD-9795 definitions, not Lever 2 (first meeting) or Lever 3 (first send). Source: PostHog${asOf ? `, as of ${monDay(asOf)}` : ''}. Bars: solid = reached it; striped = hasn't yet. ${onSegment ? 'Click either part to filter the table below; click it again to clear.' : 'Click either part to list them.'}`}</span>
         <span style={{ display: 'block', marginTop: 6 }}>{PH_CREATOR_NOTE}</span>
         {exportOnly.length > 0 && <span style={{ display: 'block', marginTop: 6 }}>{phExportOnlyText(exportOnly)}</span>}
       </>}
@@ -5737,16 +5920,16 @@ function PostHogOnboardingCard({ onSegment, filter }) {
             if (onSegment) { onSegment(segFilter(st, inStep, i)); return; }
             setSel(`${st.key}:${inStep ? 'in' : 'out'}`);
             openUsers({
-              noun: 'org creator', nounPlural: 'org creators',
+              noun: 'sign up', nounPlural: 'sign ups',
               dateOf: inStep ? (u) => u[st.key] : (u) => u.org,
               stageCols: PH_STAGE_COLS,
-              title: inStep ? `${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} · org creators` : `Not yet: ${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} · org creators`,
+              title: inStep ? `${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} · sign ups` : `Not yet: ${st.label}${st.sub ? ` (${st.sub.toLowerCase()})` : ''} · sign ups`,
               subtitle: range,
               note: 'Times are Eastern.',
               users,
               summary: inStep
-                ? { label: st.label, value: fmtInt(n), sub: `${fmtPct(pct(n, top), 1)} of ${fmtInt(top)} org creators` }
-                : { label: `Haven't reached ${st.label} yet`, value: fmtInt(notYet), sub: `${fmtPct(pct(notYet, top), 1)} of ${fmtInt(top)} org creators` },
+                ? { label: st.label, value: fmtInt(n), sub: `${fmtPct(pct(n, top), 1)} of ${fmtInt(top)} sign ups` }
+                : { label: `Haven't reached ${st.label} yet`, value: fmtInt(notYet), sub: `${fmtPct(pct(notYet, top), 1)} of ${fmtInt(top)} sign ups` },
             });
           };
           const cur = onSegment ? (filter ? `${filter.key}:${filter.inStep ? 'in' : 'out'}` : null) : sel;
@@ -5769,7 +5952,7 @@ function PostHogOnboardingCard({ onSegment, filter }) {
                 )}
               </div>
               <div style={{ ...tabular, fontFamily: FONT_BODY, fontSize: 12.5, marginTop: 10, minHeight: 36, lineHeight: 1.45, color: C.muted }}>
-                {i > 0 ? <>{fmtPct(pct(n, top), 1)} of creators<div>{fmtInt(notYet)} haven't yet</div></> : <>Everyone in the cohort</>}
+                {i > 0 ? <>{fmtPct(pct(n, top), 1)} of sign ups<div>{fmtInt(notYet)} haven't yet</div></> : <>Everyone in the cohort</>}
               </div>
             </div>
           );
@@ -5797,8 +5980,13 @@ const relTime = (iso) => {
 // label, title?, align?, width?, sortVal(row), render(row), mono? }.
 // Milestone columns sort by when it happened (not done = last either way).
 const OUT_VISIBLE_ROWS = 15;
-function OutcomeTable({ columns, rows, rowKey, defaultSort, minWidth = 900 }) {
+// pageSize (Nick, Nov 7 — Recent sign ups): instead of a scrolling box, show
+// the first pageSize rows and a "See next N" button that appends N more.
+function OutcomeTable({ columns, rows, rowKey, defaultSort, minWidth = 900, pageSize = null, noun = 'entries' }) {
+  const cap = OUT_VISIBLE_ROWS;
   const [sort, setSort] = useState(defaultSort || null); // { key, dir: 1 | -1 }
+  const [shown, setShown] = useState(pageSize || 0);
+  React.useEffect(() => { if (pageSize) setShown(pageSize); }, [sort, rows, pageSize]);
   const sorted = React.useMemo(() => {
     if (!sort) return rows;
     const col = columns.find((c) => c.key === sort.key);
@@ -5813,21 +6001,36 @@ function OutcomeTable({ columns, rows, rowKey, defaultSort, minWidth = 900 }) {
     });
   }, [rows, sort, columns]);
   const tableRef = React.useRef(null);
+  const boxRef = React.useRef(null);
   const [maxH, setMaxH] = useState(null);
+  // Box height = header + the first `limit` rows (paged mode: pageSize rows).
+  const limit = pageSize || cap;
+  const rendered = pageSize ? Math.min(shown, rows.length) : rows.length;
   React.useLayoutEffect(() => {
     const t = tableRef.current;
-    if (!t || rows.length <= OUT_VISIBLE_ROWS) { setMaxH(null); return; }
+    if (!t || rendered <= limit) { setMaxH(null); return; }
     const head = t.tHead?.getBoundingClientRect().height || 0;
-    const body = [...t.tBodies[0].rows].slice(0, OUT_VISIBLE_ROWS).reduce((h, r) => h + r.getBoundingClientRect().height, 0);
+    const body = [...t.tBodies[0].rows].slice(0, limit).reduce((h, r) => h + r.getBoundingClientRect().height, 0);
     setMaxH(Math.ceil(head + body));
-  }, [rows.length]);
+  }, [rows.length, rendered, limit]);
+  // After "See next N", scroll the box so the first new row sits under the header.
+  const prevShown = React.useRef(shown);
+  React.useEffect(() => {
+    const box = boxRef.current; const t = tableRef.current;
+    if (pageSize && box && t && shown > prevShown.current) {
+      const row = t.tBodies[0].rows[prevShown.current];
+      const head = t.tHead?.getBoundingClientRect().height || 0;
+      if (row) box.scrollTo({ top: row.offsetTop - head, behavior: 'smooth' });
+    }
+    prevShown.current = shown;
+  }, [shown, pageSize]);
   const th = { ...eyebrow, fontSize: 10, textAlign: 'left', padding: '10px 12px', borderBottom: `1px solid ${C.black}`, background: C.paper, whiteSpace: 'nowrap', verticalAlign: 'bottom', position: 'sticky', top: 0, zIndex: 1, cursor: 'pointer', userSelect: 'none' };
   const td = { fontFamily: FONT_BODY, fontSize: 13, padding: '9px 12px', borderBottom: `1px solid ${C.lightGrey}`, whiteSpace: 'nowrap' };
   const edge = (i) => (i === 0 ? { paddingLeft: 30 } : i === columns.length - 1 ? { paddingRight: 30 } : {});
   const clickSort = (c) => setSort((cur) => (cur?.key === c.key ? { key: c.key, dir: -cur.dir } : { key: c.key, dir: c.firstDir || 1 }));
   return (
     <div style={{ margin: '18px -30px 0' }}>
-      <div style={{ overflowX: 'auto', overflowY: maxH ? 'auto' : 'visible', ...(maxH ? { maxHeight: maxH, borderBottom: `1px solid ${C.lightGrey}` } : {}) }}>
+      <div ref={boxRef} style={{ overflowX: 'auto', overflowY: maxH ? 'auto' : 'visible', ...(maxH ? { maxHeight: maxH, borderBottom: `1px solid ${C.lightGrey}` } : {}) }}>
         <table ref={tableRef} style={{ width: '100%', borderCollapse: 'separate', borderSpacing: 0, minWidth }}>
           <thead>
             <tr>
@@ -5843,7 +6046,7 @@ function OutcomeTable({ columns, rows, rowKey, defaultSort, minWidth = 900 }) {
             </tr>
           </thead>
           <tbody>
-            {sorted.map((r) => (
+            {(pageSize ? sorted.slice(0, shown) : sorted).map((r) => (
               <tr key={rowKey(r)}>
                 {columns.map((c, i) => (
                   <td key={c.key} title={c.cellTitle ? c.cellTitle(r) : undefined} style={{ ...td, textAlign: c.align || 'left', ...(c.mono ? { fontFamily: "'Geist Mono', 'SF Mono', Consolas, monospace", fontSize: 12, color: C.muted, maxWidth: 130, overflow: 'hidden', textOverflow: 'ellipsis' } : {}), ...(c.tabular ? tabular : {}), ...edge(i) }}>{c.render(r)}</td>
@@ -5854,8 +6057,20 @@ function OutcomeTable({ columns, rows, rowKey, defaultSort, minWidth = 900 }) {
         </table>
       </div>
       <div style={{ fontFamily: FONT_BODY, fontSize: 12.5, color: C.muted, textAlign: 'center', padding: '12px 0 0' }}>
-        {rows.length > OUT_VISIBLE_ROWS
-          ? <>Showing {OUT_VISIBLE_ROWS} of {fmtInt(rows.length)} entries · scroll the table for the rest · click a column to sort</>
+        {pageSize ? (
+          <>
+            Loaded {fmtInt(rendered)} of {fmtInt(rows.length)} {noun}{rendered > pageSize ? ' · scroll the table' : ''} · click a column to sort
+            {shown < rows.length && (
+              <div style={{ marginTop: 10 }}>
+                <button type="button" onClick={() => setShown((n) => n + pageSize)}
+                  style={{ fontFamily: FONT_BODY, fontSize: 13, color: C.purple, background: 'none', border: `1px solid ${C.lightGrey}`, borderRadius: 4, padding: '6px 14px', cursor: 'pointer' }}>
+                  See next {fmtInt(Math.min(pageSize, rows.length - shown))}
+                </button>
+              </div>
+            )}
+          </>
+        ) : rows.length > cap
+          ? <>Showing {cap} of {fmtInt(rows.length)} entries · scroll the table for the rest · click a column to sort</>
           : <>Showing all {fmtInt(rows.length)} {rows.length === 1 ? 'entry' : 'entries'} · click a column to sort</>}
       </div>
     </div>
@@ -5883,15 +6098,15 @@ function PostHogOnboardingTableCard({ filter, onClear }) {
   return (
     <Card
       accent={C.green}
-      title="New onboarding — each creator’s outcomes"
+      title="New onboarding — each sign up’s outcomes"
       from={start}
       question="Which milestones did each org creator in this period reach by the end of it?"
-      footnote={`One row per org creator (PostHog person) whose Organization Created falls in the reporting period (Pacific days, same as sign ups), newest first — same cohort, events and exclusions as the bars above. ✓ = the event was recorded by the end of ${monDay(periodEnd)} (hover for when); — = not recorded by then. Click a column header to sort (milestone columns sort by when; not done goes last). Organization created times are Eastern. Click a user to open their admin profile. Source: PostHog${asOf ? `, as of ${monDay(asOf)}` : ''}. ${PH_CREATOR_NOTE}${exportOnly.length ? ` ${phExportOnlyText(exportOnly)}` : ''}`}
+      footnote={`One row per org creator (PostHog person) whose first Organization Created falls in the reporting period (Eastern days, same as sign ups), newest first — same cohort, events and exclusions as the bars above. ✓ = the event was recorded by the end of ${monDay(periodEnd)} (hover for when); — = not recorded by then. Click a column header to sort (milestone columns sort by when; not done goes last). Organization created times are Eastern. Click a user to open their admin profile. Source: PostHog${asOf ? `, as of ${monDay(asOf)}` : ''}. ${PH_CREATOR_NOTE}${exportOnly.length ? ` ${phExportOnlyText(exportOnly)}` : ''}`}
     >
-      <SegFilterBar filter={filter} total={all.length} shown={creators.length} noun="org creators" onClear={onClear} />
+      <SegFilterBar filter={filter} total={all.length} shown={creators.length} noun="sign ups" onClear={onClear} />
       {!creators.length ? (
         <div style={{ marginTop: 18, padding: '28px 20px', border: `1px dashed ${C.lightGrey}`, borderRadius: 4, fontFamily: FONT_BODY, fontSize: 14, color: C.muted }}>
-          {filter ? 'Nobody in this filter.' : <>No org creators in this period{periodEnd < start ? ` — data starts ${monDay(start)}` : ''}.</>}
+          {filter ? 'Nobody in this filter.' : <>No sign ups in this period{periodEnd < start ? ` — data starts ${monDay(start)}` : ''}.</>}
         </div>
       ) : (
         <OutcomeTable columns={columns} rows={creators} rowKey={(u) => u.pid || u.uid} defaultSort={{ key: 'orgAt', dir: -1 }} />
@@ -5902,32 +6117,32 @@ function PostHogOnboardingTableCard({ filter, onClear }) {
 
 // All sign ups outcomes (Nick, Oct 26): one row per sign up in the period
 // (org creators + invited users, never-completed excluded), same steps as the
-// funnel above (signup-row PostHog fields, Pacific days).
+// funnel above (signup-row PostHog fields, Eastern days).
 function AllSignupsTableCard({ filter, onClear }) {
   const M = useModel();
   const start = ACT_DATA_FROM;
   const a = maxISO(M.START, start);
-  const allRows = signupsIn(a, M.END);
+  const allRows = allUsersIn(a, M.END);
   const rows = applySegFilter(allRows, filter);
   const steps = AF_PH_KEYS.map(([ph, field]) => ({ ...PH_ONB_STEPS.find((x) => x.key === ph), field }));
   const columns = [
     { key: 'user', label: 'User', sortVal: (s) => (s.email || s.uid || '').toLowerCase(), render: outUserCell },
-    { key: 'type', label: 'Type', sortVal: (s) => (s.jx ? 'Invited user' : 'Org creator'), render: (s) => (s.jx ? 'Invited user' : 'Org creator'), cellTitle: (s) => (s.jx ? 'Joined an existing company' : 'First person at a new company') },
+    { key: 'type', label: 'Type', sortVal: userTypeOf, render: userTypeOf, cellTitle: userTypeTitle },
     { key: 'd', label: 'Signed up', tabular: true, firstDir: -1, sortVal: (s) => s.d, render: (s) => monDay(s.d) },
     ...steps.map((st) => ({ key: st.field, label: `${st.label}${st.sub ? ` · ${st.sub}` : ''}`, title: st.def, align: 'center', width: 92, sortVal: (s) => s[st.field] || '', render: (s) => outMark(s[st.field], s[st.field] ? `${st.label}: ${monDay(s[st.field])}` : undefined) })),
   ];
   return (
     <Card
       accent={C.green}
-      title="New onboarding — each sign up’s outcomes"
+      title="New onboarding — each user’s outcomes"
       from={start}
-      question="Which milestones has each person who signed up in this period reached so far?"
-      footnote={`One row per sign up in the reporting period (from ${monDay(start)} at the earliest), org creators and invited users together, never-completed sign ups excluded, as in the Sign ups metric. Same steps and PostHog events as the funnel above; ✓ = done at any time so far (hover for the day, Pacific), — = not yet. Click a column header to sort (milestone columns sort by when; not done goes last). Click a user to open their admin profile.`}
+      question="Which milestones has each user from this period reached so far?"
+      footnote={`One row per user in the reporting period (from ${monDay(start)} at the earliest): sign ups (org creators) and joiners together, never-completed sign ups excluded. Same steps and PostHog events as the funnel above; ✓ = done at any time so far (hover for the day, Eastern), — = not yet. Click a column header to sort (milestone columns sort by when; not done goes last). Click a user to open their admin profile.`}
     >
-      <SegFilterBar filter={filter} total={allRows.length} shown={rows.length} noun="sign ups" onClear={onClear} />
+      <SegFilterBar filter={filter} total={allRows.length} shown={rows.length} noun="users" onClear={onClear} />
       {!rows.length ? (
         <div style={{ marginTop: 18, padding: '28px 20px', border: `1px dashed ${C.lightGrey}`, borderRadius: 4, fontFamily: FONT_BODY, fontSize: 14, color: C.muted }}>
-          {filter ? 'Nobody in this filter.' : 'No sign ups in this period.'}
+          {filter ? 'Nobody in this filter.' : 'No users in this period.'}
         </div>
       ) : (
         <OutcomeTable columns={columns} rows={rows} rowKey={(s) => `${s.uid || s.email}|${s.co || ''}|${s.d}`} defaultSort={{ key: 'd', dir: -1 }} />
@@ -5968,7 +6183,7 @@ function SectionsFor({ view }) {
         <StageHeader n={2} title="Sign up" subtitle="Visitors who create an account and finish setting up a workspace. The gate between anonymous and known." />
         <Grid>
           {/* Cumulative version hidden Oct 20 (Nick): <CumulativeSignupsCard /> */}
-          <div className="full"><WeeklySignupsCard /></div>
+          <SignupsWithDetail />
           <div className="full"><EnterpriseMeetingsCard /></div>
           <SignupsByChannelCard />
         </Grid>
@@ -5979,14 +6194,14 @@ function SectionsFor({ view }) {
     return (
       <>
         {/* Top of Activation (Nick, Oct 26; was bottom since Oct 21): PostHog new-onboarding outcomes. */}
-        <StageHeader title="New onboarding" subtitle={`Org creators in the reporting period (new onboarding launched ${monDay(betaPosthog?.rolloutStart || '2026-10-21')}), tracked in PostHog.`} />
+        <StageHeader title="New onboarding" subtitle={`Sign ups (org creators) in the reporting period (new onboarding launched ${monDay(betaPosthog?.rolloutStart || '2026-10-21')}), tracked in PostHog.`} />
         {/* Two subheadings (Nick, Oct 26): Org creators, then All sign ups. */}
-        <SubHeader title="Org creators" />
+        <SubHeader title="Sign ups" />
         <Grid>
           {/* Bars filter the table (Nick, Oct 26). */}
           <PhCreatorsBlock />
         </Grid>
-        <SubHeader title="All sign ups" />
+        <SubHeader title="All users" />
         <Grid>
           {/* One combined funnel (Nick, Oct 26), same steps as the New onboarding cards. */}
           <AllSignupsBlock />
@@ -6366,7 +6581,7 @@ export default function BetaDashboard() {
         <SectionsFor view={view} />
 
         <div style={{ fontFamily: FONT_CAPTION, fontStyle: 'italic', fontSize: 12, color: C.muted, marginTop: 56 }}>
-          Signups export: {SIGNUP_SRC.source} · {SIGNUPS.length.toLocaleString()} signup rows · {monDay(DATA_START)} {DATA_START.slice(0, 4)} – {monDay(SIGNUP_SRC.lastDate)} {SIGNUP_SRC.lastDate.slice(0, 4)} ({COUNTED_SIGNUPS.toLocaleString()} counted as signups from {monDay(SIGNUP_COUNT_START)}, {SIGNUP_COUNT_START.slice(0, 4)}){SIGNUP_SRC.internalExcluded ? `; ${SIGNUP_SRC.internalExcluded.toLocaleString()} internal @mutinyhq.com / @gomomentic.com signups excluded` : ''}; {NEVER_COMPLETED.length.toLocaleString()} never-completed signups (no workspace, or one never named) excluded.
+          Signups export: {SIGNUP_SRC.source} · {SIGNUPS.length.toLocaleString()} signup rows · {monDay(DATA_START)} {DATA_START.slice(0, 4)} – {monDay(SIGNUP_SRC.lastDate)} {SIGNUP_SRC.lastDate.slice(0, 4)} ({COUNTED_SIGNUPS.toLocaleString()} counted as sign ups — first person on a new company — and {COUNTED_ALL_USERS.toLocaleString()} as all users, from {monDay(SIGNUP_COUNT_START)}, {SIGNUP_COUNT_START.slice(0, 4)}){SIGNUP_SRC.internalExcluded ? `; ${SIGNUP_SRC.internalExcluded.toLocaleString()} internal @mutinyhq.com / @gomomentic.com signups excluded` : ''}; {NEVER_COMPLETED.length.toLocaleString()} never-completed signups (no workspace, or one never named) excluded.
           GA4 pulled {dataJson.ga4.pulledAt?.slice(0, 10)}.
         </div>
         {/* Data coverage (Nick, Oct 20): when each product data source starts. */}

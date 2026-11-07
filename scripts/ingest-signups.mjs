@@ -31,7 +31,7 @@
 //          can't be attributed and are skipped.
 //   a2   = first [Activation] A2 Reached (recorded 3 meetings; Oct 30, was
 //          [Onboarding] A2 Activated) in PostHog (npm run pull-posthog →
-//          data/posthog/a2_events.json), as a Pacific day. Matched by user id +
+//          data/posthog/a2_events.json), as an Eastern day. Matched by user id +
 //          workspace, else the user's latest signup on/before that day.
 //   Activated (dashboard) = a2 (Nick, Oct 26 2026: "an activated user means
 //          they have completed that A2 event", same as PostHog). Was snd OR pub.
@@ -91,7 +91,34 @@ function readTable(file, required = []) {
   return rows.map((r) => Object.fromEntries(names.map((h, i) => [h, (r[i] || '').trim()])));
 }
 
-const day = (v) => (v ? v.slice(0, 10) : null); // YYYY-MM-DD (timestamps are UTC)
+// EASTERN DAYS (Nick, Nov 7 2026: match Kyle's PostHog dashboard / the Sign
+// ups metric). Every day this script writes is an America/New_York day.
+// Checked Nov 7 against PostHog event times:
+//   user_signups.created_at / all_users.created_at = US PACIFIC wall clock
+//   connected_at, installed_at, occurred_at, completed_at, *_utc = UTC
+//   usage_date (credits) = a plain date, kept as is
+const ET_DAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' });
+const parseUtcMs = (v) => Date.parse(String(v).trim().replace(' ', 'T').replace(/(\.\d{3})\d*/, '$1') + (/[zZ]|[+-]\d\d:?\d\d$/.test(v) ? '' : 'Z'));
+const laOffsetMs = (utcMs) => {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).formatToParts(new Date(utcMs)).map((x) => [x.type, x.value]));
+  return Date.UTC(+parts.year, +parts.month - 1, +parts.day, +parts.hour % 24, +parts.minute, +parts.second) - Math.floor(utcMs / 1000) * 1000;
+};
+// Pacific wall-clock string → UTC ms.
+const pacificToUtcMs = (v) => { const wall = parseUtcMs(v); return wall - laOffsetMs(wall - laOffsetMs(wall)); };
+// UTC timestamp (or ISO with offset) → Eastern day. A plain date stays as is.
+const day = (v) => {
+  if (!v) return null;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(String(v).trim())) return String(v).trim();
+  const t = parseUtcMs(v);
+  return Number.isNaN(t) ? String(v).slice(0, 10) : ET_DAY.format(new Date(t));
+};
+// Pacific wall-clock timestamp (Metabase sign up created_at) → Eastern day.
+const sday = (v) => {
+  if (!v) return null;
+  const t = pacificToUtcMs(v);
+  return Number.isNaN(t) ? String(v).slice(0, 10) : ET_DAY.format(new Date(t));
+};
+const etDayOf = (t) => ET_DAY.format(new Date(t));
 const minDay = (a, b) => (!a ? b : !b ? a : a < b ? a : b);
 const maxDay = (a, b) => (!a ? b : !b ? a : a > b ? a : b);
 const key = (userId, companyId) => `${userId}|${companyId}`;
@@ -116,14 +143,14 @@ let EMAILS_FROM = null; // first day in the email delivery export
 let RECORDER_FROM = null; // recorder_install_events
 let GMAIL_FROM = null; // integration_connection_events, toolkit gmail
 let CALENDAR_FROM = null; // integration_connection_events, toolkit google_calendar
-let LAST_SIGNUP_AT = null; // newest user_signups created_at (Pacific) — the Metabase export's cutoff
+let LAST_SIGNUP_AT = null; // newest user_signups created_at (Pacific wall clock) — the Metabase export's cutoff
 
 if (src.endsWith('.csv')) {
   // --- Legacy: one master CSV with first_* columns already computed ---------
   const rows = readTable(src, ['created_at', 'self_selected_role', 'recorder_first_installed_at', 'calendar_first_connected_at', 'email_first_connected_at', 'first_meeting_recorded_at', 'first_email_or_asset_sent_at'])
     .filter((r) => !isInternalEmail(r.email)); // no internal signups
   signups = rows.map((r) => ({
-    d: day(r.created_at),
+    d: sday(r.created_at),
     role: r.self_selected_role || null,
     co: r.company_id || null,
     rec: day(r.recorder_first_installed_at),
@@ -163,7 +190,7 @@ if (src.endsWith('.csv')) {
   INTERNAL_EXCLUDED = allRows.length - base.length;
   console.log(`  excluded ${INTERNAL_EXCLUDED} internal signups (@mutinyhq.com, @gomomentic.com)`);
   HAS_CO_NAME = base.length > 0 && 'company_name' in base[0];
-  // New onboarding backfill (Nick, Oct 23): from Oct 21, 2026 (Pacific day,
+  // New onboarding backfill (Nick, Oct 23): from Oct 21, 2026 (Eastern day,
   // the new-onboarding launch) the new flow leaves user_signups.company_id
   // blank until the work role exists, so people who created an org looked
   // "never completed". For signup rows on/after that day with no company,
@@ -178,7 +205,7 @@ if (src.endsWith('.csv')) {
     const pairs = new Set(base.filter((r) => r.company_id).map((r) => key(r.user_id, r.company_id)));
     let filled = 0;
     for (const r of base) {
-      if (r.company_id || day(r.created_at) < FILL_FROM) continue;
+      if (r.company_id || sday(r.created_at) < FILL_FROM) continue;
       const co = coByUser.get(r.user_id);
       if (!co || pairs.has(key(r.user_id, co))) continue;
       r.company_id = co; r.coFilled = 'u'; pairs.add(key(r.user_id, co)); filled += 1;
@@ -211,8 +238,8 @@ if (src.endsWith('.csv')) {
       if (!c.orgs) { noOrgs += 1; continue; }
       for (const o of c.orgs) {
         const at = toPT(o.utc);
-        if (!o.co || day(at) < FILL_FROM || at > signupCutoff || pairs.has(key(c.uid, o.co))) continue;
-        const blank = base.find((r) => r.user_id === c.uid && !r.company_id && day(r.created_at) >= FILL_FROM);
+        if (!o.co || sday(at) < FILL_FROM || at > signupCutoff || pairs.has(key(c.uid, o.co))) continue;
+        const blank = base.find((r) => r.user_id === c.uid && !r.company_id && sday(r.created_at) >= FILL_FROM);
         if (blank) { blank.company_id = o.co; blank.coFilled = 'p'; phFilled += 1; } else {
           base.push({ user_id: c.uid, company_id: o.co, created_at: at, email: c.email, self_selected_role: '', work_role_id: '', coFilled: 'p' });
           phAdded += 1;
@@ -258,7 +285,7 @@ if (src.endsWith('.csv')) {
   const signupKeyFor = (uid, d) => {
     const list = signupsByUser.get(uid);
     if (!list?.length) return null;
-    const before = list.filter((r) => day(r.created_at) <= d);
+    const before = list.filter((r) => sday(r.created_at) <= d);
     const target = before.length ? before[before.length - 1] : list[0];
     return key(target.user_id, target.company_id);
   };
@@ -382,12 +409,12 @@ if (src.endsWith('.csv')) {
   }
 
   // Activated = PostHog [Activation] A2 Reached (Nick, Oct 26; event swapped Oct 30). PostHog
-  // timestamps are UTC; signup days here are Pacific, so convert.
+  // timestamps are UTC; signup days here are Eastern, so convert.
   const a2File = path.join(root, 'data/posthog/a2_events.json');
-  const A2 = new Map(); // signup key -> Pacific day
+  const A2 = new Map(); // signup key -> Eastern day
   if (fs.existsSync(a2File)) {
     const pa = JSON.parse(fs.readFileSync(a2File, 'utf8'));
-    const ptDay = (t) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(t));
+    const ptDay = etDayOf; // Eastern since Nov 7 (name kept)
     const keys = new Set(base.map((r) => key(r.user_id, r.company_id)));
     let unmatched = 0;
     for (const e of pa.a2 || []) {
@@ -405,10 +432,10 @@ if (src.endsWith('.csv')) {
   // A1 activation = PostHog [Activation] A1 Reached = created 3 threads (Nick,
   // Oct 30; was A1 Magic Moment OR First Action Completed), same matching as A2.
   const a1File = path.join(root, 'data/posthog/a1_events.json');
-  const A1 = new Map(); // signup key -> Pacific day
+  const A1 = new Map(); // signup key -> Eastern day
   if (fs.existsSync(a1File)) {
     const pa = JSON.parse(fs.readFileSync(a1File, 'utf8'));
-    const ptDay = (t) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(t));
+    const ptDay = etDayOf; // Eastern since Nov 7 (name kept)
     const keys = new Set(base.map((r) => key(r.user_id, r.company_id)));
     let unmatched = 0;
     for (const e of pa.a1 || []) {
@@ -426,10 +453,10 @@ if (src.endsWith('.csv')) {
   // Completed onboarding = PostHog Gmail + Calendar + Recorder signed in (Nick,
   // Oct 26; same events as the New onboarding card). Same matching as A2.
   const onbFile = path.join(root, 'data/posthog/onb_events.json');
-  const ONB = { em: new Map(), cal: new Map(), rec: new Map(), perms: new Map() }; // step -> signup key -> Pacific day (perms = all 3 recorder permissions, funnel only)
+  const ONB = { em: new Map(), cal: new Map(), rec: new Map(), perms: new Map() }; // step -> signup key -> Eastern day (perms = all 3 recorder permissions, funnel only)
   if (fs.existsSync(onbFile)) {
     const po = JSON.parse(fs.readFileSync(onbFile, 'utf8'));
-    const ptDay = (t) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(t));
+    const ptDay = etDayOf; // Eastern since Nov 7 (name kept)
     const keys = new Set(base.map((r) => key(r.user_id, r.company_id)));
     let unmatched = 0;
     for (const e of po.steps || []) {
@@ -456,11 +483,7 @@ if (src.endsWith('.csv')) {
     const ms = (v) => Date.parse(String(v).replace(' ', 'T') + (/[zZ]|[+-]\d\d:?\d\d$/.test(v) ? '' : 'Z'));
     // Metabase timestamps are US Pacific wall-clock time (Amplitude's are UTC):
     // matched events sit ~7h (PDT) / 8h (PST) after the signup. Convert first.
-    const laOffsetMs = (utcMs) => {
-      const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).formatToParts(new Date(utcMs)).map((x) => [x.type, x.value]));
-      return Date.UTC(+parts.year, +parts.month - 1, +parts.day, +parts.hour, +parts.minute, +parts.second) - Math.floor(utcMs / 1000) * 1000;
-    };
-    const pacificToUtc = (v) => { const wall = ms(v); return wall - laOffsetMs(wall - laOffsetMs(wall)); };
+    const pacificToUtc = pacificToUtcMs;
     // Which signup row an event belongs to (Nick's Oct 7 test, vince@rdy.vc:
     // his answer landed on the company he JOINED, so he showed twice). A
     // Company Setup Complete belongs to a company the user CREATED (first
@@ -505,7 +528,7 @@ if (src.endsWith('.csv')) {
 
   signups = base.map((r) => {
     const k = key(r.user_id, r.company_id);
-    const d = day(r.created_at);
+    const d = sday(r.created_at);
     const ints = { ...(personal.get(k) || {}) };
     for (const [tk, cd] of Object.entries((r.company_id && shared.get(r.company_id)) || {})) {
       ints[tk] = minDay(ints[tk], maxDay(cd, d)); // inherited from the day both exist

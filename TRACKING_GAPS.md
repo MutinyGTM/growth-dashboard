@@ -8,12 +8,9 @@ Known cases where PostHog and the sign up export (Metabase CSVs in `data/data-qu
 
 **What happens:** someone in the sign up export is the first person on a new company, but PostHog never recorded `[Activation] Organization Created` for them. It seems to happen when an **existing user creates another company**, and sometimes for new users too. Their other onboarding events do fire.
 
-**How the dashboard handles it:** these people are counted as org creators on the New onboarding cards too.
+**How the dashboard handles it (since Nov 7, 2026):** they are **not** sign ups. From Oct 21, Sign ups = people who fired `[Activation] Organization Created` (same as Kyle's PostHog dashboard), so these people only show in **All users** (Sign up tab → "More detail"), where the Type column says "Org creator (prior account)". They're also no longer added to the New onboarding cards.
 
-- `npm run pull-posthog` pulls their PostHog milestones (flagged `viaExport`).
-- The dashboard fills in anyone the pull doesn't have yet from their sign up row.
-- They're named only in the footnote (the ⓘ at the bottom of each card), in a sentence that starts with "Tracking gap:". Nothing on the card itself points them out (Nick, Oct 26).
-- Their "Organization created at" shows the sign up day from the export, with no time. Hover the date to see why.
+(Oct 26 – Nov 7 they were added to the New onboarding cards via `viaExport` + a "Tracking gap:" footnote. `pull-posthog` still pulls `viaExport` rows, but the dashboard ignores them.)
 
 **Cases so far:**
 
@@ -22,6 +19,10 @@ Known cases where PostHog and the sign up export (Metabase CSVs in `data/data-qu
 | nick.mueller@material.security | Oct 22, 2026 | 6a5c0558-0d2e-43bb-9f73-a1928a8e00a5 | Existing user (since Apr 2026), new company. No onboarding steps yet. |
 | aileen@cowboy.vc | Oct 23, 2026 | 4c8e999e-a0a2-4723-ac1d-82ef2f47ba0c | Onboarded into a new workspace. No `User Created` either. Recorder signed in Oct 23. |
 | carson.west@livekit.io | Oct 25, 2026 | ee154c94-73ab-4ae2-b287-49ffedc58cc9 | Existing user (since Jun 11, 2026), new company. Fired Company Setup Complete. Gmail + Recorder signed in Oct 25, A1 Magic Moment Oct 25. |
+| deekshaa@magihq.com | Oct 27, 2026 | — | First seen in PostHog Oct 27. No Organization Created and no Company Setup Complete. (Found Nov 7.) |
+| pradeep@resolve.ai | Oct 28, 2026 | — | First seen in PostHog Oct 28. No Organization Created and no Company Setup Complete. (Found Nov 7.) |
+| bella@kindredpartners.com | Nov 3, 2026 | — | **Brand-new user** (first seen Nov 3) with Company Setup Complete but no Organization Created, so this isn't only returning users. (Found Nov 7.) |
+| csanford@ontic.co | not in export | bb4292c5-4e6a-4245-b332-9c6f7adf1d99 | Existing user (invited to Ontic Apr 17, 2026). Nov 1: Signed In → Company Setup Complete, Organization Details Entered, Registration Submitted on new company_id e5e9f28f…, no Organization Created. Export has no row for the new company either, so she's in neither count. Missed the PLG Slack/Clay Zap. (Found Nov 7.) |
 
 **Person IDs:** the dashboard only has PostHog person IDs for these people once `npm run pull-posthog` has run with the export-creator lookup (added Oct 26). Until then their rows come from the sign up export, which has no person ID. That's why Person ID showed "—" for them.
 

@@ -1,0 +1,18 @@
+{
+  "_comment": "Daily Metabase CSV pull (npm run pull-metabase). Each file is saved as <name>_<UTC timestamp>.csv, the same naming Metabase uses for a manual download. 'runAfter' is local Mac time; re-run npm run install-metabase-schedule after changing it.",
+  "outDir": "~/Metabase Exports/growth-dashboard",
+  "keep": 7,
+  "runAfter": "07:30",
+  "questions": [
+    { "id": 269, "name": "user_signups" },
+    { "id": 270, "name": "recorder_install_events" },
+    { "id": 271, "name": "recorder_meeting_events" },
+    { "id": 272, "name": "email_delivery_events" },
+    { "id": 273, "name": "integration_connection_events" },
+    { "id": 274, "name": "assets_published_since_feb_16__2026" },
+    { "id": 275, "name": "assets_created_since_feb_16__2026" },
+    { "id": 108, "name": "_customer_health__all_credit_usage___by_user" },
+    { "id": 280, "name": "_customer_health__credit_allowance_vs__usage_by_company" },
+    { "id": 107, "name": "all_users" }
+  ]
+}

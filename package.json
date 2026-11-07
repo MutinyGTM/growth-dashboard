@@ -17,7 +17,9 @@
     "pull-posthog": "node scripts/pull-posthog.mjs",
     "compare-orgs": "node scripts/compare-org-creators.mjs",
     "build-ph-signups": "node scripts/build-posthog-signups.mjs",
-    "build-aeo": "node scripts/build-aeo.mjs --print"
+    "build-aeo": "node scripts/build-aeo.mjs --print",
+    "pull-metabase": "node scripts/pull-metabase.mjs",
+    "install-metabase-schedule": "node scripts/install-metabase-schedule.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.379.0",
