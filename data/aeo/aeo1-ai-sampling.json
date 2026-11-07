@@ -142,5 +142,84 @@
       }
     },
     "notes": "Only 15 Mutiny-mention chats in Nov 4-6 (5/day). Nov 6 alone: 0 of 5 flagged (first clean day). All 3 flags repeat chats already in the Nov 5 record. No chat mentioned pricing, so price flag untested. Not flagged (minor bullet, not primary framing, consistent with Nov 5 rule): 'ABM landing pages' / 'account-based marketing pages' / 'personalized landing pages' bullets in Highspot and personalized-content answers. Source lists for flagged ChatGPT chats show retrieved URLs (citation_count 0); Google AIO guideflow URL cited 4x and hyperlinked on 'Mutiny'."
+  },
+  {
+    "date": "2026-11-07",
+    "window_days": 3,
+    "window": "2026-11-05 to 2026-11-07",
+    "sampled": 16,
+    "flagged": 5,
+    "by_flag": {
+      "cro": 3,
+      "abm": 4,
+      "price": 0,
+      "gtm_agent": 0
+    },
+    "examples": [
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-07",
+        "prompt": "Best AI tools for revenue teams",
+        "flags": ["cro"],
+        "quote": "Mutiny | Website personalization and conversion",
+        "sources": [
+          "mindtickle.com/blog/best-ai-sales-tools-for-revenue-teams",
+          "attention.com/blog-posts/13-best-ai-sales-tools-in-2026",
+          "zapier.com/blog/revenue-intelligence-platform",
+          "theaitoolsbox.com/blog/best-ai-tools-for-revenue-operations-2026"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-07",
+        "prompt": "Best tool for personalized sales content",
+        "flags": ["abm"],
+        "quote": "Mutiny | Account-based marketing | Personalized buyer experiences",
+        "sources": [
+          "spekit.com/blog/platforms-personalize-content-b2b-buyers"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-07",
+        "prompt": "Best sales content tools for product marketing",
+        "flags": ["abm"],
+        "quote": "Mutiny | Personalized sales content | Account-specific landing pages and buyer experiences",
+        "sources": [
+          "mutinyhq.com/blog/the-best-sales-enablement-tools-in-2026-a-buyer-s-guide-for-b2b-sales-teams",
+          "guideflow.com/blog/sales-content-management-software",
+          "alignedup.com/guides/sales-content-management-software"
+        ]
+      },
+      {
+        "engine": "google-ai-overview",
+        "chat_date": "2026-11-05",
+        "prompt": "Best tool for personalized sales content",
+        "flags": ["cro", "abm"],
+        "quote": "specializes in dynamically tailoring website landing pages and messaging for target accounts",
+        "sources": [
+          "guideflow.com/blog/best-personalization-software",
+          "scandiweb.com/blog/top-9-website-personalization-tools",
+          "data-mania.com/blog/10-ai-personalization-tools-for-personalized-marketing"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-05",
+        "prompt": "AI-native sales content platform",
+        "flags": ["abm", "cro"],
+        "quote": "Mutiny | Account-based personalization and conversion",
+        "sources": [
+          "userled.io/articles/what-is-ai-native-abm",
+          "rywalker.com/research/ai-sales-gtm-platforms"
+        ]
+      }
+    ],
+    "by_day": {
+      "2026-11-05": {"sampled": 5, "flagged": 2},
+      "2026-11-06": {"sampled": 5, "flagged": 0},
+      "2026-11-07": {"sampled": 6, "flagged": 3}
+    },
+    "notes": "Only 16 Mutiny-mention chats in Nov 5-7. Nov 5 and Nov 6 chat counts match the Nov 6 record, so their classifications were carried over; all 6 Nov 7 chats read fresh. Nov 7 alone: 3 of 6 flagged, all ChatGPT. Clean Nov 7: ChatGPT + Perplexity 'AI-native Highspot alternative' (cite mutinyhq.com FAQs) and Google AIO 'Best AI sales enablement software' ('agentic content generation'). Not flagged per minor-bullet rule: Perplexity 'account-based marketing pages' and AIO 'landing page content' bullets. Flagged ChatGPT chats show retrieved sources only (citation_count 0) except spekit (cited 1x). No chat mentioned pricing, so price flag still untested."
   }
 ]

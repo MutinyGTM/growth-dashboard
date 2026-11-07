@@ -433,6 +433,42 @@ function writeA1(out) {
   console.log(`pull-posthog: ${out.a1.length} A1 rows since ${out.fromUtc} → ${A1_OUT}`);
 }
 
+// --- Created users (Nick, Nov 6 2026) -----------------------------------------
+// Website visitors tab numerator: people who fired [Activation] Organization
+// Created, counted ONCE on the Pacific day of their first one (event starts
+// Aug 28 2026). Same exclusions as dashboard 2240501 (email not containing
+// "mutiny", not in Internal / Test cohort 257060) + @gomomentic.com. Daily
+// counts only (no ids), so src/beta-org-creators.json is committed.
+const OC_OUT = 'src/beta-org-creators.json';
+export const OC_QUERY = `SELECT toString(d) AS d, count() AS n
+FROM (
+  SELECT person_id,
+    toDate(toTimeZone(min(timestamp), 'America/Los_Angeles')) AS d,
+    argMin(lower(coalesce(toString(properties.email), '')), timestamp) AS em
+  FROM events
+  WHERE event = '[Activation] Organization Created'
+    AND timestamp >= toDateTime('2026-01-01 00:00:00')
+    AND timestamp < now()
+    AND person_id NOT IN COHORT 257060
+  GROUP BY person_id
+  HAVING NOT (em LIKE '%mutiny%') AND NOT (em LIKE '%@gomomentic.com')
+)
+GROUP BY d
+ORDER BY d
+LIMIT 10000`;
+export function buildOrgCreators(rows, pulledAt = new Date().toISOString()) {
+  const daily = rows.map(([d, n]) => ({ d: String(d).slice(0, 10), n: Number(n) })).filter((r) => r.n > 0);
+  const lastDay = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date(pulledAt));
+  return {
+    source: `PostHog project ${PROJECT}, [Activation] Organization Created (first per person, Pacific day)`,
+    pulledAt, firstDay: daily[0]?.d || null, lastDay, daily,
+  };
+}
+function writeOrgCreators(out) {
+  writeFileSync(OC_OUT, `${JSON.stringify(out, null, 2)}\n`);
+  console.log(`pull-posthog: ${out.daily.reduce((t, r) => t + r.n, 0)} org creators ${out.firstDay} → ${out.lastDay} → ${OC_OUT}`);
+}
+
 function writeJoins(out) {
   mkdirSync(JOINS_OUT_DIR, { recursive: true });
   writeFileSync(JOINS_OUT, `${JSON.stringify(out)}\n`);
@@ -455,6 +491,13 @@ async function main() {
     writeSignupEvents(buildSignupEvents(saved.results, saved.pulledAt));
     return;
   }
+  // Seed / offline: --org-creators-from-file rows.json ({ results: [[d, n], ...], pulledAt })
+  const ocArg = process.argv.indexOf('--org-creators-from-file');
+  if (ocArg > -1) {
+    const saved = JSON.parse(readFileSync(process.argv[ocArg + 1], 'utf8'));
+    writeOrgCreators(buildOrgCreators(saved.results, saved.pulledAt));
+    return;
+  }
   const fileArg = process.argv.indexOf('--from-file');
   let columns; let rows; let pulledAt;
   if (fileArg > -1) {
@@ -472,6 +515,13 @@ async function main() {
       writeJoins(buildJoins(j.results));
     } catch (e) {
       console.error(`pull-posthog: org joins — ${e.message} (keeping the previous ${JOINS_OUT})`);
+      failed = true;
+    }
+    try {
+      const oc = await hogql(OC_QUERY, 'growth-dashboard: created users (org creators) per day');
+      writeOrgCreators(buildOrgCreators(oc.results));
+    } catch (e) {
+      console.error(`pull-posthog: created users — ${e.message} (keeping the previous ${OC_OUT})`);
       failed = true;
     }
     try {

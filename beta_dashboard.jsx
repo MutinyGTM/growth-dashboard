@@ -34,6 +34,7 @@ import betaPaying from './src/beta-paying.json';
 import betaCredits from './src/beta-credits.json';
 import framerJson from './src/framer.json';
 import betaPosthog from './src/beta-posthog.json';
+import betaOrgCreators from './src/beta-org-creators.json';
 // AEO section (Nick, Oct 27): behind ?aeo for now. Tabs under the header switch
 // between the PLG funnel and AEO; #aeo in the URL opens AEO directly.
 import AeoSection from './aeo_section.jsx';
@@ -485,6 +486,19 @@ const FRAMER_HI_BY_DATE = Object.fromEntries(framerJson.daily.map((r) => [r.d, r
 const sumFramerHi = (a, b) => {
   let s = 0;
   for (let d = a; d <= b; d = addDays(d, 1)) s += FRAMER_HI_BY_DATE[d] || 0;
+  return s;
+};
+// Created users (Nick, Nov 6): the Website visitors tab's rate cards divide
+// PostHog org creators — people who fired [Activation] Organization Created,
+// counted once on the Pacific day of their first one — by Framer visitors,
+// instead of sign up rows. npm run pull-posthog → src/beta-org-creators.json.
+// The event starts Aug 28 2026, so these rates start there.
+const OC_START = betaOrgCreators.firstDay;
+const OC_END = betaOrgCreators.lastDay;
+const OC_BY_DATE = Object.fromEntries(betaOrgCreators.daily.map((r) => [r.d, r.n]));
+const sumOrgCreators = (a, b) => {
+  let s = 0;
+  for (let d = a; d <= b; d = addDays(d, 1)) s += OC_BY_DATE[d] || 0;
   return s;
 };
 const FRAMER_PAGE_ROWS = (framerJson.pages || []).map((r) => ({ d: r.d, path: r.path, n: r.visitors }));
@@ -1181,6 +1195,7 @@ function buildModel(range, grain, custom, minStart) {
   // in Fiscal YTD that's Feb 16, when sign up counts begin.
   const FRAMER = (() => {
     const lastDay = FRAMER_END < DATA_END ? FRAMER_END : DATA_END;
+    const ocLast = OC_END < lastDay ? OC_END : lastDay;
     const to = (w) => (w.end > lastDay ? lastDay : w.end);
     const fromW = (w) => (w.start < FRAMER_START ? FRAMER_START : w.start);
     const maxISO = (...xs) => xs.sort().pop();
@@ -1191,6 +1206,11 @@ function buildModel(range, grain, custom, minStart) {
       const fv = none ? null : sumFramer(a, b);
       const hi = none ? null : sumFramerHi(a, b);
       const rated = !none && w.start >= SIGNUP_COUNT_START && w.start >= FRAMER_START;
+      // Created users (PostHog org creators) from OC_START; to ocLast so a
+      // stale PostHog pull doesn't undercount (visitors cut to the same day).
+      const ocOk = !none && w.start >= OC_START && w.start >= FRAMER_START;
+      const ocB = b > ocLast ? ocLast : b;
+      const oc = ocOk ? sumOrgCreators(a, ocB) : null;
       return {
         ...w,
         partial: w.partial || w.end > lastDay,
@@ -1198,6 +1218,11 @@ function buildModel(range, grain, custom, minStart) {
         hiReach: hi == null ? null : pct(hi, fv),
         conv: rated ? pct(w.signups, fv) : null,
         hiConv: rated ? pct(w.creators, hi) : null,
+        oc,
+        ocFv: ocOk ? sumFramer(a, ocB) : null,
+        ocHi: ocOk ? sumFramerHi(a, ocB) : null,
+        ocConv: ocOk ? pct(oc, sumFramer(a, ocB)) : null,
+        ocHiConv: ocOk ? pct(oc, sumFramerHi(a, ocB)) : null,
       };
     });
     const line = lineRows.map((w, i) => ({
@@ -1223,6 +1248,16 @@ function buildModel(range, grain, custom, minStart) {
     const cur = rates(rateStart, winEnd);
     const prv = prevOk ? rates(PRIOR_START, PRIOR_END) : null;
     const reachNow = rates(winStart, winEnd);
+    // Created users (PostHog org creators) ÷ visitors / high-intent visitors.
+    const ocRateStart = maxISO(START, FRAMER_START, OC_START);
+    const ocWinEnd = winEnd > ocLast ? ocLast : winEnd;
+    const ocPrevOk = !W.noPrior && PRIOR_START >= FRAMER_START && PRIOR_START >= OC_START;
+    const ocRates = (a, b) => {
+      const v = sumFramer(a, b), h = sumFramerHi(a, b), n = sumOrgCreators(a, b);
+      return { v, h, n, conv: pct(n, v), hiConv: pct(n, h) };
+    };
+    const ocCur = ocRateStart <= ocWinEnd ? ocRates(ocRateStart, ocWinEnd) : null;
+    const ocPrv = ocPrevOk ? ocRates(PRIOR_START, PRIOR_END) : null;
     return {
       line,
       weekly: WEEKS_CUR.map(chRow),
@@ -1238,6 +1273,11 @@ function buildModel(range, grain, custom, minStart) {
       highIntentPrev: !W.noPrior && PRIOR_START >= FRAMER_START ? sumFramerHi(PRIOR_START, PRIOR_END) : null,
       // high-intent → sign up (company creators)
       hiConv: cur.hiConv, hiConvPrev: prv?.hiConv ?? null, hiCreators: cur.cr, hiVisitorsForConv: cur.h,
+      // created users (Website visitors tab, Nov 6)
+      ocRateStart, ocWinEnd,
+      ocN: ocCur?.n ?? null, ocV: ocCur?.v ?? null, ocH: ocCur?.h ?? null,
+      ocConv: ocCur?.conv ?? null, ocConvPrev: ocPrv?.conv ?? null,
+      ocHiConv: ocCur?.hiConv ?? null, ocHiConvPrev: ocPrv?.hiConv ?? null,
     };
   })();
 
@@ -1545,6 +1585,7 @@ const cardSpan = (M, from, to) => {
 // First day of data per source (charts start here when the range starts earlier).
 const maxISO = (...xs) => xs.filter(Boolean).sort().pop();
 const FV_RATE_FROM = maxISO(FRAMER_START, SIGNUP_COUNT_START); // visitor → sign up needs both
+const OC_RATE_FROM = maxISO(FRAMER_START, OC_START); // visitor → created users (PostHog org creators)
 const STRIPE_START = betaPaying.historyStart || null;
 const fromRows = (rows, from) => (from ? rows.filter((r) => (r.end || r.d) >= from) : rows);
 // "Earliest available data" chip (Nick, Oct 21: more visible + hover
@@ -2486,24 +2527,29 @@ const FRAMER_SRC_NOTE = `Visitors = Framer Analytics unique visitors (Framer res
 const HI_PAGES_LINE = 'High-intent pages: pricing (/pricing), customer stories (/customers/…), case studies (/case-studies/…), and use-case pages (/use-cases/…).';
 const rateFromNote = (M, F) => (F.rateStart !== M.START ? ` Starts ${monDay(F.rateStart)}${F.rateStart === SIGNUP_COUNT_START ? ', when sign up counts begin' : ', the first day of Framer data'}.` : '');
 
+// Created users (Nick, Nov 6): both visitor-tab rate cards use PostHog org
+// creators ([Activation] Organization Created) instead of sign up rows.
+const OC_DEF_NOTE = `Created users = people who fired [Activation] Organization Created in PostHog (created a new company workspace), counted once, on the Pacific day of their first one. It fires as soon as the workspace is created, whether or not they finish onboarding; people who accept an invite or join a teammate's company don't count. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. The event starts ${monDay(OC_START)}, so this card does too.`;
+const ocRateFromNote = (M, F) => (F.ocRateStart !== M.START ? ` Starts ${monDay(F.ocRateStart)}${F.ocRateStart === OC_START ? ', when PostHog starts tracking created users' : ', the first day of Framer data'}.` : '');
+
 function FramerVisitorToSignupCard() {
   const M = useModel();
   const F = M.FRAMER;
-  const range = rangeLabel(F.rateStart, F.winEnd);
+  const range = rangeLabel(F.ocRateStart, F.ocWinEnd);
   return (
-    <Card from={FV_RATE_FROM}
+    <Card from={OC_RATE_FROM}
       accent={C.blue}
-      title="Website visitor → sign up"
-      question="What share of visitors create an account?"
-      footnote={`Sign ups ÷ Framer unique visitors for the same days (each total summed first, then divided). Every sign up counts, including repeats by the same person; never-completed and internal (@mutinyhq.com, @gomomentic.com test account) sign ups are left out. ${FRAMER_SRC_NOTE} No cookie-banner adjustment is needed (Framer is cookieless). ${lineWeekNote(M)} No goal set yet.`}
+      title="Website visitor → created users"
+      question="What share of visitors create a company workspace?"
+      footnote={`Created users ÷ Framer unique visitors for the same days (each total summed first, then divided). ${OC_DEF_NOTE} ${FRAMER_SRC_NOTE} No cookie-banner adjustment is needed (Framer is cookieless). ${lineWeekNote(M)} No goal set yet.`}
     >
-      <StatRow delta={<Delta value={ptsDiff(F.conv, F.convPrev)} suffix=" pts" />}>
-        <Stat label={`Conversion · ${range}`} value={fmtPct(F.conv, 2)} explain={`From ${range}, ${fmtInt(F.convSignups)} sign ups came from ${fmtInt(F.convVisitors)} visitors — about ${fmtPct(F.conv, 1)}.${rateFromNote(M, F)}`} sub={`${fmtInt(F.convSignups)} sign ups ÷ ${fmtInt(F.convVisitors)} visitors`} />
+      <StatRow delta={<Delta value={ptsDiff(F.ocConv, F.ocConvPrev)} suffix=" pts" />}>
+        <Stat label={`Conversion · ${range}`} value={fmtPct(F.ocConv, 2)} explain={`From ${range}, ${fmtInt(F.ocN)} created users vs ${fmtInt(F.ocV)} visitors — about ${fmtPct(F.ocConv, 1)}.${ocRateFromNote(M, F)}`} sub={`${fmtInt(F.ocN)} created users ÷ ${fmtInt(F.ocV)} visitors`} />
         <Stat label="Goal" value="—" muted />
       </StatRow>
-      <Legend items={[{ label: 'Visitor → sign up %', color: C.black, line: true }, { label: 'Goal % (not set)', color: '#9A9A9A', line: true, dashed: true }]} />
+      <Legend items={[{ label: 'Visitor → created users %', color: C.black, line: true }, { label: 'Goal % (not set)', color: '#9A9A9A', line: true, dashed: true }]} />
       <ZoomContainer height={210}>
-        <LineChart data={fromRows(F.line, FV_RATE_FROM)} margin={chartMargin}>
+        <LineChart data={fromRows(F.line, OC_RATE_FROM)} margin={chartMargin}>
           {grid}
           <XAxis {...xAxis} />
           <YAxis {...yAxis} domain={[0, 'auto']} tickFormatter={(v) => `${v}%`} />
@@ -2511,13 +2557,13 @@ function FramerVisitorToSignupCard() {
             const w = payload[0].payload;
             return (
               <TooltipBox title={weekTitle(w)} rows={[
-                { label: 'Visitor → sign up', value: w.conv == null ? '—' : fmtPct(w.conv, 2), color: C.black },
-                { label: 'Sign ups', value: fmtInt(w.signups) },
-                { label: 'Visitors', value: w.fv == null ? '—' : fmtInt(w.fv) },
-              ]} note={w.conv == null && w.fv != null ? 'Sign ups are only counted from Feb 16.' : null} />
+                { label: 'Visitor → created users', value: w.ocConv == null ? '—' : fmtPct(w.ocConv, 2), color: C.black },
+                { label: 'Created users', value: w.oc == null ? '—' : fmtInt(w.oc) },
+                { label: 'Visitors', value: w.ocFv == null ? (w.fv == null ? '—' : fmtInt(w.fv)) : fmtInt(w.ocFv) },
+              ]} note={w.ocConv == null && w.fv != null ? `Created users are only tracked from ${monDay(OC_START)}.` : null} />
             );
           })() : null} />
-          <Line dataKey="conv" stroke={C.black} strokeWidth={2.5} dot={false} connectNulls={false} activeDot={{ r: 4, fill: C.blue, stroke: C.black }} isAnimationActive={false} />
+          <Line dataKey="ocConv" stroke={C.black} strokeWidth={2.5} dot={false} connectNulls={false} activeDot={{ r: 4, fill: C.blue, stroke: C.black }} isAnimationActive={false} />
         </LineChart>
       </ZoomContainer>
     </Card>
@@ -2694,45 +2740,44 @@ function FramerHighIntentPagesCard() {
 function FramerHighIntentToSignupCard() {
   const M = useModel();
   const F = M.FRAMER;
-  const range = rangeLabel(F.rateStart, F.winEnd);
+  const range = rangeLabel(F.ocRateStart, F.ocWinEnd);
   return (
-    <Card from={FV_RATE_FROM}
+    <Card from={OC_RATE_FROM}
       accent={C.purple}
-      title="High-intent visitor → sign up"
+      title="High-intent visitor → created users"
       question={(
         <>
-          <span style={{ display: 'block', color: C.black, fontWeight: 600 }}>Do high-intent visitors create an account?</span>
-          <span style={{ display: 'block', marginTop: 6 }}>Each week: company-creator signups ÷ visitors who viewed at least one high-intent page.</span>
-          <span style={{ display: 'block', marginTop: 6 }}>Only signups that created a new company count. People accepting an invite or joining a teammate's company, and signups that never set up a company, are left out, since they mostly don't arrive through the website.</span>
-          <span style={{ display: 'block', marginTop: 6 }}>It's a ratio of two weekly totals, not a tracked path: a signup counts whether or not that person saw a high-intent page.</span>
+          <span style={{ display: 'block', color: C.black, fontWeight: 600 }}>Do high-intent visitors create a company workspace?</span>
+          <span style={{ display: 'block', marginTop: 6 }}>Each week: created users ÷ visitors who viewed at least one high-intent page.</span>
+          <span style={{ display: 'block', marginTop: 6 }}>Created users = people who created a new company workspace (PostHog [Activation] Organization Created). People accepting an invite or joining a teammate's company don't count, since they mostly don't arrive through the website.</span>
+          <span style={{ display: 'block', marginTop: 6 }}>It's a ratio of two weekly totals, not a tracked path: a created user counts whether or not that person saw a high-intent page.</span>
           <span style={{ display: 'block', marginTop: 6 }}>{HI_PAGES_LINE}</span>
         </>
       )}
-      footnote={`Company-creator signups ÷ Framer high-intent visitors for the same week (each total summed first, then divided). Company creator = the signup created a new company; accepted invites, people joining a teammate's existing company, and signups that never set up a company are excluded. Repeat signups by the same person still count if each created a company; internal (@mutinyhq.com, @gomomentic.com test account) signups are left out. Signups aren't linked to the visitors they came from, so this compares two weekly totals rather than following people from a high-intent page to signup. ${FRAMER_SRC_NOTE} ${lineWeekNote(M)} No goal set yet.`}
+      footnote={`Created users ÷ Framer high-intent visitors for the same week (each total summed first, then divided). ${OC_DEF_NOTE} Created users aren't linked to the visitors they came from, so this compares two weekly totals rather than following people from a high-intent page. ${FRAMER_SRC_NOTE} ${lineWeekNote(M)} No goal set yet.`}
     >
-      <StatRow delta={<Delta value={ptsDiff(F.hiConv, F.hiConvPrev)} suffix=" pts" />}>
+      <StatRow delta={<Delta value={ptsDiff(F.ocHiConv, F.ocHiConvPrev)} suffix=" pts" />}>
         <Stat
           label={`Conversion · ${range}`}
-          value={fmtPct(F.hiConv, 1)}
-          explain={`From ${range}, ${fmtInt(F.hiCreators)} company-creator signups vs ${fmtInt(F.hiVisitorsForConv)} high-intent visitors — about ${fmtPct(F.hiConv, 1)}.${rateFromNote(M, F)}`}
+          value={fmtPct(F.ocHiConv, 1)}
+          explain={`From ${range}, ${fmtInt(F.ocN)} created users vs ${fmtInt(F.ocH)} high-intent visitors — about ${fmtPct(F.ocHiConv, 1)}.${ocRateFromNote(M, F)}`}
         />
         <Stat label="Goal" value="—" muted />
       </StatRow>
       <Legend items={[{ label: 'Actual %', color: C.black, line: true }, { label: 'Goal % (not set)', color: '#9A9A9A', line: true, dashed: true }]} />
       <ZoomContainer height={190}>
-        <LineChart data={fromRows(F.line, FV_RATE_FROM)} margin={chartMargin}>
+        <LineChart data={fromRows(F.line, OC_RATE_FROM)} margin={chartMargin}>
           {grid}
           <XAxis {...xAxis} />
           <YAxis {...yAxis} domain={[0, 'auto']} tickFormatter={(v) => `${v}%`} />
           <Tooltip content={({ active, payload }) => active && payload?.length ? (
             <TooltipBox title={weekTitle(payload[0].payload)} rows={[
-              { label: 'High-intent → sign up', value: payload[0].payload.hiConv == null ? '—' : fmtPct(payload[0].payload.hiConv, 1), color: C.black },
-              { label: 'Company-creator sign ups', value: fmtInt(payload[0].payload.creators) },
-              { label: 'High-intent visitors', value: payload[0].payload.hi == null ? '—' : fmtInt(payload[0].payload.hi) },
-              { label: 'All sign ups (for reference)', value: fmtInt(payload[0].payload.signups) },
+              { label: 'High-intent → created users', value: payload[0].payload.ocHiConv == null ? '—' : fmtPct(payload[0].payload.ocHiConv, 1), color: C.black },
+              { label: 'Created users', value: payload[0].payload.oc == null ? '—' : fmtInt(payload[0].payload.oc) },
+              { label: 'High-intent visitors', value: payload[0].payload.ocHi == null ? (payload[0].payload.hi == null ? '—' : fmtInt(payload[0].payload.hi)) : fmtInt(payload[0].payload.ocHi) },
             ]} />
           ) : null} />
-          <Line dataKey="hiConv" stroke={C.black} strokeWidth={2.5} dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} connectNulls={false} isAnimationActive={false} />
+          <Line dataKey="ocHiConv" stroke={C.black} strokeWidth={2.5} dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} connectNulls={false} isAnimationActive={false} />
         </LineChart>
       </ZoomContainer>
     </Card>
