@@ -8,7 +8,7 @@ Known cases where PostHog and the sign up export (Metabase CSVs in `data/data-qu
 
 **What happens:** someone in the sign up export is the first person on a new company, but PostHog never recorded `[Activation] Organization Created` for them. It seems to happen when an **existing user creates another company**, and sometimes for new users too. Their other onboarding events do fire.
 
-**How the dashboard handles it (since Nov 7, 2026):** they are **not** sign ups. From Oct 21, Sign ups = people who fired `[Activation] Organization Created` (same as Kyle's PostHog dashboard), so these people only show in **All users** (Sign up tab → "More detail"), where the Type column says "Org creator (prior account)". They're also no longer added to the New onboarding cards.
+**How the dashboard handles it (since Nov 7, 2026):** they are **not** sign ups. From Oct 21, Sign ups = people who fired `[Activation] Organization Created` (same as Kyle's PostHog dashboard), so these people only show in **Total users** (Sign up tab → "More detail"), where the Type column says "Org creator (prior account)". They're also no longer added to the New onboarding cards.
 
 (Oct 26 – Nov 7 they were added to the New onboarding cards via `viaExport` + a "Tracking gap:" footnote. `pull-posthog` still pulls `viaExport` rows, but the dashboard ignores them.)
 

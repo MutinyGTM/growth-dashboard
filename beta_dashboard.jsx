@@ -414,7 +414,7 @@ const sliceByDate = (arr, key, a, b) => arr.slice(lowerBound(arr, key, a), lower
 const isCreator = (s) => !s.jx && !s.nc;
 // SIGN UPS = ORG CREATORS (Nick, Nov 7 2026): the "Sign ups" metric everywhere
 // now counts only the first person on a new company. Everyone (creators +
-// joiners) is "All users" — allUsersIn(). signupsIn() feeds every sign up
+// joiners) is "Total users" — allUsersIn(). signupsIn() feeds every sign up
 // count, rate and cohort on the page, so they all follow.
 const byD = (x, y) => (x.d < y.d ? -1 : x.d > y.d ? 1 : 0);
 const ALL_USERS_SORTED = SIGNUPS.filter((s) => s.d >= SIGNUP_COUNT_START).sort(byD);
@@ -431,11 +431,11 @@ const allUsersIn = (a, b) => sliceByDate(ALL_USERS_SORTED, (s) => s.d, a, b);
 // Eastern days since Nov 7) — the event didn't exist / fired at the start of sign up then.
 // Export org creators WITHOUT the event (existing users creating another
 // company, tracking misses — see TRACKING_GAPS.md) are NOT sign ups any more;
-// they stay in All users.
+// they stay in Total users.
 // Each PostHog sign up borrows its Metabase signup row (same user + company)
 // for channel, role and milestones; if the export doesn't have it yet, it's a
 // bare row (cf 'ph') until it does. The matched Metabase row is tagged `su`
-// so All users lists can tell sign ups apart. Everything (sign up rows,
+// so Total users lists can tell sign ups apart. Everything (sign up rows,
 // milestones) is on Eastern days since Nov 7 (ingest-signups converts).
 const PH_SIGNUP_CUTOVER = betaPosthog?.rolloutStart || '2026-10-21';
 const etDayFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' });
@@ -465,12 +465,12 @@ const PH_SIGNUP_ROWS = (() => {
 const PH_CLAIMED = new Set(PH_SIGNUP_ROWS.filter((r) => r.co).map((r) => `${r.uid}|${r.co}`));
 const PRE_CUT_SIGNUPS = ALL_USERS_SORTED.filter((s) => isCreator(s) && s.d < PH_SIGNUP_CUTOVER && !PH_CLAIMED.has(`${s.uid}|${s.co}`));
 for (const s of PRE_CUT_SIGNUPS) s.su = s.d;
-// A sign up (either side of the cutover). On All users rows: the Metabase row
+// A sign up (either side of the cutover). On Total users rows: the Metabase row
 // a PostHog sign up matched, or a pre-cutover creator.
 const isSignup = (s) => Boolean(s.su);
 // Day to compare milestone days against (both Eastern since Nov 7).
 const msDay = (s) => s.d;
-// Type label for All users rows (tables).
+// Type label for Total users rows (tables).
 const userTypeOf = (s) => (s.jx ? 'Joiner' : isSignup(s) ? 'Sign up' : 'Org creator (prior account)');
 const userTypeTitle = (s) => (s.jx ? 'Joined an existing company' : isSignup(s) ? 'Sign up: fired Organization Created in PostHog (before Oct 21: first person at a new company)' : 'First person at a new company, but PostHog has no Organization Created for them (usually an existing Mutiny account creating another company), so not counted as a sign up');
 const COUNTED_SORTED = [...PRE_CUT_SIGNUPS, ...PH_SIGNUP_ROWS].sort(byD);
@@ -3311,7 +3311,7 @@ function SignupsByChannelCard() {
         accent={C.purple}
         title="Sign ups and conversion by channel"
         question={`Self-reported “How did you hear about us?” · ${view === 'chart' ? M.grainAdj : view === 'growth' ? `share of sign ups, ${M.grainAdj}` : `${M.label} · ${rangeLabel(START, END)}`}`}
-        footnote={`${SR.perSignup ? `Every signup in the period (Metabase) is looked up in Amplitude by user id and put in exactly one row: its own “How did you hear about us?” answer (referral_source, bucketed with the same rules as the live dashboard's “User signups by Channel”); otherwise, for signups that joined a company that already had a signup, how they joined (PostHog “Organization Joined” join type, tracked from ${PH_JOINS_FROM ? monDay(PH_JOINS_FROM) : 'Aug 28'}, ${PH_JOINS_FROM ? PH_JOINS_FROM.slice(0, 4) : '2026'}): Joined via invite (accepted an invite; also Amplitude “User Invitation Completed” when PostHog has no join type) or Joined via domain match (found their team's company through their email domain, no invite); joiners with neither are Joined (method unknown), mostly before PostHog tracked it; otherwise Other (created a company but no answer in Amplitude). Only company setup asks the question, so joiners are never asked. Rows add up to Overall. Internal (@mutinyhq.com, @gomomentic.com test account) signups are left out, like the rest of this page.` : `Channel = the signup's self-reported answer (Amplitude referral_source daily totals), bucketed with the same rules as the live dashboard's “User signups by Channel”. Only company setup asks the question. Joined via invite = Amplitude “User Invitation Completed” (daily unique users). Joined (method unknown) = signups on a company that already had an earlier signup (Metabase), minus those invites; the domain-match split needs per-signup data. Other = what's left. Answers are daily totals here, not per person, so the split is approximate — run npm run pull-amp-events for exact per-signup rows.`} Overall = all sign ups in the window, matching the rest of this page. Since Nov 7, 2026 a sign up is the first person on a new company (org creator), so people who joined an existing company aren't sign ups and the joiner rows are empty; they're counted in All users. Never-completed signups (no workspace, or one never named) are left out of every sign up number on this page; use “View never-completed sign ups” under the card to see them.${view === 'table' ? ` Sign up → activated = share of the row's signups in the period that have activated (${ACT_DEF_TEXT}) so far, same as the funnel. ${SR.perSignup ? `Every row is exact: it's the share of that row's signups that have activated (hover a cell for the count).` : `It's filled in only where we know each signup's group: the two joiner rows share one rate (${fmtPct(SR.actJoined.rate, 1)}, ${fmtInt(SR.actJoined.k)} of ${fmtInt(SR.actJoined.n)}) because the joiner split is only an Amplitude total; channel rows need each person's answer (run npm run pull-amp-events) — together, company creators (the people who were asked) activated at ${fmtPct(SR.actCreators.rate, 1)} (${fmtInt(SR.actCreators.k)} of ${fmtInt(SR.actCreators.n)}).`}` : ''}${view === 'growth' ? ` Growth: each channel's share of that week's sign ups, for the weeks in the reporting period; the last point is the week in progress. Hover a week for counts.` : view === 'chart' ? ` ${monthly ? 'Fiscal YTD shows monthly columns; the faintly striped one is the month in progress.' : `${M.mode === '1w' ? 'Last week shows the same columns as Last 4 weeks; the table on the right is last week only. ' : ''}Faintly striped bar = week in progress. The chart runs to the current week; a week with no bars has no sign up data yet (the signups export ends ${monDay(DATA_END)}).`}` : ' Activated → paid comes from stripe-dash.'}`}
+        footnote={`${SR.perSignup ? `Every signup in the period (Metabase) is looked up in Amplitude by user id and put in exactly one row: its own “How did you hear about us?” answer (referral_source, bucketed with the same rules as the live dashboard's “User signups by Channel”); otherwise, for signups that joined a company that already had a signup, how they joined (PostHog “Organization Joined” join type, tracked from ${PH_JOINS_FROM ? monDay(PH_JOINS_FROM) : 'Aug 28'}, ${PH_JOINS_FROM ? PH_JOINS_FROM.slice(0, 4) : '2026'}): Joined via invite (accepted an invite; also Amplitude “User Invitation Completed” when PostHog has no join type) or Joined via domain match (found their team's company through their email domain, no invite); joiners with neither are Joined (method unknown), mostly before PostHog tracked it; otherwise Other (created a company but no answer in Amplitude). Only company setup asks the question, so joiners are never asked. Rows add up to Overall. Internal (@mutinyhq.com, @gomomentic.com test account) signups are left out, like the rest of this page.` : `Channel = the signup's self-reported answer (Amplitude referral_source daily totals), bucketed with the same rules as the live dashboard's “User signups by Channel”. Only company setup asks the question. Joined via invite = Amplitude “User Invitation Completed” (daily unique users). Joined (method unknown) = signups on a company that already had an earlier signup (Metabase), minus those invites; the domain-match split needs per-signup data. Other = what's left. Answers are daily totals here, not per person, so the split is approximate — run npm run pull-amp-events for exact per-signup rows.`} Overall = all sign ups in the window, matching the rest of this page. Since Nov 7, 2026 a sign up is the first person on a new company (org creator), so people who joined an existing company aren't sign ups and the joiner rows are empty; they're counted in Total users. Never-completed signups (no workspace, or one never named) are left out of every sign up number on this page; use “View never-completed sign ups” under the card to see them.${view === 'table' ? ` Sign up → activated = share of the row's signups in the period that have activated (${ACT_DEF_TEXT}) so far, same as the funnel. ${SR.perSignup ? `Every row is exact: it's the share of that row's signups that have activated (hover a cell for the count).` : `It's filled in only where we know each signup's group: the two joiner rows share one rate (${fmtPct(SR.actJoined.rate, 1)}, ${fmtInt(SR.actJoined.k)} of ${fmtInt(SR.actJoined.n)}) because the joiner split is only an Amplitude total; channel rows need each person's answer (run npm run pull-amp-events) — together, company creators (the people who were asked) activated at ${fmtPct(SR.actCreators.rate, 1)} (${fmtInt(SR.actCreators.k)} of ${fmtInt(SR.actCreators.n)}).`}` : ''}${view === 'growth' ? ` Growth: each channel's share of that week's sign ups, for the weeks in the reporting period; the last point is the week in progress. Hover a week for counts.` : view === 'chart' ? ` ${monthly ? 'Fiscal YTD shows monthly columns; the faintly striped one is the month in progress.' : `${M.mode === '1w' ? 'Last week shows the same columns as Last 4 weeks; the table on the right is last week only. ' : ''}Faintly striped bar = week in progress. The chart runs to the current week; a week with no bars has no sign up data yet (the signups export ends ${monDay(DATA_END)}).`}` : ' Activated → paid comes from stripe-dash.'}`}
       >
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 12 }}>
           <ViewToggle value={view} onChange={setView} options={[{ value: 'chart', label: `${M.grainLabel} chart` }, { value: 'table', label: 'Table' }, { value: 'growth', label: 'Growth' }]} />
@@ -3553,7 +3553,7 @@ function EnterpriseMeetingsCard() {
 // Sign ups per week (Nick, Oct 20): replaces the cumulative card on the Sign
 // ups tab. Weekly in every reporting period, Fiscal YTD included (Nick asked for per week).
 // Line chart (Nick, Oct 20); the week in progress draws as a dotted tail.
-// "More detail" (Nick, Nov 7): All users + Recently added users are hidden
+// "More detail" (Nick, Nov 7): Total users + Recently added users are hidden
 // under the Sign ups chart until this button opens them (remembered per browser).
 function SignupsWithDetail() {
   const [open, setOpenState] = useState(() => {
@@ -3579,7 +3579,7 @@ function WeeklySignupsCard({ detailOpen, onToggleDetail }) {
     <Card from={SIGNUP_COUNT_START}
       title="Sign ups"
       question="Are we on pace?"
-      footnote={`Sign ups in each ${M.grainEach}. From ${monDay(PH_SIGNUP_CUTOVER)} (new onboarding launch): people who fired [Activation] Organization Created in PostHog — the same people as Kyle's PostHog “New user onboarding” dashboard — counted once per person on the Eastern-time day of their first one (like Kyle's dashboard, it starts Oct 20 9 PM ET; those 3 hours count on ${monDay(PH_SIGNUP_CUTOVER)}). Org creators PostHog didn't record (e.g. existing users creating another company) aren't sign ups; they're in All users under “More detail”. Before ${monDay(PH_SIGNUP_CUTOVER)}: the first person on a new company in the Metabase sign up export, also on Eastern days (two companies = twice; never-completed left out). People who joined an existing company are never sign ups. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''} No goal set yet.`}
+      footnote={`Sign ups in each ${M.grainEach}. From ${monDay(PH_SIGNUP_CUTOVER)} (new onboarding launch): people who fired [Activation] Organization Created in PostHog — the same people as Kyle's PostHog “New user onboarding” dashboard — counted once per person on the Eastern-time day of their first one (like Kyle's dashboard, it starts Oct 20 9 PM ET; those 3 hours count on ${monDay(PH_SIGNUP_CUTOVER)}). Org creators PostHog didn't record (e.g. existing users creating another company) aren't sign ups; they're in Total users under “More detail”. Before ${monDay(PH_SIGNUP_CUTOVER)}: the first person on a new company in the Metabase sign up export, also on Eastern days (two companies = twice; never-completed left out). People who joined an existing company are never sign ups. Internal (@mutinyhq.com, @gomomentic.com, PostHog Internal / Test users) left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''} No goal set yet.`}
     >
       <StatRow delta={<Delta value={pctChange(WINDOW.signups, WINDOW.signupsPrev)} />}>
         <Stat label={`Actual · ${rangeLabel(M.START, M.END)}`} value={fmtInt(WINDOW.signups)} explain={`${fmtInt(WINDOW.signups)} signups from ${rangeLabel(M.START, M.END)}.${WINDOW.signupsPrev != null ? ` ${fmtInt(WINDOW.signupsPrev)} in the ${M.prior}.` : ''}`} />
@@ -3610,7 +3610,7 @@ function WeeklySignupsCard({ detailOpen, onToggleDetail }) {
   );
 }
 
-// All users per week (Nick, Nov 7): everyone who signed up — sign ups (org
+// Total users per week (Nick, Nov 7): everyone who signed up — sign ups (org
 // creators) + joiners. Sits under Sign ups. Was the "Sign ups" chart before
 // sign ups were redefined as org creators.
 function AllUsersWeeklyCard() {
@@ -3624,7 +3624,7 @@ function AllUsersWeeklyCard() {
   const orgCreators = WINDOW.allUsers - joiners;
   return (
     <Card from={SIGNUP_COUNT_START}
-      title="All users"
+      title="Total users"
       question="How many people are joining, including teammates?"
       footnote={`Everyone in the sign up export (Metabase) in each ${M.grainEach}, on Eastern days: org creators (first person on a new company) plus joiners (joined an existing company by invite, domain match or unknown method). This is wider than Sign ups: from ${monDay(PH_SIGNUP_CUTOVER)} Sign ups only count people PostHog saw fire Organization Created, so org creators it missed (e.g. existing users creating another company) are here but not there. Repeat sign ups by the same person count (two companies = twice). Internal (@mutinyhq.com, @gomomentic.com) and never-completed sign ups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''}`}
     >
@@ -3632,7 +3632,7 @@ function AllUsersWeeklyCard() {
         <Stat label={`Actual · ${rangeLabel(M.START, M.END)}`} value={fmtInt(WINDOW.allUsers)} explain={`${fmtInt(WINDOW.allUsers)} users from ${rangeLabel(M.START, M.END)}: ${fmtInt(orgCreators)} org creators + ${fmtInt(joiners)} joiners. ${fmtInt(WINDOW.allUsersPrev)} in the ${M.prior}.`} />
         <Stat label="Joiners" value={fmtInt(joiners)} explain={`${fmtInt(joiners)} people joined an existing company from ${rangeLabel(M.START, M.END)} (${fmtPct(pct(joiners, WINDOW.allUsers), 0)} of all users).`} />
       </StatRow>
-      <Legend items={[{ label: `All users (${M.grainAdj})`, color: C.black, line: true }]} />
+      <Legend items={[{ label: `Total users (${M.grainAdj})`, color: C.black, line: true }]} />
       <ZoomContainer height={220}>
         <LineChart data={fromRows(data, SIGNUP_COUNT_START)} margin={chartMargin}>
           {grid}
@@ -3640,7 +3640,7 @@ function AllUsersWeeklyCard() {
           <YAxis {...yAxis} domain={[0, 'auto']} allowDecimals={false} />
           <Tooltip content={({ active, payload }) => active && payload?.length ? (
             <TooltipBox title={weekTitle(payload[0].payload)} rows={[
-              { label: 'All users', value: fmtInt(payload[0].payload.allUsers), color: C.black },
+              { label: 'Total users', value: fmtInt(payload[0].payload.allUsers), color: C.black },
               { label: 'Org creators', value: fmtInt(payload[0].payload.allUsers - payload[0].payload.allJoiners) },
               { label: 'Joiners', value: fmtInt(payload[0].payload.allJoiners) },
             ]} />
@@ -3654,13 +3654,13 @@ function AllUsersWeeklyCard() {
 }
 
 // Recently added users (Nick, Nov 7; was "Recent sign ups"): newest first,
-// under All users, behind "More detail". Toggle Sign ups / All users / Joiners
+// under Total users, behind "More detail". Toggle Sign ups / Total users / Joiners
 // (always opens on Sign ups). Sign ups = the sign up metric's rows (PostHog,
-// Eastern days, from the cutover); All users / Joiners = the Metabase export. Box is 10 rows tall; "See next 10"
+// Eastern days, from the cutover); Total users / Joiners = the Metabase export. Box is 10 rows tall; "See next 10"
 // appends more inside it (scroll). Collapsible (remembered). Summary = last 7 days.
 const RECENT_SEGMENTS = [
   { value: 'creators', label: 'Sign ups', noun: 'sign ups', filter: isSignup },
-  { value: 'all', label: 'All users', noun: 'users', filter: () => true },
+  { value: 'all', label: 'Total users', noun: 'users', filter: () => true },
   { value: 'joiners', label: 'Joiners', noun: 'joiners', filter: (s) => Boolean(s.jx) },
 ];
 const RECENT_SIGNUP_DAYS = 7;
@@ -3691,7 +3691,7 @@ function RecentSignupsCard() {
     <Card from={SIGNUP_COUNT_START} to={DATA_END}
       title="Recently added users"
       question="Who joined most recently?"
-      footnote={`Newest first — toggle Sign ups, All users or Joiners. The table is 10 rows tall; “See next 10” loads 10 more into it (scroll to see them). Sign ups = the Sign ups chart's people (from ${monDay(PH_SIGNUP_CUTOVER)}: fired Organization Created in PostHog). All users / Joiners come from the Metabase sign up export. All dates are Eastern: joiner = joined an existing company (invite, domain match or unknown); “Org creator (prior account)” = first person on a new company with no Organization Created event in PostHog (usually someone with an existing Mutiny account creating another company), so not a sign up. Internal and never-completed sign ups are left out. Channel is the same grouping as Sign ups by channel. The summary line counts the latest ${RECENT_SIGNUP_DAYS} days (${rangeLabel(from, DATA_END)}). Older sign ups may show “unknown” where the export didn't keep an email. Click a column to sort, or a user to open their admin profile.`}
+      footnote={`Newest first — toggle Sign ups, Total users or Joiners. The table is 10 rows tall; “See next 10” loads 10 more into it (scroll to see them). Sign ups = the Sign ups chart's people (from ${monDay(PH_SIGNUP_CUTOVER)}: fired Organization Created in PostHog). Total users / Joiners come from the Metabase sign up export. All dates are Eastern: joiner = joined an existing company (invite, domain match or unknown); “Org creator (prior account)” = first person on a new company with no Organization Created event in PostHog (usually someone with an existing Mutiny account creating another company), so not a sign up. Internal and never-completed sign ups are left out. Channel is the same grouping as Sign ups by channel. The summary line counts the latest ${RECENT_SIGNUP_DAYS} days (${rangeLabel(from, DATA_END)}). Older sign ups may show “unknown” where the export didn't keep an email. Click a column to sort, or a user to open their admin profile.`}
     >
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginTop: 6 }}>
         <div style={{ fontFamily: FONT_BODY, fontSize: 13.5, color: C.muted }}>
@@ -5551,7 +5551,7 @@ const AF_SEGMENTS = {
   creators: { title: 'Activation funnel — sign ups', who: 'sign ups', filter: isSignup, def: 'sign ups (from Oct 21: fired Organization Created in PostHog; before: the first person on a new company)', note: 'From Oct 21 these are the same people as the New onboarding (PostHog) cards: people who fired Organization Created, once per person, on Eastern days.' },
   // One funnel for everyone (Nick, Oct 26: "don't break them up"), with the
   // same steps + definitions as the New onboarding — org creator outcomes card.
-  all: { title: 'Activation funnel — All users', who: 'users', stepLabel: 'All users', filter: () => true, def: 'every user in the period: sign ups (org creators) and invited users together', phSteps: true },
+  all: { title: 'Activation funnel — Total users', who: 'users', stepLabel: 'Total users', filter: () => true, def: 'every user in the period: sign ups (org creators) and invited users together', phSteps: true },
   invited: { title: 'Activation funnel — invited users', who: 'invited users', stepLabel: 'Invited users', filter: (s) => Boolean(s.jx), def: 'sign ups that joined an existing company (accepted an invite or joined a teammate’s workspace)' },
 };
 const onbStepsDone = (s) => ONB_STEP_DEFS.filter((st) => s[st.key]).map((st) => st.label).join(' · ') || 'None yet';
@@ -5754,7 +5754,7 @@ function CohortStepCard({ kind }) {
 // PostHog dashboard). Data: npm run pull-posthog → src/beta-posthog.json.
 // "A1"/"A2" here are EPD-9795's definitions (First Action / First Review
 // Action Completed), NOT Lever 2/3's A1 (first meeting) / A2 (first send).
-const PH_CREATOR_NOTE = 'Org creator = fired [Activation] Organization Created (since Nov 7 the Sign ups metric uses the same rule from Oct 21). People who created a company without the event firing (e.g. existing users creating another company) are not here; they are in All users.';
+const PH_CREATOR_NOTE = 'Org creator = fired [Activation] Organization Created (since Nov 7 the Sign ups metric uses the same rule from Oct 21). People who created a company without the event firing (e.g. existing users creating another company) are not here; they are in Total users.';
 // ev = the PostHog event(s) that define each group (hover a title to see them,
 // Nick, Oct 26); where = extra filter; note = plain-English caveat.
 const PH_ONB_STEPS = [
@@ -5815,7 +5815,7 @@ const PH_STAGE_COLS = PH_ONB_STEPS.map((st) => ({
 // Nov 7 (Nick): export-only org creators (no Organization Created event,
 // e.g. existing users creating another company) are NO LONGER added here, so
 // these cards are exactly Kyle's PostHog cohort and tie to the Sign ups metric.
-// They're still in All users. Log of cases: TRACKING_GAPS.md.
+// They're still in Total users. Log of cases: TRACKING_GAPS.md.
 // Clamped to the cutover: Kyle's start is Oct 20 9 PM ET, counted on Oct 21.
 const phEtDay = (c) => { const d = c.org ? c.org.slice(0, 10) : c.orgUtc ? etDayFmt.format(new Date(c.orgUtc)) : null; return d && d < PH_SIGNUP_CUTOVER ? PH_SIGNUP_CUTOVER : d; };
 function usePhCohort() {
@@ -6201,7 +6201,7 @@ function SectionsFor({ view }) {
           {/* Bars filter the table (Nick, Oct 26). */}
           <PhCreatorsBlock />
         </Grid>
-        <SubHeader title="All users" />
+        <SubHeader title="Total users" />
         <Grid>
           {/* One combined funnel (Nick, Oct 26), same steps as the New onboarding cards. */}
           <AllSignupsBlock />
