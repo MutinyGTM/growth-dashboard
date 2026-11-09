@@ -1,17 +1,17 @@
 {
   "source": "PostHog project 381053 (dashboard 2240501 logic)",
-  "pulledAt": "2026-11-07T21:36:00.942Z",
+  "pulledAt": "2026-11-09T15:53:36.019Z",
   "rolloutStart": "2026-10-21",
   "rolloutStartUtc": "2026-10-21T01:00:00Z",
   "tz": "America/New_York",
   "counts": {
-    "org": 128,
-    "gmail": 43,
+    "org": 132,
+    "gmail": 44,
     "cal": 26,
-    "rec": 32,
-    "perms": 31,
-    "a1": 4,
-    "a2": 4
+    "rec": 34,
+    "perms": 33,
+    "a1": 5,
+    "a2": 5
   },
   "creators": [
     {
@@ -1800,6 +1800,65 @@
         {
           "co": "d8889b3a-45d8-404e-9787-19c338c875da",
           "utc": "2026-11-07T16:00:20.066Z"
+        }
+      ]
+    },
+    {
+      "pid": "c0ee14dc-96a7-5f92-b42c-41e0f283fef5",
+      "uid": "fd8302c5-a4c2-4628-9932-472601b16e15",
+      "email": "shanigu@monday.com",
+      "orgUtc": "2026-11-08T15:03:51.798Z",
+      "org": "2026-11-08T10:03",
+      "gmail": "2026-11-08T10:10",
+      "rec": "2026-11-08T10:11",
+      "perms": "2026-11-08T10:12",
+      "orgs": [
+        {
+          "co": "fd01628c-cbf9-4e0d-b79f-5aec5f479821",
+          "utc": "2026-11-08T15:03:51.798Z"
+        }
+      ]
+    },
+    {
+      "pid": "72df0039-7133-58b4-8869-e3c04cf3d016",
+      "uid": "baa8a28d-c99d-40aa-b7d5-b62434c803ce",
+      "email": "aurore.bertrand@airwallex.com",
+      "orgUtc": "2026-11-09T07:54:39.374Z",
+      "org": "2026-11-09T02:54",
+      "rec": "2026-10-30T03:21",
+      "perms": "2026-10-30T03:22",
+      "a1": "2026-11-05T13:08",
+      "a2": "2026-11-02T08:35",
+      "orgs": [
+        {
+          "co": "7e91df33-9832-4b48-87ee-82cd81b206fe",
+          "utc": "2026-11-09T07:54:39.374Z"
+        }
+      ]
+    },
+    {
+      "pid": "15689021-eb6b-50c9-9f1c-b0fc33aa60f8",
+      "uid": "5eed2a91-7f8b-4fd7-836e-e3f7749c3a76",
+      "email": "emma.fahey@workbooks.com",
+      "orgUtc": "2026-11-09T10:19:20.332Z",
+      "org": "2026-11-09T05:19",
+      "orgs": [
+        {
+          "co": "0ae1e289-0581-44fa-a664-b0381a3a3536",
+          "utc": "2026-11-09T10:19:20.332Z"
+        }
+      ]
+    },
+    {
+      "pid": "30a8e951-ba5e-5ea2-9778-39a8e62ab92d",
+      "uid": "1e6c214a-a69e-41c6-9538-b2dafd76c5a4",
+      "email": "diana@yoodli.ai",
+      "orgUtc": "2026-11-09T14:16:44.153Z",
+      "org": "2026-11-09T09:16",
+      "orgs": [
+        {
+          "co": "fd9474d2-b39c-43a6-95d0-a6ffae508c5b",
+          "utc": "2026-11-09T14:16:44.153Z"
         }
       ]
     }
