@@ -863,14 +863,14 @@ async function hsMostRecentClosedWon(companyId) {
 //   LOGOS_SOURCE=revenue-repo         ← opt in
 //   REVENUE_REPO_TOKEN=<fine-grained PAT, read-only Contents on the repo>
 // Optional overrides (defaults shown):
-//   REVENUE_REPO=UncleAchoo/hubspot-revenue-dashboard
+//   REVENUE_REPO=MutinyGTM/hubspot-revenue-dashboard
 //   REVENUE_LOGOS_PATH=dashboard_data.json
 //   REVENUE_REPO_REF=main
 // ---------------------------------------------------------------------------
 async function fetchLogosFromRevenueRepo() {
   if (process.env.LOGOS_SOURCE !== 'revenue-repo') return null;
 
-  const repo = process.env.REVENUE_REPO || 'UncleAchoo/revenue-dashboard-official';
+  const repo = process.env.REVENUE_REPO || 'MutinyGTM/revenue-dashboard-official';
   const path = process.env.REVENUE_LOGOS_PATH || 'stripe_data.json';
   const ref  = process.env.REVENUE_REPO_REF || 'main';
 

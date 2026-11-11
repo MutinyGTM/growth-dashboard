@@ -6,7 +6,7 @@ Read this first when starting a fresh Cowork thread on this project. It captures
 
 ## What this is
 
-A single-file React/Recharts dashboard tracking Mutiny's marketing/growth funnel. Lives at `mutiny_growth_dashboard.jsx` (~5,800 lines now, up from 2,900 in CONTEXT.md). Built with Vite + vite-plugin-singlefile, deploys to GitHub Pages on every push to `main` via `.github/workflows/deploy.yml`. Repo: `github.com/UncleAchoo/growth-dashboard`.
+A single-file React/Recharts dashboard tracking Mutiny's marketing/growth funnel. Lives at `mutiny_growth_dashboard.jsx` (~5,800 lines now, up from 2,900 in CONTEXT.md). Built with Vite + vite-plugin-singlefile, deploys to GitHub Pages on every push to `main` via `.github/workflows/deploy.yml`. Repo: `github.com/MutinyGTM/growth-dashboard`.
 
 The build output is a single self-contained `dist/index.html` (~1.7 MB), no external assets except Google Fonts.
 
@@ -44,7 +44,7 @@ npm run build:nodata # vite build only — CI uses this
 npm run pull-data   # refresh src/data.json from APIs + data/ CSVs
 ```
 
-**Deploy:** `git push` to `main`. CI does `npm ci` → `npm run build:nodata` → upload `dist/` → deploy to Pages. ~60–90s end-to-end. Watch at `github.com/UncleAchoo/growth-dashboard/actions`.
+**Deploy:** `git push` to `main`. CI does `npm ci` → `npm run build:nodata` → upload `dist/` → deploy to Pages. ~60–90s end-to-end. Watch at `github.com/MutinyGTM/growth-dashboard/actions`.
 
 **CI uses `build:nodata` (NOT `build`)** because CI has no API keys — running `pull-data` would wipe Amplitude/HubSpot to empty fallbacks. `src/data.json` is committed and CI uses what's there.
 

@@ -8,7 +8,7 @@ A plain-English guide to what this dashboard shows, how to refresh it, and the q
 
 A single-page dashboard tracking Mutiny's marketing/growth funnel — website visitors → signups → sales meetings, plus channel attribution and AI-engine visibility (Peec).
 
-- **Lives at:** `github.com/UncleAchoo/growth-dashboard`, deployed to GitHub Pages.
+- **Lives at:** `github.com/MutinyGTM/growth-dashboard`, deployed to GitHub Pages.
 - **All numbers come from** one committed file, `src/data.json`, which is regenerated from GA4, Amplitude, HubSpot, and Peec.
 - **Data sources:** GA4 (sessions/traffic, manual CSV export), Amplitude (signups), HubSpot (sales meetings / Talk to Sales), Peec AI (AI-engine visibility).
 
@@ -120,7 +120,7 @@ They diverge for three compounding reasons: different spans (a 30-day aggregate 
 
 | Item | Value |
 |---|---|
-| Repo | `github.com/UncleAchoo/growth-dashboard` |
+| Repo | `github.com/MutinyGTM/growth-dashboard` |
 | Signup event | `[Onboarding] User Setup Complete` (excl. internal `mutiny` emails) |
 | Signups start firing | ~Feb 16, 2026 |
 | GA4 reliable from | May 13, 2026 |

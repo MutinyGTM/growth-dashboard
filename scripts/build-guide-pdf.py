@@ -44,7 +44,7 @@ c.drawString(M, y - 8, 'MUTINY  ·  GROWTH  ·  BETA DASHBOARD')
 c.setFont('Reck', 34); c.setFillColor(black)
 c.drawString(M, y - 44, 'How to read the growth dashboard')
 c.setFont('Wal', 9.5); c.setFillColor(MUTED)
-c.drawString(M, y - 60, 'uncleachoo.github.io/growth-dashboard/?beta  —  a 2-minute guide. Read it top to bottom: people, then companies.')
+c.drawString(M, y - 60, 'mutinygtm.github.io/growth-dashboard/?beta  —  a 2-minute guide. Read it top to bottom: people, then companies.')
 y -= 76
 
 # --- Funnel strip -----------------------------------------------------------
