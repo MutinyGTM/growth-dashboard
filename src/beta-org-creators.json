@@ -1,8 +1,8 @@
 {
   "source": "PostHog project 381053, [Activation] Organization Created (first per person, Eastern day)",
-  "pulledAt": "2026-11-09T15:53:30.408Z",
+  "pulledAt": "2026-11-12T01:21:43.790Z",
   "firstDay": "2026-08-28",
-  "lastDay": "2026-11-09",
+  "lastDay": "2026-11-11",
   "daily": [
     {
       "d": "2026-08-28",
@@ -286,7 +286,15 @@
     },
     {
       "d": "2026-11-09",
+      "n": 8
+    },
+    {
+      "d": "2026-11-10",
       "n": 3
+    },
+    {
+      "d": "2026-11-11",
+      "n": 4
     }
   ]
 }
