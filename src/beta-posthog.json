@@ -1,15 +1,15 @@
 {
   "source": "PostHog project 381053 (dashboard 2240501 logic)",
-  "pulledAt": "2026-11-12T01:21:49.473Z",
+  "pulledAt": "2026-11-12T15:22:21.138Z",
   "rolloutStart": "2026-10-21",
   "rolloutStartUtc": "2026-10-21T01:00:00Z",
   "tz": "America/New_York",
   "counts": {
-    "org": 144,
-    "gmail": 52,
+    "org": 147,
+    "gmail": 55,
     "cal": 31,
-    "rec": 40,
-    "perms": 39,
+    "rec": 41,
+    "perms": 40,
     "a1": 8,
     "a2": 6
   },
@@ -2044,6 +2044,50 @@
         {
           "co": "679c21a4-af6c-42fa-993b-b6a518a8e5ed",
           "utc": "2026-11-11T19:25:14.635Z"
+        }
+      ]
+    },
+    {
+      "pid": "adf79833-02ba-55f0-98d3-9bf9e768f738",
+      "uid": "21914e84-1031-4546-9cea-68fff4f138a7",
+      "email": "devkaran.suratsinghchauhan@agilisium.com",
+      "orgUtc": "2026-11-12T08:22:31.869Z",
+      "org": "2026-11-12T03:22",
+      "gmail": "2026-11-12T03:24",
+      "orgs": [
+        {
+          "co": "870ed286-38a0-4abe-adbf-9ac1962a4f41",
+          "utc": "2026-11-12T08:22:31.869Z"
+        }
+      ]
+    },
+    {
+      "pid": "2162b64c-586a-5955-b098-76ba46a389d0",
+      "uid": "126d198d-13b8-4011-9fe0-6a0ad94a2e7f",
+      "email": "anastasia.duduzova@feelystudio.com",
+      "orgUtc": "2026-11-12T10:18:05.015Z",
+      "org": "2026-11-12T05:18",
+      "gmail": "2026-11-12T05:18",
+      "orgs": [
+        {
+          "co": "344470d0-c93d-4ad6-a267-aab30e4c833b",
+          "utc": "2026-11-12T10:18:05.015Z"
+        }
+      ]
+    },
+    {
+      "pid": "7275a6f7-e947-5eea-aeaf-0716af97e71c",
+      "uid": "085b7332-c778-40ac-8aaf-95ce3d02ba55",
+      "email": "adam@rivero.tech",
+      "orgUtc": "2026-11-12T12:33:19.327Z",
+      "org": "2026-11-12T07:33",
+      "gmail": "2026-11-12T07:36",
+      "rec": "2026-11-12T07:39",
+      "perms": "2026-11-12T07:39",
+      "orgs": [
+        {
+          "co": "3843717c-f1ee-46a2-bd71-bf18515df2bd",
+          "utc": "2026-11-12T12:33:19.327Z"
         }
       ]
     }
