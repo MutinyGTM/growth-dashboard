@@ -547,5 +547,100 @@
       }
     },
     "notes": "Only 19 Mutiny-mention chats in Nov 9-11 (below 20). Nov 9-10 counts match prior records, so those classifications were carried over; all 6 Nov 11 chats read fresh. Nov 11 alone: 1 of 6 flagged, borderline (ChatGPT Seismic-alt: primary framing 'AI agents generate personalized sales collateral' with business cases/pitch decks, but 'Best use case: Account-based personalization' + 'enterprise ABM'; flagged for consistency with the Nov 8 'Best for ... account-based marketing' precedent). Clean Nov 11: Google AIO Seismic-alt leads with 'Mutiny (Sales Assistant): Built as an AI sales assistant' (cites mutinyhq.com Highspot-alternatives blog 4x); Google AIO 'How to turn sales call recordings into follow-up content' (new prompt with Mutiny mention, links mutinyhq.com FAQ); Perplexity Highspot-alt (cites mutinyhq.com FAQ); ChatGPT 'AI agent that creates sales content' ('Personalized customer-facing content'). Borderline not flagged: ChatGPT Highspot-alt 'Agent-first GTM content generation' / 'Agentic GTM platforms' category (close to GTM-agent framing, but bullets are presentations/business cases). 'Best AI tools for revenue teams' produced no Mutiny mention on Nov 11 (so no 5th straight CRO day). No pricing mentioned in any chat; price flag still untested."
+  },
+  {
+    "date": "2026-11-12",
+    "window_days": 3,
+    "window": "2026-11-10 to 2026-11-12",
+    "sampled": 20,
+    "flagged": 4,
+    "by_flag": {
+      "cro": 2,
+      "abm": 2,
+      "price": 0,
+      "gtm_agent": 0
+    },
+    "examples": [
+      {
+        "engine": "google-ai-overview",
+        "chat_date": "2026-11-12",
+        "prompt": "AI-native sales tools",
+        "flags": [
+          "cro"
+        ],
+        "quote": "specialized B2B personalization tools like Mutiny and Hyperise tailor website and outreach experiences",
+        "sources": [
+          "cisco.com/site/us/en/learn/topics/artificial-intelligence/ai-native.html",
+          "gusto.com/resources/articles/business-growth/ai-tools-sales",
+          "salesforce.com/sales/ai",
+          "youtube.com/watch?v=dyDqCPyiBh0 (cited 2x)",
+          "rzlt.io/blog/9-best-ai-sales-tools-that-help-marketing-and-sales-teams-align",
+          "reddit.com/r/sales/comments/1i303w3/best_ai_tools_youve_adopted_enterprise_saas",
+          "pipedrive.com/en/blog/ai-sales-tools (retrieved, not cited)"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-12",
+        "prompt": "Best tool for personalized sales content",
+        "flags": [
+          "abm"
+        ],
+        "quote": "Personalized landing pages and buyer experiences ... Best for: Enterprise and account-based marketing.",
+        "sources": [
+          "dupple.com/learn/best-ai-sales-tools",
+          "spekit.com/blog/platforms-personalize-content-b2b-buyers",
+          "mutinyhq.com/blog/the-best-ai-sales-tools-in-2026-a-buyer-s-guide-for-b2b-gtm-teams",
+          "aiinsales.org/guides/sales-outreach-personalization-tools"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-11",
+        "prompt": "AI-native Seismic alternative",
+        "flags": [
+          "abm"
+        ],
+        "quote": "Best use case: Account-based personalization ... Particularly interesting for enterprise ABM.",
+        "sources": [
+          "revspire.io/resources/blogs/best-ai-sales-enablement-platforms (cited 2x)",
+          "getaccept.com/blog/seismic-alternatives",
+          "mutinyhq.com/faqs/what-are-the-best-alternatives-to-highspot-for-ai-native-sales-enablement",
+          "kendo.ai/blogs/seismic-alternatives",
+          "sendtrumpet.com/blog-posts/best-ai-sales-enablement-platforms-for-us-saas-teams-2"
+        ]
+      },
+      {
+        "engine": "chatgpt",
+        "chat_date": "2026-11-10",
+        "prompt": "Best AI tools for revenue teams",
+        "flags": [
+          "cro"
+        ],
+        "quote": "Mutiny – Website personalization for B2B audiences.",
+        "sources": [
+          "zapier.com/blog/revenue-intelligence-platform",
+          "mindtickle.com/blog/best-ai-sales-tools-for-revenue-teams",
+          "resources.rework.com/guides/choosing-software/best-ai-sales-tools",
+          "attention.com/blog-posts/13-best-ai-sales-tools-in-2026",
+          "mutinyhq.com/blog/the-best-ai-sales-tools-in-2026-a-buyer-s-guide-for-b2b-gtm-teams"
+        ]
+      }
+    ],
+    "by_day": {
+      "2026-11-10": {
+        "sampled": 4,
+        "flagged": 1
+      },
+      "2026-11-11": {
+        "sampled": 6,
+        "flagged": 1
+      },
+      "2026-11-12": {
+        "sampled": 10,
+        "flagged": 2
+      }
+    },
+    "notes": "First run to reach 20: 22 Mutiny-mention chats in Nov 10-12 (6/6/10), capped at 20. Peec gives no intra-day timestamps, so 2 clean Nov 10 chats were dropped (ChatGPT 'How to create a deal room', Perplexity 'AI-native Highspot alternative') and the flagged Nov 10 chat kept (conservative choice; all 22 would be 4 of 22). Nov 10-11 counts match prior records, so classifications carried over; all 10 Nov 12 chats read fresh. Nov 12 alone: 2 of 10 flagged. New offender: Google AIO 'AI-native sales tools' (first Mutiny mention on this prompt) groups Mutiny with Hyperise as a website-personalization tool; none of its sources are mutinyhq.com. ChatGPT 'Best tool for personalized sales content' ABM framing returned (same 4 sources as Nov 8). Clean Nov 12: Perplexity Highspot-alt, 'Best AI assistant for account executives' ('deal-specific proposals and customer-facing content', new prompt), 'AI-native sales enablement platform' (new prompt); Google AIO 'How to evaluate AI sales tools' and call-recordings prompt (both link mutinyhq.com FAQs). Borderline not flagged: ChatGPT Highspot-alt labels Mutiny 'Agent-first GTM' with an 'Automated account-based marketing experiences' bullet, but differentiator is 'personalized sales content, business cases and deal rooms' (same call as Nov 11); Google AIO 'sales and web content' on two sales-enablement prompts (minor wording). 'Best AI tools for revenue teams' produced no Mutiny mention on Nov 11 or Nov 12. No pricing mentioned in any chat; price flag still untested."
   }
 ]
