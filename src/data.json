@@ -311775,7 +311775,7 @@
       "source": "revenue-repo",
       "repo": "MutinyGTM/revenue-dashboard-official",
       "path": "stripe_data.json",
-      "pulledAt": "2026-11-17T21:56:47.493Z",
+      "pulledAt": "2026-11-18T03:15:37.734Z",
       "weekly": [
         {
           "week_ending": "2026-03-22",
@@ -311953,7 +311953,7 @@
           "partial": false
         },
         {
-          "week_ending": "2026-11-17",
+          "week_ending": "2026-11-18",
           "count": 103,
           "partial": true
         }
