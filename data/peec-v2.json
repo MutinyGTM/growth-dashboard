@@ -1,58 +1,58 @@
 {
- "pulledAt": "2026-11-18T10:34:23.000Z",
+ "pulledAt": "2026-11-20T13:25:56.000Z",
  "windowStart": "2026-10-28",
- "windowEnd": "2026-11-17",
- "visibility": 0.0158,
- "mentionCount": 346,
- "avgPosition": 3.2,
+ "windowEnd": "2026-11-19",
+ "visibility": 0.0155,
+ "mentionCount": 371,
+ "avgPosition": 3.3,
  "competitorRank": 24,
  "competitorTotal": 29,
  "topCompetitor": {
   "name": "Highspot",
-  "visibility": 0.2355
+  "visibility": 0.2357
  },
  "topics": [
   {
    "topicId": "to_35555ef7-147a-45d7-91d2-04fd57304ecb",
    "name": "Sales Enablement",
-   "visibility": 0.0302,
-   "mentions": 217,
-   "responses": 2750
+   "visibility": 0.0294,
+   "mentions": 230,
+   "responses": 2990
   },
   {
    "topicId": "to_74dd09af-5f9e-4d6b-9207-f2699b9971e5",
    "name": "Sales Presentations and Proposals",
-   "visibility": 0.0261,
-   "mentions": 88,
-   "responses": 1569
+   "visibility": 0.0252,
+   "mentions": 94,
+   "responses": 1706
   },
   {
    "topicId": "to_4bbe43bd-ce10-4ba7-a6eb-1238d9ee77b8",
    "name": "Digital Sales Rooms",
-   "visibility": 0.0051,
+   "visibility": 0.0047,
    "mentions": 11,
-   "responses": 1770
+   "responses": 1926
   },
   {
    "topicId": "to_8b8f709a-2231-4169-8603-b0459a614309",
    "name": "AI GTM Stack",
-   "visibility": 0.0085,
-   "mentions": 20,
-   "responses": 1648
+   "visibility": 0.0089,
+   "mentions": 22,
+   "responses": 1792
   },
   {
    "topicId": "to_afdd3822-78c4-4781-a9ba-4c12d52bfffa",
    "name": "Sales Call Notes and Recording",
-   "visibility": 0.0106,
+   "visibility": 0.0097,
    "mentions": 8,
-   "responses": 757
+   "responses": 823
   },
   {
    "topicId": "to_dd7866a1-5c51-4ac0-8df6-e1d3e9c53f7d",
    "name": "AI Sales Assistants",
-   "visibility": 0.0014,
-   "mentions": 2,
-   "responses": 1435
+   "visibility": 0.0019,
+   "mentions": 6,
+   "responses": 1560
   }
  ],
  "daily": [
@@ -265,6 +265,26 @@
    "AI GTM Stack": 0,
    "Sales Call Notes and Recording": 0,
    "AI Sales Assistants": 0
+  },
+  {
+   "date": "2026-11-18",
+   "visibility": 0.0138,
+   "Sales Enablement": 0.0333,
+   "Sales Presentations and Proposals": 0.0147,
+   "Digital Sales Rooms": 0,
+   "AI GTM Stack": 0.0139,
+   "Sales Call Notes and Recording": 0,
+   "AI Sales Assistants": 0
+  },
+  {
+   "date": "2026-11-19",
+   "visibility": 0.0092,
+   "Sales Enablement": 0.0083,
+   "Sales Presentations and Proposals": 0.0145,
+   "Digital Sales Rooms": 0,
+   "AI GTM Stack": 0.0139,
+   "Sales Call Notes and Recording": 0,
+   "AI Sales Assistants": 0.0161
   }
  ],
  "sources": {
@@ -479,14 +499,34 @@
      "Sales Presentations and Proposals": 4,
      "AI Sales Assistants": 3,
      "Sales Call Notes and Recording": 0
+    },
+    {
+     "date": "2026-11-18",
+     "Total": 31,
+     "AI GTM Stack": 10,
+     "Sales Enablement": 8,
+     "Sales Presentations and Proposals": 5,
+     "Digital Sales Rooms": 4,
+     "AI Sales Assistants": 3,
+     "Sales Call Notes and Recording": 1
+    },
+    {
+     "date": "2026-11-19",
+     "Total": 28,
+     "Digital Sales Rooms": 7,
+     "Sales Enablement": 6,
+     "AI GTM Stack": 6,
+     "AI Sales Assistants": 4,
+     "Sales Presentations and Proposals": 4,
+     "Sales Call Notes and Recording": 1
     }
    ],
    "metric": {
-    "retrievedPct": 0.0899,
-    "retrievalRate": 0.1181,
-    "citationRate": 0.5162,
-    "retrievalCount": 1173,
-    "citationCount": 461
+    "retrievedPct": 0.0882,
+    "retrievalRate": 0.1148,
+    "citationRate": 0.5882,
+    "retrievalCount": 1240,
+    "citationCount": 560
    },
    "dailyStats": [
     {
@@ -656,6 +696,22 @@
      "citationRate": 0.5357,
      "retrievalCount": 36,
      "citationCount": 15
+    },
+    {
+     "date": "2026-11-18",
+     "retrievedPct": 0.0714,
+     "retrievalRate": 0.0806,
+     "citationRate": 0.7419,
+     "retrievalCount": 35,
+     "citationCount": 23
+    },
+    {
+     "date": "2026-11-19",
+     "retrievedPct": 0.0645,
+     "retrievalRate": 0.0737,
+     "citationRate": 0.7857,
+     "retrievalCount": 32,
+     "citationCount": 22
     }
    ]
   }
@@ -786,6 +842,18 @@
    "visCount": 4,
    "visTotal": 431,
    "mentions": 11
+  },
+  {
+   "date": "2026-11-18",
+   "visCount": 6,
+   "visTotal": 434,
+   "mentions": 12
+  },
+  {
+   "date": "2026-11-19",
+   "visCount": 4,
+   "visTotal": 434,
+   "mentions": 13
   }
  ]
 }
