@@ -316101,11 +316101,11 @@
       }
     ],
     "logos": {
-      "total": 107,
+      "total": 108,
       "source": "revenue-repo",
       "repo": "MutinyGTM/revenue-dashboard-official",
       "path": "stripe_data.json",
-      "pulledAt": "2026-11-20T21:36:39.091Z",
+      "pulledAt": "2026-11-21T02:53:58.886Z",
       "weekly": [
         {
           "week_ending": "2026-03-22",
@@ -316283,8 +316283,8 @@
           "partial": false
         },
         {
-          "week_ending": "2026-11-20",
-          "count": 107,
+          "week_ending": "2026-11-21",
+          "count": 108,
           "partial": true
         }
       ]
