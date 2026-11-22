@@ -35,6 +35,7 @@ import betaCredits from './src/beta-credits.json';
 import framerJson from './src/framer.json';
 import betaPosthog from './src/beta-posthog.json';
 import betaOrgCreators from './src/beta-org-creators.json';
+import multiOrgConsolidate from './src/multi-org-consolidate.json';
 // AEO section (Nick, Oct 27): behind ?aeo for now. Tabs under the header switch
 // between the PLG funnel and AEO; #aeo in the URL opens AEO directly.
 import AeoSection from './aeo_section.jsx';
@@ -99,7 +100,31 @@ const SIGNUP_SRC = USE_PH_SIGNUPS
 // left out of EVERY signup metric on this page (Nick, Oct 15). They never
 // activate, so only signup counts / denominators change. They're kept in
 // NEVER_COMPLETED for the "view never-completed sign ups" modal.
-const ALL_SIGNUP_ROWS = SIGNUP_SRC.signups;
+// MULTI-ORG CONSOLIDATION (Nick, Nov 22 2026): people on these email domains
+// who create several companies count as ONE org creator. Their extra
+// non-joiner rows are dropped, so Total users ties to Sign ups (PostHog counts
+// each person once anyway). Kept row: the company PostHog's first Organization
+// Created points at, else their earliest completed row. Joiner rows untouched.
+// Nov 19 2026: two euploading.com accounts made 7 + 4 companies overnight
+// (likely bot/spam). Domains live in src/multi-org-consolidate.json (shared with
+// scripts/flag-unusual-activity.mjs); add one there when Nick approves a flag.
+const CONSOLIDATE_MULTI_ORG_DOMAINS = (multiOrgConsolidate?.domains || []).map((x) => x.domain.toLowerCase());
+const consolidateMultiOrg = (rows) => {
+  const isTarget = (s) => !s.jx && s.uid && CONSOLIDATE_MULTI_ORG_DOMAINS.some((dm) => (s.email || '').toLowerCase().endsWith(`@${dm}`));
+  const firstCo = new Map((betaPosthog?.creators || []).map((c) => [c.uid, c.orgs?.[0]?.co]));
+  const groups = new Map();
+  for (const s of rows) if (isTarget(s)) (groups.get(s.uid) || groups.set(s.uid, []).get(s.uid)).push(s);
+  const drop = new Set();
+  for (const [uid, g] of groups) {
+    if (g.length < 2) continue;
+    const done = g.filter((s) => !s.nc).sort((x, y) => (x.d < y.d ? -1 : x.d > y.d ? 1 : 0));
+    const keep = g.find((s) => s.co && s.co === firstCo.get(uid)) || done[0] || g[0];
+    for (const s of g) if (s !== keep) drop.add(s);
+  }
+  return { rows: drop.size ? rows.filter((s) => !drop.has(s)) : rows, dropped: [...drop] };
+};
+const MULTI_ORG = consolidateMultiOrg(SIGNUP_SRC.signups);
+const ALL_SIGNUP_ROWS = MULTI_ORG.rows;
 const NEVER_COMPLETED = ALL_SIGNUP_ROWS.filter((s) => s.nc);
 const SIGNUPS = ALL_SIGNUP_ROWS.filter((s) => !s.nc);
 
@@ -474,6 +499,21 @@ const msDay = (s) => s.d;
 const userTypeOf = (s) => (s.jx ? 'Joiner' : isSignup(s) ? 'Sign up' : 'Org creator (prior account)');
 const userTypeTitle = (s) => (s.jx ? 'Joined an existing company' : isSignup(s) ? 'Sign up: fired Organization Created in PostHog (before Oct 21: first person at a new company)' : 'First person at a new company, but PostHog has no Organization Created for them (usually an existing Mutiny account creating another company), so not counted as a sign up');
 const COUNTED_SORTED = [...PRE_CUT_SIGNUPS, ...PH_SIGNUP_ROWS].sort(byD);
+// Total users broken into its parts (Nick, Nov 22 2026: "so we know where that
+// number is coming from"). signups + joiners + otherCreators = total.
+// signups = export rows matched to a sign up (PostHog Organization Created from
+// the cutover); otherCreators = first person on a new company with no Organization
+// Created (existing users' 2nd company, tracking gaps). consolidated = extra
+// companies by one person dropped by consolidateMultiOrg — NOT in total.
+const allUsersBreakdown = (a, b) => {
+  const list = allUsersIn(a, b);
+  const joiners = list.filter((s) => s.jx).length;
+  const signups = list.filter((s) => !s.jx && isSignup(s)).length;
+  return {
+    total: list.length, joiners, signups, otherCreators: list.length - joiners - signups,
+    consolidated: MULTI_ORG.dropped.filter((s) => !s.nc && s.d >= SIGNUP_COUNT_START && inRange(s.d, a, b)).length,
+  };
+};
 const signupsIn = (a, b) => sliceByDate(COUNTED_SORTED, (s) => s.d, a, b);
 const neverCompletedIn = (a, b) => NEVER_COMPLETED.filter((s) => s.d >= SIGNUP_COUNT_START && inRange(s.d, a, b));
 const COUNTED_SIGNUPS = COUNTED_SORTED.length;
@@ -1043,6 +1083,7 @@ function buildModel(range, grain, custom, minStart) {
       allUsers: allUsersIn(START, END).length,
       allUsersPrev: allUsersIn(PRIOR_START, PRIOR_END).length,
       allJoiners: allUsersIn(START, END).filter((s) => s.jx).length,
+      allParts: allUsersBreakdown(START, END),
       visitors,
       visitorsPrev,
       conv: pct(curr.length, visitors),
@@ -1088,7 +1129,7 @@ function buildModel(range, grain, custom, minStart) {
       // week mixes bot-counted days → gap). Raw `conv` stays for the faint line.
       const comparable = w.start >= MEASURE_BREAK;
       const visitorsAdj = comparable ? sumSessionsAdj(w.start, end) : null;
-      const row = { ...w, signups: list.length, allUsers: allUsersIn(w.start, end).length, allJoiners: allUsersIn(w.start, end).filter((s) => s.jx).length, visitors, visitorsAdj, convAdj: comparable ? pct(list.length, visitorsAdj) : null, preBreak: !comparable, adjScaled: comparable && overlapsConsentAdj(w.start, end), cumVisitors, cumSignups, conv: pct(list.length, visitors), highIntent, allSessions: sumSessions(w.start, end), hiReach: hiReachOf(highIntent, sumSessions(w.start, end)),creators: list.filter(isCreator).length, hiConv: highIntent == null ? null : pct(list.filter(isCreator).length, highIntent) };
+      const row = { ...w, signups: list.length, allUsers: allUsersIn(w.start, end).length, allJoiners: allUsersIn(w.start, end).filter((s) => s.jx).length, allParts: allUsersBreakdown(w.start, end), visitors, visitorsAdj, convAdj: comparable ? pct(list.length, visitorsAdj) : null, preBreak: !comparable, adjScaled: comparable && overlapsConsentAdj(w.start, end), cumVisitors, cumSignups, conv: pct(list.length, visitors), highIntent, allSessions: sumSessions(w.start, end), hiReach: hiReachOf(highIntent, sumSessions(w.start, end)),creators: list.filter(isCreator).length, hiConv: highIntent == null ? null : pct(list.filter(isCreator).length, highIntent) };
       ROLES.forEach((r) => { row[r.key] = 0; });
       list.forEach((s) => { row[roleKey(s)] += 1; });
       ROLES.forEach((r) => { row[`${r.key}_pct`] = list.length ? (row[r.key] / list.length) * 100 : 0; });
@@ -1589,19 +1630,23 @@ function StatRow({ children, delta, deltaLabel, always }) {
 // Subheader collapsed into a small info icon beside the title (Nick, Oct 8):
 // the text shows in a small popover only when the icon is clicked; a click
 // anywhere else (or Esc) closes it.
-function HeaderTip({ text, size = 14 }) {
-  const [open, setOpen] = useState(false);
+// hover (Nick, Nov 22, Total users): also opens while the pointer is over the icon.
+function HeaderTip({ text, size = 14, hover = false }) {
+  const [pinned, setOpen] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const open = pinned || (hover && hovered);
   const ref = React.useRef(null);
   useEffect(() => {
-    if (!open) return undefined;
+    if (!pinned) return undefined;
     const onDoc = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
     const onKey = (e) => { if (e.key === 'Escape') setOpen(false); };
     document.addEventListener('mousedown', onDoc);
     document.addEventListener('keydown', onKey);
     return () => { document.removeEventListener('mousedown', onDoc); document.removeEventListener('keydown', onKey); };
-  }, [open]);
+  }, [pinned]);
   return (
-    <span ref={ref} style={{ position: 'relative', display: 'inline-flex', verticalAlign: 'middle', marginLeft: 6 }}>
+    <span ref={ref} style={{ position: 'relative', display: 'inline-flex', verticalAlign: 'middle', marginLeft: 6 }}
+      onMouseEnter={hover ? () => setHovered(true) : undefined} onMouseLeave={hover ? () => setHovered(false) : undefined}>
       <button
         type="button"
         className="beta-note-btn"
@@ -1697,7 +1742,7 @@ function CardRange({ from, to }) {
     </div>
   );
 }
-function Card({ title, question, notice, footnote, children, accent = C.purple, allTime, convWindow, from, to, noRange }) {
+function Card({ title, question, questionHover, notice, footnote, children, accent = C.purple, allTime, convWindow, from, to, noRange }) {
   // Description is collapsed behind a small info icon (Nick, Oct 8).
   const [showNote, setShowNote] = useState(false);
   const [slot, setSlot] = useState(null);
@@ -1711,7 +1756,7 @@ function Card({ title, question, notice, footnote, children, accent = C.purple, 
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
       <h3 style={{ fontFamily: FONT_BODY, fontSize: 16, lineHeight: 1.35, fontWeight: 700, margin: 0, minWidth: 0 }}>
         {title}
-        {question && <HeaderTip text={question} />}
+        {question && <HeaderTip text={question} hover={questionHover} />}
         {convWindow && <span style={{ marginLeft: 6 }}><ConvWindowPicker value={convWindow[0]} onChange={convWindow[1]} /></span>}
         {allTime && (
           <span title={typeof allTime === 'string' ? allTime : 'This headline covers all time and does not change with the reporting period.'} style={{ marginLeft: 8, verticalAlign: 'middle', display: 'inline-block', border: `1px solid ${C.black}`, borderRadius: 999, padding: '1px 8px', fontSize: 10.5, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', background: C.paper, color: C.muted }}>
@@ -3620,17 +3665,28 @@ function AllUsersWeeklyCard() {
     const next = WEEKLY[i + 1];
     return { ...w, allFull: w.partial ? null : w.allUsers, allPartial: w.partial || next?.partial ? w.allUsers : null };
   });
-  const joiners = WINDOW.allJoiners;
-  const orgCreators = WINDOW.allUsers - joiners;
+  const P = WINDOW.allParts;
+  const range = rangeLabel(M.START, M.END);
+  const consolidatedNote = (n) => (n ? ` ${fmtInt(n)} extra ${n === 1 ? 'company' : 'companies'} made by the same person (${CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')}) counted once, so not included.` : '');
   return (
     <Card from={SIGNUP_COUNT_START}
       title="Total users"
-      question="How many people are joining, including teammates?"
-      footnote={`Everyone in the sign up export (Metabase) in each ${M.grainEach}, on Eastern days: org creators (first person on a new company) plus joiners (joined an existing company by invite, domain match or unknown method). This is wider than Sign ups: from ${monDay(PH_SIGNUP_CUTOVER)} Sign ups only count people PostHog saw fire Organization Created, so org creators it missed (e.g. existing users creating another company) are here but not there. Repeat sign ups by the same person count (two companies = twice). Internal (@mutinyhq.com, @gomomentic.com) and never-completed sign ups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''}`}
+      questionHover
+      question={(
+        <span style={{ display: 'block', minWidth: 220 }}>
+          <span style={{ display: 'block', marginBottom: 6 }}>How many people are joining, including teammates? {range}:</span>
+          {[['Sign ups', P.signups, 'fired Organization Created in PostHog'], ['Joiners', P.joiners, 'joined an existing company'], ['Other org creators', P.otherCreators, 'new company, no Organization Created']].map(([k, v, why]) => (
+            <span key={k} title={why} style={{ display: 'flex', justifyContent: 'space-between', gap: 16 }}><span>+ {k}</span><span style={tabular}>{fmtInt(v)}</span></span>
+          ))}
+          <span style={{ display: 'flex', justifyContent: 'space-between', gap: 16, borderTop: `1px solid ${C.grid}`, marginTop: 4, paddingTop: 4, color: C.black, fontWeight: 700 }}><span>= Total users</span><span style={tabular}>{fmtInt(P.total)}</span></span>
+          {P.consolidated > 0 && <span style={{ display: 'block', marginTop: 6 }}>Not counted: {fmtInt(P.consolidated)} extra {P.consolidated === 1 ? 'company' : 'companies'} made by the same person ({CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')}).</span>}
+        </span>
+      )}
+      footnote={`Everyone in the sign up export (Metabase) in each ${M.grainEach}, on Eastern days: org creators (first person on a new company) plus joiners (joined an existing company by invite, domain match or unknown method). This is wider than Sign ups: from ${monDay(PH_SIGNUP_CUTOVER)} Sign ups only count people PostHog saw fire Organization Created, so org creators it missed (e.g. existing users creating another company) are here but not there. Repeat sign ups by the same person count (two companies = twice), except people on ${CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')}, counted once (Nov 22 2026). Internal (@mutinyhq.com, @gomomentic.com) and never-completed sign ups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''}`}
     >
       <StatRow delta={<Delta value={pctChange(WINDOW.allUsers, WINDOW.allUsersPrev)} />}>
-        <Stat label={`Actual · ${rangeLabel(M.START, M.END)}`} value={fmtInt(WINDOW.allUsers)} explain={`${fmtInt(WINDOW.allUsers)} users from ${rangeLabel(M.START, M.END)}: ${fmtInt(orgCreators)} org creators + ${fmtInt(joiners)} joiners. ${fmtInt(WINDOW.allUsersPrev)} in the ${M.prior}.`} />
-        <Stat label="Joiners" value={fmtInt(joiners)} explain={`${fmtInt(joiners)} people joined an existing company from ${rangeLabel(M.START, M.END)} (${fmtPct(pct(joiners, WINDOW.allUsers), 0)} of all users).`} />
+        <Stat label={`Actual · ${range}`} value={fmtInt(P.total)} explain={`${fmtInt(P.total)} users from ${range} = ${fmtInt(P.signups)} sign ups + ${fmtInt(P.joiners)} joiners + ${fmtInt(P.otherCreators)} other org creators.${consolidatedNote(P.consolidated)} ${fmtInt(WINDOW.allUsersPrev)} in the ${M.prior}.`} />
+        <Stat label="Joiners" value={fmtInt(P.joiners)} explain={`${fmtInt(P.joiners)} people joined an existing company from ${range} (${fmtPct(pct(P.joiners, P.total), 0)} of total users).`} />
       </StatRow>
       <Legend items={[{ label: `Total users (${M.grainAdj})`, color: C.black, line: true }]} />
       <ZoomContainer height={220}>
@@ -3641,8 +3697,10 @@ function AllUsersWeeklyCard() {
           <Tooltip content={({ active, payload }) => active && payload?.length ? (
             <TooltipBox title={weekTitle(payload[0].payload)} rows={[
               { label: 'Total users', value: fmtInt(payload[0].payload.allUsers), color: C.black },
-              { label: 'Org creators', value: fmtInt(payload[0].payload.allUsers - payload[0].payload.allJoiners) },
-              { label: 'Joiners', value: fmtInt(payload[0].payload.allJoiners) },
+              { label: 'Sign ups', value: fmtInt(payload[0].payload.allParts.signups) },
+              { label: 'Joiners', value: fmtInt(payload[0].payload.allParts.joiners) },
+              { label: 'Other org creators', value: fmtInt(payload[0].payload.allParts.otherCreators) },
+              ...(payload[0].payload.allParts.consolidated ? [{ label: 'Same-person extras (not counted)', value: fmtInt(payload[0].payload.allParts.consolidated) }] : []),
             ]} />
           ) : null} />
           <Line dataKey="allFull" stroke={C.black} strokeWidth={2.5} dot={false} activeDot={{ r: 4, fill: C.purple, stroke: C.black }} isAnimationActive={false} />

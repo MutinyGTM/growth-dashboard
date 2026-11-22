@@ -1327,6 +1327,9 @@ if (logosOnly) {
       ['Signups + credits (Metabase CSVs in data/data-queries/)', 'scripts/ingest-signups.mjs'],
       // Oct 23 2026: daily PostHog-vs-signups org creator check → reports/org-creators-compare.html.
       ['Org creators check: PostHog vs signups', 'scripts/compare-org-creators.mjs'],
+      // Nov 22 2026 (Nick): flag unusual activity (multi-org, domain bursts, disposable
+      // emails, spikes) → reports/unusual-activity.md. Read-only; Claude summarizes it at each refresh.
+      ['Unusual activity check', 'scripts/flag-unusual-activity.mjs'],
       // Oct 23 2026: PostHog-sourced signup rows from Oct 21 for the ?posthog view (src/beta-signups-ph.json).
       ['PostHog signups (?posthog view)', 'scripts/build-posthog-signups.mjs'],
       // Oct 16 2026: Framer website visitors (every CSV in data/framer/ → src/framer.json).

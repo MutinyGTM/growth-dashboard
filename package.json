@@ -16,6 +16,7 @@
     "ingest-framer": "node scripts/ingest-framer.mjs",
     "pull-posthog": "node scripts/pull-posthog.mjs",
     "compare-orgs": "node scripts/compare-org-creators.mjs",
+    "flag-unusual": "node scripts/flag-unusual-activity.mjs",
     "build-ph-signups": "node scripts/build-posthog-signups.mjs",
     "build-aeo": "node scripts/build-aeo.mjs --print",
     "pull-metabase": "node scripts/pull-metabase.mjs",

@@ -1,0 +1,6 @@
+{
+  "_about": "Email domains whose people count as ONE org creator even if they create several companies (beta_dashboard.jsx consolidateMultiOrg). scripts/flag-unusual-activity.mjs reads this too and marks matching flags as handled. Add a domain only when Nick approves.",
+  "domains": [
+    { "domain": "euploading.com", "added": "2026-11-22", "why": "Nov 19 2026: i2299v2nl4i9l@ made 7 companies, i1876m61oentn@ made 4, overnight; 11 euploading.com people signed up 1-2 AM ET. Likely bot/spam." }
+  ]
+}
