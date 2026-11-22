@@ -3599,12 +3599,10 @@ function EnterpriseMeetingsCard() {
 // ups tab. Weekly in every reporting period, Fiscal YTD included (Nick asked for per week).
 // Line chart (Nick, Oct 20); the week in progress draws as a dotted tail.
 // "More detail" (Nick, Nov 7): Total users + Recently added users are hidden
-// under the Sign ups chart until this button opens them (remembered per browser).
+// under the Sign ups chart until this button opens them. Nov 22 (Nick): always
+// starts hidden on page load — no longer remembered per browser.
 function SignupsWithDetail() {
-  const [open, setOpenState] = useState(() => {
-    try { return window.localStorage.getItem('beta-signups-detail-open') === '1'; } catch (e) { return false; }
-  });
-  const setOpen = (v) => { setOpenState(v); try { window.localStorage.setItem('beta-signups-detail-open', v ? '1' : '0'); } catch (e) { /* ignore */ } };
+  const [open, setOpen] = useState(false);
   return (
     <>
       <div className="full"><WeeklySignupsCard detailOpen={open} onToggleDetail={() => setOpen(!open)} /></div>
