@@ -23,12 +23,13 @@
 //  6. Joiner fan-in: 8+ people joined one company on one day (often a team
 //     rollout — informational).
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readSrcJson } from './lib/read-src.mjs'; // real emails (src/*.json are masked)
 
 const LOOKBACK_DAYS = Number(process.env.UNUSUAL_LOOKBACK_DAYS || 14);
 const readJson = (p, fallback = null) => { try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return fallback; } };
 
-const su = readJson('src/beta-signups.json', { signups: [] });
-const ph = readJson('src/beta-posthog.json', { creators: [] });
+const su = readSrcJson('src/beta-signups.json', { signups: [] });
+const ph = readSrcJson('src/beta-posthog.json', { creators: [] });
 const framer = readJson('src/framer.json', { daily: [] });
 const cfg = readJson('src/multi-org-consolidate.json', { domains: [] });
 const handledDomains = new Set((cfg.domains || []).map((x) => x.domain.toLowerCase()));

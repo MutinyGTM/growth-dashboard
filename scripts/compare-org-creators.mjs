@@ -20,6 +20,7 @@
 // reports/ is gitignored (it lists emails).
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readSrcJson } from './lib/read-src.mjs'; // real emails (src/*.json are masked)
 
 const FROM = '2026-10-21';
 const OUT_DIR = 'reports';
@@ -27,8 +28,8 @@ const OUT_HTML = `${OUT_DIR}/org-creators-compare.html`;
 const OUT_HIST = `${OUT_DIR}/org-creators-history.json`;
 const ADMIN = (uid) => `https://admin.mutinyhq.com/users/${uid}`; // same as the dashboard's ADMIN_USER_URL
 
-const ph = JSON.parse(readFileSync('src/beta-posthog.json', 'utf8'));
-const bs = JSON.parse(readFileSync('src/beta-signups.json', 'utf8'));
+const ph = readSrcJson('src/beta-posthog.json');
+const bs = readSrcJson('src/beta-signups.json');
 const cutoff = bs.lastSignupAt; // Pacific wall clock, e.g. 2026-10-22T19:34:07.242
 if (!cutoff) { console.error('compare-org-creators: src/beta-signups.json has no lastSignupAt — re-run node scripts/ingest-signups.mjs'); process.exit(1); }
 

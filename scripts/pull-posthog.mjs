@@ -41,6 +41,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { readSrcJson } from './lib/read-src.mjs'; // real emails (src/*.json are masked)
 
 if (existsSync('.env.local')) {
   for (const line of readFileSync('.env.local', 'utf8').split('\n')) {
@@ -90,7 +91,7 @@ const EVENTS = [
 // (the dashboard fills that gap from the signup row itself).
 const EXPORT_CREATORS = (() => {
   try {
-    const j = JSON.parse(readFileSync('src/beta-signups.json', 'utf8'));
+    const j = readSrcJson('src/beta-signups.json');
     return (j.signups || []).filter((r) => r.d >= ROLLOUT_UTC.slice(0, 10) && !r.nc && !r.jx && r.uid && !INTERNAL_EMAIL_RX.test(r.email || ''))
       .map((r) => ({ uid: r.uid, d: r.d, email: r.email || '', co: r.co || null }));
   } catch (e) { return []; }

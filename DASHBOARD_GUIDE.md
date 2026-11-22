@@ -46,6 +46,7 @@ Do these in order. Steps marked **Cowork** are things you ask Cowork to do; the 
    ```sh
    npm run build:nodata
    ```
+   This first masks every email in `src/*.json` (`j•••••@acme.com`; Nov 22 2026, the repo and site are public) and keeps the real ones in `data/unmasked/` (gitignored, local only). CI masks again before deploying, so the live site never shows a full address. Local scripts that need real emails read them via `scripts/lib/read-src.mjs`.
 
 6. **Commit & push** to deploy (GitHub Pages rebuilds in ~60–90s):
    ```sh

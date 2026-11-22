@@ -6382,7 +6382,7 @@ export default function MutinyGrowthDashboard() {
           total={pieMeetingsTotal}
           totalLabel="meeting requests"
           unit="request"
-          infoTooltip={`Self-reported "how did you discover Mutiny" on the Talk to Sales form (HubSpot contacts). ${pieMeetingsTotal} valid submissions in window (${activeWindowLabel}) — by actual form-submission date. 4 internal/test accounts excluded (3× matt.ratchford+*@mutinyhq.com, kedwardsfake@1mind.com). Same bucketing rules as Customer signups.`}
+          infoTooltip={`Self-reported "how did you discover Mutiny" on the Talk to Sales form (HubSpot contacts). ${pieMeetingsTotal} valid submissions in window (${activeWindowLabel}) — by actual form-submission date. 4 internal/test accounts excluded (3× m•••••@mutinyhq.com, k•••••@1mind.com). Same bucketing rules as Customer signups.`}
         />
       </div>
 
@@ -7241,7 +7241,7 @@ export default function MutinyGrowthDashboard() {
                 <code style={codeStyle}>first_conversion_date</code> since Talk to Sales
                 was their first form. Test-filtered: excludes
                 <code style={codeStyle}>@mutinyhq.com</code> emails and the
-                <code style={codeStyle}>kedwardsfake@1mind.com</code> stress-test account.
+                <code style={codeStyle}>k•••••@1mind.com</code> stress-test account.
               </>
             }
           />

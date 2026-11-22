@@ -8,8 +8,8 @@
     "dev": "vite",
     "pull-data": "node scripts/pull-data.mjs",
     "ingest-signups": "node scripts/ingest-signups.mjs",
-    "build": "npm run pull-data && vite build",
-    "build:nodata": "vite build",
+    "build": "npm run pull-data && npm run build:nodata",
+    "build:nodata": "node scripts/mask-emails.mjs && vite build",
     "preview": "vite preview",
     "pull-stripe": "node scripts/pull-stripe.mjs",
     "pull-amp-events": "node scripts/pull-amp-events.mjs",
@@ -20,7 +20,8 @@
     "build-ph-signups": "node scripts/build-posthog-signups.mjs",
     "build-aeo": "node scripts/build-aeo.mjs --print",
     "pull-metabase": "node scripts/pull-metabase.mjs",
-    "install-metabase-schedule": "node scripts/install-metabase-schedule.mjs"
+    "install-metabase-schedule": "node scripts/install-metabase-schedule.mjs",
+    "mask-emails": "node scripts/mask-emails.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.379.0",

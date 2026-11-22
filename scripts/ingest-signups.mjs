@@ -58,6 +58,7 @@
 // Every signup row counts (no internal/test filtering, no dedupe).
 import fs from 'node:fs';
 import path from 'node:path';
+import { readSrcJson } from './lib/read-src.mjs'; // real emails (src/*.json are masked)
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const arg = process.argv[2] || 'data/data-queries';
@@ -228,7 +229,7 @@ if (src.endsWith('.csv')) {
   const signupCutoff = base.reduce((m, r) => (r.created_at > m ? r.created_at : m), '');
   LAST_SIGNUP_AT = signupCutoff || null;
   if (fs.existsSync(phFile)) {
-    const ph = JSON.parse(fs.readFileSync(phFile, 'utf8'));
+    const ph = readSrcJson(phFile);
     const ptFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' });
     const toPT = (iso) => { const p = Object.fromEntries(ptFmt.formatToParts(new Date(iso)).map((x) => [x.type, x.value])); return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}.000`; };
     const pairs = new Set(base.filter((r) => r.company_id).map((r) => key(r.user_id, r.company_id)));

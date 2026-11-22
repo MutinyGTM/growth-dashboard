@@ -1,4 +1,5 @@
 {
+  "_emailsMasked": true,
   "pulledAt": "2026-11-20T13:29:48.246Z",
   "window": {
     "start": "2026-01-01",
@@ -313966,7 +313967,7 @@
     "meetings": [
       {
         "date": "20260625",
-        "email": "rebecah@jfrog.com",
+        "email": "r•••••@jfrog.com",
         "company": "JFrog",
         "referralSource": "Referral",
         "jobTitle": "Senior ABM Manager",
@@ -313975,7 +313976,7 @@
       },
       {
         "date": "20260421",
-        "email": "phoebe.pinheiro@crowdstrike.com",
+        "email": "p•••••@crowdstrike.com",
         "company": "Phoebe Test",
         "referralSource": "Previous user",
         "jobTitle": "Sr. Marketing Technology Specialist",
@@ -313984,7 +313985,7 @@
       },
       {
         "date": "20260706",
-        "email": "mollie.mccarthy@chainguard.dev",
+        "email": "m•••••@chainguard.dev",
         "company": "Chainguard",
         "referralSource": "My VP",
         "jobTitle": "Sr. Integrated Campaigns Manager",
@@ -313993,7 +313994,7 @@
       },
       {
         "date": "20261022",
-        "email": "mariza.melendez@checkr.com",
+        "email": "m•••••@checkr.com",
         "company": "Checkr",
         "referralSource": "google",
         "jobTitle": "Director, Account Based Marketing",
@@ -314002,7 +314003,7 @@
       },
       {
         "date": "20260529",
-        "email": "daphne.jackson@lexisnexisrisk.com",
+        "email": "d•••••@lexisnexisrisk.com",
         "company": "Lexisnexis Risk Solutions",
         "referralSource": "Previous discussion",
         "jobTitle": "Sr. Marketing Manager",
@@ -314011,7 +314012,7 @@
       },
       {
         "date": "20260408",
-        "email": "katie.gray@iterable.com",
+        "email": "k•••••@iterable.com",
         "company": "Iterable",
         "referralSource": "Previously spoke to you",
         "jobTitle": "Snr Integrated Marketing Manager",
@@ -314020,7 +314021,7 @@
       },
       {
         "date": "20260513",
-        "email": "drew.stark@bigeye.com",
+        "email": "d•••••@bigeye.com",
         "company": "Bigeye",
         "referralSource": "We share an investor",
         "jobTitle": "Vice President of Sales",
@@ -314029,7 +314030,7 @@
       },
       {
         "date": "20260409",
-        "email": "bar.israeltov@appsflyer.com",
+        "email": "b•••••@appsflyer.com",
         "company": "Appsflyer",
         "referralSource": "Linkedin",
         "jobTitle": "Senior Manager Marketing Operations",
@@ -314038,7 +314039,7 @@
       },
       {
         "date": "20260806",
-        "email": "ayala@twaice.com",
+        "email": "a•••••@twaice.com",
         "company": "TWAICE",
         "referralSource": "manager",
         "jobTitle": "Senior Growth Marketing & Operations Manager",
@@ -314047,7 +314048,7 @@
       },
       {
         "date": "20260413",
-        "email": "ecohen@conga.com",
+        "email": "e•••••@conga.com",
         "company": "Conga",
         "referralSource": "Colleague",
         "jobTitle": "Demand Gen Campaign Manager",
@@ -314056,7 +314057,7 @@
       },
       {
         "date": "20261020",
-        "email": "shamita.jayakumar@grammarly.com",
+        "email": "s•••••@grammarly.com",
         "company": "Coda",
         "referralSource": "Former customer",
         "jobTitle": "Demand Gen",
@@ -314065,7 +314066,7 @@
       },
       {
         "date": "20260818",
-        "email": "ngollogly@movableink.com",
+        "email": "n•••••@movableink.com",
         "company": "Movable Ink",
         "referralSource": "WOM",
         "jobTitle": "Marketing Manager",
@@ -314074,7 +314075,7 @@
       },
       {
         "date": "20260403",
-        "email": "amanda.erken@seenthis.se",
+        "email": "a•••••@seenthis.se",
         "company": "SeenThis-Amanda",
         "referralSource": "Friend",
         "jobTitle": "…",
@@ -314083,7 +314084,7 @@
       },
       {
         "date": "20260410",
-        "email": "lucas.salim@rapidcanvas.ai",
+        "email": "l•••••@rapidcanvas.ai",
         "company": "RapidCanvas",
         "referralSource": "Friend",
         "jobTitle": "Marketing Operations",
@@ -314092,7 +314093,7 @@
       },
       {
         "date": "20260416",
-        "email": "noa.stam@perk.com",
+        "email": "n•••••@perk.com",
         "company": "Perk",
         "referralSource": "Previous",
         "jobTitle": "Head of Field Marketing",
@@ -314101,7 +314102,7 @@
       },
       {
         "date": "20260424",
-        "email": "jake@redo.com",
+        "email": "j•••••@redo.com",
         "company": "Redo",
         "referralSource": "LinkedIn",
         "jobTitle": "Dir of Sales",
@@ -314110,7 +314111,7 @@
       },
       {
         "date": "20260410",
-        "email": "matthew.talbott@workbooks.com",
+        "email": "m•••••@workbooks.com",
         "company": "Workbooks",
         "referralSource": "Google",
         "jobTitle": "Head of Product Marketing",
@@ -314119,7 +314120,7 @@
       },
       {
         "date": "20260415",
-        "email": "rachel.kirwan@zendesk.com",
+        "email": "r•••••@zendesk.com",
         "company": "ABM Zendesk",
         "referralSource": "WOM",
         "jobTitle": "Senior Manager, ABM",
@@ -314128,7 +314129,7 @@
       },
       {
         "date": "20260515",
-        "email": "kristen.herrington@flashfood.com",
+        "email": "k•••••@flashfood.com",
         "company": "Flashfood",
         "referralSource": "Emily Kramer, on LinkedIn",
         "jobTitle": "VP of Marketing",
@@ -314137,7 +314138,7 @@
       },
       {
         "date": "20260409",
-        "email": "ggill@canarytechnologies.com",
+        "email": "g•••••@canarytechnologies.com",
         "company": "Canary Technologies",
         "referralSource": "Linkedin",
         "jobTitle": "VP of AI Operations & Adoption",
@@ -314146,7 +314147,7 @@
       },
       {
         "date": "20260410",
-        "email": "amy.doyle@frontify.com",
+        "email": "a•••••@frontify.com",
         "company": "Frontify",
         "referralSource": "Colleague",
         "jobTitle": "Head of Lifecycle Marketing",
@@ -314155,7 +314156,7 @@
       },
       {
         "date": "20260414",
-        "email": "cg@cazoomi.com",
+        "email": "c•••••@cazoomi.com",
         "company": "Cazoomi",
         "referralSource": "AI - do you integrate to WPE?",
         "jobTitle": "Founder",
@@ -314164,7 +314165,7 @@
       },
       {
         "date": "20260413",
-        "email": "jeff@cookunity.com",
+        "email": "j•••••@cookunity.com",
         "company": "CookUnity B2B",
         "referralSource": "linkedin",
         "jobTitle": "marketing",
@@ -314173,7 +314174,7 @@
       },
       {
         "date": "20260414",
-        "email": "krishna.menon@orolabs.ai",
+        "email": "k•••••@orolabs.ai",
         "company": "ORO Labs",
         "referralSource": "Twitter",
         "jobTitle": "Principal Design Lead",
@@ -314182,7 +314183,7 @@
       },
       {
         "date": "20260813",
-        "email": "michelle.hanley@eunasolutions.com",
+        "email": "m•••••@eunasolutions.com",
         "company": "Euna Solutions",
         "referralSource": "Google",
         "jobTitle": "Marketing and Product Manager",
@@ -314191,7 +314192,7 @@
       },
       {
         "date": "20260423",
-        "email": "veelen@b2bcmoclub.com",
+        "email": "v•••••@b2bcmoclub.com",
         "company": "B2BCMO",
         "referralSource": "Google",
         "jobTitle": "Partnership Manager",
@@ -314200,7 +314201,7 @@
       },
       {
         "date": "20260615",
-        "email": "faye.rasmussen@mabl.com",
+        "email": "f•••••@mabl.com",
         "company": "mabl",
         "referralSource": "previous customer",
         "jobTitle": "Sr. Manager of Enterprise Marketing",
@@ -314209,7 +314210,7 @@
       },
       {
         "date": "20260428",
-        "email": "jessep@chargeflow.io",
+        "email": "j•••••@chargeflow.io",
         "company": "ABM Test",
         "referralSource": "Google",
         "jobTitle": "Director of ABM",
@@ -314218,7 +314219,7 @@
       },
       {
         "date": "20260425",
-        "email": "shahmeer@pointfivelabs.io",
+        "email": "s•••••@pointfivelabs.io",
         "company": "0.5 Labs",
         "referralSource": "Claude",
         "jobTitle": "CEO",
@@ -314227,7 +314228,7 @@
       },
       {
         "date": "20260428",
-        "email": "kfoos@pexcard.com",
+        "email": "k•••••@pexcard.com",
         "company": "PEX",
         "referralSource": "Product manager",
         "jobTitle": "CRO",
@@ -314236,7 +314237,7 @@
       },
       {
         "date": "20260429",
-        "email": "bill.lacalle@lacallegroup.com",
+        "email": "b•••••@lacallegroup.com",
         "company": "LaCalleGroup",
         "referralSource": "X post",
         "jobTitle": "Co-Founder",
@@ -314245,7 +314246,7 @@
       },
       {
         "date": "20260430",
-        "email": "rajesh.sreenivasan@ibsplc.com",
+        "email": "r•••••@ibsplc.com",
         "company": "IBS Marketing",
         "referralSource": "ChatGPT",
         "jobTitle": "Marketing Operations",
@@ -314254,7 +314255,7 @@
       },
       {
         "date": "20260501",
-        "email": "chase.hackner@genetiqsoftware.com",
+        "email": "c•••••@genetiqsoftware.com",
         "company": "GenetiQ Software",
         "referralSource": "30 MPC",
         "jobTitle": "Account Executive",
@@ -314263,7 +314264,7 @@
       },
       {
         "date": "20260430",
-        "email": "najma.bani@tryhackme.com",
+        "email": "n•••••@tryhackme.com",
         "company": "TryHackMe",
         "referralSource": "wom",
         "jobTitle": "Head of Marketing",
@@ -314272,7 +314273,7 @@
       },
       {
         "date": "20260501",
-        "email": "andrew.jacon@koerber.com",
+        "email": "a•••••@koerber.com",
         "company": "Korber Pharma Software",
         "referralSource": "Podcast my employee listened to",
         "jobTitle": "Head of Sales & Marketing",
@@ -314281,7 +314282,7 @@
       },
       {
         "date": "20260504",
-        "email": "jkimbrough@solutionsbytext.com",
+        "email": "j•••••@solutionsbytext.com",
         "company": "SBT",
         "referralSource": "LinkedIn",
         "jobTitle": "Senior Content Marketing Manager",
@@ -314290,7 +314291,7 @@
       },
       {
         "date": "20260505",
-        "email": "hunter.hamren@abridge.com",
+        "email": "h•••••@abridge.com",
         "company": "Abridge",
         "referralSource": "Previous colleague",
         "jobTitle": "Demand Gen",
@@ -314299,7 +314300,7 @@
       },
       {
         "date": "20260506",
-        "email": "camren@verito.com",
+        "email": "c•••••@verito.com",
         "company": "Verito",
         "referralSource": "Perplexity",
         "jobTitle": "CRO",
@@ -314308,7 +314309,7 @@
       },
       {
         "date": "20260508",
-        "email": "erin.hoskins@continued.com",
+        "email": "e•••••@continued.com",
         "company": "Continued",
         "referralSource": "Podcast",
         "jobTitle": "Chief Marketing Officer",
@@ -314317,7 +314318,7 @@
       },
       {
         "date": "20260512",
-        "email": "hshore@ontic.co",
+        "email": "h•••••@ontic.co",
         "company": "Ontic Marketing Test",
         "referralSource": "My VP of marketing",
         "jobTitle": "Campaign Marketing Manaer",
@@ -314326,7 +314327,7 @@
       },
       {
         "date": "20260512",
-        "email": "kamal.sharma@razorpay.com",
+        "email": "k•••••@razorpay.com",
         "company": "US_landing_page",
         "referralSource": "Google",
         "jobTitle": "GTM Manager",
@@ -314335,7 +314336,7 @@
       },
       {
         "date": "20260513",
-        "email": "cdemaree@gnapartners.com",
+        "email": "c•••••@gnapartners.com",
         "company": "G&A Partners",
         "referralSource": "Agency",
         "jobTitle": "Director of ABM Demand Generation & Lifecycle Marketing",
@@ -314344,7 +314345,7 @@
       },
       {
         "date": "20260515",
-        "email": "yuriy.mikitchenko@bolt.eu",
+        "email": "y•••••@bolt.eu",
         "company": "Bolt",
         "referralSource": "Other",
         "jobTitle": "Marketing Director, Bolt for Business",
@@ -314353,7 +314354,7 @@
       },
       {
         "date": "20260527",
-        "email": "swernick@ontra.ai",
+        "email": "s•••••@ontra.ai",
         "company": "Ontra",
         "referralSource": "Colleague",
         "jobTitle": "Director of Demand & Lifecycle Marketing",
@@ -314362,7 +314363,7 @@
       },
       {
         "date": "20260519",
-        "email": "lauren.cheek@livekit.com",
+        "email": "l•••••@livekit.com",
         "company": "Mutiny",
         "referralSource": "Used before",
         "jobTitle": "Head of Sales Development",
@@ -314371,7 +314372,7 @@
       },
       {
         "date": "20260527",
-        "email": "dan.pope@deepki.com",
+        "email": "d•••••@deepki.com",
         "company": "Deepki",
         "referralSource": "Colleague",
         "jobTitle": "Demand Gen",
@@ -314380,7 +314381,7 @@
       },
       {
         "date": "20260526",
-        "email": "smi@leaphealth.com",
+        "email": "s•••••@leaphealth.com",
         "company": "Leap",
         "referralSource": "Claude",
         "jobTitle": "Head of Marketing",
@@ -314389,7 +314390,7 @@
       },
       {
         "date": "20260527",
-        "email": "mandi.goyn@appfolio.com",
+        "email": "m•••••@appfolio.com",
         "company": "AppFolio ABM",
         "referralSource": "LinkedIn",
         "jobTitle": "Sr ABM Manager",
@@ -314398,7 +314399,7 @@
       },
       {
         "date": "20260528",
-        "email": "ruby@exacare.com",
+        "email": "r•••••@exacare.com",
         "company": "exacare ai",
         "referralSource": "VP of Growth",
         "jobTitle": "Product Marketing Manager",
@@ -314407,7 +314408,7 @@
       },
       {
         "date": "20260609",
-        "email": "kbrooks@ontic.co",
+        "email": "k•••••@ontic.co",
         "company": "Ontic",
         "referralSource": "Coworker",
         "jobTitle": "Senior Marketing Program Manager (Marketing Chief of Staff)",
@@ -314416,7 +314417,7 @@
       },
       {
         "date": "20260528",
-        "email": "emdavidson@gainsight.com",
+        "email": "e•••••@gainsight.com",
         "company": "Emily Davidson",
         "referralSource": "Claude",
         "jobTitle": "Senior Enterprise ABM Manager",
@@ -314425,7 +314426,7 @@
       },
       {
         "date": "20260529",
-        "email": "brian.clark@iridium.com",
+        "email": "b•••••@iridium.com",
         "company": "Iridium",
         "referralSource": "Don't recall",
         "jobTitle": "Demand Generation Leader",
@@ -314434,7 +314435,7 @@
       },
       {
         "date": "20260607",
-        "email": "nouwerx@lightricks.com",
+        "email": "n•••••@lightricks.com",
         "company": "Natascha Ouwerx",
         "referralSource": "claude",
         "jobTitle": "Product Growth - Conversion Optimization Manager",
@@ -314443,7 +314444,7 @@
       },
       {
         "date": "20260608",
-        "email": "ethan@exaforce.com",
+        "email": "e•••••@exaforce.com",
         "company": "Exaforce marketing",
         "referralSource": "word of mouth",
         "jobTitle": "Director of Demand Gen",
@@ -314452,7 +314453,7 @@
       },
       {
         "date": "20260623",
-        "email": "danny.lovatt@stravito.com",
+        "email": "d•••••@stravito.com",
         "company": "Stravito",
         "referralSource": "Word of Mouth",
         "jobTitle": "Head of AI Growth",
@@ -314461,7 +314462,7 @@
       },
       {
         "date": "20260609",
-        "email": "akshay@teampumpkin.com",
+        "email": "a•••••@teampumpkin.com",
         "company": "Team Pumpkin",
         "referralSource": "Claude",
         "jobTitle": "VP, AI & Innovation",
@@ -314470,7 +314471,7 @@
       },
       {
         "date": "20260618",
-        "email": "tenisha.corrales@blinkops.com",
+        "email": "t•••••@blinkops.com",
         "company": "BlinkOps",
         "referralSource": "Falloze",
         "jobTitle": "Senior Growth Marketing Manager",
@@ -314479,7 +314480,7 @@
       },
       {
         "date": "20260618",
-        "email": "jingjing.zhao@compass-usa.com",
+        "email": "j•••••@compass-usa.com",
         "company": "Compass Group - Sales",
         "referralSource": "Coworker",
         "jobTitle": "Product Data Scientist II",
@@ -314488,7 +314489,7 @@
       },
       {
         "date": "20260622",
-        "email": "amorjaria@kinaxis.com",
+        "email": "a•••••@kinaxis.com",
         "company": "Kinaxis",
         "referralSource": "Colleague",
         "jobTitle": "Marketing Lead",
@@ -314497,7 +314498,7 @@
       },
       {
         "date": "20260713",
-        "email": "suzi.jacobs@horizon3.ai",
+        "email": "s•••••@horizon3.ai",
         "company": "Horizon3",
         "referralSource": "Colleague",
         "jobTitle": "SNR ABM Manager",
@@ -314506,7 +314507,7 @@
       },
       {
         "date": "20260707",
-        "email": "reshma.poojary@evotix.com",
+        "email": "r•••••@evotix.com",
         "company": "Evotix",
         "referralSource": "Chatgpt",
         "jobTitle": "Demand Generation Manager",
@@ -314515,7 +314516,7 @@
       },
       {
         "date": "20260714",
-        "email": "ellie.gilbert-ryan@ppro.com",
+        "email": "e•••••@ppro.com",
         "company": "PPRO",
         "referralSource": "Referral",
         "jobTitle": "Sr Marketing Campaign Manager",
@@ -314524,7 +314525,7 @@
       },
       {
         "date": "20260721",
-        "email": "hannah.zwick@mikmak.com",
+        "email": "h•••••@mikmak.com",
         "company": "MikMak",
         "referralSource": "ChatGPT",
         "jobTitle": "Senior Director, Global Revenue Marketing & Operations",
@@ -314533,7 +314534,7 @@
       },
       {
         "date": "20260731",
-        "email": "jpz@sandstone.com",
+        "email": "j•••••@sandstone.com",
         "company": "Sandstone",
         "referralSource": "Socials",
         "jobTitle": "GTM Engineering / Rev Ops",
@@ -314542,7 +314543,7 @@
       },
       {
         "date": "20260811",
-        "email": "stepheno@selector.ai",
+        "email": "s•••••@selector.ai",
         "company": "Selector",
         "referralSource": "LinkedIn",
         "jobTitle": "Technology Marketing Manager",
@@ -314551,7 +314552,7 @@
       },
       {
         "date": "20260804",
-        "email": "charliem@asimily.com",
+        "email": "c•••••@asimily.com",
         "company": "Asimily",
         "referralSource": "Internal Referral",
         "jobTitle": "Head of Demand Generation",
@@ -314560,7 +314561,7 @@
       },
       {
         "date": "20260810",
-        "email": "matt.goyette@thrivetrm.com",
+        "email": "m•••••@thrivetrm.com",
         "company": "Thrive TRM",
         "referralSource": "CO worker",
         "jobTitle": "Account Executive",
@@ -314569,7 +314570,7 @@
       },
       {
         "date": "20260818",
-        "email": "grace.basile@ketryx.com",
+        "email": "g•••••@ketryx.com",
         "company": "Ketryx",
         "referralSource": "Word of Mouth",
         "jobTitle": "Demand Generation Specialist",
@@ -314578,7 +314579,7 @@
       },
       {
         "date": "20260817",
-        "email": "maddie.kahric@veriff.com",
+        "email": "m•••••@veriff.com",
         "company": "Veriff",
         "referralSource": "G2",
         "jobTitle": "Senior Demand Generation Manager",
@@ -314587,7 +314588,7 @@
       },
       {
         "date": "20260817",
-        "email": "bruno.delfino@wellhub.com",
+        "email": "b•••••@wellhub.com",
         "company": "Wellhub",
         "referralSource": "ChatGPT",
         "jobTitle": "Sr. Global Product Marketing Manager",
@@ -314596,7 +314597,7 @@
       },
       {
         "date": "20260831",
-        "email": "rachel.morrill@sonarsource.com",
+        "email": "r•••••@sonarsource.com",
         "company": "Sonar",
         "referralSource": "Have used Mutiny in previous companies",
         "jobTitle": "Sr Director, Web Strategy & Development",
@@ -314605,7 +314606,7 @@
       },
       {
         "date": "20260902",
-        "email": "namrah.farooqi@shipway.com",
+        "email": "n•••••@shipway.com",
         "company": "Shipway",
         "referralSource": "Google",
         "jobTitle": "Associate Product Manager",
@@ -314614,7 +314615,7 @@
       },
       {
         "date": "20260827",
-        "email": "adesveaux@surveymonkey.com",
+        "email": "a•••••@surveymonkey.com",
         "company": "Allison Desveaux",
         "referralSource": "Procurement team",
         "jobTitle": "Manager, GTM Enablement",
@@ -314623,7 +314624,7 @@
       },
       {
         "date": "20261015",
-        "email": "ann.heyse@bics.com",
+        "email": "a•••••@bics.com",
         "company": "Ann Heyse",
         "referralSource": "copilot",
         "jobTitle": "VP Corporate Marketing",
@@ -314632,7 +314633,7 @@
       },
       {
         "date": "20261015",
-        "email": "mohammed.faizal@klipboard.com",
+        "email": "m•••••@klipboard.com",
         "company": "Klipboard",
         "referralSource": "Used before",
         "jobTitle": "Head of Digital Acquisition",
@@ -314641,7 +314642,7 @@
       },
       {
         "date": "20261015",
-        "email": "hassan.farooq@revgro.us",
+        "email": "h•••••@revgro.us",
         "company": "Revgro",
         "referralSource": "Google",
         "jobTitle": "Marketing Manager",
@@ -314650,7 +314651,7 @@
       },
       {
         "date": "20261016",
-        "email": "jkuenzel@locusrobotics.com",
+        "email": "j•••••@locusrobotics.com",
         "company": "Locus Robotics",
         "referralSource": "Internal referral",
         "jobTitle": "Sales & Revenue Enablement Manager",
@@ -314659,7 +314660,7 @@
       },
       {
         "date": "20261016",
-        "email": "leslie.zamora@signifyd.com",
+        "email": "l•••••@signifyd.com",
         "company": "Signifyd",
         "referralSource": "other",
         "jobTitle": "Sr. Digital marketing specialist",
@@ -314668,7 +314669,7 @@
       },
       {
         "date": "20261022",
-        "email": "quincy.yarbrough@gomomentus.com",
+        "email": "q•••••@gomomentus.com",
         "company": "Momentus Technologies",
         "referralSource": "Organic Search",
         "jobTitle": "Director of Demand Generation",
@@ -314677,7 +314678,7 @@
       },
       {
         "date": "20261104",
-        "email": "arun@getomnify.com",
+        "email": "a•••••@getomnify.com",
         "company": "Getomnify",
         "referralSource": "Other",
         "jobTitle": "Growth Ops",
@@ -314686,7 +314687,7 @@
       },
       {
         "date": "20261026",
-        "email": "cpratas@nextlinklabs.com",
+        "email": "c•••••@nextlinklabs.com",
         "company": "NextLink Labs",
         "referralSource": "Colleague",
         "jobTitle": "Director of Sales",
@@ -314695,7 +314696,7 @@
       },
       {
         "date": "20261028",
-        "email": "kleese@siftscience.com",
+        "email": "k•••••@siftscience.com",
         "company": "Sift",
         "referralSource": "Google",
         "jobTitle": "Senior Director, Product & Customer Enablement",
@@ -314704,7 +314705,7 @@
       },
       {
         "date": "20261104",
-        "email": "christian@getsensate.com",
+        "email": "c•••••@getsensate.com",
         "company": "Sensate",
         "referralSource": "Google",
         "jobTitle": "",
@@ -314713,7 +314714,7 @@
       },
       {
         "date": "20261105",
-        "email": "harshit@servicerobotco.com",
+        "email": "h•••••@servicerobotco.com",
         "company": "Service Robot Co.",
         "referralSource": "Co founder",
         "jobTitle": "System Engineer",
@@ -314722,7 +314723,7 @@
       },
       {
         "date": "20261105",
-        "email": "amir@ora.ai",
+        "email": "a•••••@ora.ai",
         "company": "ora.ai",
         "referralSource": "its complicated",
         "jobTitle": "Senior Oracle ERP Technologies Professional",
@@ -314731,7 +314732,7 @@
       },
       {
         "date": "20261105",
-        "email": "jennifer@assured.claims",
+        "email": "j•••••@assured.claims",
         "company": "Assured",
         "referralSource": "Previous customer",
         "jobTitle": "Principal Growth Marketer",
@@ -314740,7 +314741,7 @@
       },
       {
         "date": "20261105",
-        "email": "abhinash.jami@impactanalytics.co",
+        "email": "a•••••@impactanalytics.co",
         "company": "Impact Analytics",
         "referralSource": "cmo",
         "jobTitle": "Senior Performance Marketing Manager",
@@ -314749,7 +314750,7 @@
       },
       {
         "date": "20261106",
-        "email": "max@doola.com",
+        "email": "m•••••@doola.com",
         "company": "doola",
         "referralSource": "from founder -> want to explore dynamic CRO for LPs/marketing",
         "jobTitle": "Head of Marketing",
@@ -314758,7 +314759,7 @@
       },
       {
         "date": "20261108",
-        "email": "gaurav@tangelo.ai",
+        "email": "g•••••@tangelo.ai",
         "company": "Tangelo.ai inc",
         "referralSource": "LinkedIn",
         "jobTitle": "Cofounder and CEO",
@@ -314767,7 +314768,7 @@
       },
       {
         "date": "20261109",
-        "email": "catherine.stilphen@sage.com",
+        "email": "c•••••@sage.com",
         "company": "Sage",
         "referralSource": "Linkedin",
         "jobTitle": "Performance Marketing Manager",
@@ -314776,7 +314777,7 @@
       },
       {
         "date": "20261110",
-        "email": "dean.lucente@scandit.com",
+        "email": "d•••••@scandit.com",
         "company": "Scandit",
         "referralSource": "Indeed",
         "jobTitle": "Head of Sales",
@@ -314785,7 +314786,7 @@
       },
       {
         "date": "20261110",
-        "email": "kushal@furtherai.com",
+        "email": "k•••••@furtherai.com",
         "company": "FurtherAI",
         "referralSource": "Jaleh",
         "jobTitle": "",
@@ -314794,7 +314795,7 @@
       },
       {
         "date": "20261111",
-        "email": "joseph.lih@coalitioninc.com",
+        "email": "j•••••@coalitioninc.com",
         "company": "Coalition",
         "referralSource": "in the past",
         "jobTitle": "Digital & ABM",
@@ -314803,7 +314804,7 @@
       },
       {
         "date": "20261113",
-        "email": "info@exmachinacap.com",
+        "email": "i•••••@exmachinacap.com",
         "company": "ExM",
         "referralSource": "Google",
         "jobTitle": "",
@@ -314812,7 +314813,7 @@
       },
       {
         "date": "20261117",
-        "email": "marthe@listenlabs.ai",
+        "email": "m•••••@listenlabs.ai",
         "company": "Listen Labs",
         "referralSource": "colleague",
         "jobTitle": "Growth Lead",
@@ -314821,7 +314822,7 @@
       },
       {
         "date": "20261118",
-        "email": "abdul@loreal.com",
+        "email": "a•••••@loreal.com",
         "company": "Loreal",
         "referralSource": "Google",
         "jobTitle": "Head of Supply Chain",
@@ -314830,7 +314831,7 @@
       },
       {
         "date": "20261119",
-        "email": "mokhtar@joinformal.com",
+        "email": "m•••••@joinformal.com",
         "company": "formal",
         "referralSource": "google",
         "jobTitle": "Founder and CEO",
