@@ -3673,13 +3673,13 @@ function AllUsersWeeklyCard() {
       title="Total users"
       questionHover
       question={(
-        <span style={{ display: 'block', minWidth: 220 }}>
-          <span style={{ display: 'block', marginBottom: 6 }}>How many people are joining, including teammates? {range}:</span>
-          {[['Sign ups', P.signups, 'fired Organization Created in PostHog'], ['Joiners', P.joiners, 'joined an existing company'], ['Other org creators', P.otherCreators, 'new company, no Organization Created']].map(([k, v, why]) => (
-            <span key={k} title={why} style={{ display: 'flex', justifyContent: 'space-between', gap: 16 }}><span>+ {k}</span><span style={tabular}>{fmtInt(v)}</span></span>
-          ))}
-          <span style={{ display: 'flex', justifyContent: 'space-between', gap: 16, borderTop: `1px solid ${C.grid}`, marginTop: 4, paddingTop: 4, color: C.black, fontWeight: 700 }}><span>= Total users</span><span style={tabular}>{fmtInt(P.total)}</span></span>
-          {P.consolidated > 0 && <span style={{ display: 'block', marginTop: 6 }}>Not counted: {fmtInt(P.consolidated)} extra {P.consolidated === 1 ? 'company' : 'companies'} made by the same person ({CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')}).</span>}
+        // Definitions only, no numbers (Nick, Nov 22).
+        <span style={{ display: 'block' }}>
+          <span style={{ display: 'block', marginBottom: 6 }}>Everyone who signed up in the period (Eastern days). Total users = Sign ups + Joiners + Other org creators:</span>
+          <span style={{ display: 'block' }}><b style={{ color: C.black }}>Sign ups</b>: started a new company and fired Organization Created in PostHog.</span>
+          <span style={{ display: 'block' }}><b style={{ color: C.black }}>Joiners</b>: joined an existing company (invite, domain match or unknown method).</span>
+          <span style={{ display: 'block' }}><b style={{ color: C.black }}>Other org creators</b>: started a new company, but PostHog has no Organization Created for them (usually an existing user's second company, or a tracking gap).</span>
+          <span style={{ display: 'block', marginTop: 6 }}>People on {CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')} who made several companies count once. Internal and never-completed sign ups are left out.</span>
         </span>
       )}
       footnote={`Everyone in the sign up export (Metabase) in each ${M.grainEach}, on Eastern days: org creators (first person on a new company) plus joiners (joined an existing company by invite, domain match or unknown method). This is wider than Sign ups: from ${monDay(PH_SIGNUP_CUTOVER)} Sign ups only count people PostHog saw fire Organization Created, so org creators it missed (e.g. existing users creating another company) are here but not there. Repeat sign ups by the same person count (two companies = twice), except people on ${CONSOLIDATE_MULTI_ORG_DOMAINS.map((d) => `@${d}`).join(', ')}, counted once (Nov 22 2026). Internal (@mutinyhq.com, @gomomentic.com) and never-completed sign ups are left out. ${lineWeekNote(M)}${M.SHOWS_CUR ? ' (dotted)' : ''}`}
